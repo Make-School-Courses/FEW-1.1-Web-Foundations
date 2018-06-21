@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-prework
+- prework
 
 ## Course Overview 
 
@@ -22,11 +22,19 @@ applications you should take this course.
 
 ## Competencies & Objectives
 
-1. HTML Language syntax and fundamental concepts
-1. CSS Language syntax and fundamental concepts
+**Objectives**
+1. HTML syntax and fundamental concepts
+1. Identify semantic and apply semantic HTML structure
+1. CSS syntax and fundamental concepts
 1. JavaScript syntax and fundamental concepts
 
+**Competencies**
+1. Create semantically structured HTML documents
+1. Use CSS to style documents
+1. Handle user interaction with JavaScript
 
+
+> Objectives say what we want the learners to know and competencies say how we can be certain they know it.
 
 A description of the skills a student aquire by taking 
 the class.
