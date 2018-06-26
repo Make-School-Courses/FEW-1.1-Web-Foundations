@@ -39,10 +39,19 @@ https://sph.uth.edu/content/uploads/2012/01/Competencies-and-Learning-Objectives
 
 ## Lessons
 
-1. List your lessons here
-1. Provide a link to each lesson
-1. Use an ordered list
-1. Should be ~13 planned lessons
+1. Introduction: programming the borwser
+  - Project 1
+2. Semantic HTML
+3. CSS the language of visual description
+4. 
+5. 
+6. Using JavaScript to handle user interaction
+7.
+8.
+9.
+10.
+11.
+12.
 
 ### Projects and Readings
 
