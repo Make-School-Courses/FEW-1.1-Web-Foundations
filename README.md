@@ -43,12 +43,12 @@ https://sph.uth.edu/content/uploads/2012/01/Competencies-and-Learning-Objectives
   - Project 1
 2. Semantic HTML
 3. CSS the language of visual description
-4. 
-5. 
-6. Using JavaScript to handle user interaction
-7.
-8.
-9.
+4. CSS Grid
+5. CSS Flex Box
+6. JavaScript Intro
+7. JavaScript functions and variables
+8. JavaScript Events
+9. JavaScript Borwser APIs
 10.
 11.
 12.
