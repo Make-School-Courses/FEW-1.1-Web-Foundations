@@ -2,170 +2,64 @@
 
 ## Course Description
 
-Describe your course here. 
+The web is important, we use it every day to accomplish 
+tasks big and small in personal and profesional realms.
+Everything you see in a web browsed is run with three 
+important languages: HTML, CSS, and JavaScript.
 
-High level objectives. A short elevator pitch for the 
-course.
-
-## Prerequisites
-
-A list of prerequisites students need to be successful 
-in this class. Include previous classes you expect 
-students should have taken, and knowledge and skills 
-that students should have coming into the class.
-
-1. Use an...
-1. ordered list. 
-
-### Who should enroll (optional)
-
-A short description of who would benefit most from 
-taking this class. This is optional. Include this if you 
-feel your class would not benefit everyone.
-
-## Competencies & Objectives
-
-A description of the skills a student aquire by taking 
-the class.
-
-Must be measurable! Make School does not have grades 
-but we do evaluate student progress. Usually this 
-will evaluate to something a student will be able to 
-do after taking the class.
-
-Follow the guide here for writing competencies.
-
-https://sph.uth.edu/content/uploads/2012/01/Competencies-and-Learning-Objectives.pdf
-
-1. List all of the course 
-1. Competencies here.
-1. Use an orderd list
-
-## Required Text and Materials (Optional)
-
-- List required materials here
-
-### Evaluation
-
-Define what students need to do to pass this class. 
-Be clear and accurate, avoid vague terms. 
-
-Make School does not provide grades but we do evaulate 
-student work. Determine what work assigned in class is 
-required to pass.
-
-All work must Must have Pass Fail Criteria!
-
-As a general guide list the number of projects and 
-baseline challenges that must be completed to pass the 
-class.
-
-Here is some more information on learning assessment.
-
-https://www.cte.cornell.edu/teaching-ideas/assessing-student-learning/measuring-student-learning.html
-
-- Use a list 
-
-## Lessons
-
-- List your lessons here
-- Provide a link to each lesson
-- Use a list
-
-### Projects 
-
-- List all of the projects 
-- Use a list
-
-### Vocabulary & Conventions
-
-- List vocabulary
-- and definitions 
-- for terms students 
-- need to understand
-- This is optional 
-
-### Best Practices
-
-- List best practices 
-- This is optional 
-
-### Resources
-
-Any resources to be used by students in class. Include:
-
-- books
-- videos
-- blog posts
-- online articles
-- links to tutorials
-- other media
-
-
-
-
-
-
----
-
-
-
-## Prerequisites
-
-- prework
-
-## Course Overview 
-
-This course covers modern up to date use of the HTML and CSS language. It covers 
-best and profesional practices used in making modern web sites that are viewed 
-by millions of people everyday. 
+The goal of this class is to provide a modern up to date 
+foundation on which you can build the next genertion of 
+web applications. 
 
 ### Who should enroll
 
-If you are new to HTML and have an interest in the web and making products 
-delivered over the web you should take this course. 
+Anyone who wants to learn the language of the web, 
+build front end applications, create amazing user 
+experiences in the browser, and launch the next 
+generation of web applications. 
 
-If you are new to CSS and want to design web pages you shoul take this course. 
+## Prerequisites
 
-If you are new to the JavaScript langauge and want to create modern web 
-applications you should take this course. 
+None
 
-## Competencies & Objectives
+## Learning Objectives or Competencies (5-8)
 
-**Objectives**
-1. HTML syntax and fundamental concepts
-1. Identify semantic and apply semantic HTML structure
-1. CSS syntax and fundamental concepts
-1. JavaScript syntax and fundamental concepts
+Students by the end of the course will be able to ...
 
-**Competencies**
-1. Create semantically structured HTML documents
-1. Use CSS to style documents
-1. Handle user interaction with JavaScript
+1. Avoid generic words like "understand" instead use active verbs like "explain, compare & contrast, build, implement, create" etc.
+1. list all competencies
+
+https://sph.uth.edu/content/uploads/2012/01/Competencies-and-Learning-Objectives.pdf
+
+1. Write Quality semantic HTML 
+1. Create HTML documents that communicate with with people and machines
+1. Use CSS to render HTML documents to what you envision
+1. Write JavaScript with modern syntax and best practices
+1. Use JavaScript to handle user interaction
 
 ## Lessons
 
-1. Lesson
+1. List your lessons here
+1. Provide a link to each lesson
+1. Use an ordered list
+1. Should be ~13 planned lessons
 
-### Projects 
+### Projects and Readings
 
-- Landing Page
-- Clone Page
-- Redesign
+Reading:
+- http://exploringjs.com/es6/
 
-### Vocabulary & Conventions
+Projects: 
+- Landing Page 
+- Web Clone 
+- Redesign 
 
-- 
+## Evaluation
 
-### Best Practices
+To pass this course you must meet the following requirements:
 
--  
-
-### Resources
-
-- 
-
-### Evaluation
-
-- 
-
+- No more than two no call no shows
+- No more than four excused absences
+- Make up all classwork from all absences
+- Finish all required tutorials and projects
+- Pass the final exam (summative assessment) >=80%
