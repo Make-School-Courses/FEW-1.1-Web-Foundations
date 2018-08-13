@@ -1,4 +1,4 @@
-# FEW 1.1 Advanced HTML CSS JavaScript
+# FEW 1.1 Foundation Web
 
 ## Course Description
 
