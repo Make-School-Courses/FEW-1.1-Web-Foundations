@@ -1,43 +1,46 @@
 # Lesson Title
 
+HTML is the structural foundation for all web applications. 
+
+There are a few rules to writing good HTML.
+
 ## Learning Objectives/Competencies
 
 1. Identify tags, elements, and attributes
-1. Use tags to create elements with attributes
-1. Use HTML to define structure
-1. Build documents with semantic structure
+1. Define tags, elements, and attributes
+1. Write quality semantic HTML
 
 ## Initial Exercise
 
-- Funny comic
-- Prime the Pump (e.g. think and jot, think pair share, etc)
-- Productivity Tip/Tool
-- Review of current event (e.g. tech news relevant to your track/topic)
-- Quiz on homework or topic(s) of past class
+- Think pair share: "what is html" where have you seen it before. 
 
 ## Overview/TT I 
 
-- Why learn this? 
-- Industry examples of usage
-- Best practices
-- Personal anecdote 
+- HTML is the structure that underlies the web. 
+  - The web is built on a highly sophisticated separation of concerns (more on this later)
+  - Every web page is built from HTML
+- Name some HTML tags you know?
+  - List on board 
+  - Q: When and how do you use these tags? 
+- Some tags: 
+  - p, h1, img, ul + li, div, a
+- Concept: Semantic HTML
+  - Pick the tag that best describes its content. 
+- Vocabulary
+  - Tag: `<p>`
+  - Element: `<p>Hello World</p>`
+  - Attribute: `<p id="foo" class="bar">Hello World</p>`
 
 ## In Class Activity I
 
-- I do, We do, You do
-- Reading & Discussion Questions in small groups
-- Draw a picture/diagram
+- I do, We do, You do: Choosing the right tag for the job
+  - Example 1, 2, and 3
+- Pair up and explore the tag list
+  - https://www.w3schools.com/tags/ref_byfunc.asp
 - Complete Challenges solo or in pair
+  - Example 4
 - Q&A about tutorials
-- Pair up and code review
-- Pair program
-- Formative assessment
-- Form into groups
-- etc (get creative :D)
-
-## Overview/TT II (optional)
-
-## In Class Activity II (optional)
+  - https://github.com/MakeSchool-Tutorials/We-Sell-Shoes
 
 ## After Class
 

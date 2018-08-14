@@ -33,18 +33,19 @@ single page application.
 |         |       | 3.    | Blocks CSS Box Model, padding, border, margin |
 |         |       | 4.    | CSS Flex Box                                  |
 | Clone   | Store | 5.    | CSS Grid                                      |
-|         |       | 6.    |  |
+|         |       | 6.    |                                               |
 |         |       | 7.    | JavaScript functions and variables            |
 | Game    | Clone | 8.    | Arrays and Objects                            |
-|         |       | 9.    | Scope and this                                |
-|         |       | 10.   | Class Objects OOP                             |
-|         |       | 11.   | Manipulating the DOM with JavaScript          |
-|         |       | 12.   | Events handlers intro |
-|         |       | 13.   |  |
+|         |       | 9.    | Manipulating the DOM with JavaScript          |
+|         |       | 10.   | Scope and this                                |
+|         |       | 11.   | Class Objects OOP Intro                       |
+|         |       | 12.   | JavaScript API (built in classes Math, Date etc.) |
+|         |       | 13.   | Events handlers intro |
 |         | Game  | 14.   |  |
 
 
-## Concepts Covered 
+## Concepts Covered
+
 - HTML
   - tags and attributes 
   - The DOM
