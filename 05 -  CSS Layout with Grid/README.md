@@ -1,18 +1,16 @@
-# Lesson Title
+# CSS Layout with Grid 
 
-HTML is the structural foundation for all web applications. 
-
-There are a few rules to writing good HTML.
+Use CSS Grid to define a 2 dimensional grid of cells.
 
 ## Learning Objectives/Competencies
 
-1. Identify tags, elements, and attributes
-1. Define tags, elements, and attributes
-1. Write quality semantic HTML
+1. Define a Grid Parent
+1. Identify chid grid items
+1. Define grid columns
 
 ## Initial Exercise
 
-- Think pair share: "what is html" where have you seen it before. 
+-  
 
 ## Overview/TT I 
 

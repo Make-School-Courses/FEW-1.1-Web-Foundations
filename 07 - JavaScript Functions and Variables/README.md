@@ -1,18 +1,20 @@
-# Lesson Title
+# JavaScript Functions and Variables 
 
-HTML is the structural foundation for all web applications. 
-
-There are a few rules to writing good HTML.
+JavaScript is the language of the browser. Use to create 
+complex user interactions, and manage data. JavaScript 
+has many of the fearures found in other languages and some 
+features unique to itself. 
 
 ## Learning Objectives/Competencies
 
-1. Identify tags, elements, and attributes
-1. Define tags, elements, and attributes
-1. Write quality semantic HTML
+1. Define functions with JavaScript 
+1. Define Variables with JavaScript
+1. Invoke functions
+1. Use functions
 
 ## Initial Exercise
 
-- Think pair share: "what is html" where have you seen it before. 
+- 
 
 ## Overview/TT I 
 

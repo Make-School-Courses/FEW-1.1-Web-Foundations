@@ -1,18 +1,18 @@
-# Lesson Title
+# JavaScript Class Objects and Protypical Inheritence
 
-HTML is the structural foundation for all web applications. 
-
-There are a few rules to writing good HTML.
+While JavaScript is a Object Oriented Programming Language
+it handles Class Objects and Inheritence differently than 
+other languages. Understanding JavaScript's unique 
+inheritence model is key to fully understanding JavaScript.
 
 ## Learning Objectives/Competencies
 
-1. Identify tags, elements, and attributes
-1. Define tags, elements, and attributes
-1. Write quality semantic HTML
+1. Define Class Functions
+1. Use the Prototype chain to implement inheritence
 
 ## Initial Exercise
 
-- Think pair share: "what is html" where have you seen it before. 
+- 
 
 ## Overview/TT I 
 

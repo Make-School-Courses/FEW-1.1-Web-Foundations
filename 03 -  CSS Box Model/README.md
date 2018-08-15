@@ -1,18 +1,18 @@
-# Lesson Title
+# CSS Box Model
 
-HTML is the structural foundation for all web applications. 
-
-There are a few rules to writing good HTML.
+Broadly speaking all Elements can be divided into two display 
+systems: Inline and Block. The Box Model defines the rules 
+the browser uses to arrange blocks on a page. 
 
 ## Learning Objectives/Competencies
 
-1. Identify tags, elements, and attributes
-1. Define tags, elements, and attributes
-1. Write quality semantic HTML
+1. Differentiate Inline and Block
+1. Define the Box Model
+1. Identify padding, Border, and Margin
 
 ## Initial Exercise
 
-- Think pair share: "what is html" where have you seen it before. 
+- Think pair share: "what is html" where have you seen it before.
 
 ## Overview/TT I 
 

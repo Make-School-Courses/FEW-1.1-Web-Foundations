@@ -1,8 +1,6 @@
-# Lesson Title
+# 
 
-HTML is the structural foundation for all web applications. 
 
-There are a few rules to writing good HTML.
 
 ## Learning Objectives/Competencies
 

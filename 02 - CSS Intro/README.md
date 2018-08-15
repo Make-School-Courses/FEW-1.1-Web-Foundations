@@ -1,4 +1,4 @@
-# Lesson Title
+# Introduction to CSS
 
 CSS is the language of visual description for web applications. 
 Use it to describe the appearance of your application. 
@@ -47,6 +47,8 @@ CSS is the second piece in the separation of concerns.
   - tl;dr use classnames for everything
 - Naming Conventions for classes: BEM
   - Block Element Modifier
+- Style the Example 
+  - Use Font styles to style and article with headings and quotes
 
 ## After Class
 

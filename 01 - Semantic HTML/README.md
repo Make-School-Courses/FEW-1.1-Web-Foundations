@@ -1,4 +1,4 @@
-# Lesson Title
+# Semantic HTML
 
 HTML is the structural foundation for all web applications. 
 
@@ -33,10 +33,14 @@ There are a few rules to writing good HTML.
 
 ## In Class Activity I
 
+- I do, we do, you do: Writing HTML tags elements and attributes. 
+  - Example 1,
 - I do, We do, You do: Choosing the right tag for the job
-  - Example 1, 2, and 3
+  - Example 2
 - Pair up and explore the tag list
   - https://www.w3schools.com/tags/ref_byfunc.asp
+- Write some markup
+  - Example 3
 - Complete Challenges solo or in pair
   - Example 4
 - Q&A about tutorials
@@ -50,4 +54,9 @@ There are a few rules to writing good HTML.
 
 ## Additional Resources
 
-1. Links to additional readings and videos
+1. https://css-tricks.com/what-beautiful-html-code-looks-like/
+1. https://developer.mozilla.org/en-US/docs/Web/HTML
+1. https://validator.w3.org
+
+
+

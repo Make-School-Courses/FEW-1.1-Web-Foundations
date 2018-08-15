@@ -1,18 +1,20 @@
-# Lesson Title
+# JavaScript Scope and This
 
-HTML is the structural foundation for all web applications. 
+Scope describes where variables and functions can 
+accessed. 
 
-There are a few rules to writing good HTML.
+This is a keyword that holds a reference to current owner 
+of an object. 
 
 ## Learning Objectives/Competencies
 
-1. Identify tags, elements, and attributes
-1. Define tags, elements, and attributes
-1. Write quality semantic HTML
+1. Use this to create DRY code
+1. Identify the scope of a variable or a function
+1. 
 
 ## Initial Exercise
 
-- Think pair share: "what is html" where have you seen it before. 
+- 
 
 ## Overview/TT I 
 

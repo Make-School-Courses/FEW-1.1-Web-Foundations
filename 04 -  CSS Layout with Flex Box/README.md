@@ -1,14 +1,15 @@
-# Lesson Title
+# CSS - Layout with FLex Box
 
-HTML is the structural foundation for all web applications. 
-
-There are a few rules to writing good HTML.
+Flex Box is a system for layout on a single axis Horizontal 
+or vertical. 
 
 ## Learning Objectives/Competencies
 
-1. Identify tags, elements, and attributes
-1. Define tags, elements, and attributes
-1. Write quality semantic HTML
+1. Define a flex parent
+1. Identify flex items
+1. Identify the main axis and the cross axis
+1. Use Flex Box to arrange elements on horizontal and vertical axis 
+1. Align items on the cross axis
 
 ## Initial Exercise
 

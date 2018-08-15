@@ -1,18 +1,20 @@
-# Lesson Title
+# JavaScript Arrays, Objects, and Loops
 
-HTML is the structural foundation for all web applications. 
+Arrays, Objects are core data structures in JavaScript. 
+Use them to hold and organize data used in the programs 
+you write. 
 
-There are a few rules to writing good HTML.
+Use loops to automate repetative tasks. 
 
 ## Learning Objectives/Competencies
 
-1. Identify tags, elements, and attributes
-1. Define tags, elements, and attributes
-1. Write quality semantic HTML
+1. Define Arrays and Objects
+1. Access values stored in arrays and Objects
+1. Use loops to automate processes
 
 ## Initial Exercise
 
-- Think pair share: "what is html" where have you seen it before. 
+-  
 
 ## Overview/TT I 
 

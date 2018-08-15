@@ -1,18 +1,15 @@
-# Lesson Title
+# JavaScript API
 
-HTML is the structural foundation for all web applications. 
-
-There are a few rules to writing good HTML.
+THe JavaScript API provides a wide range of functionality
+to JavaScript implemented in the browser. 
 
 ## Learning Objectives/Competencies
 
-1. Identify tags, elements, and attributes
-1. Define tags, elements, and attributes
-1. Write quality semantic HTML
+1. 
 
 ## Initial Exercise
 
-- Think pair share: "what is html" where have you seen it before. 
+- 
 
 ## Overview/TT I 
 

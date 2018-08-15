@@ -1,4 +1,4 @@
-# Lesson Title
+# JavaScript API 2
 
 HTML is the structural foundation for all web applications. 
 
@@ -6,9 +6,7 @@ There are a few rules to writing good HTML.
 
 ## Learning Objectives/Competencies
 
-1. Identify tags, elements, and attributes
-1. Define tags, elements, and attributes
-1. Write quality semantic HTML
+1. 
 
 ## Initial Exercise
 

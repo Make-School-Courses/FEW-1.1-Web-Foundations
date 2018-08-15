@@ -42,33 +42,23 @@ Prework
 1. Write JavaScript with modern syntax and best practices
 1. Use JavaScript to handle user interaction
 
-- HTML language
-  - Tags, Elements, and Attributess
-  - DOM
-  - Semantic HTML
-- CSS Language
-  - Selectors
-  - Fonts and Text
-  - Layout 
-- JavaScript
-  - Controlling the DOM
-  - Handling Events
-
 ## Lessons
 
-1. Introduction: programming the browser
-  - Project 1
-2. Semantic HTML
-3. CSS the language of visual description
-4. CSS Grid
-5. CSS Flex Box
-6. JavaScript Intro
-7. JavaScript functions and variables
-8. JavaScript Events
-9. JavaScript Borwser APIs
-10.
-11.
-12.
+1. Semantic HTML
+  - Begin Project 1
+2. CSS Intro
+3. CSS Box Model
+4. CSS Layout with Flex Box
+5. CSS Layout with CSS Grid
+6. 
+7. JavaScript Functions and Variables
+8. JavaScript Arrays, Objects Loops ad Logic
+9. JavaScript and the DOM
+10. JavaScript Scope and This
+11. JavaScript Class Objects Intro
+12. JavaScript Browser API part 1
+12. JavaScript Browser API part 2
+12. 
 
 ### Projects and Readings
 
