@@ -1,18 +1,18 @@
-# Lesson Title
+# Wrap up
 
-HTML is the structural foundation for all web applications. 
-
-There are a few rules to writing good HTML.
+HTML, CSS, and JavaScript represent a sophisticated separation 
+of concerns. The tools are unique to a platform used by almost
+everyone on a daily basis. 
 
 ## Learning Objectives/Competencies
 
-1. Identify tags, elements, and attributes
-1. Define tags, elements, and attributes
-1. Write quality semantic HTML
+1. Identify the separations of concerns in web development
+1. Define use cases for HTML, CSS, and JavaScript
+1. 
 
 ## Initial Exercise
 
-- Think pair share: "what is html" where have you seen it before. 
+- 
 
 ## Overview/TT I 
 
