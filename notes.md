@@ -29,19 +29,19 @@ single page application.
 | project | Due   | class | Description                                   |
 |---------|-------|-------|-----------------------------------------------|
 | Store   |       | 1.    | HTML tags, attributes, semantics, the DOM     |
-|         |       | 2.    | CSS syntax and selectors and font styles      |
-|         |       | 3.    | Blocks CSS Box Model, padding, border, margin |
-|         |       | 4.    | CSS Flex Box                                  |
-| Clone   | Store | 5.    | CSS Grid                                      |
-|         |       | 6.    |                                               |
+|         |       | 2.    | HTML related tags and sectional tags          |
+|         |       | 3.    | CSS syntax and selectors and font styles      |
+|         |       | 4.    | Blocks CSS Box Model, padding, border, margin |
+|         |       | 5.    | CSS Flex Box                                  |
+| Clone   | Store | 6.    | CSS Grid                                      |
 |         |       | 7.    | JavaScript functions and variables            |
 | Game    | Clone | 8.    | Arrays and Objects                            |
 |         |       | 9.    | Manipulating the DOM with JavaScript          |
 |         |       | 10.   | Scope and this                                |
 |         |       | 11.   | Class Objects OOP Intro                       |
 |         |       | 12.   | JavaScript API (built in classes Math, Date etc.) |
-|         |       | 13.   | Events handlers intro |
-|         | Game  | 14.   |  |
+|         |       | 13.   | Events handlers intro                         |
+|         | Game  | 14.   | Wrap up and review                            |
 
 
 ## Concepts Covered

@@ -21,7 +21,7 @@ through improved search and other processes.
 
 - Talk and Demo: Some tags that work together
   - ul/ol and li
-  - figure and figurecaption
+  - figure and figcaption
   - dl, dt, and dd
   - table, tr, th, td
 - Discuss: Why use these when you could just use some divs?
@@ -41,4 +41,6 @@ through improved search and other processes.
 
 ## Additional Resources
 
-1. Links to additional readings and videos
+1. http://html5doctor.com
+1. http://html5doctor.com/the-figure-figcaption-elements/
+1. http://html5doctor.com/the-article-element/

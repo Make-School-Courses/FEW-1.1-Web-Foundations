@@ -10,7 +10,7 @@ There are a few rules to writing good HTML.
 
 ## Initial Exercise
 
-- Think pair share: "what is html" where have you seen it before. 
+- 
 
 ## Overview/TT I 
 

@@ -2,7 +2,7 @@
 
 Broadly speaking all Elements can be divided into two display 
 systems: Inline and Block. The Box Model defines the rules 
-the browser uses to arrange blocks on a page. 
+the browser uses to arrange **blocks** on a page. 
 
 ## Learning Objectives/Competencies
 

@@ -58,4 +58,5 @@ CSS is the second piece in the separation of concerns.
 
 ## Additional Resources
 
-1. Links to additional readings and videos
+1. https://flukeout.github.io
+1. https://www.w3schools.com/cssref/default.asp

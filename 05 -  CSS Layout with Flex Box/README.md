@@ -1,7 +1,7 @@
-# CSS - Layout with FLex Box
+# CSS - Layout with Flex Box
 
-Flex Box is a system for layout on a single axis Horizontal 
-or vertical. 
+Flex Box is a system used to arrange blocks on single horizontal or 
+vertical axis. 
 
 ## Learning Objectives/Competencies
 
@@ -13,22 +13,21 @@ or vertical.
 
 ## Initial Exercise
 
-- Think pair share: "what is html" where have you seen it before. 
+- CSS Flex Box
 
 ## Overview/TT I 
 
-- HTML is the structure that underlies the web. 
-  - The web is built on a highly sophisticated separation of concerns
-  - Every web page is built from HTML
-- Name some HTML tags you know?
-  - List on board 
-  - Q: When and how do you use these tags? 
-- Concept: Semantic HTML
-  - Pick the tag that best describes its content. 
+- Intro to Flex Box
+  - What is it, what is it used for?
+  - Flex parent, and flex items
+- Axis
+  - main Axis vs cross axis
+- Float
+  - When to use float
 
 ## In Class Activity I
 
-- I do, We do, You do
+- I do, We do, You do: Flex Box
 - Reading & Discussion Questions in small groups
 - Draw a picture/diagram
 - Complete Challenges solo or in pair
@@ -38,10 +37,6 @@ or vertical.
 - Formative assessment
 - Form into groups
 - etc (get creative :D)
-
-## Overview/TT II (optional)
-
-## In Class Activity II (optional)
 
 ## After Class
 

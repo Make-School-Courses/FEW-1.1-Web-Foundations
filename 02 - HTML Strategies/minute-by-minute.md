@@ -1,4 +1,4 @@
-# Minute by Minute
+# HTML Strategies Minute by Minute
 
 1. 5 min - Review - Semantic HTML
 1. 5 min - Tags that work together
@@ -18,8 +18,9 @@
   - footer
   - article
   - aside
-1. 20 min Pair and program: Mark up the examples
+1. 10 min Pair and program: Mark up the examples
   - Use sectional tags to mark up the examples
+1. 10 min Work on your personal homepage
 1. 10 min Q&A & Wrap up
 
 Total 120 min
