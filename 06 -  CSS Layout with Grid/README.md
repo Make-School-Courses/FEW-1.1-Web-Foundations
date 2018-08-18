@@ -4,13 +4,15 @@ Use CSS Grid to define a 2 dimensional grid of cells.
 
 ## Learning Objectives/Competencies
 
+1. Define a visual grid
+1. Identify columns and rows
 1. Define a Grid Parent
 1. Identify chid grid items
 1. Define grid columns
 
 ## Initial Exercise
 
--  
+- Use CSS Grid to layout elements on a Grid. 
 
 ## Overview/TT I 
 
@@ -23,29 +25,10 @@ Use CSS Grid to define a 2 dimensional grid of cells.
 - Concept: Semantic HTML
   - Pick the tag that best describes its content. 
 
-## In Class Activity I
-
-- I do, We do, You do
-- Reading & Discussion Questions in small groups
-- Draw a picture/diagram
-- Complete Challenges solo or in pair
-- Q&A about tutorials
-- Pair up and code review
-- Pair program
-- Formative assessment
-- Form into groups
-- etc (get creative :D)
-
-## Overview/TT II (optional)
-
-## In Class Activity II (optional)
-
 ## After Class
 
-- Continue working on your current tutorial
-- Complete reading
-- Complete challenges
+- 
 
 ## Additional Resources
 
-1. Links to additional readings and videos
+1. 
