@@ -7,6 +7,8 @@ features unique to itself.
 
 ## Learning Objectives/Competencies
 
+1. Use JavaScript in a web page
+1. Identify where JavaScript can be used within an HTML document
 1. Define functions with JavaScript 
 1. Define Variables with JavaScript
 1. Invoke functions
@@ -14,22 +16,27 @@ features unique to itself.
 
 ## Initial Exercise
 
-- 
+- Quick introduction to scripting the browser
+  - Where does JavaScript live? 
+- Common pitfalls and debugging
+  - The order scripts are loaded
+  - Using the console
 
-## Overview/TT I 
+## Overview 
 
-- HTML is the structure that underlies the web. 
-  - The web is built on a highly sophisticated separation of concerns
-  - Every web page is built from HTML
-- Name some HTML tags you know?
-  - List on board 
-  - Q: When and how do you use these tags? 
-- Concept: Semantic HTML
-  - Pick the tag that best describes its content. 
+- Working with HTML Elements and JavaScript
+- Functions and variables with JavaScript
+- Using id names with JS
+  - document.getElementById()
+- Variables 
+  - const, let, and var
+- Functions 
 
 ## In Class Activity I
 
-- I do, We do, You do
+- I do, We do, You do: Example 1: Tip Calculator
+- 
+
 - Reading & Discussion Questions in small groups
 - Draw a picture/diagram
 - Complete Challenges solo or in pair
@@ -39,10 +46,6 @@ features unique to itself.
 - Formative assessment
 - Form into groups
 - etc (get creative :D)
-
-## Overview/TT II (optional)
-
-## In Class Activity II (optional)
 
 ## After Class
 

@@ -1,0 +1,51 @@
+
+ <style>
+  .alien-card {
+    border: 1px solid;
+    padding: 1em;
+    margin: 1em;
+  }
+</style>
+
+<!-- 
+
+<div class="alien-card">
+    <img src="images/Alien-1_1.png" width="32" height="32">
+    <h1>Blue Muncher</h1>
+    <small>Power:</small>
+    <div>32.0</div>
+    <small>R.O.F.</small>
+    <div>0.33</div>
+    <small>Health</small>
+    <div>320</div>
+  </div>
+  
+  -->
+
+<div id="container" class="aliens">
+  <!-- Aliens here -->
+  
+<script src="scripts/data.js"></script>
+<script>
+  const container = document.getElementById('container');
+  
+  let str = '';
+  
+  for (var i = 0; i < data.length; i += 1) {
+    const alien = data[i];
+    // console.log(alien);
+    str += `<div class="">${alien.name}</div>`;
+  }
+  
+  container.innerHTML = str;
+  
+  /* 
+  
+  1. Print the other data from each object
+  2. Add some structure using the HTML block in the comment above
+  3. Make a function that generates the HTML block
+    - It should take in an obj as a param
+    - It should return a str
+  
+  */
+</script>

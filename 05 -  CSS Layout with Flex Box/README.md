@@ -21,22 +21,14 @@ vertical axis.
   - What is it, what is it used for?
   - Flex parent, and flex items
 - Axis
-  - main Axis vs cross axis
+  - Main Axis vs cross axis
 - Float
   - When to use float
 
 ## In Class Activity I
 
-- I do, We do, You do: Flex Box
-- Reading & Discussion Questions in small groups
-- Draw a picture/diagram
-- Complete Challenges solo or in pair
-- Q&A about tutorials
-- Pair up and code review
-- Pair program
-- Formative assessment
-- Form into groups
-- etc (get creative :D)
+- I do, We do, You do: Flex Box Justify-content & align-items
+  - Explore Layout with 
 
 ## After Class
 

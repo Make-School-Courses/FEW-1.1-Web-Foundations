@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <title></title>
+    <script>
+      // Scripts loaded here won't have access to elements later in the document
+      const titleElement = document.getElementById('title');
+      titleElement.innerHTML = 'Hello World';
+      titleElement.style.color = '#dd2255';
+    </script>
+  </head>
+  <body>
+    
+    <h1 id="title"></h1>
+    
+    <!-- Scripts -->
+    <script>
+      // These scripts run after everything above has been loaded.
+      
+    </script>
+  </body>
+</html>
