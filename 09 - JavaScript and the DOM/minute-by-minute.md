@@ -1,7 +1,7 @@
 # Minute by Minute
 
-1. 5 min Productivity Tip - Emmit
-1. 5 min Intro & Objectives
+1. 5 min Review: JavaScript Objects and Arrays
+1. 5 min 
 1. 10 min Think, Pair Share
 1. 20 min TT I
 1. 30 min Activity I

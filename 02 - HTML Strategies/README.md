@@ -44,3 +44,4 @@ through improved search and other processes.
 1. http://html5doctor.com
 1. http://html5doctor.com/the-figure-figcaption-elements/
 1. http://html5doctor.com/the-article-element/
+1. http://html5doctor.com/the-section-element/

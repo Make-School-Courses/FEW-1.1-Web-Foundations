@@ -9,23 +9,32 @@ There are a few rules to writing good HTML.
 1. Identify tags, elements, and attributes
 1. Define tags, elements, and attributes
 1. Write quality semantic HTML
+1. Define the DOM
+
+- [slides](https://docs.google.com/presentation/d/1uogAxwN9Bn4ZBqTeRMqcRNp96SfHoFhQ6L_jmo6HmCM/edit?usp=sharing)
 
 ## Initial Exercise
 
-- Think pair share: "what is html" where have you seen it before. 
+- Think pair share: "what is html" where have you seen it before?
+  - How do you use it? 
+  - What are those tags and what do they mean? 
 
 ## Overview/TT I 
 
 - HTML is the structure that underlies the web. 
-  - The web is built on a highly sophisticated separation of concerns (more on this later)
+  - The web is built on a highly sophisticated separation of concerns
+    - HTML/CSS/JavaScript
   - Every web page is built from HTML
+    - HTML defines the DOM
 - Name some HTML tags you know?
   - List on board 
   - Q: When and how do you use these tags? 
 - Some tags: 
   - p, h1, img, ul + li, div, a
 - Concept: Semantic HTML
-  - Pick the tag that best describes its content. 
+  - Pick the tag that best describes its content.
+  - Examples
+    - https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Define_terms_with_HTML 
 - Vocabulary
   - Tag: `<p>`
   - Element: `<p>Hello World</p>`

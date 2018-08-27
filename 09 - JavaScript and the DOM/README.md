@@ -5,41 +5,38 @@ HTML elements in the DOM.
 
 ## Learning Objectives/Competencies
 
-1. Identify elements with ids
-1. Access elements via their id name with JavaScript 
-1. 
+1. Use JavaScript to effect the DOM what's involved with that?
+  - Idea: Adding and removing class names
+1. We need to know more CSS
+  - position: absolute and relative
+1. Use BEM to create class names with structure
 
 ## Initial Exercise
 
-- 
+- Make a dialog box
 
-## Overview/TT I 
+## Overview TT I 
 
-- HTML is the structure that underlies the web. 
-  - The web is built on a highly sophisticated separation of concerns
-  - Every web page is built from HTML
-- Name some HTML tags you know?
-  - List on board 
-  - Q: When and how do you use these tags? 
-- Concept: Semantic HTML
-  - Pick the tag that best describes its content. 
+- Use BEM to create some class names 
+  - 
+- Use position absolute and relative to create a dialog box
+- Position 
 
 ## In Class Activity I
 
-- I do, We do, You do
-- Reading & Discussion Questions in small groups
-- Draw a picture/diagram
-- Complete Challenges solo or in pair
-- Q&A about tutorials
-- Pair up and code review
-- Pair program
-- Formative assessment
-- Form into groups
-- etc (get creative :D)
+- 
 
-## Overview/TT II (optional)
+## Overview/TT II 
 
-## In Class Activity II (optional)
+- Use JavaScript to add and remove class names
+
+## In Class Activity II 
+
+- Elements have a classList which supports methods
+  - add
+  - remove
+  - toggle
+- Use JavaScript to open and close the dialog box by adding and removing a class name
 
 ## After Class
 
