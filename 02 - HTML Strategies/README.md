@@ -10,12 +10,24 @@ through improved search and other processes.
 ## Learning Objectives/Competencies
 
 1. Use organizational elements
-1. Use attributes correctly 
+1. Markup documents with sectional tags
+1. Identify the level of support for an element
 1. Use the validator to find problems and solve them
+1. Use form elements to markup forms
+1. Identify and use HTML entities
 
 ## Initial Exercise
 
-- Think pair share: "What is semantic HTML, and why is it important?"
+- Forms
+  - What kind of elements are in forms: 
+    - form
+    - input (has many types)
+    - select
+    - textarea
+  
+- HTML entites and code in code 
+  - What is an HTML entity? 
+  - How to mark up code
 
 ## Overview/TT I 
 

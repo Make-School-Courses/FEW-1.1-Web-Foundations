@@ -52,7 +52,7 @@ CSS is the second piece in the separation of concerns.
 
 ## After Class
 
-- Continue working on your current tutorial
+- Complete the tutorial...
 - Complete reading
 - Complete challenges
 

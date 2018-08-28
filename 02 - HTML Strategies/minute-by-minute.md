@@ -1,5 +1,6 @@
 # HTML Strategies Minute by Minute
 
+
 1. 5 min - Review - Semantic HTML
 1. 5 min - Tags that work together
 1. 10 min - Think, Pair Share: Pairs look up
@@ -20,7 +21,11 @@
   - aside
 1. 10 min Pair and program: Mark up the examples
   - Use sectional tags to mark up the examples
+  - Use the HTML Validator to check your work
 1. 10 min Work on your personal homepage
+  - Write the content for your site
+  - Mark up your content
+  - Get another student to review your markup
 1. 10 min Q&A & Wrap up
 
 Total 120 min

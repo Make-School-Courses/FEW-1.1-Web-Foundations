@@ -47,24 +47,29 @@ There are a few rules to writing good HTML.
 - I do, We do, You do: Choosing the right tag for the job
   - Example 2
 - Pair up and explore the tag list
-  - https://www.w3schools.com/tags/ref_byfunc.asp
+  - [https://www.w3schools.com/tags/ref_byfunc.asp](https://www.w3schools.com/tags/ref_byfunc.asp)
 - Write some markup
   - Example 3
 - Complete Challenges solo or in pair
   - Example 4
 - Q&A about tutorials
-  - https://github.com/MakeSchool-Tutorials/We-Sell-Shoes
+  - [https://github.com/MakeSchool-Tutorials/We-Sell-Shoes](https://github.com/MakeSchool-Tutorials/We-Sell-Shoes)
 
 ## After Class
 
-- Continue working on your current tutorial
+- Start working on the [tutorial](https://www.makeschool.com/academy/track/we-sell-shoes)
+  - You can also view the tutorial [here](https://github.com/MakeSchool-Tutorials/We-Sell-Shoes)
 - Complete reading
+  - https://css-tricks.com/what-beautiful-html-code-looks-like/
+  - https://developer.mozilla.org/en-US/docs/Web/HTML
 - Complete challenges
+  - Add markup to the text in the example files to the bext of your ability. 
+  Explore the tag list [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element). 
+  Look for tags that best describe the content in the examples. Be sure to read the 
+  description for the tags you are using to get an idea for how the tag is meant to be used. 
 
 ## Additional Resources
 
-1. https://css-tricks.com/what-beautiful-html-code-looks-like/
-1. https://developer.mozilla.org/en-US/docs/Web/HTML
 1. https://validator.w3.org
 
 

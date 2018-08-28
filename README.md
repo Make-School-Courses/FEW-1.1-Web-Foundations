@@ -10,8 +10,6 @@ Tools: HTML, CSS, JavaScript
 
 ----
 
-
-
 ## Course Description
 
 The web is important, we use it every day to accomplish 
@@ -68,9 +66,9 @@ Reading:
 
 Projects: 
 
-- [Landing Page]() 
-- [Web Clone]() 
-- [Redesign]()
+- [Store Tutorial](https://www.makeschool.com/academy/track/we-sell-shoes)
+- [JavaScript Game](https://www.makeschool.com/academy/track/build-a-game-of-concentration-with-javascript)
+- [Home Page](./personal-homepage)
 
 ## Evaluation
 
