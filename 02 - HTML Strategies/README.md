@@ -16,7 +16,14 @@ through improved search and other processes.
 1. Use form elements to markup forms
 1. Identify and use HTML entities
 
-## Initial Exercise
+## Exercise 1 - Whitespace and Special characters
+
+- Whitespace
+  - Preformatted Text (pre tag)
+- Special Characters (HTML entities)
+- Code samples (code tag)
+
+## Exercise 2 - Forms and Form Elements
 
 - Forms
   - What kind of elements are in forms: 
@@ -24,10 +31,7 @@ through improved search and other processes.
     - input (has many types)
     - select
     - textarea
-  
-- HTML entites and code in code 
-  - What is an HTML entity? 
-  - How to mark up code
+  - Using Labels 
 
 ## Overview/TT I 
 

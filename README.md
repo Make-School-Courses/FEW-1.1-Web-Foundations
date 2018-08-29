@@ -79,3 +79,11 @@ To pass this course you must meet the following requirements:
 - Make up all classwork from all absences
 - Finish all required tutorials and projects
 - Pass the final exam (summative assessment) >=80%
+
+You should complete the following work: 
+
+- Challenges from class 1
+  - examples 1-6
+- [Store Tutorial](https://www.makeschool.com/academy/track/we-sell-shoes)
+- Challenges from class 2 
+  - 
