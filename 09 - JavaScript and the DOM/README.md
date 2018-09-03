@@ -5,30 +5,28 @@ HTML elements in the DOM.
 
 ## Learning Objectives/Competencies
 
-1. Use JavaScript to effect the DOM what's involved with that?
-  - Idea: Adding and removing class names
-1. We need to know more CSS
-  - position: absolute and relative
+1. Use JavaScript to modify the DOM
+1. Use CSS absolute position
 1. Use BEM to create class names with structure
 
-## Initial Exercise
+## Overview TT I
 
-- Make a dialog box
-
-## Overview TT I 
-
+- CSS Interlude
+  - What is absolute position?
+  - What is relative position?
+  - Use Absolute and relative position together
 - Use BEM to create some class names 
-  - 
-- Use position absolute and relative to create a dialog box
-- Position 
+  - Why use BEM? Who uses BEM?
 
-## In Class Activity I
+## Overview TT II 
 
-- 
+- Make a dialog box 
 
-## Overview/TT II 
+## Overview TT III
 
-- Use JavaScript to add and remove class names
+- Manipulating the DOM with JavaScript
+  - Use JavaScript to add and remove class names
+    - What's this good for? 
 
 ## In Class Activity II 
 
@@ -46,4 +44,6 @@ HTML elements in the DOM.
 
 ## Additional Resources
 
-1. Links to additional readings and videos
+1. https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
+1. http://getbem.com
+1. 

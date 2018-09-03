@@ -1,0 +1,53 @@
+<div class="container">
+  <div class="box"><span>Option 1</span></div>
+  <div class="box"><span>Option 2</span></div>
+  <div class="box"><span>Option 3</span></div>
+  <div class="box selected"><span>Option 4</span></div>
+</div>
+
+
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Helvetica;
+    color: #fff;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    width: 210px;
+  }
+  
+  .box {
+    width: 100px;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box.selected {
+    border: 10px solid rgba(0, 0, 0, 0.25);
+  }
+</style>
+
+
+<script>
+  const options = document.getElementsByClassName('box');
+  for (var i in options) {
+    options[i].onclick = function(e) {
+      this.classList.toggle('selected');
+    }
+  }
+  
+  // ** 1) Challenge 
+  // Add more boxes. 
+</script>
+

@@ -1,0 +1,57 @@
+<div id="main">
+  
+</div>
+
+
+<script src="data.js"></script>
+<script>
+  // -----------------------------------------
+  // Define an Object with Class Syntax
+  
+  // Challenge 5) Look at the user data in data.js. 
+  // Add properties here for each property found
+  // the objects in data. 
+  
+  class User {
+    constructor(first, last, el) {
+      this.first = first;
+      this.last = last;
+      this.el = el;
+      this.setup();
+    }
+    
+    // Challenge 6) This displays the name it needs to display
+    // the rest of the user data. 
+    setup() {
+      this.el.innerHTML = `
+  <article>
+    <h1>${this.describe()}</h1>
+    <p>more info...</p>
+  </article>`;
+    }
+    
+    describe() {
+      return `${this.first} ${this.last}`;
+    }
+  }
+  
+  // ----------------------------------------
+  
+  // This snippet gets the main elements creates new 
+  // div element and then creates a user and passes 
+  // that new div to the new user. 
+  
+  const main = document.getElementById('main');
+  var el = main.appendChild(document.createElement('div'));  
+  const joeSmith = new User('Joe', 'Smith', el);
+  
+  console.log(joeSmith);
+  
+  // Challenge 7) For each user in data make a new user 
+  // object and an a new DOM element to display that user. 
+  
+  for (var i in data) {
+    // console.log(data[i]);
+    // Challenge make a user object for each user in data. 
+  }
+</script>

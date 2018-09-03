@@ -35,17 +35,7 @@ features unique to itself.
 ## In Class Activity I
 
 - I do, We do, You do: Example 1: Tip Calculator
-- 
-
-- Reading & Discussion Questions in small groups
-- Draw a picture/diagram
-- Complete Challenges solo or in pair
-- Q&A about tutorials
-- Pair up and code review
-- Pair program
-- Formative assessment
-- Form into groups
-- etc (get creative :D)
+- Challenge: Make a tip calculator
 
 ## After Class
 

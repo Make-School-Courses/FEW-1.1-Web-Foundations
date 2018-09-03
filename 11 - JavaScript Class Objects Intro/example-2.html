@@ -1,0 +1,36 @@
+<script src="data.js"></script>
+<script>
+  // -----------------------------------------
+  // Define an Object with Class Syntax
+  
+  // Challenge 3) Include the prefix and date. 
+  // Convert the date into a JS date Object 
+  // when it is stored in the user property. 
+  
+  class User {
+    constructor(first, last) {
+      this.first = first;
+      this.last = last;
+    }
+    
+    // Challenge 4) Add the rpefix before first name. 
+    // Include "joined: " followed by a short date. 
+    
+    // Stretch Challenge: Calculate the number of years 
+    // since the user joined by subtracting the user date 
+    // from the current date. https://www.w3resource.com/javascript-exercises/javascript-date-exercise-49.php
+    // Print the number of years they have been a member. 
+    
+    describe() {
+      return `${this.first} ${this.last}`;
+    }
+    
+  }
+  
+  // ----------------------------------------
+  
+  const joeSmith = new User('Joe', 'Smith');
+  const janeDoe = new User('Jane', 'Doe');
+  
+  console.log(joeSmith.describe());
+</script>

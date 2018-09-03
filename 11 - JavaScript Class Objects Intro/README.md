@@ -7,23 +7,25 @@ inheritence model is key to fully understanding JavaScript.
 
 ## Learning Objectives/Competencies
 
-1. Define Class Functions
-1. Use the Prototype chain to implement inheritence
+1. Define Classes that create Objects with JS
+1. Use the Prototype chain generate objects
+1. Use ES6 class syntax to generate instances
+1. Use Element reference to manipulate the DOM 
 
 ## Initial Exercise
 
-- 
+- Make an Object with a function
+  - Add properties 
+  - Add methods 
+    - Use prototype 
+- Define a class ES6 style
+  - Use the constructor 
+  - Add properties 
+  - Add methods 
 
 ## Overview/TT I 
 
-- HTML is the structure that underlies the web. 
-  - The web is built on a highly sophisticated separation of concerns
-  - Every web page is built from HTML
-- Name some HTML tags you know?
-  - List on board 
-  - Q: When and how do you use these tags? 
-- Concept: Semantic HTML
-  - Pick the tag that best describes its content. 
+- 
 
 ## In Class Activity I
 
@@ -50,4 +52,4 @@ inheritence model is key to fully understanding JavaScript.
 
 ## Additional Resources
 
-1. Links to additional readings and videos
+1. https://developer.mozilla.org/en-US/docs/Web/API/Element

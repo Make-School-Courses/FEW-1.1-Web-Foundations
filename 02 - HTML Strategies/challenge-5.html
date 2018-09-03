@@ -11,7 +11,7 @@
  - Birthday (input date)
  - Choose an prefix (select)
  - Set a role (input type radio)
- - Show public profile (checkbox, should be checked by default)
+ - Show public profile (input checkbox, should be checked by default)
  - Enter a bio (textarea)
  - Upload a picture (input file, should only accept images)
  - Self Destruct (input checkbox, should be DISABLED by default since we haven't implemented this feature yet)
@@ -19,8 +19,7 @@
  Your job is to: 
  - Organize this better by adding tags
  - Add sensible placeholders
- - Connect lables to elements
- - Associate lables with their form element
+ - Connect labels to elements
  
  The form must to send file data. Set the attributes on the form tag: 
  - It must send a file wat are the required attributes for this?
@@ -33,13 +32,23 @@
  - Name should only contain letters and numbers
  
  -->
+ <h1>Burger <br> King</h1>
  
-<form>
-  <label>Name</label>
-  <input name="name">
+ 
+ <!doctype html>
+ <html>
+   
+<body>
+<form action="/your/api" method="">
+ 
+  <!-- use a p or other block tag to organize form elements onto lines -->
+  <p>
+    <label>Name</label>
+    <input name="name" type="text" placeholder="Your name">
+  </p>
   
   <label>Email</label>
-  <input name="email">
+  <input name="email" type="email">
   
   <label>Pet Count</label>
   <input name="pets">
@@ -57,12 +66,13 @@
     <option>None</option>
   </select>
   
-  <input type="radio" name="role" value="Admin"/>
-  <label>Admin</label>
+  <!-- Associate labels with form elements with for and id -->
+  <input id="radio-admin" type="radio" name="role" value="Admin"/>
+  <label for="radio-admin">Admin</label>
+  
   <input type="radio" name="role" value="Editor" />
   <label>Editor</label>
-  <input type="radio" name="role" value="Contributor" />
-  <label>Contributor</label>
+  
   <input type="radio" name="role" value="Contributor" />
   <label>Contributor</label>
   
@@ -79,3 +89,5 @@
   
   <button type="submit">Submit</button>
 </form>
+</body>
+ </html>

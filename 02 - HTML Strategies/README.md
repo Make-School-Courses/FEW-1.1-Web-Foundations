@@ -27,13 +27,14 @@ through improved search and other processes.
 
 - Forms
   - What kind of elements are in forms: 
-    - form
+    - form 
+      - Attributes: 
     - input (has many types)
     - select
     - textarea
   - Using Labels 
 
-## Overview/TT I 
+## Exercise 2 - Tags that work together 
 
 - Talk and Demo: Some tags that work together
   - ul/ol and li
@@ -48,6 +49,14 @@ through improved search and other processes.
   - section, article, aside, nav, header, footer
 - Draw a picture of a page that includes sections
 - Markup the examples using sectional tags
+
+## Challenges 
+
+Take a look at the files listed below and mark them up to the 
+best of your ability. 
+
+- Challenges 1 - 5
+- 
 
 ## After Class
 
