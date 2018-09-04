@@ -5,7 +5,8 @@ to JavaScript implemented in the browser.
 
 ## Learning Objectives/Competencies
 
-1. 
+1. Name and idenitify JavaScript APIs in the browser
+1. Use 
 
 ## Initial Exercise
 

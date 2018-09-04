@@ -62,15 +62,24 @@ There are a few rules to writing good HTML.
 - Complete reading
   - https://css-tricks.com/what-beautiful-html-code-looks-like/
   - https://developer.mozilla.org/en-US/docs/Web/HTML
-- Complete challenges
+- Complete challenges examples 1-6
   - Add markup to the text in the example files to the bext of your ability. 
   Explore the tag list [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element). 
   Look for tags that best describe the content in the examples. Be sure to read the 
   description for the tags you are using to get an idea for how the tag is meant to be used. 
+  - Have another student review your 
+    - Take notes and incorportate any suggestions
+- Review the work of another student
+  - Look at the work closely and offer your best suggestions for improvement
 
 ## Additional Resources
 
+1. Reading
+  - https://css-tricks.com/what-beautiful-html-code-looks-like/
+  - https://developer.mozilla.org/en-US/docs/Web/HTML
+1. Look up the tags used in class
+  - http://html5doctor.com
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+  - https://www.w3schools.com/html/default.asp
 1. https://validator.w3.org
-
-
 

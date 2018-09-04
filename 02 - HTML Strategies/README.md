@@ -60,13 +60,15 @@ best of your ability.
 
 ## After Class
 
-- Continue working on your current tutorial
-- Complete reading
-- Complete challenges
+- Continue working on your current [tutorial](https://www.makeschool.com/academy/track/we-sell-shoes) 
+- Complete challenges 1-5
+  - Mark the example text up to the best of your ability
+  - Have another student review your work
+- Review the work of another student
 
 ## Additional Resources
 
-1. http://html5doctor.com
 1. http://html5doctor.com/the-figure-figcaption-elements/
 1. http://html5doctor.com/the-article-element/
 1. http://html5doctor.com/the-section-element/
+1. 1. https://validator.w3.org
