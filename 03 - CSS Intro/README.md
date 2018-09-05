@@ -21,6 +21,19 @@ CSS is the second piece in the separation of concerns.
 - Styling web pages
   - Style text using font-size, color
   - Use em and base font size
+  
+## Selectors 
+
+Use selectors to define where rules are applied. 
+
+- [CSS Diner](https://flukeout.github.io)
+
+## Designing with Type 
+
+Using siimple rules you can make your work look worlds better. 
+Use font styles to create a hierarachy of type. 
+
+- https://99designs.com/blog/tips/typographic-hierarchy-web-design/
 
 ## Overview/TT I 
 
