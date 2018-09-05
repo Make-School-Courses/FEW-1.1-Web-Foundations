@@ -33,7 +33,9 @@ Use selectors to define where rules are applied.
 Using siimple rules you can make your work look worlds better. 
 Use font styles to create a hierarachy of type. 
 
-- https://99designs.com/blog/tips/typographic-hierarchy-web-design/
+- Designing with Type: Hierarchy
+  - [Type Hierarchy tips](https://99designs.com/blog/tips/typographic-hierarchy-web-design/)
+  - [Type Hierarchy Examples](https://www.canva.com/learn/typeface-fonts/)
 
 ## Overview/TT I 
 
@@ -78,3 +80,5 @@ Use font styles to create a hierarachy of type.
 
 1. https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
 1. https://www.w3schools.com/cssref/default.asp
+1. https://www.canva.com/learn/typeface-fonts/
+1. https://99designs.com/blog/tips/typographic-hierarchy-web-design/
