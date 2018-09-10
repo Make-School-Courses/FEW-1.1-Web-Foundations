@@ -38,4 +38,4 @@ vertical axis.
 
 ## Additional Resources
 
-1. Links to additional readings and videos
+1. https://mastery.games/p/flexbox-zombies

@@ -14,7 +14,7 @@ CSS is the second piece in the separation of concerns.
 1. Write CSS rules with correct syntax
 1. Create styled web pages
 1. Use base font size and em
-1. Apply strategies for 
+1. Apply strategies for styling with hierarchy
 
 ## Initial Exercise
 

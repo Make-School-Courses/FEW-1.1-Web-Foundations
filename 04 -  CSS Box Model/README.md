@@ -16,16 +16,17 @@ the browser uses to arrange **blocks** on a page.
 ## Introduction
 
 - What is the box model? 
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model
   - Content, Padding, Border, and Margin
   - The box-sizing property
-
+  
 ## Exercise  
 
 - Applying Padding, border, and margin
 
-## In Class Activity I
+## Calc
 
-- 
+- Using calc()
 
 ## After Class
 
