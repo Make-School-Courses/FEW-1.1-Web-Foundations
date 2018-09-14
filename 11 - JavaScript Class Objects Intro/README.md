@@ -23,24 +23,26 @@ inheritence model is key to fully understanding JavaScript.
   - Add properties 
   - Add methods 
 
-## Overview/TT I 
+## Overview 
 
-- 
+- Why use Objects? 
+- What is an Object? 
+- What is prototype? 
+  - Using Prototype
 
 ## In Class Activity I
 
-- I do, We do, You do
-- Reading & Discussion Questions in small groups
-- Draw a picture/diagram
-- Complete Challenges solo or in pair
-- Q&A about tutorials
-- Pair up and code review
-- Pair program
-- Formative assessment
-- Form into groups
-- etc (get creative :D)
+- Make an object that represents...
+  - A User
+  - A Car
+  - A cat
+- Let's try that again
+  - Make an Object that represents an RPG character
 
-## Overview/TT II (optional)
+## Overview/TT II
+
+- Inheritence in JS 
+- proto
 
 ## In Class Activity II (optional)
 

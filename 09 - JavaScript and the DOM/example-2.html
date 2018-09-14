@@ -1,0 +1,19 @@
+<div id="container"></div>
+
+
+<script>
+  const container = document.getElementById('container');
+  const count = 5;
+  for (let i = 0; i < count; i += 1) {
+    const el = document.createElement('div');
+    el.innerHTML = "HELLO WORLD";
+    container.appendChild(el);
+    el.style.color = 'rgba(255,0,2,0.5)';
+    el.style.fontFamily = 'Helvetica';
+    el.style.fontWeight = 'bold';
+    el.style.fontSize = '84px';
+    el.style.position = 'absolute';
+    const y = (i * -40) + 200;
+    el.style.transform = `rotate(-30deg) translate(0, ${y}px)`;
+  }
+</script>
