@@ -12,6 +12,11 @@ Use CSS Grid to define a 2 dimensional grid of cells.
 
 ## Initial Exercise
 
+- Read this article and discuss it with a partner
+  - https://webdesign.tutsplus.com/articles/a-comprehensive-introduction-to-grids-in-web-design--cms-26521
+  - Answer the questions below: 
+    - What is a grid?
+    - Why use a grid?
 - Use CSS Grid to layout elements on a Grid. 
 
 ## Overview/TT I 
