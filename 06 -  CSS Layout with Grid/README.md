@@ -42,7 +42,17 @@ Use CSS Grid to define a 2 dimensional grid of cells.
 10. https://terraria.org
 11. https://store.steampowered.com
 12. https://www.youtube.com
-13. 
+13. http://www.ycombinator.com
+14. https://atom.io
+15. https://www.yelp.com
+16. https://www.sushirrito.com
+17. http://www.bobaguys.com
+18. http://www.makenoisemusic.com
+19. http://www.gibson.com
+20. https://www.fender.com
+
+- Stretch challenge: 
+  - Study each of the sites above and understand their grid system. Take a screen shot and draw the grid on top. 
 
 ## Use CSS Grid
 
@@ -51,7 +61,15 @@ Use CSS Grid to define a 2 dimensional grid of cells.
 - Define template columns
 - Displaying a grid with grid areas
 
+## In Class Challenges 
+
+Your job is to try and recreate the grids in the image with html/CSS. You can start by duplicating the code in example-3 folder. 
+
+Try to recreate each of the images with HTML and CSS. 
+
 ## After Class
+
+The goal is to apply a grid to your work. Don't feel like your grid has to be complicated with many columns in different proportions. It's more important that you have a grid than having a complex grid. 
 
 - Design a grid for your site
   - Draw it on paper or use an application like Sketch

@@ -28,7 +28,7 @@ Netscape thought this would be good for marketing.
 While Java and JavaScript share the first 4 letters they 
 are completely unrelated otherwise. 
 
-## Where is JavaScript used? 
+## Where is JavaScript used?
 
 Everywhere. Seriously. Use JavaScript to: 
 
@@ -44,13 +44,17 @@ Everywhere. Seriously. Use JavaScript to:
 - Native applications
   - Script native applications 
   - Build native applications
+  
+JavaScript could be the most important programming language in use today. JavaScript was the most popular language in Stack Overflow's developer survey. 
 
-## Where does it live?
+> Any application that can be written in JavaScript will eventually be written in JavaScript. - Jeff Atwood
+
+## Where can you write JavaScript? 
 
 JavaScript is plain text. It can be written in files with 
 the .js extension or written into .html files.
 
-Use the script tag to include JavaScript with a web page. 
+Use the script tag to include JavaScript within an html document. 
 
 ```
 <script>
@@ -75,41 +79,51 @@ const foo = 'bar';
 ## What can 
 
 JavaScript has all of the features of standard programming 
-languages, 
+languages:
+
+- variables
+- loops
+- conditionals
+- arrays
+- objects
+
+It also has inheritence but uses a model that is different from other languages. 
 
 ## Initial Exercise
 
 - Quick introduction to scripting the browser
-
-
-
-
-  - Where does JavaScript live? 
+  - Where does JavaScript live?
+  - [example 1](example-1)
   
-- Common pitfalls and debugging
-  - The order scripts are loaded
+- Common pitfalls and debugging 
+  - Scripts load in order
   - Using the console
+  - [example 2](example-2)
 
 ## Overview 
 
 - Working with HTML Elements and JavaScript
+  - Accessing an element via it's id name 
+    - `document.getElementById()`
+  - Using JavaScript to manipulate the DOM
+    - `innerHTML`
+    - `value`
+  - Handle click events with JS
+    - `onclick`
+  - Set the content of an element with JS
+  - [Example 3](example-3)
+  
 - Functions and variables with JavaScript
-- Using id names with JS
-  - document.getElementById()
-- Variables 
-  - const, let, and var
-- Functions 
+  - `const`, `let`, and `var` (in that order!)
 
 ## In Class Activity I
 
-- I do, We do, You do: Example 1: Tip Calculator
 - Challenge: Make a tip calculator
+  - Start with the [Example 4](example-4)
 
 ## After Class
 
-- Continue working on your current tutorial
-- Complete reading
-- Complete challenges
+- 
 
 ## Additional Resources
 
