@@ -63,7 +63,7 @@ There are a few rules to writing good HTML.
   - https://css-tricks.com/what-beautiful-html-code-looks-like/
   - https://developer.mozilla.org/en-US/docs/Web/HTML
 - Complete challenges examples 1-6
-  - Add markup to the text in the example files to the bext of your ability. 
+  - Add markup to the text in the example files to the best of your ability. 
   Explore the tag list [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element). 
   Look for tags that best describe the content in the examples. Be sure to read the 
   description for the tags you are using to get an idea for how the tag is meant to be used. 

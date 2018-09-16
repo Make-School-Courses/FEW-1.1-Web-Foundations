@@ -6,6 +6,8 @@ HTML elements in the DOM.
 ## Learning Objectives/Competencies
 
 1. Use JavaScript to modify the DOM
+1. Use JavaScript to create elements and set styles 
+1. JavaScript Loops 
 1. Use CSS absolute position
 1. Use BEM to create class names with structure
 
@@ -38,12 +40,12 @@ HTML elements in the DOM.
 
 ## After Class
 
-- Continue working on your current tutorial
-- Complete reading
-- Complete challenges
+- Continue the challenges from class 8
+- Stretch Challenge: Clicking a user in the list displays the users information in a modal popup. 
+- Use Mockaroo to generate another custom data set that you invent. Import and display that in a web page. 
 
 ## Additional Resources
 
 1. https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
 1. http://getbem.com
-1. 
+1. https://www.mockaroo.com

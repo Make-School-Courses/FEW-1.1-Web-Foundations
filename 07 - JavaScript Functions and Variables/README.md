@@ -89,6 +89,12 @@ languages:
 
 It also has inheritence but uses a model that is different from other languages. 
 
+## Why learn JavaScript? 
+
+- You'll probably run into it at some point and you'll want to understand it. 
+- It could also become a job. There are many jobs that ask for JavaScript. 
+- You can use it to build everything from frontend to backend, and native apps. 
+
 ## Initial Exercise
 
 - Quick introduction to scripting the browser
@@ -123,8 +129,14 @@ It also has inheritence but uses a model that is different from other languages.
 
 ## After Class
 
-- 
+- Create the calculator Challenges 1 - 3
+  - See the images in the [Example 4 folder](example-4)
+  - Style your work to look like the images
+- Stretch challenge Challenge 4. 
 
 ## Additional Resources
 
-1. Links to additional readings and videos
+- https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById
+- https://developer.mozilla.org/en-US/docs/Web/API/Element
+- https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onclick
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed

@@ -47,9 +47,12 @@ of an object.
 
 ## After Class
 
-- Continue working on your current tutorial
-- Complete reading
-- Complete challenges
+- Make your custom data driven SPA 
+  - Define the data that represents content for your site
+  - display the data
+  - define the design draw a wire frame
+  - style your work
+  - make it animated 
 
 ## Additional Resources
 
