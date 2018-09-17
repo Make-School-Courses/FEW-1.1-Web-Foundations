@@ -69,7 +69,7 @@ Try to recreate each of the images with HTML and CSS.
 
 ## After Class
 
-The goal is to apply a grid to your work. Don't feel like your grid has to be complicated with many columns in different proportions. It's more important that you have a grid than having a complex grid. 
+The goal is to apply a grid to your personal web site. Don't feel like your grid has to be complicated with many columns in different proportions. It's more important that you have a grid than having a complex grid. 
 
 - Design a grid for your site
   - Draw it on paper or use an application like Sketch
