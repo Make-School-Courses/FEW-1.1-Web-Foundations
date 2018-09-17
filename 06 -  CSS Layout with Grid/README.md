@@ -8,7 +8,7 @@ Use CSS Grid to define a 2 dimensional grid of cells.
 1. Identify columns and rows
 1. Define a Grid Parent
 1. Identify chid grid items
-1. Define grid columns
+1. create grid columns
 
 ## Initial Exercise
 
