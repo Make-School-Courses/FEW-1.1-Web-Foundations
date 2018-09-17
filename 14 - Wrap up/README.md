@@ -6,8 +6,6 @@ everyone on a daily basis.
 
 ## Learning Objectives/Competencies
 
-1. Identify the separations of concerns in web development
-1. Define use cases for HTML, CSS, and JavaScript
 1. 
 
 ## Initial Exercise

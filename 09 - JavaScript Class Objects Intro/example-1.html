@@ -14,10 +14,13 @@
   // Add a method to the class
   // Challenge 2) Extend the method below to also 
   // include the prefix before the first name. 
+  // You will need to initialize the prefix at the 
+  // bottom where instances are created. 
   
   User.prototype.describe = function() {
     return `${this.first} ${this.last}`;
   }
+  
   // ----------------------------------------
   
   const joeSmith = new User('Joe', 'Smith');

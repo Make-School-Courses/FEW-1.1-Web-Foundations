@@ -36,11 +36,11 @@ single page application.
 | Clone   | Store | 6.    | CSS Grid                                      |
 |         |       | 7.    | JavaScript functions and variables            |
 | Game    | Clone | 8.    | Arrays and Objects                            |
-|         |       | 9.    | Manipulating the DOM with JavaScript          |
-|         |       | 10.   | Scope and this                                |
-|         |       | 11.   | Class Objects OOP Intro                       |
-|         |       | 12.   | JavaScript API (built in classes Math, Date etc.) |
-|         |       | 13.   | Events handlers intro                         |
+|         |       | 9.    | JavaScript Classes and Objects                |
+|         |       | 10.   | JavaScript and the DOM                        |
+|         |       | 11.   | Scope and This                                |
+| Web API |       | 12.   | JavaScript API (built in features like Math, Date etc.) |
+|         |       | 13.   | API Part 2                                    |
 |         | Game  | 14.   | Wrap up and review                            |
 
 

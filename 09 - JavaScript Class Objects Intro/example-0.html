@@ -60,6 +60,7 @@
       this.name = name;
       this.age = age;
       this.color = color;
+      Feline.count += 1; // For fun keep track of a count in a static property
     }
     
     // Add methods - notice the syntax doesn't use the word function
@@ -67,6 +68,9 @@
       console.log(`${this.name} is ${this.age} years old and ${this.color}`);
     }
   }
+  
+  // Add static properties to the Class (remember it's just a function!)
+  Feline.count = 0;
   
   const mewkers = new Feline('Mewkers', 6.1, 'fluffy');
   
@@ -77,16 +81,12 @@
   console.log(mewkers.age);
   console.log(mewkers.color);
   console.log(mewkers.describe());
+
+  // Check the static property to see how many Felines have been created
+  console.log(Feline.count)
   
-  /* 
-  
-  Challenge 
-  
-  Define an Object that represents data from the model provided. 
-  Imagine that this data came from an PI that supplied JSON.
-  While it's in Object format we'd like to convert it to an 
-  object defintion with a type and some methods. 
-  
-  */
+  console.log(mewkers.valueOf())
+  console.log(mewkers.__proto__)
+  console.log(mewkers.__proto__.__proto__)
   
 </script>

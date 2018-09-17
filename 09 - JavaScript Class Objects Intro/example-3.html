@@ -23,11 +23,11 @@
     // Challenge 6) This displays the name it needs to display
     // the rest of the user data. 
     setup() {
-      this.el.innerHTML = `
-  <article>
-    <h1>${this.describe()}</h1>
-    <p>more info...</p>
-  </article>`;
+      this.el.innerHTML = 
+`<article>
+  <h1>${this.describe()}</h1>
+  <p>more info...</p>
+</article>`;
     }
     
     describe() {
@@ -42,7 +42,9 @@
   // that new div to the new user. 
   
   const main = document.getElementById('main');
+  // Append a new div element to main and save a refernce in el
   var el = main.appendChild(document.createElement('div'));  
+  // Create a new User instance and pass in the name and el
   const joeSmith = new User('Joe', 'Smith', el);
   
   console.log(joeSmith);
