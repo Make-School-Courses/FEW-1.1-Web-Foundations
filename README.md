@@ -2,14 +2,7 @@
 
 ## Course Description
 
-The web is important, we use it every day to accomplish 
-tasks big and small in personal and profesional realms.
-Everything you see in a web browsed is run with three 
-important languages: HTML, CSS, and JavaScript.
-
-The goal of this class is to provide a modern up to date 
-foundation on which you can build the next genertion of 
-web applications. 
+This course covers the foundations of HTML, CSS and JavaScript which are the building blocks of any website. Students will master HTML and intermediate CSS allowing them to create a compelling website from scratch. JavaScript will be introduced and students will learn basic concepts and syntax needed to create interactive frontend applications. Understand the architecture of frontend applications, the role of each technology in creating modular applications, and professional best practices in frontend development.
 
 ## Course Specifics
 
@@ -44,6 +37,7 @@ Prework
 
 - [Store Tutorial](https://www.makeschool.com/academy/track/we-sell-shoes)
 - [Personal Home page](personal-homepage.md)
+  - See the rubric here...
 - [JavaScript Game](https://www.makeschool.com/academy/track/build-a-game-of-concentration-with-javascript)
 
 ## Evaluation
@@ -55,14 +49,13 @@ To pass this course you must meet the following requirements:
 - Make up all classwork from all absences
 - Finish all required tutorials and projects
 - Must complete at least 75% of the class challenges
+- Pass the final summative assessment >=80%
 
 ## Lessons
 
-1. Semantic HTML
-  - Begin tutorial: We Sell Shoes
+1. [Semantic HTML](Semantic HTML)
 2. HTML strategies
 3. CSS Intro
-  - Beign project: Personal Home Page
 4. CSS Box Model
 5. CSS Flex Box
 6. CSS Grid

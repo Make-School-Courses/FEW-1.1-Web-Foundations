@@ -12,8 +12,13 @@
     <div>head</div>
   </div>
   
+  <div class="nav">
+    <div>nav</div>
+  </div>
+  
   <div class="main-content">
     <div>main</div>
+    <p>Hello World</p>
   </div>
   
   <div class="side-bar">
@@ -25,7 +30,7 @@
   </div>
   
   <div class="footer-right">
-    <div>fr</div>
+    <div>G</div>
   </div>
   
   <div class="header-right">
@@ -55,9 +60,10 @@
     
     /* The named areas below define where elements with
     those names are placed on the grid. */
-    grid-template-areas:  "h h h f" 
+    grid-template-areas:  "h h n g" 
                           "s m m m" 
-                          "r r . g";
+                          "s m m m"
+                          "r r r f";
   }
   
   /* Some styles for all grid cells */
@@ -76,6 +82,10 @@
     grid-area: h;
   }
   
+  .nav {
+    grid-area: n;
+  }
+  
   .header-right {
     grid-area: r;
   }
@@ -83,6 +93,8 @@
   .main-content {
     grid-area: m;
   }
+  
+  
   
   .side-bar {
     grid-area: s;
@@ -119,5 +131,10 @@
   .wrapper > div:nth-child(6) {
     background-color: #ed979e
   }
+  
+  .wrapper > div:nth-child(7) {
+    background-color: #ed979e
+  }
+  
 
 </style>

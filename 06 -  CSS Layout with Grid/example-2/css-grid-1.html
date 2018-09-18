@@ -6,7 +6,8 @@
     Children of the container will layout on a grid. 
     Child elements are arrange in the order. 
   -->
-  <div class="box a">One <p>Hello</p></div>
+  <div class="box a">One 
+    <p>Hello World</p></div>
   <div class="box b">Two</div>
   <div class="box c">Three</div>
   <div class="box d">Four</div>
@@ -28,11 +29,11 @@
     /* Declare the container as display grid */
     display: grid;
     /* declare three columns woth px sizes */
-    grid-template-columns: 1fr 2fr 1fr 1fr;
+    grid-template-columns: 150px 2fr 1fr;
     /* Declare the size of three rows */
     grid-template-rows: 1fr 1fr 1fr 1fr;
     /* The gap between rows and columns */
-    grid-gap: 10px 10px;
+    grid-gap: 20px 20px;
   }
   
   .a {
