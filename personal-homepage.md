@@ -71,3 +71,14 @@ Do your best to address each of the items on the list below.
             - Follow the style guide: https://github.com/airbnb/css
         - Did you use comments?
             - Whether you feel you need them or not annotating your work is professional!
+            
+# Web 1.1: Project Completion Rubric - Custom Project
+
+|        | 1: At Risk | 2: Initial Competence | 3: Approaching Mastery | 4: Overtaking Mastery |
+|:-------|:-----------|:----------------------|:-----------------------|:----------------------|
+| **Overall Project** How does the project look overall | [ ] Project appears incomplete or not turned in. | [ ] Project has content that makes sense. <br>[ ] Project displays without errors. | [ ] Uses a style sheet to customize appearance. <br> [ ] Displays 3 levels of type hierarchy. | Project exhibits a unique design approach. Content is easy to read and understand. |
+| **HTML Structure** Underlying HTML structure | [ ] Doesn’t validate | [ ] Validates | [ ] Uses tags semantically to add structure and meaning to content. <br> [ ] The HTML is well formatted and uses comments where appropriate.  | [ ] Makes good use of semantic tags like section, article, header, footer, and nav. <br> [ ] Reading the HTML adds meaning to the content. |
+| **CSS Code** CSS code and syntax | [ ] CSS shows errors or doesn’t exist. | [ ] CSS has no errors <br> [ ] CSS is well formatted <br> [ ] Uses a mix of at least 5 CSS properties | [ ] CSS makes good use of class name for applying styles. <br> [ ] Doesn’t use id names to apply styles. <br> [ ] Uses a mix of at least 10 CSS properties. | [ ] Code is well organized and easy to read. <br> [ ] Uses comments where appropriate. |
+| **CSS Styles** Application of styles improves the Appearance | [ ] Fonts are default <br> [ ] Styles don’t improve over the default | [ ] Uses fonts beyond the default font (Times). <br> [ ] Uses colors to improve presentation. | [ ] Uses margin and line height to create better legibility. <br> [ ] Uses colors to heighten legibility. | [ ] Uses styles to create organization. <br> [ ] Uses layout to improve legibility. |
+| **CSS Layout** Application of styles improves the Appearance | [ ] Little or no styles have been used to control the layout. | [ ] Makes use of Flex box to arrange elements on a single axis in at least one location. | [ ] Uses CSS Grid to arrange elements.  | [ ] Uses Flex Box and Grid together to create complex layout.  | 
+ 
