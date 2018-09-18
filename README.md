@@ -53,20 +53,20 @@ To pass this course you must meet the following requirements:
 
 ## Lessons
 
-1. [Semantic HTML](01 - Semantic HTML)
-2. HTML strategies
-3. CSS Intro
-4. CSS Box Model
-5. CSS Flex Box
-6. CSS Grid
-7. JavaScript Functions and Variables
-8. JavaScript Arrays, Objects Loops
-9. Class Objects
-10. JavaScript and the DOM
-11. JavaScript Scope and This
-12. JavaScript Browser API part 1
-13. JavaScript Browser API part 2
-14. Wrap up and review 
+1. [Semantic HTML](01-Semantic-HTML)
+2. [HTML strategies](02-HTML-Strategies)
+3. [CSS Intro](03-CSS-Intro)
+4. [CSS Box Model](04-CSS-Box-Model)
+5. [CSS Flex Box](05-CSS-Layout-with-Flex-Box)
+6. [CSS Grid](06-CSS-Layout-with-Grid)
+7. [JavaScript Functions and Variables](06-CSS-Layout-with-Grid)
+8. [JavaScript Arrays, Objects Loops](08-JavaScript-Arrays-Objects-Loops-and-Logic)
+9. [Class Objects](09-JavaScript-Class-Objects-Intro)
+10. [JavaScript and the DOM](10-JavaScript-and-the-DOM)
+11. [JavaScript Scope and This](11-JavaScript-Scope-and-This)
+12. [JavaScript Browser API part 1](12-JavaScript-Browser-API-part-1)
+13. [JavaScript Browser API part 2](13-JavaScript-Browser-API-part-2)
+14. [Wrap up and review](14-Wrap-up) 
 
 ## Make School Course Policies
 
