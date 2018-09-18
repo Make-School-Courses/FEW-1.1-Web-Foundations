@@ -74,6 +74,8 @@ Do your best to address each of the items on the list below.
             
 # Web 1.1: Project Completion Rubric - Custom Project
 
+You can also view and print this rubric from google docs here: https://docs.google.com/document/d/1l2_Hzm2LDvyWaIPdolWxWlphXGClHpy9BRqzKMPkWDE/edit?usp=sharing
+
 |        | 1: At Risk | 2: Initial Competence | 3: Approaching Mastery | 4: Overtaking Mastery |
 |:-------|:-----------|:----------------------|:-----------------------|:----------------------|
 | **Overall Project** How does the project look overall | [ ] Project appears incomplete or not turned in. | [ ] Project has content that makes sense. <br>[ ] Project displays without errors. | [ ] Uses a style sheet to customize appearance. <br> [ ] Displays 3 levels of type hierarchy. | Project exhibits a unique design approach. Content is easy to read and understand. |
