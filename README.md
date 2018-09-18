@@ -53,7 +53,7 @@ To pass this course you must meet the following requirements:
 
 ## Lessons
 
-1. [Semantic HTML](01 - Semantic HTML)
+1. [Semantic HTML](./01 - Semantic HTML/)
 2. HTML strategies
 3. CSS Intro
 4. CSS Box Model
