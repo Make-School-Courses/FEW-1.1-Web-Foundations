@@ -10,4 +10,4 @@
 1. 40 min look at personal sites
 1. 10 min Q&A & Wrap up
 
-Total 110 min
+Total 120 min

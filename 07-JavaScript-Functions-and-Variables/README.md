@@ -130,6 +130,7 @@ It also has inheritence but uses a model that is different from other languages.
 
 - Challenge: Make a tip calculator
   - Start with the [Example 4](example-4)
+- Start the Cookie [Click Tutorial](https://www.makeschool.com/academy/track/cookie-clicker-clone)
 
 ## After Class
 
