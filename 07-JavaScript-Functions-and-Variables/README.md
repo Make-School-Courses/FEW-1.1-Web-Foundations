@@ -21,9 +21,9 @@ browsers. With JavaScript you can control almost all
 of the features and functions of the browser. 
 
 Originally JavaScript was developed by Netscape for their 
-browser and called LiveScript. The name was soon changed to 
-JavaScript because Java was a new and popular language and 
-Netscape thought this would be good for marketing.
+browser and called **LiveScript**. The name was soon changed to 
+**JavaScript** because **Java** was a new and popular language and 
+**Netscape** thought this would be good for marketing.
 
 While Java and JavaScript share the first 4 letters they 
 are completely unrelated otherwise. 
@@ -37,6 +37,7 @@ Everywhere. Seriously. Use JavaScript to:
   - Add interactivity
   - Create web apps 
 - Script the server
+  - Node JS uses JS
   - JavaScript can run your server
   - Handle server API requests
 - Embeded systems
@@ -44,17 +45,18 @@ Everywhere. Seriously. Use JavaScript to:
 - Native applications
   - Script native applications 
   - Build native applications
+  - Other applications can use a JS layer to script native functions
   
-JavaScript could be the most important programming language in use today. JavaScript was the most popular language in Stack Overflow's developer survey. 
+JavaScript could be the most important programming language in use today. JavaScript was the most popular language in Stack Overflow's developer 2017 survey. 
 
 > Any application that can be written in JavaScript will eventually be written in JavaScript. - Jeff Atwood
 
 ## Where can you write JavaScript? 
 
 JavaScript is plain text. It can be written in files with 
-the .js extension or written into .html files.
+the `.js` extension or written into `.html` files.
 
-Use the script tag to include JavaScript within an html document. 
+Use the script tag to include JavaScript within an HTML document. 
 
 ```
 <script>
@@ -75,6 +77,8 @@ In `main.js` you would write JavaScript without the script tag.
 // Some JavaScript
 const foo = 'bar';
 ```
+
+Try this out for yourself in [Example 1](example-1)
 
 ## What can 
 

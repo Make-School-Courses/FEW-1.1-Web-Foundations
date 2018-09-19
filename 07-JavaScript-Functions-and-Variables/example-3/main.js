@@ -20,7 +20,7 @@ titleElement.style.color = '#398fc4';
 // Handle events 
 
 // Add an event listener to button_1
-button_1.onclick = function(e) {
+button_1.onclick = (e) => {
   titleElement.style.color = '#22dd11';
   titleElement.innerHTML = 'Run!';
 };
