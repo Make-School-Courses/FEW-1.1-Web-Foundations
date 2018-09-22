@@ -32,9 +32,9 @@ button_2.onclick = (e) => {
 }
 
 
-// 
 
 let numulation = 0;
+
 
 num_button.onclick = (e) => {
   // get the value from the input 
@@ -43,3 +43,11 @@ num_button.onclick = (e) => {
   numulation += num * pow;
   num_display.innerHTML = numulation;
 }
+
+
+
+
+
+
+
+

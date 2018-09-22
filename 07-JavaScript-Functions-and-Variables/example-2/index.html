@@ -4,20 +4,27 @@
     <title></title>
     <script>
       // Scripts loaded here won't have access to elements later in the document
-      const titleElement = document.getElementById('title');
-      titleElement.innerHTML = 'Hello World';
-      titleElement.style.color = '#dd2255';
+//      const titleElement = document.getElementById('title');
+//      titleElement.innerHTML = 'Hello World';
+//      titleElement.style.color = '#dd2255';
     </script>
   </head>
   <body>
     
     <!-- This element can not be accessed until it has been loaded --> 
-    <h1 id="title"></h1>
+    <h1 id="title">Foo Bar</h1>
     
     <!-- Scripts -->
     <script>
       // These scripts run after everything above has been loaded.
-      
+      const titleElement = document.getElementById('title');
+      titleElement.innerHTML = 'Hello World';
+      titleElement.style.color = '#dd2255';
+      titleElement.style.fontFamily = 'Helvetica';
     </script>
   </body>
 </html>
+
+
+
+
