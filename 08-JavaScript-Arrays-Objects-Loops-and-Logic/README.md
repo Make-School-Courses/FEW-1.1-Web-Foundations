@@ -8,6 +8,7 @@ Use loops to automate repetative tasks.
 
 ## Learning Objectives/Competencies
 
+1. Variables and scope
 1. Define Arrays and Objects
 1. Access values stored in arrays and Objects
 1. Use loops to automate processes working with arrays and objects
@@ -15,7 +16,22 @@ Use loops to automate repetative tasks.
 
 ## Initial Exercise
 
+- Hoisting: Quick Read this: 
+  - https://developer.mozilla.org/en-US/docs/Glossary/Hoisting
+  - Now think of an example that explains hoisting
+
+- var: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var
+  - Now think of an example that explains var
+
+- cosnt: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const
+  - Think of an example that explains const
+
+- let: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let
+  - Think of an example that explains let
+
 - Review functions and variables
+  - const, let, and var
+  - scope
 
 ## Overview 
 
@@ -39,3 +55,5 @@ Try the challenges in [Example 1](example-1). Read the challenges in the comment
 
 1. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
 1. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
+1. https://developer.mozilla.org/en-US/docs/Glossary/Hoisting
+1. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var
