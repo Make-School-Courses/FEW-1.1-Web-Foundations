@@ -16,19 +16,16 @@ Use loops to automate repetative tasks.
 
 ## Initial Exercise
 
-- Hoisting: Quick Read this: 
+- Hoisting: Quick! you need to Read this: 
   - https://developer.mozilla.org/en-US/docs/Glossary/Hoisting
   - Now think of an example that explains hoisting
-
-- var: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var
-  - Now think of an example that explains var
-
-- cosnt: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const
-  - Think of an example that explains const
-
-- let: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let
-  - Think of an example that explains let
-
+- Variables can be declared with const, let, and var
+  - var: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var
+    - Now think of an example that explains var
+  - cosnt: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const
+    - Think of an example that explains const
+  - let: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let
+    - Think of an example that explains let
 - Review functions and variables
   - const, let, and var
   - scope
@@ -50,6 +47,12 @@ Try the challenges in [Example 1](example-1). Read the challenges in the comment
 ## After Class
 
 - Work on the challenges [here](challenges.md)
+- The goal of this assignment was to see that content can be handled
+dynamically. Your job is to apply this concept to your personal site. 
+  - Look at your personal website and identify where content 
+could handled dynamically.
+  - Create a JavaScript Object or Array that holds all of the content
+  your site displays.
 
 ## Additional Resources
 
