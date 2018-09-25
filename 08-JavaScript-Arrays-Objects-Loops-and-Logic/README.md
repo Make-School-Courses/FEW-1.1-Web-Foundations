@@ -6,6 +6,8 @@ you write.
 
 Use loops to automate repetative tasks. 
 
+Hoisting, const, let, var
+
 ## Learning Objectives/Competencies
 
 1. Variables and scope
@@ -16,7 +18,7 @@ Use loops to automate repetative tasks.
 
 ## Initial Exercise
 
-- Hoisting: Quick! you need to Read this: 
+- Hoisting: Quick! you need to Read this now! 
   - https://developer.mozilla.org/en-US/docs/Glossary/Hoisting
   - Now think of an example that explains hoisting
 - Variables can be declared with const, let, and var
@@ -46,6 +48,7 @@ Try the challenges in [Example 1](example-1). Read the challenges in the comment
 
 ## After Class
 
+- Continue Cookie Clicker Tutorial
 - Work on the challenges [here](challenges.md)
 - The goal of this assignment was to see that content can be handled
 dynamically. Your job is to apply this concept to your personal site. 

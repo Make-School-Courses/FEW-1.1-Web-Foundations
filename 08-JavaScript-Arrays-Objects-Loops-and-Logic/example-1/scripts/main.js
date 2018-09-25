@@ -5,7 +5,6 @@ let str = '';
 
 for (var i = 0; i < data.length; i += 1) {
   const alien = data[i];
-  // console.log(alien);
   str += `<div class="">${alien.name}</div>`;
 }
 
