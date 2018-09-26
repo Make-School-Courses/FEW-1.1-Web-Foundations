@@ -3,9 +3,14 @@
   // -----------------------------------------
   // Define an Object with Class Syntax
   
-  // Challenge 3) Include the prefix and date. 
-  // Convert the date into a JS date Object 
-  // when it is stored in the user property. 
+  // Challenge 3) The class below is missing the 
+  // prefix and date. Add these propties to the 
+  // class.
+  
+  // The date is provided as a string convert it 
+  // to a JS date Object when it is stored as a 
+  // Property. Do this by making a new date like this
+  // new Date( date_parameter_here )
   
   class User {
     constructor(first, last) {
@@ -13,13 +18,11 @@
       this.last = last;
     }
     
-    // Challenge 4) Add the rpefix before first name. 
-    // Include "joined: " followed by a short date. 
-    
-    // Stretch Challenge: Calculate the number of years 
-    // since the user joined by subtracting the user date 
-    // from the current date. https://www.w3resource.com/javascript-exercises/javascript-date-exercise-49.php
-    // Print the number of years they have been a member. 
+    // Challenge 4) Add the prefix before first name. 
+    // Include "joined: " followed by the users stored 
+    // date. Use the dateObj.toLocaleString() method to
+    // get a formatted date. 
+    // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString
     
     describe() {
       return `${this.first} ${this.last}`;
@@ -29,8 +32,13 @@
   
   // ----------------------------------------
   
-  const joeSmith = new User('Joe', 'Smith');
-  const janeDoe = new User('Jane', 'Doe');
+  // The prefix and dates are provided you'll need to access them 
+  // in the order shown. 
+  
+  const joeSmith = new User('Joe', 'Smith', "Rev", "2017-04-02 13:03:57");
+  const janeDoe = new User('Jane', 'Doe', "Dr", "2017-06-09 04:18:01");
   
   console.log(joeSmith.describe());
+  
+  console.log(new Date("2017-04-02 13:03:57")); // Makes a Date with a SQL time date string
 </script>

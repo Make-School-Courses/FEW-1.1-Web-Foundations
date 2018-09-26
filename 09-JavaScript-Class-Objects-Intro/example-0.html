@@ -1,12 +1,12 @@
 <script>
-  // Making Objects
+  // Making Objects - Raw Object
   
   const flinx = {
     name:'Flinx', 
     age:9.9, 
     color:'striped',
     describe: function() {
-      console.log(`${this.name} is ${this.age} years old and ${this.color}`);
+      return `${this.name} is ${this.age} years old and ${this.color}`;
     }
   };
   
@@ -18,11 +18,8 @@
   console.log(flinx.color);
   console.log(flinx.describe());
   
-  
-  
-  
   // -------------------------------------------------------
-  // Lets define a cat factory!
+  // Lets define a cat factory! - Function based Class
   
   // Making a constructor function
   function Cat(name, age, color) {
@@ -33,7 +30,7 @@
   }
   // Add methods to the prototype!
   Cat.prototype.describe = function() {
-    console.log(`${this.name} is ${this.age} years old and ${this.color}`);
+    return `${this.name} is ${this.age} years old and ${this.color}`;
   }
   
   const julip = new Cat('Julip', 5.7, 'calico');
@@ -45,10 +42,6 @@
   console.log(julip.age);
   console.log(julip.color);
   console.log(julip.describe());
-  
-  
-  
-  
   
   // -------------------------------------------------------
   // Let's do that with the Class syntax
@@ -65,12 +58,9 @@
     
     // Add methods - notice the syntax doesn't use the word function
     describe() {
-      console.log(`${this.name} is ${this.age} years old and ${this.color}`);
+      return `${this.name} is ${this.age} years old and ${this.color}`;
     }
   }
-  
-  // Add static properties to the Class (remember it's just a function!)
-  Feline.count = 0;
   
   const mewkers = new Feline('Mewkers', 6.1, 'fluffy');
   
@@ -81,12 +71,7 @@
   console.log(mewkers.age);
   console.log(mewkers.color);
   console.log(mewkers.describe());
-
-  // Check the static property to see how many Felines have been created
-  console.log(Feline.count)
   
-  console.log(mewkers.valueOf())
-  console.log(mewkers.__proto__)
-  console.log(mewkers.__proto__.__proto__)
+  // -----------------------------------------------------
   
 </script>

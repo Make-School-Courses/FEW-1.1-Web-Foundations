@@ -12,22 +12,14 @@
   // Add properties here for each property found
   // the objects in data. 
   
+  // Stretch goal: Automate the process of adding 
+  // properties with a loop...
+  
+  
   class User {
     constructor(first, last, el) {
       this.first = first;
       this.last = last;
-      this.el = el;
-      this.setup();
-    }
-    
-    // Challenge 6) This displays the name it needs to display
-    // the rest of the user data. 
-    setup() {
-      this.el.innerHTML = 
-`<article>
-  <h1>${this.describe()}</h1>
-  <p>more info...</p>
-</article>`;
     }
     
     describe() {
@@ -35,25 +27,25 @@
     }
   }
   
+  // Challenge 7) Add a method to the class above
+  // that generates an HTML string and returns it. 
+  // Call it toHTMLString().
+  // This HTML string should show the users name, 
+  // rating and high score. You can format it with
+  // html tags. 
+  
   // ----------------------------------------
   
-  // This snippet gets the main elements creates new 
-  // div element and then creates a user and passes 
-  // that new div to the new user. 
-  
+  // This gets the main element
   const main = document.getElementById('main');
-  // Append a new div element to main and save a refernce in el
-  var el = main.appendChild(document.createElement('div'));  
-  // Create a new User instance and pass in the name and el
-  const joeSmith = new User('Joe', 'Smith', el);
   
-  console.log(joeSmith);
-  
-  // Challenge 7) For each user in data make a new user 
-  // object and an a new DOM element to display that user. 
-  
+  // Challenge 7) Make a user Object for each user. 
+  // Save all of these to an array.
   for (var i in data) {
-    // console.log(data[i]);
-    // Challenge make a user object for each user in data. 
+    // console.log(data[i]); 
   }
+  
+  // Loop through all of the User Objects and 
+  // display them in the browser by calling their 
+  // toHTMLString() method. 
 </script>

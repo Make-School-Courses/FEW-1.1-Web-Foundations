@@ -57,4 +57,5 @@ Read this: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Obj
 
 1. https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes
 1. https://developer.mozilla.org/en-US/docs/Web/API/Element
+1. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString
 1. https://hackernoon.com/prototypes-in-javascript-5bba2990e04b
