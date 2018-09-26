@@ -54,6 +54,65 @@ Each navigation item needs a label, and a URL. An object works best here. The or
 doesn't matter, getting at specific information is more important. When you want the title 
 you want the title not the URL. 
 
+From a high level you'll probably want to start with an Object. This will allow 
+you to group categories of information. 
 
+```
+{
+  title: ""
+  nav: []
+}
+```
 
-  
+For one off elements just use an Object. The site has a single title and base URL, 
+but you might need more info to describe the site an object might be best here. 
+Each of the items is unique. 
+
+```
+{
+  sitemeta: {
+    title: "",
+    url: "",
+    contactLink: ""
+    ...
+  }
+  nav: []
+}
+```
+
+Navigation would be good as an array but each item is probably best as an object
+since the elements of a navigation item is unique. 
+
+```
+{
+  sitemeta: {
+    title: "",
+    url: "",
+    contactLink: ""
+    ...
+  }
+  nav: [
+    {title:"Home", url:"..."}, 
+    {title:"About", url:"..."},
+    {title:"Portfolio", url:"..."}
+  ]
+}
+```
+
+How you handle content depends on the content. Content elements will most likely 
+be objects, these might be stored in an array or might be attached to keys. 
+
+```
+{
+  ...,
+  homePage: {title: "", summary: "", ...},
+  aboutPage: {title: "", summary: "", ...},
+  projects: [
+    {title: "Project 1", content: ""},
+    {title: "Project 2", content: ""},
+    ...
+  ]
+}
+```
+
+Your goal is to put a content object together and use it to populate your website. 
