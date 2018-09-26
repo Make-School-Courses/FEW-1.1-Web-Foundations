@@ -17,10 +17,6 @@ objects with JavaScript and how to use prototype.
 
 ## Initial Exercise
 
-- What is an Object? 
-  - Objects are compound data types. The store 
-- What is a class? 
-
 Read this: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes
 
 - What is prototype? 
@@ -28,7 +24,10 @@ Read this: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Obj
 
 ## Overview 
 
-- Make an Object with a function
+- Make an Object
+  - Add properties 
+  - and methods
+- Make an class with a function
   - Add properties 
   - Add methods 
     - Use prototype 
@@ -39,23 +38,19 @@ Read this: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Obj
 
 ## In Class Activity I
 
-- Make an object that represents
-  - A User
-  - A Car
-  - A cat
-- Let's try that again
-  - Make an Object that represents an RPG character
-  - Needs a few methods...
-
+- In class challenges 
+  - [Challenge 1](challenge-1): Adding properties
+  - [Challenge 1](challenge-2): Using the Date Object
+  - [Challenge 1](challenge-3): Methods and displaying Objects with HTML
+  
 ## After Class
 
-- Continue working on your current tutorial
-- Complete reading
+- Complete the Cookie clicker tutorial
 - Complete challenges
+- Complete the reading below
 
 ## Additional Resources
 
 1. https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes
-1. https://developer.mozilla.org/en-US/docs/Web/API/Element
 1. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString
 1. https://hackernoon.com/prototypes-in-javascript-5bba2990e04b

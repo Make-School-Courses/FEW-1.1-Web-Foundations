@@ -1,35 +1,77 @@
-<script src="data.js"></script>
 <script>
-  // -----------------------------------------
-  // Define a Class with a function
+  // Making Objects - Raw Object
   
-  // Challenge 1) Extend the example below to include 
-  // properties of:
-  // - prefix
-  // - email 
-  // - age
-  // Create parameters for each of these and store 
-  // the values with in properties. 
+  const flinx = {
+    name:'Flinx', 
+    age:9.9, 
+    color:'striped',
+    describe: function() {
+      return `${this.name} is ${this.age} years old and ${this.color}`;
+    }
+  };
   
-  function User(first, last) {
-    this.first = first;
-    this.last = last;
+  console.log('--------------------------------');
+  console.log('Hey I made a cat!')
+  console.log(flinx);
+  console.log(flinx.name);
+  console.log(flinx.age);
+  console.log(flinx.color);
+  console.log(flinx.describe());
+  
+  // -------------------------------------------------------
+  // Lets define a cat factory! - Function based Class
+  
+  // Making a constructor function
+  function Cat(name, age, color) {
+    this.name = name;
+    this.age = age;
+    this.color = color;
+    // while the function could be added here it's a problem...
+  }
+  // Add methods to the prototype!
+  Cat.prototype.describe = function() {
+    return `${this.name} is ${this.age} years old and ${this.color}`;
   }
   
-  // Challenge 2) Extend the method below to also 
-  // include the prefix before the first name. 
+  const julip = new Cat('Julip', 5.7, 'calico');
   
-  User.prototype.describe = function() {
-    return `${this.first} ${this.last}`;
+  console.log('--------------------------------');
+  console.log('Hey my facotry made a cat!')
+  console.log(julip);
+  console.log(julip.name);
+  console.log(julip.age);
+  console.log(julip.color);
+  console.log(julip.describe());
+  
+  // -------------------------------------------------------
+  // Let's do that with the Class syntax
+  
+  // Define a Class
+  class Feline {
+    // Use the contructor to initialize your class
+    constructor(name, age, color) {
+      this.name = name;
+      this.age = age;
+      this.color = color;
+      Feline.count += 1; // For fun keep track of a count in a static property
+    }
+    
+    // Add methods - notice the syntax doesn't use the word function
+    describe() {
+      return `${this.name} is ${this.age} years old and ${this.color}`;
+    }
   }
   
-  // ----------------------------------------
+  const mewkers = new Feline('Mewkers', 6.1, 'fluffy');
   
-  // Add prefix, email, and age arguments when 
-  // you initialize the Users below. 
+  console.log('--------------------------------');
+  console.log('This cat has class!')
+  console.log(mewkers);
+  console.log(mewkers.name);
+  console.log(mewkers.age);
+  console.log(mewkers.color);
+  console.log(mewkers.describe());
   
-  const joeSmith = new User('Joe', 'Smith');
-  const janeDoe = new User('Jane', 'Doe');
+  // -----------------------------------------------------
   
-  console.log(joeSmith.describe());
 </script>
