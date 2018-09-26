@@ -48,6 +48,10 @@ Read this: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Obj
 - Complete the Cookie clicker tutorial
 - Complete challenges
 - Complete the reading below
+- Apply these ideas to your personal website. 
+  - Identify the data displayed by your site. 
+  - Store it in an Object, or Array
+  - Use the ideas from class 8 and 9 to render HTML content to your page with JS
 
 ## Additional Resources
 
