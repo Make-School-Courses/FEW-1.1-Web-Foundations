@@ -1,51 +1,60 @@
-// Your scripts here
+// ------------------------------------------------------------
+// Get a reference to some DOM elements 
 const container = document.getElementById('container');
+const overlay = document.getElementById('overlay');
+const overlayTitle = document.getElementById('overlay-title');
+const alienPower = document.getElementById('alien-power');
+const alienRof = document.getElementById('alien-rof');
+const alienHealth = document.getElementById('alien-health');
+const overlayClose = document.getElementById('overlay-close');
 
-let str = '';
 
-for (var i = 0; i < data.length; i += 1) {
-  const alien = data[i];
-  str += `<div class="">${alien.name}</div>`;
+// ------------------------------------------------------------
+// Define a class that represents some alien data 
+class Alien {
+  constructor(info) {
+    // Get all of the properties from the object
+    for(let key in info) {
+      this[key] = info[key];
+    }
+    // Set up this element
+    this.makeElement();
+    this.setupClick();
+  }
+  
+  makeElement() {
+    // Create an element and add it to the DOM
+    this.el = document.createElement('div');
+    this.el.classList.add('alien-card');
+    this.el.innerHTML = `
+    <h1>${this.name}</h1> 
+    <img src="${this.image}">`;
+  }
+  
+  setupClick() {
+    // setup clicks on this element
+    this.el.onclick = (e) => {
+      this.click(e);
+    };
+  }
+    
+  click(e) {
+    // Handle clicks on this element
+    console.log(this.name);
+    // Your job is to display the data in the overlay...
+  }
 }
 
-container.innerHTML = str;
+for (var i = 0; i < data.length; i += 1) {
+  const alien = new Alien(data[i]);
+  container.append(alien.el);
+}
 
-/* 
+// Challenge 
 
-Challenges: Your goal is to display a catalog of Aliens. 
-The aliens are stored in an array named: data. 
-Each element in the array is an object with properties that 
-describe an alien. 
+// 1) Clicking an alien card should show the overlay
+// 2) Clicking the close button hides the overlay
+// 3) When displayed the display the data from selected element in the overlay
 
-1. Explore the Array and contained Objects and identify the 
-properties. Print each alien to the console. 
 
-2. The default code prints the name of each Alien. In a div. 
-Add the other properties within the div. You'll want to add
-some more markup. Use the example markup below for inspiration.
 
-3. Generating all of the code within the for loop works. But, 
-the system could work better. A function would be an improvement.
-
-Make a function that generates the HTML block
-  - It should take in an obj as a parameter
-  - It should return an HTML string
-
-4. Add a style sheet (you can copy your styles from a previous 
-example)
-
-<!-- 
-  
-  Example markup
-  
-<div class="alien-card">
-  <img src="images/Alien-1_1.png" width="32" height="32">
-  <h1>Blue Muncher</h1>
-  <div><span>Power:</span>32.0</div>
-  <div><span>R.O.F.</span>0.33</div>
-  <div><span>Health</span>320</div>
-</div>
-  
-  -->
-  
-    */
