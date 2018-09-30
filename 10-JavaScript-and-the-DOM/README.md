@@ -5,24 +5,30 @@ HTML elements in the DOM.
 
 ## Learning Objectives/Competencies
 
-1. Use JavaScript to modify the DOM
-1. Use JavaScript to create elements and set styles 
-1. JavaScript Loops 
-1. Use CSS absolute position
-1. Use BEM to create class names with structure
+1. use CSS Position Absolute
+1. Use CSS Position Relative
+1. Compare and contrast relative and absolute position
+1. Use JavaScript to add and remove class names 
+1. Use interaction to modify the appearance of a page
 
 ## Overview TT I
 
-- CSS Interlude
+- CSS Position
   - What is absolute position?
+    - Positions an element based on the top, right, bottom, and left
+    - Absolute elements look for a positioned ancestor for their context
   - What is relative position?
+    - Positions an element relative to where it would normally be placed
   - Use Absolute and relative position together
+    - Using these together let you define a context for a absolute elements
+  
 - Use BEM to create some class names 
   - Why use BEM? Who uses BEM?
+    - http://getbem.com/
 
 ## Overview TT II 
 
-- Make a dialog box 
+- Make a dialog box
 
 ## Overview TT III
 

@@ -36,7 +36,7 @@
   const julip = new Cat('Julip', 5.7, 'calico');
   
   console.log('--------------------------------');
-  console.log('Hey my facotry made a cat!')
+  console.log('Hey my factory made a cat!')
   console.log(julip);
   console.log(julip.name);
   console.log(julip.age);
@@ -75,4 +75,20 @@
   
   // -----------------------------------------------------
   
+  class Tiger extends Feline {
+    constructor(age, color) {
+      super('Tiger', age, color)
+      
+    }
+    
+    describe() {
+      
+    }
+    
+    roar() {
+      // 
+    }
+  }
+  
+  console.log(new Tiger(44, 'Yellow'))
 </script>
