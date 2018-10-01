@@ -19,7 +19,6 @@ class Alien {
     }
     // Set up this element
     this.makeElement();
-    this.setupClick();
   }
   
   makeElement() {
@@ -29,10 +28,9 @@ class Alien {
     this.el.innerHTML = `
     <h1>${this.name}</h1> 
     <img src="${this.image}">`;
-  }
   
-  setupClick() {
     // setup clicks on this element
+    // this.el.onclick = this.click.bind(this);
     this.el.onclick = (e) => {
       this.click(e);
     };
@@ -54,7 +52,8 @@ for (var i = 0; i < data.length; i += 1) {
 
 // 1) Clicking an alien card should show the overlay
 // 2) Clicking the close button hides the overlay
-// 3) When displayed the display the data from selected element in the overlay
+// 3) Display the info from the clicked element in the overlay
+// 4) 
 
 
 

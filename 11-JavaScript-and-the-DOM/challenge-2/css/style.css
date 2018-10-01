@@ -48,6 +48,10 @@ body {
   align-items: center;
 }
 
+.hide {
+  visibility: hidden;
+}
+
 .overlay > div {
   background-color: #fff;
   width: 300px;

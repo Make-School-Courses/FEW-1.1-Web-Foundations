@@ -1,20 +1,24 @@
-<div class="container">
-  <div>1</div>
-  <div>2</div>
-  <div>3</div>
-  <div>4</div>
-  <div>5</div>
-  <div>6</div>
-  <div>
-    <h1>7</h1>
-    <div>X</div>
+<div class="wrapper">
+  <div class="container">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>
+      <h1>7</h1>
+      <div>X</div>
+    </div>
+    <div>8</div>
+    <div>9</div>
+    <div>10</div>
+    <div>11</div>
+    <div>12</div>
   </div>
-  <div>8</div>
-  <div>9</div>
-  <div>10</div>
-  <div>11</div>
-  <div>12</div>
 </div>
+
+
 
 <style>
   body, html {
@@ -22,9 +26,15 @@
     box-sizing: border-box;
     font-size: 24px;
   }
+  .wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .container {
     display: grid;
-    grid-template-columns: repeat(4, 200px);
+    grid-template-columns: repeat(4, 170px);
     grid-gap: 10px;
   }
   
@@ -36,17 +46,20 @@
   /* -----------------------------------------------------
   
   Use relative position to move an elment relative 
-  to to position where the layout system would have placed it. 
+  to the position where the layout system would have placed it. 
   The values below move the element 20px to the right of 
   and 20px down from where it normally would be placed. 
   
   */
   
+  
+  /* Rule applies to the 7th child in container */
   .container > div:nth-child(7) {
-    position: relative;
-    left: 20px;
-    top: 20px;
+    position: relative; /* use relative position */
+    left: 20px;         /* Push 20px from the left edge */
+    top: 30px;          /* Push 30px down from the top */
   }
+  
   
   .container > div > h1 {
     position: absolute;
