@@ -51,12 +51,16 @@ Explore the browser APIs
   - [CSS Flex Box](https://developer.mozilla.org/en-US/docs/Glossary/Flex)
   - [CSS Animation](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations)
   - [CSS 3d Transform](https://css-tricks.com/almanac/properties/p/perspective/)
+  - [CSS @font-face](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face)
+  - [CSS @media](https://developer.mozilla.org/en-US/docs/Web/CSS/@media)
   
 You are not limited to this list. You can choose other browser features that you might discover. The only requirement is that the feature/API you choose is one that is implemented in the browser!
 
 For APIs that are experimental be sure to look up their support and include this as part of your assignment. 
 
 - Gauge browser support: https://caniuse.com 
+
+"Can I Use" has a lot of features. You can gauge support by browser, region, device etc. It also shows historical data. Be sure to mine this for your feature and include as much of this as you find relavant. 
 
 ## Overview
 
