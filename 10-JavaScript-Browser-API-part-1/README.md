@@ -46,6 +46,9 @@ Explore the browser APIs
   - [Proximity Events](https://developer.mozilla.org/en-US/docs/Web/API/Proximity_Events)
   - [Device Orientation](https://developer.mozilla.org/en-US/docs/Web/API/Detecting_device_orientation)
   - [Screen Orientation](https://developer.mozilla.org/en-US/docs/Web/API/CSS_Object_Model/Managing_screen_orientation)
+- Other 
+  - [Shadow DOM](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM)
+  - [Web Assembly](https://webassembly.org)
 - CSS 
   - [CSS Grid](https://developer.mozilla.org/en-US/docs/Glossary/Grid)
   - [CSS Flex Box](https://developer.mozilla.org/en-US/docs/Glossary/Flex)
@@ -87,8 +90,8 @@ Your goal is to make a project that *tests* one of the browser APIs. This projec
 **NOTE!** You should choose a browser API not a web service. Your API should be something provided by the browser. **For example:** Canvas is okay, Yelp is not. 
 
 - Choose a web API and make a test implementation
-  - Make a test app that shows three features of your API in use
-  - Make a Github repo for your API example and **include a readme**. The readme should include:
+  - Make a test app that shows **three features** of your API in use
+  - Make a Github repo for your API example and **include a Readme**. The Readme should include:
     - An overview of the API and the features your project demonstrates. Include the following: 
       - It's uses and features
       - Notes on browser support
@@ -108,4 +111,4 @@ Your goal is to make a project that *tests* one of the browser APIs. This projec
 1. https://www.creativebloq.com/features/15-web-apis-youve-never-heard-of
 1. https://frontendmasters.com/books/front-end-handbook/2018/learning/web-api.html
 1. https://www.w3.org/standards/techs/js#w3c_all
-1. 
+

@@ -23,7 +23,12 @@ HTML elements in the DOM.
   - Use Absolute and relative position together
     - Using these together let you define a context for a absolute elements
 
-## Overview TT II 
+## Adding and Removing class names with JS
+
+Class names are a powerful way to control your applications. 
+They can be used to define state in a declaratice way. 
+
+## Dialog Box 
 
 - Make a dialog box
   - Use Absolute position to position and display a dialog box

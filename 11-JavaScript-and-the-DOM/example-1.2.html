@@ -1,0 +1,57 @@
+<div class="container">
+  <div class="nav-bar">
+    <a href="#a">AAA</a>
+    <a href="#b">BBB</a>
+    <a href="#a">CCC</a>
+  </div>
+  <div class="main">
+    <div id="a" class="content section-1">AAA AAA AAA</div>
+    <div id="b" class="content section-2">BBB BBB BBB</div>
+    <div id="c" class="content section-3">CCC CCC CCC</div>
+  </div>
+</div>
+
+<style>
+  body, html {
+    margin: 0;
+    height: 100%;
+    box-sizing: border-box;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .nav-bar {
+    background-color: #454545;
+    height: 100px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-bar > a {
+    display: block;
+    font-size: 24px;
+    color: #eee;
+    margin: 1em;
+    text-decoration: none;
+  }
+  
+  .content {
+    height: calc(100% - 100px);
+    padding: 2em;
+  }
+  
+  .section-1 {
+    background-color: #ddd;
+  }
+  
+  .section-2 {
+    background-color: #ccc;
+  }
+  
+  .section-3 {
+    background-color: #bbb;
+  }
+</style>

@@ -1,0 +1,88 @@
+<div class="container">
+  <div class="nav-bar">
+    <a class="link-a" href="#a" data-name="aaa">AAA</a>
+    <a class="link-b" href="#b" data-name="bbb">BBB</a>
+    <a class="link-c" href="#a" data-name="ccc">CCC</a>
+  </div>
+  <div class="main">
+    <div id="a" class="content section-1 ">AAA AAA AAA</div>
+    <div id="b" class="content section-2 ">BBB BBB BBB</div>
+    <div id="c" class="content section-3 ">CCC CCC CCC</div>
+  </div>
+</div>
+
+<style>
+  body, html {
+    margin: 0;
+    height: 100%;
+    box-sizing: border-box;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .nav-bar {
+    background-color: #454545;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+  }
+  
+  .nav-bar > a {
+    display: block;
+    font-size: 24px;
+    color: #eee;
+    margin: 1em;
+    text-decoration: none;
+  }
+  
+  /* ------------------------------------------
+  
+  When the body has a class we apply rules to a 
+  descendant. 
+  
+  */
+  body.aaa .link-a { color: red; }
+  body.bbb .link-b { color: red; }
+  body.ccc .link-c { color: red; }
+  
+  /* ------------------------------------------ */
+  
+  .content {
+    height: calc(100% - 100px);
+    padding: calc(100px + 2em) 2em 0 2em;
+  }
+  
+  .section-1 {
+    background-color: #ddd;
+  }
+  
+  .section-2 {
+    background-color: #ccc;
+  }
+  
+  .section-3 {
+    background-color: #bbb;
+  }
+</style>
+
+<script>
+  const navLinks = document.querySelectorAll('.nav-bar>a');
+  const body = document.querySelector('body');
+  
+  
+  
+  for(let key in navLinks) {
+    navLinks[key].onclick = function(e) {
+      // console.log(this); // Logs the link that was clicked
+      // console.log(this.dataset.name); // Get the value from data-name
+      // add the name of the link to the body as a class
+      body.classList.remove('aaa', 'bbb', 'ccc'); // remove all
+      body.classList.add(this.dataset.name);      // Add the current
+    }
+  }
+</script>
