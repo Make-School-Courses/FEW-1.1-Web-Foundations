@@ -23,10 +23,47 @@ HTML elements in the DOM.
   - Use Absolute and relative position together
     - Using these together let you define a context for a absolute elements
 
+## `document.querySelector()` and `document.querySelectorAll()`
+
+Use these to select elements in the DOM with a wider variety of options than just id names. 
+
+- `document.querySelector()`
+  - Use any valid CSS selector
+  - returns the **first** matching element!
+    - This is similar to getElementById()
+    - or returns null if nothing matches
+- `document.querySelectorAll()`
+  - Uses any valid CSS selector 
+  - Returns a NodeList of all matching elements
+    - NodeList is not a real Array! It can be converted to an array. 
+    - for or foreach to loop through all of elements
+
+- Best practices
+  - Use id for unique elements
+  - Use `querySelector()` when you have groups of elements or elements that don't have id names or where creating id names is impractical
+  - Use `querySelectorAll()` when you need to select a group of elements or want to act on a group of elements. 
+
 ## Adding and Removing class names with JS
 
 Class names are a powerful way to control your applications. 
-They can be used to define state in a declaratice way. 
+They can be used to define state in a declarative way. 
+
+The idea is to assign a class name to the DOM in a way that declares clearly what the state of the application is. 
+
+- Adding a class to the body tag
+  - The body is the root element for everything else on the page. Adding a class name here acts as an over arching control. 
+- Using the body classes to control UI
+  - Style rules follow the hierarchy of the DOM. Rules can be applied when 
+
+- Managing class names with JavaScript
+  - Every element has a `classList` property that is a collection containing all of the class names assigned to that element. 
+  - The classList is an Object with methods that allow you to manage the list of class names. 
+    - `add(String [, String [, ...]])` - Adds a new class name or list of class names
+    - `remove(String [, String [, ...]])` - Removes a class name or list of class names
+    - `toggle(String [, force])` - Adds a class name if it doesn't exist or removes it if it does
+    - `contains(String)` - Checks if a specific class exists in the list
+    - `replace(oldClass, newClass)` - Replaces old class with new class
+  - https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
 
 ## Dialog Box 
 
