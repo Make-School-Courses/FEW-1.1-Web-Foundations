@@ -9,17 +9,17 @@ HTML elements in the DOM.
 1. Use CSS Position Relative
 1. Use top, right, bottom and left with absolute and relative position
 1. Compare and contrast relative and absolute position
-1. Use JavaScript to add and remove class names 
+1. Use JavaScript to add and remove class names from elements
 1. Use interaction to modify the content and appearance of a page
 
-## Overview TT I
+## CSS position relative and absolute
 
 - CSS Position
   - What is absolute position?
     - Positions an element based on the top, right, bottom, and left
-    - Absolute elements look for a positioned ancestor for their context
+    - Absolute elements look for a **positioned ancestor** for their context
   - What is relative position?
-    - Positions an element relative to where it would normally be placed
+    - Positions an element **relative to where it would normally be placed**
   - Use Absolute and relative position together
     - Using these together let you define a context for a absolute elements
 
@@ -35,8 +35,8 @@ Use these to select elements in the DOM with a wider variety of options than jus
 - `document.querySelectorAll()`
   - Uses any valid CSS selector 
   - Returns a NodeList of all matching elements
-    - NodeList is not a real Array! It can be converted to an array. 
-    - for or foreach to loop through all of elements
+    - NodeList is not array! It can be converted to an array
+    - Use for in or foreach to loop through all of elements
 
 - Best practices
   - Use id for unique elements
@@ -49,6 +49,10 @@ Class names are a powerful way to control your applications.
 They can be used to define state in a declarative way. 
 
 The idea is to assign a class name to the DOM in a way that declares clearly what the state of the application is. 
+
+Adding a class name describes the state an element should present without actually describing the appearance. This is great for separation of concerns. 
+
+Important! Styles can be applied based on the structure of the DOM. This means a style can be applied to an element where the **anscestor** has a matching description. 
 
 - Adding a class to the body tag
   - The body is the root element for everything else on the page. Adding a class name here acts as an over arching control. 

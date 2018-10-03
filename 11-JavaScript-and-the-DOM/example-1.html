@@ -6,13 +6,13 @@
     <div>4</div>
     <div>5</div>
     <div>6</div>
-    <div>
+    <div class="special">
       <h1>7</h1>
       <div>X</div>
     </div>
     <div>8</div>
     <div>9</div>
-    <div>10</div>
+    <div class="happy">10</div>
     <div>11</div>
     <div>12</div>
   </div>
@@ -33,6 +33,7 @@
     align-items: center;
   }
   .container {
+/*    position: relative;*/
     display: grid;
     grid-template-columns: repeat(4, 170px);
     grid-gap: 10px;
@@ -54,20 +55,28 @@
   
   
   /* Rule applies to the 7th child in container */
-  .container > div:nth-child(7) {
-    position: relative; /* use relative position */
+  .special {
+    position: relative; 
+    /* use relative position */
     left: 20px;         /* Push 20px from the left edge */
     top: 30px;          /* Push 30px down from the top */
+  }
+  
+  .happy {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
   }
   
   
   .container > div > h1 {
     position: absolute;
-    background-color: rgba(255,255,255, 0.5);
+    background-color: rgba(255,0,0, 0.5);
     padding: 1em;
     font-size: 18px;
-    left: 5px;
-    bottom: 5px;
+    left: 50px;
+    bottom: 75px;
     margin: 0;
   }
   
