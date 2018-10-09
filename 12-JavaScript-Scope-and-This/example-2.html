@@ -47,8 +47,10 @@
 
 
 <script>
+  
   const display = document.getElementById('display');
   const options = document.getElementsByClassName('box');
+  
   for (var i in options) {
     options[i].onclick = function(e) {
       this.classList.toggle('selected');
@@ -60,7 +62,10 @@
   }
   
   // ** Challenge!
-  // Only one of the boxes should show as selected. 
+  
+  // 1) Add another box or two each with their own label and data. 
+  
+  // 2) Only one of the boxes should show as selected. 
   // When a new box is selected remove selected from 
   // the other boxes.
   
@@ -74,6 +79,10 @@
   
   // Adds classname
   // this.classList.add('classname'); 
+  
+  // 3) Generate boxes with events via code!d
+  
+  // 4) Create a class that represents a box and display these
   
 </script>
 

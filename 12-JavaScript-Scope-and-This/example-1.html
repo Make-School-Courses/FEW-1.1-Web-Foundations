@@ -5,6 +5,21 @@
   <div class="box selected"><span>Option 4</span></div>
 </div>
 
+<div>
+  <h1 id="title">???</h1>
+  <input id="title-input" type="text">
+</div>
+
+<div>
+  <h1 id="choice">???</h1>
+  <select id="choose">
+    <option>Chocolate Chip</option>
+    <option>Snickerdoodle</option>
+    <option>Biscotti</option>
+    <option>Sugar</option>
+  </select>
+</div>
+
 
 <style>
   * {
@@ -13,7 +28,6 @@
   
   body {
     font-family: Helvetica;
-    color: #fff;
   }
   
   .container {
@@ -24,6 +38,7 @@
   }
   
   .box {
+    color: #fff;
     width: 100px;
     background-color: red;
     width: 100px;
@@ -40,14 +55,37 @@
 
 
 <script>
+  // Get all boxes
   const options = document.getElementsByClassName('box');
+  // For each box 
   for (var i in options) {
+    // Click event listener added to each object
     options[i].onclick = function(e) {
       this.classList.toggle('selected');
     }
   }
   
-  // ** 1) Challenge 
-  // Add more boxes. 
+  const title = document.getElementById('title');
+  const titleInput = document.getElementById('title-input');
+  
+  titleInput.onfocus = function(e) {
+    console.log(this, "has focus!");
+  }
+  
+  titleInput.onblur = function(e) {
+    console.log(this, "blur!");
+  }
+  
+  titleInput.oninput = function(e) {
+    console.log(this.value);
+    title.innerHTML = this.value;
+  }
+  
+  // Challenges 
+  
+  // 1) Add another box
+  // 2) Use the focus and blur event to add a class to the input
+  // 3) Use the change event to show the item chosen from the select
+  
 </script>
 
