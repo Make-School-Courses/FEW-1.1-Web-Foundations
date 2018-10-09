@@ -1,9 +1,54 @@
+
 <div class="container">
   <div id="a" class="box"><span>Option 1</span></div>
   <div id="b" class="box"><span>Option 2</span></div>
   <div id="c" class="box"><span>Option 3</span></div>
   <div id="d" class="box selected"><span>Option 4</span></div>
 </div>
+
+<script>
+  
+  const a = document.getElementById('a');
+  const b = document.getElementById('b');
+  const c = document.getElementById('c');
+  const d = document.getElementById('d');
+  const buttons = [a, b, c, d];
+  
+  function clearBtns() {
+    buttons.forEach(function(btn) {
+      btn.classList.remove('selected');
+    });
+    
+  }
+  
+  a.onclick = function(e) {
+    clearBtns();
+    a.classList.toggle('selected');
+  }
+  
+  b.onclick = function(e) {
+    clearBtns();
+    b.classList.toggle('selected');
+  }
+  
+  c.onclick = function(e) {
+    clearBtns();
+    c.classList.toggle('selected');
+  }
+  
+  d.onclick = function(e) {
+    clearBtns();
+    d.classList.toggle('selected');
+  }
+  
+  // Challenges 
+  
+  // 1) Only one box should display as selected
+  
+  // 2) How can you make this code more DRY?
+  
+</script>
+
 
 <style>
   * {
@@ -37,35 +82,4 @@
   }
 </style>
 
-
-<script>
-  
-  const a = document.getElementById('a');
-  const b = document.getElementById('b');
-  const c = document.getElementById('c');
-  const d = document.getElementById('d');
-  
-  a.onclick = function(e) {
-    a.classList.toggle('selected');
-  }
-  
-  b.onclick = function(e) {
-    b.classList.toggle('selected');
-  }
-  
-  c.onclick = function(e) {
-    c.classList.toggle('selected');
-  }
-  
-  d.onclick = function(e) {
-    d.classList.toggle('selected');
-  }
-  
-  // Challenges 
-  
-  // 1) Only one box should display as selected
-  
-  // 2) How can you make this code more DRY?
-  
-</script>
 

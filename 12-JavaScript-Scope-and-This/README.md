@@ -11,6 +11,7 @@ of an object.
 1. Use `this` to create DRY code
 1. Identify the scope of a variable or a function 
 1. Use datasets and data attributes to store data with an element
+1. Using event listeners
 
 ## Initial Exercise
 
@@ -56,5 +57,6 @@ of an object.
 
 ## Additional Resources
 
+1. https://developer.mozilla.org/en-US/docs/Web/Events
 1. https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
 1. https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes
