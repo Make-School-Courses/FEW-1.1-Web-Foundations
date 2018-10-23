@@ -79,6 +79,14 @@
   const title = document.getElementById('title');
   const titleInput = document.getElementById('title-input');
   
+  const choice = document.getElementById('choice');
+  const choose = document.getElementById('choose');
+  choose.oninput = function(e) {
+    choice.innerHTML = this.value;
+  }
+  
+  
+  
   titleInput.onfocus = function(e) {
     console.log(this, "has focus!");
     this.classList.add('input-fcous');
@@ -93,6 +101,8 @@
     console.log(this.value);
     title.innerHTML = this.value;
   }
+  
+  
   
   // Challenges 
   

@@ -35,10 +35,22 @@ Prework
 
 ## Tutorials & Projects
 
+To pass this class you need to complete all of the tutorials and projects. 
+
+Each project and tutorial should live in it's own repo on GitHub. You will add a link to the course progress tracker in the appropriate column. 
+
+### Tutorials 
+
 - [Store Tutorial](https://www.makeschool.com/academy/track/we-sell-shoes)
+- [Clicker Tutorial](https://www.makeschool.com/academy/track/cookie-clicker-clone)
+
+### Project
+
 - [Personal Home page](personal-homepage.md)
-  - See the rubric here...
-- [JavaScript Game](https://www.makeschool.com/academy/track/build-a-game-of-concentration-with-javascript)
+- [Tip Calculator](07-JavaScript-Functions-and-Variables)
+- [Browser API](javascript-api-project.md)
+
+<!-- - [JavaScript Game](https://www.makeschool.com/academy/track/build-a-game-of-concentration-with-javascript) -->
 
 ## Evaluation
 
@@ -49,7 +61,7 @@ To pass this course you must meet the following requirements:
 - Make up all classwork from all absences
 - Finish all required tutorials and projects
 - Must complete at least 75% of the class challenges
-- Pass the final summative assessment >=80%
+- Pass the final summative assessment >=70%
 
 ## Lessons
 

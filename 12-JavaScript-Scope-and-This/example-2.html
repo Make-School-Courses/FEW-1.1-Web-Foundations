@@ -1,6 +1,12 @@
 
  <div class="container">
-  <div class="box" data-name="One"><span>Option 1</span></div>
+   
+  <div 
+       class="box" 
+       data-name="One" 
+       data-data-type="cookie"><!-- this.dataset.dataType -->
+    <span>Option 1</span>
+   </div>
   <div class="box" data-name="Two"><span>Option 2</span></div>
   <div class="box" data-name="Three"><span>Option 3</span></div>
   <div class="box selected" data-name="Four"><span>Option 4</span></div>
@@ -45,7 +51,6 @@
   }
 </style>
 
-
 <script>
   
   const display = document.getElementById('display');
@@ -55,6 +60,7 @@
     options[i].onclick = function(e) {
       this.classList.toggle('selected');
       const name = this.dataset.name;
+      console.log(this.dataset.dataType);
       console.log(name);
       display.innerHTML = name;
       display.dataset.name = name;
