@@ -65,20 +65,29 @@ To pass this course you must meet the following requirements:
 
 ## Lessons
 
-1. [Semantic HTML](01-Semantic-HTML)
-2. [HTML strategies](02-HTML-Strategies)
-3. [CSS Intro](03-CSS-Intro)
-4. [CSS Box Model](04-CSS-Box-Model)
-5. [CSS Flex Box](05-CSS-Layout-with-Flex-Box)
-6. [CSS Grid](06-CSS-Layout-with-Grid)
-7. [JavaScript Functions and Variables](06-CSS-Layout-with-Grid)
-8. [JavaScript Arrays, Objects Loops](08-JavaScript-Arrays-Objects-Loops-and-Logic)
-9. [Class Objects](09-JavaScript-Class-Objects-Intro)
-10. [JavaScript and the DOM](10-JavaScript-and-the-DOM)
-11. [JavaScript Scope and This](11-JavaScript-Scope-and-This)
-12. [JavaScript Browser API part 1](12-JavaScript-Browser-API-part-1)
-13. [JavaScript Browser API part 2](13-JavaScript-Browser-API-part-2)
-14. [Wrap up and review](14-Wrap-up) 
+| Week # | Class #  | Topics          |
+|:-------|:---------|:----------------|
+| Week 1 |          |                 |
+|        | Class 1  | [Semantic HTML](01-Semantic-HTML) |
+|        | Class 2  | [HTML strategies](02-HTML-Strategies) |
+| Week 2 |          |                 |
+|        | Class 3  | [CSS Intro](03-CSS-Intro) |
+|        | Class 4  | [CSS Box Model](04-CSS-Box-Model) |
+| Week 3 |          |                 |
+|        | Class 5  | [CSS Flex Box](05-CSS-Layout-with-Flex-Box) |
+|        | Class 6  | [CSS Grid](06-CSS-Layout-with-Grid) |
+| Week 4 |          |                 |
+|        | Class 7  | [JavaScript Functions and Variables](07-JavaScript-Functions-and-Variables) |
+|        | Class 8  | [JavaScript Loops, Arrays, and Objects](08-JavaScript-Arrays-Objects-Loops-and-Logic) |
+| Week 5 |          |                 |
+|        | Class 9  | [JavaScript Class Objects](09-JavaScript-Class-Objects-Intro) |
+|        | Class 10 | [JavaScript and the DOM](10-JavaScript-Browser-API-part-1) |
+| Week 6 |          |                 |
+|        | Class 11 | [JavaScript Scope and this](11-JavaScript-and-the-DOM) |
+|        | Class 12 | [JavaScript Browser API part 1](12-JavaScript-Scope-and-This) |
+| Week 7 |          |                 |
+|        | Class 13 | [JavaScript Browser API part 2](13-JavaScript-Browser-API-part-2) |
+|        | Class 14 | [Wrap up](14-Wrap-up) |
 
 ## Make School Course Policies
 
