@@ -69,6 +69,27 @@ You need to mark up the form in `challenge-3.html`
     - select
     - textarea
   - Using Labels 
+  
+## Code Review! 
+
+How do you know when you're doing it right? I know you know you are doing it right, the problem is that there is some disagrement on what is right. 
+
+Luckily  we have the [Validator](https://validator.w3.org)! The HTML Validator will look at your code and determin how right it is! 
+
+Code review your completed form with another student. Look for and comment on these things: 
+
+- Formatting
+  - consistency
+  - indentation
+  - white space
+- errors and syntax
+  - does it validate? 
+  - do you see any problems? 
+    - `for` and `id` attributes used correctly
+    - `type` attrubte use correctly
+    - `placeholder` attribute used 
+  - is everything there? 
+    - all of the form elements have been addressed
 
 ## After Class
 
@@ -77,7 +98,9 @@ You need to mark up the form in `challenge-3.html`
 
 ## Additional Resources
 
-1. http://html5doctor.com/the-figure-figcaption-elements/
-1. http://html5doctor.com/the-article-element/
-1. http://html5doctor.com/the-section-element/
-1. 1. https://validator.w3.org
+- [img](https://www.w3schools.com/tags/tag_img.asp)
+- [figure](https://www.w3schools.com/tags/tag_figure.asp)
+- [figcaption](https://www.w3schools.com/tags/tag_figcaption.asp)
+- [Using Figure & figcaption](http://html5doctor.com/the-figure-figcaption-elements/)
+- [Input Tag](https://www.w3schools.com/tags/tag_input.asp)
+- [Validator](https://validator.w3.org)
