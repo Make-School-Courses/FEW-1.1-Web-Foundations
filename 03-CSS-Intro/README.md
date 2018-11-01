@@ -25,7 +25,7 @@ CSS is a powerful tool with the power to describe how the browser renders your c
   - What is CSS and how have you used it? 
 - Vocabulary: 
   - Rules, Selectors, properties and values
-
+  
 ## Initial Exercise
 
 Try out CSS. Join this: Repl classroom: 

@@ -20,13 +20,19 @@ the browser uses to arrange **blocks** on a page.
   - Content, Padding, Border, and Margin
   - The box-sizing property
   
-## Exercise  
+## Exercise 
 
-- Applying Padding, border, and margin
+Experiment with the box model here: https://repl.it/classroom/invite/18N8nHr
+  
+## Images 
 
-## Calc
+The img tag and the background-image property in CSS have different uses.
 
-- Using calc()
+Use an img when you have a picture of something that is content. You're talking about a product and you want to show it's picture, or you're listing the name of an employee nexct to their picture. 
+
+When an image is part of the design of a page use the background-image property. Use the background image when you need more control over an image. 
+
+Experiment with images here: https://repl.it/classroom/invite/1cuu0lT
 
 ## After Class
 
