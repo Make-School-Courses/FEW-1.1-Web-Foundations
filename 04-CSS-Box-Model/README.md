@@ -41,4 +41,8 @@ Experiment with images here: https://repl.it/classroom/invite/1cuu0lT
 
 ## Additional Resources
 
-1. Links to additional readings and videos
+1. https://www.w3schools.com/tags/tag_img.asp
+1. https://www.w3schools.com/cssref/pr_background-image.asp
+1. https://www.w3schools.com/css/css_background.asp
+1. https://css-tricks.com/almanac/properties/b/background-image/
+
