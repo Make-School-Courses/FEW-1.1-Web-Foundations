@@ -1,8 +1,9 @@
 # JavaScript Functions and Variables 
 
 JavaScript is the language of the browser. Use it to create 
-complex user interactions, and manage data. JavaScript 
-has many of the fearures found in other languages and some 
+complex user interactions, manage data, and add logic and complext functionality to your web pages. 
+
+JavaScript has many of the fearures found in other languages and some 
 features unique to itself. 
 
 ## Learning Objectives/Competencies
@@ -11,14 +12,16 @@ features unique to itself.
 1. Identify where JavaScript can be used within an HTML document
 1. Define functions with JavaScript 
 1. Define Variables with JavaScript
-1. Invoke functions
-1. Use functions
+1. Use/Invoke functions
 
 ## Introduction
 
 The original purpose of JavaScript was to script 
-browsers. With JavaScript you can control almost all 
+browsers. 
+
+With JavaScript you can control almost all 
 of the features and functions of the browser. 
+Browser set some limits to ensure security. 
 
 Originally JavaScript was developed by Netscape for their 
 browser and called **LiveScript**. The name was soon changed to 
@@ -30,22 +33,20 @@ are completely unrelated otherwise.
 
 ## Where is JavaScript used?
 
-Everywhere. Seriously. Use JavaScript to: 
+Everywhere. Seriously. JavaScript is used to: 
 
 - Build web pages
   - Manipulate the DOM
   - Add interactivity
   - Create web apps 
 - Script the server
-  - Node JS uses JS
-  - JavaScript can run your server
+  - Node JS is a server that is scripted with JS
   - Handle server API requests
 - Embeded systems
   - Use JavaScript to program hardware devices
 - Native applications
   - Script native applications 
   - Build native applications
-  - Other applications can use a JS layer to script native functions
   
 JavaScript could be the most important programming language in use today. JavaScript was the most popular language in Stack Overflow's developer 2017 survey. 
 
