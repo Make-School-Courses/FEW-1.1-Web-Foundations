@@ -1,3 +1,9 @@
+
+console.log(data.sort((a, b) => {
+	return b.rof - a.rof;
+}))
+
+
 // Your scripts here
 const container = document.getElementById('container');
 
