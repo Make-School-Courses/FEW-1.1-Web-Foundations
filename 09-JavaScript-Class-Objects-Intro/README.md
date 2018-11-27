@@ -36,6 +36,8 @@ Read this: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Obj
   - Add properties 
   - Add methods
 
+The examples below can be done on Repl.it [here](https://repl.it/classroom/invite/2ojb5qc)
+
 ## Example 0 - Objects and this
 
 Understanding this in JS is important. This can often be confusing. 
