@@ -26,8 +26,8 @@ Read this: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Obj
 
 - Make an Object
   - Add properties 
-  - and methods
-- Make an class with a function
+  - Add methods
+- Make a **class** with a function
   - Add properties 
   - Add methods 
     - Use prototype 
@@ -73,16 +73,79 @@ The data describes 1000 users. Should make an Object that
 describes a user. 
 
 - [Challenge 1](challenge-3)
+
+## Example 4 - Extending Cookie Clicker
+
+The Cookie clicker project you have been working on is a good 
+start, but you could take take it to the necxt level using Classes!
+
+This is an open ended challenge. Take the ideas from this class 
+and apply them to the cookie clicker game. 
+
+Have you seen this [game](http://www.decisionproblem.com/paperclips/)? 
+
+It takes the Cookie Clicker game concept to an extreme. Seriously, 
+this game is crazy in how far it expands the concept. I suspect it 
+uses a few objects...
+
+Using Objects in the cookie clicker game can do a lot to improve 
+the code. Try as many of these challenges as you care to.
+
+What would using objects do to improve the Cookie Clicker tutorial? 
+
+You may have noticed there was code that related to different areas:
+Clicker, Gandmas, Facilities: but the code was all mixed together. The  
+tutorial arranges the code in written structure, but you can't organize 
+on code level. 
+
+You may have noticed that names of variables and functions are all 
+in the same place. They are all stored on the window/global object. 
+This means everything has to have a unique name! This will become 
+increasingly frustrating as your code base grows. You'll find that 
+you want to reuse a name, or you'll begin to get confused by a 
+myriad of names that are almost the same. 
+
+An Identifier a name that you invent. These are the names that you 
+wrote for variables and functions. 
+
+MDN definition: [Identifier](https://developer.mozilla.org/en-US/docs/Glossary/Identifier)
+
+Scope describes the part of a programming where an Identifier is 
+visible. In JavaScript scope is usually a block but this can vary 
+depending on how a variable is declared. 
+
+MDN definition: [Scope](https://developer.mozilla.org/en-US/docs/Glossary/Scope)
+
+How does this apply to the Cookie Clicker? 
+
+All of the variables and functions in the Cookie Clicker tutorial 
+are stored on the window/global object. In JavaScript the window 
+object is available every so we say it has a global context. We 
+can also call this a namespace. In order for us to work within 
+the same scope/namespace all idenitifers must have a unique name. 
+This causes problems as the program grows. 
+
+One solution is Objects. Each Object acts as it's scope/namespace. 
+
+Object Oriented Programming or OOP, is a system that allows you 
+to create programs built around objects. Objects are collections 
+of functions and variables. 
+
+Variables that belong to an Object are called [Properties](https://developer.mozilla.org/en-US/docs/Glossary/property), and 
+functions that belong to an Object are called [Methods](https://developer.mozilla.org/en-US/docs/Glossary/Method). 
+
+If you though about the Cookie Clicker as a collection of Objects
+you could program it that way! Currently the clicker is defined as
+a variable to keep track of the count, an event listener that 
+listens for clicks, and a function that handles clicks. Using OOP 
+you could instead defining a clicker Object that contained the 
+count, the button and the listener. 
   
 ## After Class
 
 - Complete the Cookie clicker tutorial
-- Complete challenges
 - Complete the reading below
-- Apply these ideas to your personal website. 
-  - Identify the data displayed by your site. 
-  - Store it in an Object, or Array
-  - Use the ideas from class 8 and 9 to render HTML content to your page with JS
+- Apply the objects and clases concepts to the cookie clicker. 
 
 ## Additional Resources
 
