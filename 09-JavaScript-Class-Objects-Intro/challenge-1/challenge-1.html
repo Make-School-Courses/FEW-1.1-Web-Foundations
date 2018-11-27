@@ -19,9 +19,16 @@
   // Challenge 2) Extend the method below to also 
   // include the prefix before the first name. 
   
-  User.prototype.describe = function() {
+  User.prototype.fullName = function() {
     return `${this.first} ${this.last}`;
   }
+	
+	// Challenge 3) Add a new method that returns a description of 
+	// a User. This should return a string that includes all of a 
+	// users properties: first, last, age, email, prefix. 
+	// Add this new method to the prototype!
+	
+	
   
   // ----------------------------------------
   
@@ -31,5 +38,11 @@
   const joeSmith = new User('Joe', 'Smith');
   const janeDoe = new User('Jane', 'Doe');
   
-  console.log(joeSmith.describe());
+  console.log(joeSmith.fullName());
+	console.log(janeDoe.fullName());
+	
+	// Test the description method here. 
+	
+	
+	
 </script>

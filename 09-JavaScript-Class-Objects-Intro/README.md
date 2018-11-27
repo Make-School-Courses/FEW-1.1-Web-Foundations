@@ -1,6 +1,6 @@
 # JavaScript Class Objects and Prototype
 
-While JavaScript is a Object Oriented Programming Language
+While JavaScript is an Object Oriented Programming Language
 it handles Class Objects and Inheritence differently than 
 other languages. Understanding JavaScript's unique 
 inheritence model is key to fully understanding JavaScript.
@@ -22,7 +22,7 @@ Read this: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Obj
 - What is prototype? 
   - Using Prototype
 
-## Overview 
+## In Class Example 
 
 - Make an Object
   - Add properties 
@@ -34,14 +34,43 @@ Read this: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Obj
 - Define a class ES6 style
   - Use the constructor 
   - Add properties 
-  - Add methods 
+  - Add methods
 
-## In Class Activity I
+## Example 0 - Objects and this
 
-- In class challenges 
-  - [Challenge 1](challenge-1): Adding properties
-  - [Challenge 1](challenge-2): Using the Date Object
-  - [Challenge 1](challenge-3): Methods and displaying Objects with HTML
+Understanding this in JS is important. This can often be confusing. 
+We will with the basic concepts here. 
+
+[Challenge 1](challenge-0)
+
+## Example 1 - Objects and Prototype
+
+The goal of this challenge is to define Class Objects in JS. 
+This process uses the prototype property. 
+
+[Challenge 1](challenge-1)
+
+## Example 2 - Classes 
+
+JS provides a class syntax for creating objects. This syntax 
+provides a new sytax for creating the same types of objects 
+cr4eated with prototype!
+
+The class syntax has a couple differences. These are all just 
+cosmetic. 
+	
+[Challenge 1](challenge-2)
+	
+## Example 3 - Challenge!
+
+This exampe has an array of data. Your goal is to display it
+all on the page. To keep things organized you'd like to make 
+an Object to store each item in data.js. 
+
+The data describes 1000 users. Should make an Object that 
+describes a user. 
+
+- [Challenge 1](challenge-3)
   
 ## After Class
 
