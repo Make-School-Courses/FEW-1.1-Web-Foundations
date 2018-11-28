@@ -9,8 +9,21 @@ People are making advanced and highly functional applications that run in the br
 1. Name and idenitify JavaScript APIs in the browser
 1. Explore and identify upcoming technologies available in the browser
 1. Measure browser support for any feature
+1. Review Personal Websites
 
-## Initial Exercise
+## Personal Home Page Review
+
+Show your work in class. 
+
+1. Provide some background
+	- Why did you make this? 
+	- What are your goals with the assignment? 
+1. Show your site
+2. Show your code
+	- Show a section of your code
+	- Explain the problems you overcame and your solutions
+
+## Browser API Project
 
 This a list of browser APIs that I compiled. It's not in any kind of order. Some of the APIs below are well established and in use today, some are in experiemental status and may be in full use or be replaced in the future. For this assignment you can use any of these or others you might discover that are not on this list. 
 
