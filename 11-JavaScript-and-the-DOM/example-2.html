@@ -43,10 +43,18 @@
   // Loop through all of the items in the node list with forEach
   links.forEach(function(link) {
     // Add a click event to each link
+		 , function(e) {
+			
+		})
+		
+		
     link.onclick = function(e) {
+			console.log(taco)
       // When a link is clicked loop through all of the links and 
       // remove the class selected
-      links.forEach(function(link) { link.classList.remove('selected') });
+      links.forEach(function(link) { 
+				link.classList.remove('selected') 
+			});
       // Add the selected class to the link that was clicked
       this.classList.add('selected');
     }
