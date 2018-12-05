@@ -20,6 +20,8 @@ This guide outlines the things you should study yo pass the final assessment.
 	- DOM: https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById
 	- Event Listeners: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events
 	
+## Practical Examples
+	
 You should feel confident about the following examples from class. That is you should feel you can understand the code from these examples when you read them, and feel confident you could build these examples on your own. 
 
 - [Tip Calculator](solutions/tip-calculator/)
