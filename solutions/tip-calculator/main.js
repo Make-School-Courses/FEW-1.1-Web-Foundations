@@ -13,12 +13,11 @@ const total_display 		= document.getElementById('total')
 
 calculate_button.addEventListener('click', click_calculate)
 
-
 // Define Event Handlers
 
 function click_calculate(e) {
 	// Get values from inputs 
-	const percent = Number(percent_input.value) // Convert these to numbers
+	const percent = Number(percent_input.value) // Convert these to numbers if not a number NaN
 	const amount = Number(amount_input.value)
 	
 	// TODO: Needs some validation here

@@ -22,6 +22,8 @@
 </div>
 
 
+<img src="my.svg">
+
 <style>
   * {
     box-sizing: border-box;
@@ -67,15 +69,61 @@
 
 <script>
   // Get all boxes
-  const options = document.getElementsByClassName('box');
-  // For each box 
-  for (var i in options) {
-    // Click event listener added to each object
-    options[i].onclick = function(e) {
+  const options = Array.from(document.getElementsByClassName('box'));
+	
+	console.log(options)
+	
+	options.forEach(function(btn) {
+		btn.onclick = function(e) {
+			console.log(this)
       this.classList.toggle('selected');
     }
-  }
+	})
+	
+  // For each box 
+//  for (var i in options) {
+//    // Click event listener added to each object
+//    options[i].onclick = function(e) {
+//      this.classList.toggle('selected');
+//    }
+//  }
   
+
+class Obj {
+	constructor(a, b, c) {
+		this.a = a 
+		this.b = b 
+		this.c = c
+	}
+	
+	test() {
+		console.log('test'+ this.b)
+		console.log(this)
+	}
+	
+	sayHello() {
+		console.log(this.c)
+	}
+}
+	
+const o = new Obj(11, 22, '33 hello')
+	
+console.log(o.a) // 99
+o.test()
+
+setTimeout(function() {
+	o.test()
+	o.sayHello()
+}, 1000)
+	
+var zz = 'Eh oh!';
+
+console.log(window)
+	
+
+	
+	
+	
   const title = document.getElementById('title');
   const titleInput = document.getElementById('title-input');
   
@@ -84,8 +132,6 @@
   choose.oninput = function(e) {
     choice.innerHTML = this.value;
   }
-  
-  
   
   titleInput.onfocus = function(e) {
     console.log(this, "has focus!");
@@ -112,6 +158,7 @@
   
   
   
+	
   
   
   

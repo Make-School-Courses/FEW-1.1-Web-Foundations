@@ -4,6 +4,7 @@
   <div id="b" class="box"><span>Option 2</span></div>
   <div id="c" class="box"><span>Option 3</span></div>
   <div id="d" class="box selected"><span>Option 4</span></div>
+	<div id="e" class="box"><span>Option 5</span></div>
 </div>
 
 <script>
@@ -12,13 +13,14 @@
   const b = document.getElementById('b');
   const c = document.getElementById('c');
   const d = document.getElementById('d');
-  const buttons = [a, b, c, d];
+	const e = document.getElementById('e');
+  
+	const buttons = [a, b, c, d, e];
   
   function clearBtns() {
     buttons.forEach(function(btn) {
       btn.classList.remove('selected');
     });
-    
   }
   
   a.onclick = function(e) {
@@ -39,6 +41,11 @@
   d.onclick = function(e) {
     clearBtns();
     d.classList.toggle('selected');
+  }
+	
+	e.onclick = function(ev) {
+    clearBtns();
+    this.classList.toggle('selected');
   }
   
   // Challenges 

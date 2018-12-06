@@ -25,7 +25,7 @@ This guide outlines the things you should study yo pass the final assessment.
 You should feel confident about the following examples from class. That is you should feel you can understand the code from these examples when you read them, and feel confident you could build these examples on your own. 
 
 - [Tip Calculator](solutions/tip-calculator/)
-- 
+- [Loops and Objects](solutions/loops-and-objects)
 	
 	
 
