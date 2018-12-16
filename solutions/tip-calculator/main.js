@@ -8,6 +8,9 @@ const calculate_button  = document.getElementById('calculate')
 const tip_display			 	= document.getElementById('tip')
 const total_display 		= document.getElementById('total')
 
+const fifteen_button = document.getElementById('fifteen-precent')
+const eighteen_button = document.getElementById('eighteen-precent')
+const ten_button = document.getElementById('ten-percent')
 
 // Register Event Listeners
 
@@ -26,4 +29,22 @@ function click_calculate(e) {
 	const total = amount + tip
 	tip_display.innerHTML = tip.toFixed(2)
 	total_display.innerHTML = total.toFixed(2)
+}
+
+ten_button.onclick = function(e) {
+	fifteen_button.classList.remove('tip-selected')
+	eighteen_button.classList.remove('tip-selected')
+	this.classList.add('tip-selected')
+} 
+
+fifteen_button.onclick = function(e) {
+	ten_button.classList.remove('tip-selected')
+	eighteen_button.classList.remove('tip-selected')
+	this.classList.add('tip-selected')
+}
+
+eighteen_button.onclick = function(e) {
+	fifteen_button.classList.remove('tip-selected')
+	ten_button.classList.remove('tip-selected')
+	this.classList.add('tip-selected')
 }

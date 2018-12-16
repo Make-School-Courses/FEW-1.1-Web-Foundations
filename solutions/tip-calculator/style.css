@@ -24,6 +24,7 @@ body {
 .calculator-input-container {
 	display: flex;
 	flex-direction: column;
+	margin-top: 0;
 }
 
 .calculator-input-container > input {
@@ -43,5 +44,40 @@ body {
 .calculator-display-container {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between
+	justify-content: space-between;
+	font-size: 1.5em;
+	margin-bottom: 0;
+}
+
+.calculator-display-container > span:first-child {
+	font-weight: bold;
+}
+
+.tip-percent {
+	display: flex;
+	justify-content: space-between;
+}
+
+.tip-percent > button {
+	flex: 1;
+	margin: 5px;
+}
+
+.tip-percent > button {
+	flex: 1;
+	margin: 5px;
+}
+
+.tip-percent > button:first-child {
+	margin-left: 0;
+}
+
+.tip-percent > button:last-child {
+	margin-right: 0;
+}
+
+
+.tip-selected {
+	background-color: #000;
+	color: #fff;
 }
