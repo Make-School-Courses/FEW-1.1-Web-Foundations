@@ -1,23 +1,16 @@
 # Personal Homepage Project
 
-The goal of this project is create your own 
-personal homepage. Your personal homepage 
-can be anything you envision. 
+The goal of this project is to create your own personal homepage. Your personal homepage can be anything you envision. 
 
-Try to limit yourself to only frontend for now. 
+Try to limit yourself to the only frontend for now. 
 You can add backend features in the future. 
-ideally this would be a playground or 
-platform where you can practice the material from class. 
+ideally, this would be a playground or platform where you can practice the material from class. 
 
-You will have time to work this project in 
-class. You can also work on it outside of 
-class. 
+You will have time to work this project in class. You can also work on it outside of class. 
 
 ## What is your personal homepage?
 
-This is a platform to be your presence on 
-the internet. Use it to display your work and 
-accomplishments. 
+This is a platform to be your presence on the internet. Use it to display your work and accomplishments. 
 
 Content might contain any of these following:
 
@@ -31,13 +24,9 @@ Content might contain any of these following:
 - Anything else you can think of...
 
 This can be any project you want it to be. 
-Keeping some limits will allow you to get 
-more out of the project. 
+Keeping some limits will allow you to get more out of the project. 
 
-The class is focussed on frontend. Limit 
-yourself to only frontend features. Keep 
-in mind you can expand the project in the 
-future. 
+The class is focussed on the frontend. Limit yourself to only frontend features. Keep in mind you can expand the project in the future. 
 
 ## Check your work
 
@@ -51,11 +40,11 @@ Do your best to address each of the items on the list below.
 
 - Style your work
   - Use *three* levels of hierarchy
-  - Font styles, strive for legibility
+  - Font styles strive for legibility
     - Set the font-size on the *body* element in px
     - Set the font size of *other elements* in em
     - Set the color. 
-    - You can use a different font-family for headings.
+    - You can use different font-family for headings.
     - Use *line-height* to set the line spacing (this helps legibility)
     - Text should *not* touch an edge (You probably need padding on the parent)
     - Try to get three levels of *hierarchy*.
@@ -66,7 +55,7 @@ Do your best to address each of the items on the list below.
     - Look at your tag choices an ask yourself about its relevance
       - Does that content really deserve an h1 or article tag?
     - Check the usage (be sure to consult the documentation for the tag!)
-      - Is that li inside a ul or ol?
+      - Is that `li` inside a `ul` or `ol`?
       - Do your sections have headings?
       - Did you use all of the correct attributes?
     - Check your work with the validator!

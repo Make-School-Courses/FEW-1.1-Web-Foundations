@@ -2,7 +2,7 @@
 
 ## Course Description
 
-This course covers the foundations of HTML, CSS, and JavaScript which are the building blocks of any website. Students will master HTML and intermediate CSS allowing them to create a compelling website from scratch. JavaScript will be introduced and students will learn basic concepts and syntax needed to create interactive frontend applications. Understand the architecture of frontend applications, the role of each technology in creating modular applications, and professional best practices in front-end development.
+This course covers the foundations of HTML, CSS and JavaScript which are the building blocks of any website. Students will master HTML and intermediate CSS allowing them to create a compelling website from scratch. JavaScript will be introduced and students will learn basic concepts and syntax needed to create interactive frontend applications. Understand the architecture of frontend applications, the role of each technology in creating modular applications, and professional best practices in frontend development.
 
 ## Course Specifics
 
@@ -25,7 +25,7 @@ Prework
 ## Learning Objectives
 
 1. Write Quality semantic HTML 
-1. Create HTML documents that communicate with people and machines
+1. Create HTML documents that communicate with with people and machines
 1. Use CSS to render HTML documents to what you envision
 1. Write JavaScript with modern syntax and best practices
 1. Use JavaScript to handle user interaction
@@ -34,7 +34,7 @@ Prework
 
 To pass this class you need to complete all of the tutorials and projects. 
 
-Each project and tutorial should live in its own repo on GitHub. You will add a link to the course progress tracker in the appropriate column.
+Each project and tutorial should live in it's own repo on GitHub. You will add a link to the course progress tracker in the appropriate column.
 
 ### Tutorials 
 
@@ -45,7 +45,7 @@ Each project and tutorial should live in its own repo on GitHub. You will add a 
 
 - [Personal Home page](personal-homepage.md)
 - [Tip Calculator](07-JavaScript-Functions-and-Variables)
-- [Browser API](javascript-api-project.md)
+- [Browser API Project](javascript-api-project.md)
 
 <!-- - [JavaScript Game](https://www.makeschool.com/academy/track/build-a-game-of-concentration-with-javascript) -->
 
