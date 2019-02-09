@@ -1,12 +1,10 @@
 # JavaScript Functions and Variables 
 
-JavaScript is the language of the browser. Use it to create 
-complex user interactions, manage data, and add logic and complext functionality to your web pages. 
+JavaScript is the language of the browser. Use it to create complex user interactions, manage data, and add logic and complex functionality to your web pages. 
 
-JavaScript has many of the fearures found in other languages and some 
-features unique to itself. 
+JavaScript has many of the features found in other languages and some features unique to itself. 
 
-## Learning Objectives/Competencies
+## Learning Objectives
 
 1. Use JavaScript in a web page
 1. Identify where JavaScript can be used within an HTML document
@@ -16,20 +14,16 @@ features unique to itself.
 
 ## Introduction
 
-The original purpose of JavaScript was to script 
-browsers. 
+The original purpose of JavaScript was to script browsers. 
 
-With JavaScript you can control almost all 
-of the features and functions of the browser. 
+With JavaScript, you can control almost all of the features and functions of the browser. 
 Browser set some limits to ensure security. 
 
-Originally JavaScript was developed by Netscape for their 
-browser and called **LiveScript**. The name was soon changed to 
+Originally JavaScript was developed by Netscape for their browser and called **LiveScript**. The name was soon changed to 
 **JavaScript** because **Java** was a new and popular language and 
 **Netscape** thought this would be good for marketing.
 
-While Java and JavaScript share the first 4 letters they 
-are completely unrelated otherwise. 
+While Java and JavaScript share the first 4 letters they are completely unrelated otherwise. 
 
 ## Where is JavaScript used?
 
@@ -42,7 +36,7 @@ Everywhere. Seriously. JavaScript is used to:
 - Script the server
   - Node JS is a server that is scripted with JS
   - Handle server API requests
-- Embeded systems
+- Embedded systems
   - Use JavaScript to program hardware devices
 - Native applications
   - Script native applications 
@@ -102,7 +96,7 @@ It also has inheritence but uses a model that is different from other languages.
 
 ## Initial Exercise
 
-- Quick introduction to scripting the browser
+- A quick introduction to scripting the browser
   - Where does JavaScript live?
   - [example 1](example-1)
   
@@ -114,7 +108,7 @@ It also has inheritence but uses a model that is different from other languages.
 ## Overview 
 
 - Working with HTML Elements and JavaScript
-  - Accessing an element via it's id name 
+  - Accessing an element via its id name 
     - `document.getElementById()`
   - Using JavaScript to manipulate the DOM
     - `innerHTML`

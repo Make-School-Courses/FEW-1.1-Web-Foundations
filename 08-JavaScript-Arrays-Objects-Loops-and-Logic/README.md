@@ -1,14 +1,13 @@
 # JavaScript Arrays, Objects, and Loops
 
 Arrays, Objects are core data structures in JavaScript. 
-Use them to hold and organize data used in the programs 
-you write. 
+Use them to hold and organize data used in the programs you write. 
 
-Use loops to automate repetative tasks. 
+Use loops to automate repetitive tasks. 
 
 Hoisting, const, let, var
 
-## Learning Objectives/Competencies
+## Learning Objectives
 
 1. Variables and scope
 1. Define Arrays and Objects
@@ -19,8 +18,7 @@ Hoisting, const, let, var
 ## Concepts in JavaScript
 
 The concepts below are important to JavaScript.
-Read and discuss. Think of short snippet of sample code that 
-can explain the concept. 
+Read and discuss. Think of short snippet of sample code that can explain the concept. 
 
 - Variables can be declared with const, let, and var
   - var: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var
@@ -39,10 +37,7 @@ can explain the concept.
 ## Practical JavaScript
 
 The goal of this section is to create a practical example using JS. 
-The example will be a portfolio web site. The portfolio will 
-display list of projects you have created. If you haven't created 
-too many projects, it can be a list of projects you plan on 
-creating. 
+The example will be a portfolio web site. The portfolio will display a list of projects you have created. If you haven't created too many projects, it can be a list of projects you plan on creating. 
 
 ### Overview 
 

@@ -1,14 +1,8 @@
 # HTML Strategies
 
-HTML is a language of structure, as such it's open to 
-interpretation. You can decide the structure you want to 
-create. While writing HTML with the correct 
-syntax will always work, writing HTML with a strategy 
-will make your work look more profesional, allow your 
-work to interface with the world
-through improved search and other processes. 
+HTML is a language of structure, as such, it's open to interpretation. You can decide the structure you want to create. While writing HTML with the correct syntax will always work, writing HTML with a strategy will make your work look more professional, allow your work to interface with the world through improved search and other processes. 
 
-## Learning Objectives/Competencies
+## Learning Objectives
 
 1. Use organizational elements
 1. Markup documents with sectional tags
@@ -19,7 +13,7 @@ through improved search and other processes.
 
 ## Exercise 1 - Whitespace and Special characters
 
-**Challenge 1**: Markup the example text. This text includes computer code that inlcudes special characters and formatting. 
+**Challenge 1**: Markup the example text. This text includes code samples that include special characters and formatting. 
 
 **Discussion**: 
 
@@ -36,7 +30,7 @@ Wow images are popular your web site needs them! Quick read these:
 - [figure](https://www.w3schools.com/tags/tag_figure.asp)
 - [figcaption](https://www.w3schools.com/tags/tag_figcaption.asp)
 
-Hey that was all pretty techincal, I want some opinions: 
+Hey that was all pretty technical, I want some opinions: 
 
 - [Using Figure & figcaption](http://html5doctor.com/the-figure-figcaption-elements/)
 
@@ -51,7 +45,7 @@ Hey that was all pretty techincal, I want some opinions:
 
 Forms are super important, you are sure you're going to use a lot of them! Forms interface people, people enter their valuable data into your forms. Your forms better be good or you won't be collecting the data that will make your projects great! 
 
-The input tags is the most common element used inside forms.
+The input tag is the most common element used inside forms.
 
 `<input>`
 
@@ -72,9 +66,9 @@ You need to mark up the form in `challenge-3.html`
   
 ## Code Review! 
 
-How do you know when you're doing it right? I know you know you are doing it right, the problem is that there is some disagrement on what is right. 
+How do you know when you're doing it right? I know you know you are doing it right, the problem is that there is some disagreement on what is right. 
 
-Luckily  we have the [Validator](https://validator.w3.org)! The HTML Validator will look at your code and determin how right it is! 
+Luckily we have the [Validator](https://validator.w3.org)! The HTML Validator will look at your code and determine how right it is! 
 
 Code review your completed form with another student. Look for and comment on these things: 
 

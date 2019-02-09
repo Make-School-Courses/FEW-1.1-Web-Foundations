@@ -1,10 +1,8 @@
 # CSS Box Model
 
-Broadly speaking all Elements can be divided into two display 
-systems: Inline and Block. The Box Model defines the rules 
-the browser uses to arrange **blocks** on a page. 
+Broadly speaking all Elements can be divided into two display systems: Inline and Block. The Box Model defines the rules the browser uses to arrange **blocks** on a page. 
 
-## Learning Objectives/Competencies
+## Learning Objectives
 
 1. Differentiate Inline and Block
 1. Define the Box Model
@@ -28,7 +26,7 @@ Experiment with the box model here: https://repl.it/classroom/invite/18N8nHr
 
 The img tag and the background-image property in CSS have different uses.
 
-Use an img when you have a picture of something that is content. You're talking about a product and you want to show it's picture, or you're listing the name of an employee nexct to their picture. 
+Use an img when you have a picture of something that is content. You're talking about a product and you want to show it's picture, or you're listing the name of an employee next to their picture. 
 
 When an image is part of the design of a page use the background-image property. Use the background image when you need more control over an image. 
 

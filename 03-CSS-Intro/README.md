@@ -1,13 +1,12 @@
 # Introduction to CSS
 
-CSS is the language of visual description for web applications. 
-Use it to describe the appearance of your application. 
+CSS is the language of visual description for web applications. Use it to describe the appearance of your application. 
 
 CSS is the second piece in the separation of concerns. 
 
-CSS is a powerful tool with the power to describe how the browser renders your content. It can describe animation, and interactions with content. 
+CSS is a powerful tool with the power to describe how the browser renders your content. It can describe animation and interactions with content. 
 
-## Learning Objectives/Competencies
+## Learning Objectives
 
 1. Define Separation of Concerns (related to HTML and CSS)
 1. Identify rule, selector, properties, and values
@@ -42,7 +41,7 @@ There are many options.
 ## Designing with Type 
 
 Using simple rules you can make your work look worlds better. 
-Use font styles to create a hierarachy of type. 
+Use font styles to create a hierarchy of type. 
 
 - Designing with Type: Hierarchy
   - [Type Hierarchy tips](https://99designs.com/blog/tips/typographic-hierarchy-web-design/)

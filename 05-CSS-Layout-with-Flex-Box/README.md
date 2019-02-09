@@ -1,14 +1,13 @@
 # CSS - Layout with Flex Box
 
-Flex Box is a system used to arrange blocks on single horizontal or 
-vertical axis. 
+FlexBox is a system used to arrange blocks on a single horizontal or vertical axis. 
 
-## Learning Objectives/Competencies
+## Learning Objectives
 
 1. Define a flex parent
 1. Identify flex items
 1. Identify the main axis and the cross axis
-1. Use Flex Box to arrange elements on horizontal and vertical axis 
+1. Use Flex Box to arrange elements on the horizontal and vertical axis 
 1. Align items on the cross axis
 
 ## Initial Exercise
@@ -22,11 +21,11 @@ vertical axis.
   - Flex parent, and flex items
 - Axis 
   - Define: Main Axis vs cross axis
-  - Driction defines the main axis
+  - Direction defines the main axis
 
 ## In Class Activity: [Example-1](example-1)
 
-Use Flex box to build a "card" that describes a video game character. 
+Use Flexbox to build a "card" that describes a video game character. 
 
 The "card" is made up of several pieces. 
 
@@ -36,7 +35,7 @@ The "card" is made up of several pieces.
 - R.O.F.
 - Health
 
-Arrange these items with Flex Box.
+Arrange these items with FlexBox.
 
 - flex-direction
 - justify-content
@@ -46,16 +45,16 @@ The goal is to explore the properties above and see their effects in the browser
 
 ## In Class Activity: [Example-2](example-2)
 
-This example is liek the first but has more than one item. Use Flex box on the parent element along with flex box on the children in each card. 
+This example is like the first but has more than one item. Use FlexBox on the parent element along with FlexBox on the children in each card. 
 
 - Use flex-wrap
-- Use flex-box on more than one element to create more complex layout
+- Use flex-box on more than one element to create a more complex layout
 
 ## In Class Challenge [Challenge 1](challenge-1)
 
-You've been hired to work on a new app that gets people to go out for lunch  more often. It needs a tip calculator. Your job is to build the tip calculator. 
+You've been hired to work on a new app that gets people to go out for lunch more often. It needs a tip calculator. Your job is to build the tip calculator. 
 
-The design team has provided a mock up. 
+The design team has provided a mock-up. 
 
 ![tip calculator](challenge-1/challenge-1.png)
 
@@ -65,8 +64,8 @@ While you are working on this look for the following things:
 
 - Identify the Flex Parent
 - Identify the Main Axis
-- Idenitfy the Cross Axis
-  - There may be elements in a sub parent with a different Axis
+- Identify the Cross Axis
+  - There may be child elements with a different Axis
 - Apply a base font to the Body Tag
   - Set Font Family 
   - Set Font Size
@@ -75,12 +74,12 @@ While you are working on this look for the following things:
   - Use Border
   - Use Margin
 - Think about the last two elements: **Tip** and **Total**
-  - These each contain two items layed out across a horizontal axis
+  - These each contain two items laid out across a horizontal axis
 
 ## After Class
 
 - Work on your Personal Home Page
-- Complete as many levels of Flex Box Zombies as you can
+- Complete as many levels of FlexBox Zombies as you can
 
 ## Additional Resources
 

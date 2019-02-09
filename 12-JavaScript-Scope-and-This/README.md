@@ -1,12 +1,10 @@
 # JavaScript Scope and This
 
-Scope describes where variables and functions can 
-accessed. 
+Scope describes where variables and functions can access. 
 
-This is a keyword that holds a reference to current owner 
-of an object. 
+This is a keyword that holds a reference to the current owner of an object. 
 
-## Learning Objectives/Competencies
+## Learning Objectives
 
 1. Use `this` to create DRY code
 1. Identify the scope of a variable or a function 
@@ -18,7 +16,7 @@ of an object.
 - Make two buttons that do almost the same thing
   - This is not DRY!
 
-## Overview/TT I 
+## Lecture
 
 - HTML is the structure that underlies the web. 
   - The web is built on a highly sophisticated separation of concerns
@@ -34,7 +32,7 @@ of an object.
 - I do, We do, You do
 - Reading & Discussion Questions in small groups
 - Draw a picture/diagram
-- Complete Challenges solo or in pair
+- Complete Challenges solo or in a pair
 - Q&A about tutorials
 - Pair up and code review
 - Pair program
@@ -42,16 +40,12 @@ of an object.
 - Form into groups
 - etc (get creative :D)
 
-## Overview/TT II (optional)
-
-## In Class Activity II (optional)
-
 ## After Class
 
-- Make your custom data driven SPA 
+- Make your custom data-driven SPA 
   - Define the data that represents content for your site
   - display the data
-  - define the design draw a wire frame
+  - define design and draw a wire frame
   - style your work
   - make it animated 
 

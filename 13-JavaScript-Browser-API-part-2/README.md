@@ -1,14 +1,12 @@
 # JavaScript API 2
 
-HTML is the structural foundation for all web applications. 
+Wrap up and review. 
 
-There are a few rules to writing good HTML.
-
-## Learning Objectives/Competencies
+## Learning Objectives
 
 1. Identify the documentation for web APIs
-1. Use Web APIs 
-1. 
+1. Apply debugging techniques in the browser
+1. Parsing error messages
 
 ## Initial Exercise
 
@@ -16,22 +14,18 @@ There are a few rules to writing good HTML.
   - What problems and pitfalls did you run into with your API?
   - How did you solve those problems? 
 
-## Overview/TT I 
+## Lecture demo
 
-- 
+- Using the console 
+- Using chrome debugging tools
 
-## In Class Activity I
+## Activity in pairs: debugging your project
 
-- 
+Pair with another student identify and discuss any errors you may have in your project. 
 
-## Overview/TT II (optional)
-
-## In Class Activity II (optional)
+Use the console to debug and troubleshoot problems. 
 
 ## After Class
 
-- Continue working on your Web API project
+- Wrap up Browser API project
 
-## Additional Resources
-
-1. 

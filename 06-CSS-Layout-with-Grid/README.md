@@ -1,14 +1,14 @@
 # CSS Layout with Grid 
 
-Use CSS Grid to define a 2 dimensional grid of cells.
+Use CSS Grid to define a 2-dimensional grid of cells.
 
-## Learning Objectives/Competencies
+## Learning Objectives
 
 1. Identify columns and rows
 1. Identify Grids in the wild
 1. Define a visual grid
 1. Define a Grid Parent
-1. Identify chid grid items
+1. Identify child grid items
 1. Create grid columns
 
 ## Initial Exercise
@@ -18,7 +18,7 @@ Use CSS Grid to define a 2 dimensional grid of cells.
   - Answer the questions below: 
     - What is a grid?
     - Why use a grid?
-    - What is a unit?, what is a gutter?, what is a column?, what is a field?
+    - What is a unit? what is a gutter? what is a column? what is a field?
     - Why use 12 columns? 
     - What is the rule of thirds? Do you think this works? 
 
@@ -53,18 +53,19 @@ Use CSS Grid to define a 2 dimensional grid of cells.
 20. https://www.fender.com
 
 - Stretch challenge: 
-  - Study each of the sites above and understand their grid system. Take a screen shot and draw the grid over the image. 
+  - Study each of the sites above and understand their grid system. Take a screenshot and draw the grid over the image. 
 
 ## Use CSS Grid
 
-- What is CSS Grid? 
-- Using display grid
-- Define template columns
-- Displaying a grid with grid areas
+- Discussion:
+  - What is CSS Grid? 
+  - Using display grid
+  -  Define template columns
+  - Displaying a grid with grid areas
 
 ## In Class Challenges 
 
-Your job is to try and recreate the grids in the image with html/CSS. You can start by duplicating the code in example-3 folder. 
+Your job is to try and recreate the grids in the image with HTML/CSS. You can start by duplicating the code in the example-3 folder. 
 
 Try to recreate each of the images with HTML and CSS. 
 
@@ -75,7 +76,7 @@ The goal is to apply a grid to your personal web site. Don't feel like your grid
 - Design a grid for your site
   - Draw it on paper or use an application like Sketch
     - Stretch challenge: 
-      - Draw three vesions of your grid
+      - Draw three versions of your grid
       - Consider different columns arrangements using 3 and 4
   - Identify the element that will be the grid container
   - Identify the grid items

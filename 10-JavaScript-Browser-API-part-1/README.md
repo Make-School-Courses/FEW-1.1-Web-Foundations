@@ -1,12 +1,12 @@
 # JavaScript API
 
-Modern browsers are very sophisticated applications that are almost an operating system to themselves. All of this funcitonality is accessible through JavaScript. 
+Modern browsers are very sophisticated applications that are almost an operating system to themselves. All of this functionality is accessible through JavaScript. 
 
 People are making advanced and highly functional applications that run in the browser. 
 
-## Learning Objectives/Competencies
+## Learning Objectives
 
-1. Name and idenitify JavaScript APIs in the browser
+1. Name and identify JavaScript APIs in the browser
 1. Explore and identify upcoming technologies available in the browser
 1. Measure browser support for any feature
 1. Review Personal Websites
@@ -16,18 +16,18 @@ People are making advanced and highly functional applications that run in the br
 Show your work in class. 
 
 1. Provide some background
-	- Why did you make this? 
-	- What are your goals with the assignment? 
+    - Why did you make this? 
+    - What are your goals with the assignment? 
 1. Show your site
 2. Show your code
-	- Show a section of your code
-	- Explain the problems you overcame and your solutions
+    - Show a section of your code
+    - Explain the problems you overcame and your solutions
 
 ## Browser API Project
 
-This a list of browser APIs that I compiled. It's not in any kind of order. Some of the APIs below are well established and in use today, some are in experiemental status and may be in full use or be replaced in the future. For this assignment you can use any of these or others you might discover that are not on this list. 
+This a list of browser APIs that I compiled. It's not in any kind of order. Some of the APIs below are well established and in use today, some are in experimental status and may be in full use or be replaced in the future. For this assignment, you can use any of these or others you might discover that is not on this list. 
 
-The first half of the list covers as many JavaScript based APIs as I could find. The second half of the list covers CSS features. You can use either. If it's something we covered in class I expect you to go beyond what was covered in class!
+The first half of the list covers as many JavaScript-based APIs as I could find. The second half of the list covers CSS features. You can use either. If it's something we covered in class I expect you to go beyond what was covered in class!
 
 Explore the browser APIs
 
@@ -70,13 +70,13 @@ Explore the browser APIs
   - [CSS @font-face](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face)
   - [CSS @media](https://developer.mozilla.org/en-US/docs/Web/CSS/@media)
   
-You are not limited to this list. You can choose other browser features that you might discover. The only requirement is that the feature/API you choose is one that is implemented in the browser!
+You are not limited to this list. You can choose other browser features that you might discover. The only requirement is that the feature or API you choose is one that is implemented in the browser!
 
 For APIs that are experimental be sure to look up their support and include this as part of your assignment. 
 
 - Gauge browser support: https://caniuse.com 
 
-"Can I Use" has a lot of features. You can gauge support by browser, region, device etc. It also shows historical data. Be sure to mine this for your feature and include as much of this as you find relavant. 
+"Can I Use" has a lot of features. You can gauge support by the browser, region, device etc. It also shows historical data. Be sure to mine this for your feature and include as much of this as you find relevant. 
 
 ## Overview
 
@@ -100,7 +100,7 @@ The browser API determines what you can do with the browser. There are many amaz
 
 Your goal is to make a project that *tests* one of the browser APIs. This project should be *small*. It needs to only display three features of your chosen API in action. You choose the features you want to demo. 
 
-**NOTE!** You should choose a browser API not a web service. Your API should be something provided by the browser. **For example:** Canvas is okay, Yelp is not. 
+**NOTE!** You should choose a browser API, not a web service. Your API should be something provided by the browser. **For example** Canvas is okay, Yelp is not. 
 
 - Choose a web API and make a test implementation
   - Make a test app that shows **three features** of your API in use
@@ -116,7 +116,7 @@ Your goal is to make a project that *tests* one of the browser APIs. This projec
     - Links to: 
       - Documentation
       - Other resources
-  - **Stretch goal:** Write a Medium post about your experience with your chosen API. This article should be atleast 500 words. If you do the stretch goal post a link to your article in your Githup Repo. 
+  - **Stretch goal:** Write a Medium post about your experience with your chosen API. This article should be at least 500 words. If you do the stretch goal post a link to your article in your Github Repo. 
 
 ## Additional Resources
 
