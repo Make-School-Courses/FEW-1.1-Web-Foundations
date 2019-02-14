@@ -24,11 +24,11 @@ Prework
 
 ## Learning Objectives
 
-1. Write Quality semantic HTML 
-1. Create HTML documents that communicate with with people and machines
-1. Use CSS to render HTML documents to what you envision
-1. Write JavaScript with modern syntax and best practices
-1. Use JavaScript to handle user interaction
+By the end of the course, students should be able to...
+ 
+1. Create quality, semantic HTML documents that communicate with with people and machines
+1. Use CSS to render HTML documents to envisioned designs
+1. Use JavaScript to handle user interaction with modern syntax and best practices
 
 ## Tutorials & Projects
 
