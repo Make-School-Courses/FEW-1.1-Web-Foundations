@@ -26,7 +26,7 @@ Prework
 
 By the end of the course, students should be able to...
  
-1. Create quality, semantic HTML documents that communicate with with people and machines
+1. Create quality, semantic HTML documents that communicate with people and machines
 1. Use CSS to render HTML documents to envisioned designs
 1. Use JavaScript to handle user interaction with modern syntax and best practices
 
