@@ -1,18 +1,84 @@
-<!-- 
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SWAPI Form</title>
+  </head>
+  <body>
 
-Challenge 2: 
+    <form id="form">
+      <p>
+        <label>
+          Search
+          <input id="giphy-search">
+        </label>
+      </p>
 
-The text below represents an image with a caption. 
+      <p>
+        <!-- make three radio buttons -->
+        <!-- Give each radio button a label -->
+        <!-- name="size" value="fixed_height" -->
+        <!-- name="size" value="fixed_height_small" -->
+        <!-- name="size" value="fixed_height_small_still" -->
+      </p>
+      
+      <p>
+        <button type="submit">Submit</button>
+      </p>
+    </form>
 
-The caption has some math that inlcudes 
+    <div id="results">
+      <!-- Giphy Data -->
+    </div>
 
---> 
+    <script>
+      const form = document.getElementById('form')
+      const results = document.getElementById('results')
+      const giphySearch = document.getElementById('giphy-search')
+      
+      form.onsubmit = (e) => {
+        e.preventDefault()
+        const search = giphySearch.value
+        fetchData(search)
+      }
 
-Octonion math...
+      function fetchData(q = 'cats') {
+        const api = '3sjrF3zZatafCQZ4pRCCuf5zoOfsctBm'
+        const path = `https://api.giphy.com/v1/gifs/search?api_key=${api}&q=${q}`
+        fetch(path)
+        .then(res => res.json())
+        .then(json => handleData(json))
+        .catch(err => handleErr(err))
+      }
 
-"octonions.jpg" width 799 height 388
+      function handleData(json) {
+        console.log(json)
+        
+        let size = 'fixed_height'
+        try {
+          size = Array.from(document.getElementsByName('size')).filter(item => item.checked)[0].value
+        } catch {
+          // 
+        }
 
-Multiplication table for octonions, of the form z=a+bi+cj+dk+eE+fI+gJ+hK
+        let count = 3
+        try {
+          count = Number(Array.from(document.getElementsByName('count')).filter(item => item.checked)[0].value)
+        } catch {
+          // 
+        }
 
-[Source: http://jmc2008.wurzel.org/index.php/Main/Logo]
- 
+        let str = ''
+        for (let i = 0; i < count; i += 1) {
+          const src = json.data[i].images[size].url
+          str += `<img src="${src}">`
+        }
+        
+        results.innerHTML = str
+      }
+
+      function handleErr(err) {
+        console.log(err.message)
+      }
+    </script>
+  </body>
+</html>

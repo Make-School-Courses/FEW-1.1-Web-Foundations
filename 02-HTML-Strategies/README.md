@@ -2,6 +2,17 @@
 
 HTML is a language of structure, as such, it's open to interpretation. You can decide the structure you want to create. While writing HTML with the correct syntax will always work, writing HTML with a strategy will make your work look more professional, allow your work to interface with the world through improved search and other processes. 
 
+
+## Forms 
+
+Forms are important. At some point you will build a web site that wants to take data input. 
+
+A form is 
+
+
+
+
+
 ## Learning Objectives
 
 1. Use organizational elements
