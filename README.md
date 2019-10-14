@@ -59,7 +59,7 @@ M/W Template **[PLEASE REMOVE THIS HEADER BEFORE OCTOBER 18]**
 **Class Times:** Monday and Wednesday at 3:30–5:20pm (14 class sessions)
 
 | Class | Date | Topics | Assignment |
-|:------|:-----|:-------|:-----------|
+|------:|:-----|:-------|:-----------|
 |  1 | Mon, Oct 21 | [Lesson 1](./lessons/lesson-01.md) | [Semantic HTML](./assignments/assignment-01.md) - Markup practice |
 |  2 | Wed, Oct 23 | [Lesson 2](./lessons/lesson-02.md) | [HTML Attributes](./assignments/assignment-02.md) - Forms, Links, and Images |
 |  3 | Mon, Oct 28 | [Lesson 3](./lessons/lesson-03.md) | [CSS Intro](./assignments/assignment-03.md) - Font Styles |
@@ -71,7 +71,7 @@ M/W Template **[PLEASE REMOVE THIS HEADER BEFORE OCTOBER 18]**
 |  9 | Mon, Nov 18 | [Lesson 9](./lessons/lesson-09.md) | [JS Flow Control](./assignments/assignment-09.md) - Loops and Conditionals |
 | 10 | Wed, Nov 20 | [Lesson 10](./lessons/lesson-10.md) | [JS Objects](./assignments/assignment-10.md) - Objects, Arrays, and This |
 | 11 | Mon, Nov 25 | [Lesson 11](./lessons/lesson-11.md) | [???](./assignments/assignment-11.md) - ??? |
-|  - | Wed, Nov 27 | **NO CLASS** - Thanksgiving | - |
+|  - | Wed, Nov 27 | **NO CLASS** | Thanksgiving |
 | 12 | Mon, Dec 2  | [Lesson 12](./lessons/lesson-12.md) | [???](./assignments/assignment-12.md) |
 | 13 | Wed, Dec 4  | [Lesson 13](./lessons/lesson-13.md) | [???](./assignments/assignment-13.md) - ??? |
 | 14 | Mon, Dec 9  | [Lesson 14](./lessons/lesson-14.md) | [Present](./assignments/assignment-14.md) - Present your work |
@@ -87,7 +87,7 @@ M/W Template **[PLEASE REMOVE THIS HEADER BEFORE OCTOBER 18]**
 **Class Times:** Tuesday and Thursday at 3:30–5:20pm (15 class sessions)
 
 | Class | Date | Topics | Assignment |
-|:------|:-----|:-------|:-----------|
+|------:|:-----|:-------|:-----------|
 |  1 | Tue, Oct 22 | [Lesson 1](./lessons/lesson-01.md) | [Semantic HTML](./assignments/assignment-01.md) - Markup practice |
 |  2 | Thu, Oct 24 | [Lesson 2](./lessons/lesson-02.md) | [HTML Attributes](./assignments/assignment-02.md) - Forms, Links, and Images |
 |  3 | Tue, Oct 29 | [Lesson 3](./lessons/lesson-03.md) | [CSS Intro](./assignments/assignment-03.md) - Font Styles |
