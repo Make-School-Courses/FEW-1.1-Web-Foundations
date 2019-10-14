@@ -78,7 +78,10 @@ M/W Template **[PLEASE REMOVE THIS HEADER BEFORE OCTOBER 18]**
 | 15 | Wed, Dec 11 | [Lesson 15](./lessons/lesson-15.md) | [Assessment](./assignments/assignment-15.md) - Final Assessment |
 
 
-### Tu/Th Template **[PLEASE REMOVE THIS HEADER BEFORE OCTOBER 18]**
+### Tu/Th Template 
+
+**[PLEASE REMOVE THIS HEADER BEFORE OCTOBER 18]**
+
 **Course Dates:** Tuesday, October 22 – Thursday, December 12, 2019 (8 weeks)
 
 **Class Times:** Tuesday and Thursday at 3:30–5:20pm (15 class sessions)
