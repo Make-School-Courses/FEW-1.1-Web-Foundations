@@ -105,27 +105,6 @@ M/W Template **[PLEASE REMOVE THIS HEADER BEFORE OCTOBER 18]**
 | 14 | Tue, Dec 10 | [Lesson 14](./lessons/lesson-14.md) | [Present](./assignments/assignment-14.md) - Present your work |
 | 15 | Thu, Dec 12 | [Lesson 15](./lessons/lesson-15.md) | [Assessment](./assignments/assignment-15.md) - Final Assessment |
 
-## Assignment Schedule
-
-**[INSTRUCTOR NOTE] REPLACE THE BELOW WITH LINKS TO YOUR ASSIGNMENTS, CORRECT DATES, AND SUBMISSION FORM**
-
-|                        Assignment                         | Date Assigned |   Due Date   |            Submission Form           |
-|:---------------------------------------------------------:|:-------------:|:------------:|:------------------------------------:|
-| [Link to Assignment](makeschool.com)                      |  Tue, Oct 15  |  Tue, Oct 22 | [Submit Assignment](makeschool.com)  |
-| [Link to Assignment](makeschool.com)                      |  day, Date    |  day, Date   | [Submit Assignment](makeschool.com)  |
-| [Link to Assignment](makeschool.com)                      |  day, Date    |  day, Date   | [Submit Assignment](makeschool.com)  |
-| [Link to Assignment](makeschool.com)                      |  day, Date    |  day, Date   | [Submit Assignment](makeschool.com)  |
-
-## Class Assignments
-
-### Tutorials
-
-- [Do Cool Stuff Tutorial]()
-
-### Projects
-
-- [Project Template - Use to build your own project spec](https://github.com/Make-School-Labs/Project-Template)
-
 ## Evaluation
 
 **[INSTRUCTOR NOTE] REPLACE THE BELOW WITH EVALUATIONS THAT PERTAIN TO YOUR COURSE. THE BELOW ARE PROVIDED AS A SAMPLE**
