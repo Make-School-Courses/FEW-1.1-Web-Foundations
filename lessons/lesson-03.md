@@ -1,5 +1,197 @@
 <!-- .slide: data-background="./Images/header.svg" data-background-repeat="none" data-background-size="40% 40%" data-background-position="center 10%" class="header" -->
-# FEW 1.1 - Lesson 3 - CSS Intro
+# FEW 1.1 - Lesson 3
+
+<div>CSS Intro</div>
+
+<!-- Put a link to the slides so that students can find them -->
+
+➡️ [**Slides**](/Syllabus-Template/Slides/Lesson1.html ':ignore')
+
+<!-- > -->
+
+## Learning Objectives
+
+1. Describe CSS it's use and syntax
+1. use CSS styles to define the appearance of text on the screen
+1. Use basic selectors to target styles to elements
+
+<!-- > -->
+
+## Why you should know this
+
+CSS is powerful and is ful control of the appearacne of everything you see on the screen. To be a front end engineer you need to be a master of CSS. 
+
+<!-- > -->
+
+## CSS Intro
+
+<!-- > -->
+
+CSS is part of the sepration of concerns that make up web development. 
+
+- **HTML** - Defines the structure
+- **CSS** - Applies presentation 
+- **JavaScript** - Handles the business logic
+
+<!-- > -->
+
+We have a separate language that is specialized for each purpose. 
+
+<!-- > --> 
+
+Here is an analogy. 
+
+- **HTML** - The bones
+- **CSS** - The Skin 
+- **JavaScript** - The Muscles
+
+<!-- > -->
+
+### Applying Styles
+
+<!-- > -->
+
+Styles are written in the CSS language. 
+
+You can write CSS styles in 
+
+- files with the `.css` file extendtion. 
+- in the `<style></style>` tag in an HTML document.
+- style attribute of a tag.
+
+<!-- > -->
+
+CSS is written as style rules that look like this: 
+
+```CSS 
+body {
+  margin: 0;
+  font-family: Helevtica;
+  font-size: 14px;
+  background-color: #eee;
+  color: #444;
+}
+```
+
+<!-- > -->
+
+Style rules can be taken apart. 
+
+```CSS 
+body {
+  ...
+}
+```
+
+This is a selector. This rule applies to all body tags in a document. 
+
+<!-- > -->
+
+These are properties and values. 
+
+```CSS 
+margin: 0;
+font-family: Helevtica;
+font-size: 14px;
+background-color: #eee;
+color: #444;
+```
+
+Properties and values are always separated by a colon. 
+
+**And end with a semicolon!**
+
+<!-- > -->
+
+Values are often followed by a unit. 
+
+
+- 0 - doesn't need a unit
+- Helevtica - Font Name
+- 14px - px = Pixels
+- #eee - hex color
+- 1fr - fr = fraction
+- 2em - em (based on font size)
+- 4rem - root em (based on root font size)
+- 50% - fifty percent
+
+<!-- > -->
+
+A style rule starts with a selector. And contains a list of property value pairs. 
+
+```CSS
+selector {
+  property: value;
+}
+
+p {
+  font-size: 1em;
+}
+```
+
+<!-- > -->
+
+## Putting CSS into Practice
+
+<!-- > -->
+
+CSS will take a long time to master. 
+
+We will start with basic concepts which you can expand upon to build your skills. 
+
+The web is mostly text. Controlling typography will be an important skill. 
+
+<!-- > -->
+
+**Inheritance** 
+
+Most properties are inherited by descendants. 
+
+HTML/DOM defines the structure of a page.
+
+```HTML
+<body>
+  ...
+  <p>...</p>
+  ...
+</body>
+```
+
+`<body>` is the ancestor and `<p>` is a descendant. 
+
+<!-- > -->
+
+All other tags would get a font size of 16px
+
+```CSS
+body {
+  font-size: 16px;
+}
+```
+
+Sort of...
+
+<!-- > -->
+
+All tags get a default style from the browser. When it comes to font size this is usually a size in ems. 
+
+Think of an em as a multipler of the inherited font size. 
+
+If the size on the body is 16px. 
+
+Then a p with a font-size 1em would be 16px. 
+
+An h1 with a font-size of 2em would 32px. 
+
+<!-- > -->
+
+### Activity 
+
+Font Sizes and ems
+
+<!-- > -->
+
+
 
 3. CSS - Intro 
   - Assessment: Semantic HTML assessment
@@ -47,11 +239,7 @@
         - element/type, class, id, pseudo classes 
     - Style your web page
 
-<!-- Put a link to the slides so that students can find them -->
 
-➡️ [**Slides**](/Syllabus-Template/Slides/Lesson1.html ':ignore')
-
-<!-- > -->
 
 ## Minute-by-Minute [OPTIONAL]
 
@@ -65,23 +253,9 @@
 | 1:45        | 0:05      | Wrap up review objectives |
 | TOTAL       | 1:50      | -                         |
 
-
 <!-- > -->
 
-## Why you should know this or industry application (optional) (5 min)
 
-Explain why students should care to learn the material presented in this class.
-
-<!-- > -->
-
-## Learning Objectives (5 min)
-
-1. Identify and describe
-1. Define
-1. Design
-1. Implement
-
-<!-- > -->
 
 ## Initial Exercise (15 min)
 
