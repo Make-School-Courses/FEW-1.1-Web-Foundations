@@ -1,6 +1,70 @@
 <!-- .slide: data-background="./Images/header.svg" data-background-repeat="none" data-background-size="40% 40%" data-background-position="center 10%" class="header" -->
 # FEW 1.1 - Lesson 4 - CSS Box Model
 
+<!-- Put a link to the slides so that students can find them -->
+
+➡️ [**Slides**](/Syllabus-Template/Slides/Lesson1.html ':ignore')
+
+<!-- > -->
+
+## Learning Objectives
+
+1. Describe the Box Model
+1. Use the box model to create a box of any size
+1. Identify the properties that make up the box model
+
+<!-- > -->
+
+## Why you should know this?
+
+The box model is at the foundation of understanding layout with CSS. It also shows up on front end interviews. 
+
+<!-- > -->
+
+## What is the Box Model? 
+
+<!-- > -->
+
+<div>It's the formula used to determine the size of a box in the browser.</div>
+
+<!-- > -->
+
+<div>How is the box model calculated?</div> 
+
+<!-- > -->
+
+margin + border + padding + width + padding + border + margin
+
+<div style="background-color:yellow; padding: 10px">
+  <div style="width:200px;padding:10px;border:4px solid;margin:10px;background-color: red">Content</div>
+</div>
+
+268px = 20px + 4px + 10px + 200px + 10px + 4px + 20px
+
+<!-- > -->
+
+Inline vs block
+
+<div style="background-color:yellow; padding: 10px">
+  <div style="text-align:left;padding:10px;border:4px solid;margin:10px;background-color: red">
+    <span>A span tag</span> <strong>A strong tag</strong> <em>an em tag</em>
+  </div>
+</div>
+
+Inline tags line up left to right like you would write text on a page. They wrap at the end of a line like these words. 
+
+<!-- > -->
+
+Inline vs block
+
+<div style="background-color:yellow; padding: 10px">
+  <div style="width:200px;padding:10px;border:4px solid;margin:10px;background-color: red">Content</div>
+</div>
+
+A block expands to 
+
+<!-- > -->
+
 4. CSS - Box Model
   - What is a box? 
     - Inline vs Block
@@ -27,11 +91,9 @@
     - Work on your web page
     - Style the form
 
-<!-- Put a link to the slides so that students can find them -->
-
-➡️ [**Slides**](/Syllabus-Template/Slides/Lesson1.html ':ignore')
-
 <!-- > -->
+
+<aside class="notes">
 
 ## Minute-by-Minute [OPTIONAL]
 
@@ -45,21 +107,9 @@
 | 1:45        | 0:05      | Wrap up review objectives |
 | TOTAL       | 1:50      | -                         |
 
+</aside>
 
 <!-- > -->
-
-## Why you should know this or industry application (optional) (5 min)
-
-Explain why students should care to learn the material presented in this class.
-
-<!-- > -->
-
-## Learning Objectives (5 min)
-
-1. Identify and describe
-1. Define
-1. Design
-1. Implement
 
 <!-- > -->
 

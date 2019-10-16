@@ -7,6 +7,11 @@
 
 ➡️ [**Slides**](/Syllabus-Template/Slides/Lesson1.html ':ignore')
 
+<aside class="notes">
+  I'm inivisible on the slides
+</aside>
+
+
 <!-- > -->
 
 ## Learning Objectives
