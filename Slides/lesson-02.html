@@ -1,4 +1,23 @@
-<!-- .slide: data-background="./Images/header.svg" data-background-repeat="none" data-background-size="40% 40%" data-background-position="center 10%" class="header" -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>Syllabus Template Slides</title>
+    <link rel="stylesheet" href="./css/reveal.css" />
+    <link rel="stylesheet" href="./css/theme/black.css" id="theme" />
+    <link rel="stylesheet" href="./css/highlight/zenburn.css" />
+    <link rel="stylesheet" href="./css/print/paper.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="./assets/Reveal/makeschool.css" />
+
+    <script>
+      document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>');
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template"><!-- .slide: data-background="./Images/header.svg" data-background-repeat="none" data-background-size="40% 40%" data-background-position="center 10%" class="header" -->
 # FEW 1.1 - Lesson 2
 
 <div>Forms, Links, and Images</div>
@@ -16,19 +35,13 @@
 1. Describe Attributes 
 1. Use HTML tags and their attributes
 1. Use HTML forms and form elements
-
-<!-- > -->
-
+</script></section><section  data-markdown><script type="text/template">
 ## Why you should know 
 
 The ability to generate well written and valid HTML is a requirement for any front end developer. You want to be solving bigger problems rather than tripping over HTML syntax. 
-
-<!-- > -->
-
+</script></section><section  data-markdown><script type="text/template">
 ## Attributes
-
-<!-- > -->
-
+</script></section><section  data-markdown><script type="text/template">
 Tags can be modified/enhanced using attributes. 
 
 An attribute goes in the opening tag and is always in the form `name="value"`. Values are always quoted.
@@ -39,9 +52,7 @@ An attribute goes in the opening tag and is always in the form `name="value"`. V
 
 
 ```
-
-<!-- > -->
-
+</script></section><section  data-markdown><script type="text/template">
 Tags can have as many attributes as you care to inlcude. 
 
 ```html
@@ -56,23 +67,15 @@ Values are quoted even if they are numbers.
 
 The order doesn't matter.
 
-
-<!-- > -->
-
+</script></section><section  data-markdown><script type="text/template">
 Many tags have attributes specific to them. 
-
-<!-- > -->
-
+</script></section><section  data-markdown><script type="text/template">
 ### img
-
-<!-- > -->
-
+</script></section><section  data-markdown><script type="text/template">
 The img tag displays an image. 
 
 Semantically by using the `<img>` tag you saying there is a picture of something. This is different from images that are part of the design. 
-
-<!-- > -->
-
+</script></section><section  data-markdown><script type="text/template">
 The `<img>` has a few attributes: 
 
 - src
@@ -85,13 +88,9 @@ The `<img>` has a few attributes:
 
 
 ```
-
-<!-- > -->
-
+</script></section><section  data-markdown><script type="text/template">
 ### input
-
-<!-- > -->
-
+</script></section><section  data-markdown><script type="text/template">
 The input tag is used to create a form input. It can appear in many different ways. It's important attributes are: 
 
 - type
@@ -103,9 +102,7 @@ The input tag is used to create a form input. It can appear in many different wa
 
 
 ```
-
-<!-- > -->
-
+</script></section><section  data-markdown><script type="text/template">
 `<input>` has a lot of possible types: 
 
 - text - a text input
@@ -113,9 +110,7 @@ The input tag is used to create a form input. It can appear in many different wa
 <input type="text" style="font-size:1.5em">
 
 `<input type="text">`
-
-<!-- > -->
-
+</script></section><section  data-markdown><script type="text/template">
 `<input>` has a lot of possible types: 
 
 - email - email input
@@ -123,9 +118,7 @@ The input tag is used to create a form input. It can appear in many different wa
 <input type="email" style="font-size:1.5em">
 
 `<input type="email">`
-
-<!-- > -->
-
+</script></section><section  data-markdown><script type="text/template">
 `<input>` has a lot of possible types: 
 
 - password - password input
@@ -136,9 +129,7 @@ The input tag is used to create a form input. It can appear in many different wa
 </form>
 
 `<input type="password">`
-
-<!-- > -->
-
+</script></section><section  data-markdown><script type="text/template">
 `<input>` has a lot of possible types: 
 
 - number - numeric input
@@ -149,9 +140,7 @@ The input tag is used to create a form input. It can appear in many different wa
 </form>
 
 `<input type="number">`
-
-<!-- > -->
-
+</script></section><section  data-markdown><script type="text/template">
 `<input>` has a lot of possible types: 
 
 - range - a numeric range
@@ -163,9 +152,7 @@ The input tag is used to create a form input. It can appear in many different wa
 </form>
 
 `<input type="number" min="1" max="6">`
-
-<!-- > -->
-
+</script></section><section  data-markdown><script type="text/template">
 `<input>` has a lot of possible types: 
 
 - color - color picker input
@@ -175,9 +162,7 @@ The input tag is used to create a form input. It can appear in many different wa
 </form>
 
 `<input type="color">`
-
-<!-- > -->
-
+</script></section><section  data-markdown><script type="text/template">
 Radio buttons are groups of buttons where only one of the group can be selected at any time. 
 
 `<input>` has a lot of possible types: 
@@ -195,17 +180,13 @@ Radio buttons are groups of buttons where only one of the group can be selected 
 <input type="radio" name="size">
 <input type="radio" name="size">
 ```
-
-<!-- > -->
-
+</script></section><section  data-markdown><script type="text/template">
 Form elements should have a label. The label needs to be associated with the element. 
 
 `<label>Medium</label>`
 
 Labels make your checkboxes and radio buttons make more sense. They also help clarify your text inputs. 
-
-<!-- > -->
-<div style="display:flex">
+</script></section><section  data-markdown><script type="text/template"><div style="display:flex">
 <form style="width:250px">
   <p>
     <label>
@@ -254,9 +235,7 @@ Labels make your checkboxes and radio buttons make more sense. They also help cl
 </form>
 ```
 </div>
-
-<!-- > -->
-<div style="display:flex">
+</script></section><section  data-markdown><script type="text/template"><div style="display:flex">
 <form style="width:250px">
   <p>
     <label>
@@ -306,21 +285,15 @@ Labels make your checkboxes and radio buttons make more sense. They also help cl
 ```
 
 </div>
-
-<!-- > -->
-
+</script></section><section  data-markdown><script type="text/template">
 ### Anchors
-
-<!-- > -->
-
+</script></section><section  data-markdown><script type="text/template">
 Anchors are text links that that load new docuemnts. These the proverbial **hyperlinks**.
 
 `<a href="http://google.com">Google</a>`
 
 The `href` attribute sets the url the link loads. 
-
-<!-- > -->
-
+</script></section><section  data-markdown><script type="text/template">
 Anchors/hyperlinks can link to elements in the same document. 
 
 ```html
@@ -332,21 +305,15 @@ Anchors/hyperlinks can link to elements in the same document.
 ```
 
 The `href="#weather-report"` moves the element with the `id="weather-report"` to the top of the page. 
-
-<!-- > -->
-
+</script></section><section  data-markdown><script type="text/template">
 <!-- .slide: data-background="#087CB8" -->
 ## **10min** BREAK 
-
-<!-- > -->
-
+</script></section><section  data-markdown><script type="text/template">
 ## Homework
 
 1. Lesson 2 Challenges 
 2. Watch videos for lesson 3
-
-<!-- > -->
-
+</script></section><section  data-markdown><script type="text/template">
 ## Wrap Up
 
 1. What is an attribute?
@@ -355,15 +322,11 @@ The `href="#weather-report"` moves the element with the `id="weather-report"` to
   - What are the attributes involved?
 1. What is an input? 
   - What types are there?
-
-<!-- > -->
-
+</script></section><section  data-markdown><script type="text/template">
 ## Additional Resources
 
 1. 
-
-<!-- > -->
-
+</script></section><section  data-markdown><script type="text/template">
 <aside class="notes">
 
 ## Minute-by-Minute
@@ -379,3 +342,54 @@ The `href="#weather-report"` moves the element with the `id="weather-report"` to
 | TOTAL       | 1:50      | -                         |
 
 </aside>
+</script></section></div>
+    </div>
+
+    <script src="./js/reveal.js"></script>
+
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+      // Optional libraries used to extend on reveal.js
+      var deps = [
+        { src: './plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+        { src: './plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+        { src: './plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+        { src: './plugin/zoom-js/zoom.js', async: true },
+        { src: './plugin/notes/notes.js', async: true },
+        { src: './plugin/math/math.js', async: true }
+      ];
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        dependencies: deps
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal.getQueryHash() || {};
+
+      var options = extend(defaultOptions, {"controls":true,"progress":true,"autoPlayMedia":false,"slideNumber":"c/t","showSlideNumber":"all","controlsTutorial":true,"controlsLayout":"edges","transition":"slide","transitionSpeed":"medium","minScale":0.5,"maxScale":3}, queryOptions);
+    </script>
+
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+</html>

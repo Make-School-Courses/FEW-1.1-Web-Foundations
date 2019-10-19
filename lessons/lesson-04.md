@@ -1,5 +1,5 @@
 <!-- .slide: data-background="./Images/header.svg" data-background-repeat="none" data-background-size="40% 40%" data-background-position="center 10%" class="header" -->
-# FEW 1.1 - Lesson 4 - CSS Box Model
+# FEW 1.1 - Lesson 4 - CSS Box Model + Flex
 
 <!-- Put a link to the slides so that students can find them -->
 
@@ -39,7 +39,8 @@ margin + border + padding + width + padding + border + margin
   <div style="width:200px;padding:10px;border:4px solid;margin:10px;background-color: red">Content</div>
 </div>
 
-268px = 20px + 4px + 10px + 200px + 10px + 4px + 20px
+
+<small style="color: red">268px = 20px + 4px + 10px + 200px + 10px + 4px + 20px</small>
 
 <!-- > -->
 
@@ -61,7 +62,37 @@ Inline vs block
   <div style="width:200px;padding:10px;border:4px solid;margin:10px;background-color: red">Content</div>
 </div>
 
-A block expands to 
+Blocks are boxes that normally stack each below the previous. 
+
+<!-- > -->
+
+## Flex
+
+<!-- > -->
+
+Flex box is a system for arranging elements within a parent.
+
+A parent with the `display:flex` arranges it's children along an axis. 
+
+<!-- > -->
+
+Here are three divs with a height of 40 and 5px margin. Normally they stack up like this. 
+
+<div style="border: 1px solid; padding: 1em;">
+  <div style="height: 40px; background-color: red; margin: 5px;"></div>
+  <div style="height: 40px; background-color: red; margin: 5px;"></div>
+  <div style="height: 40px; background-color: red; margin: 5px;"></div>
+</div>
+
+<!-- > -->
+
+Here are three divs with a height of 40 and 5px margin. Normally they stack up like this. 
+
+<div style="border: 1px solid; padding: 1em;">
+  <h3 style="height: 40px; background-color: red; margin: 5px;">Hello World</h3>
+  <p style="height: 40px; background-color: red; margin: 5px;">Hello World</p>
+  <blockquote style="height: 40px; background-color: red; margin: 0px 0; padding: 0">Hello World</blockquote>
+</div>
 
 <!-- > -->
 
