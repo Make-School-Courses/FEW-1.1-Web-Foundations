@@ -35,6 +35,6 @@ Class 2
 
 ## Assessing the assignment
 
-[Assignment Name Rubric](./assignment-rubric.md)
+[Assignment Name Rubric](./assignment-01-rubric.md)
 
 

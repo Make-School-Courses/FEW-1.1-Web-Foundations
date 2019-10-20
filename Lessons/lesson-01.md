@@ -120,7 +120,7 @@ The tags here are group into categories. pay close attention to the categories. 
 
 ## Homework 
 
-
+Complete [assignment 1](../assignments/assignment-01.md)
 
 <!-- > -->
 

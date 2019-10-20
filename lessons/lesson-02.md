@@ -8,8 +8,10 @@
 ➡️ [**Slides**](/Syllabus-Template/Slides/Lesson1.html ':ignore')
 
 <aside class="notes">
-  I'm inivisible on the slides
+  
 </aside>
+
+<!-- > -->
 
 ## Learning Objectives
 
@@ -19,7 +21,7 @@
 
 <!-- > -->
 
-## Why you should know 
+## Why you should know this
 
 The ability to generate well written and valid HTML is a requirement for any front end developer. You want to be solving bigger problems rather than tripping over HTML syntax. 
 
@@ -35,7 +37,7 @@ An attribute goes in the opening tag and is always in the form `name="value"`. V
 
 ```html
 
-<div class="warning">Hellp!</div>
+<div class="warning">Help!</div>
 
 
 ```
@@ -120,7 +122,10 @@ The input tag is used to create a form input. It can appear in many different wa
 
 - email - email input
 
+<form>
 <input type="email" style="font-size:1.5em">
+<button type="submit">Submit</button>
+</form>
 
 `<input type="email">`
 
@@ -184,7 +189,7 @@ Radio buttons are groups of buttons where only one of the group can be selected 
 
 - radio - choose one
 
-<form>
+<form style="border:1px solid;padding:0.5em;margin:0.5em">
   <input type="radio" name="size" style="font-size:1.5em">
   <input type="radio" name="size" style="font-size:1.5em">
   <input type="radio" name="size" style="font-size:1.5em">
@@ -205,8 +210,9 @@ Form elements should have a label. The label needs to be associated with the ele
 Labels make your checkboxes and radio buttons make more sense. They also help clarify your text inputs. 
 
 <!-- > -->
+
 <div style="display:flex">
-<form style="width:250px">
+<form style="width:250px; border:2px solid; padding:0.5em">
   <p>
     <label>
       <input type="radio" name="size" style="font-size:1em">
@@ -256,8 +262,9 @@ Labels make your checkboxes and radio buttons make more sense. They also help cl
 </div>
 
 <!-- > -->
+
 <div style="display:flex">
-<form style="width:250px">
+<form style="width:250px;border: 2px solid;padding: 0.5em">
   <p>
     <label>
       <input type="checkbox" name="size" style="font-size:1em">
@@ -275,7 +282,7 @@ Labels make your checkboxes and radio buttons make more sense. They also help cl
   <p>
     <label>
       <input type="checkbox" name="size" style="font-size:1em">
-      Has Soul
+      Soulful
     </label>
   </p>
 </form>
@@ -299,7 +306,7 @@ Labels make your checkboxes and radio buttons make more sense. They also help cl
   <p>
     <label>
       <input type="checkbox">
-      Has Soul
+      Soulful
     </label>
   </p>
 </form>
@@ -342,8 +349,7 @@ The `href="#weather-report"` moves the element with the `id="weather-report"` to
 
 ## Homework
 
-1. Lesson 2 Challenges 
-2. Watch videos for lesson 3
+Complete [assignment 2](../assignment-02.md)
 
 <!-- > -->
 
