@@ -71,8 +71,6 @@ By the end of the course, students should be able to...
 
 ## Evaluation
 
-**[INSTRUCTOR NOTE] REPLACE THE BELOW WITH EVALUATIONS THAT PERTAIN TO YOUR COURSE. THE BELOW ARE PROVIDED AS A SAMPLE**
-
 To pass this course you must meet the following requirements:
 
 - Complete all required assignments 
