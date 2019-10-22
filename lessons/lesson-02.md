@@ -44,7 +44,7 @@ An attribute goes in the opening tag and is always in the form `name="value"`. V
 
 <!-- > -->
 
-Tags can have as many attributes as you care to inlcude. 
+Tags can have as many attributes as you care to include. 
 
 ```html
 
@@ -320,11 +320,11 @@ Labels make your checkboxes and radio buttons make more sense. They also help cl
 
 <!-- > -->
 
-Anchors are text links that that load new docuemnts. These the proverbial **hyperlinks**.
+Anchors are text links that load new documents. These are the proverbial **hyperlinks**.
 
 `<a href="http://google.com">Google</a>`
 
-The `href` attribute sets the url the link loads. 
+The `href` attribute sets the URL the link loads. 
 
 <!-- > -->
 
@@ -359,7 +359,7 @@ Complete [assignment 2](../assignment-02.md)
 1. What is the syntax for attributes?
 1. How to display an image? 
   - What are the attributes involved?
-1. What is an input? 
+1. What is an <input>? 
   - What types are there?
 
 <!-- > -->
@@ -385,3 +385,4 @@ Complete [assignment 2](../assignment-02.md)
 | TOTAL       | 1:50      | -                         |
 
 </aside>
+

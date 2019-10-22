@@ -25,17 +25,17 @@ The system was an internet-based hypertext system. Hypertext is text displayed o
 
 HTML uses tags to "markup" a document. Tags describe and provide context to content. 
 
-Below the p, or paragraph, tag describes a the text Hello World as a paragraph. 
+Below the p or paragraph, tag describes the text Hello World as a paragraph. 
 
 `<p>Hello World.</p>`
 
 <!-- > -->
 
-The opening tag `<p>` is followed by a clsoing tag `</p>` which has a slash "/".
+The opening tag `<p>` is followed by a closing tag `</p>` which has a slash "/".
 
 <!-- > -->
 
-There are many different tags that can be combined and nested one within another. 
+Many different tags can be combined and nested one within another. 
 
 ```HTML
 <article>
@@ -75,7 +75,7 @@ From French sémantique, applied to the psychology of language, from Greek seman
 
 <!-- > -->
 
-To use a word semantically is to use a word in a way that properly aligns with it's meaning. 
+To use a word semantically is to use a word in a way that properly aligns with its meaning. 
 
 <!-- > -->
 
@@ -114,7 +114,7 @@ A heading would never contain an article.
 
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 
-The tags here are group into categories. pay close attention to the categories. These help define their semantic usage. 
+The tags here are group into categories. pay close attention to the categories. This help define their semantic usage. 
 
 <!-- > -->
 
@@ -152,3 +152,4 @@ Complete [assignment 1](../assignments/assignment-01.md)
 | 1:00        | 0:45      | In Class Activity II      |
 | 1:45        | 0:05      | Wrap up review objectives |
 | TOTAL       | 1:50      | -                         |
+
