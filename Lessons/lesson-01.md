@@ -137,7 +137,9 @@ Complete [assignment 1](../assignments/assignment-01.md)
 
 ## Additional Resources
 
-1. 
+1. http://html5doctor.com
+1. https://en.wikipedia.org/wiki/HTML
+1. https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 
 <!-- > -->
 
