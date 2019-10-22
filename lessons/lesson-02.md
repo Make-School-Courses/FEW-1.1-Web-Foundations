@@ -359,7 +359,7 @@ Complete [assignment 2](../assignment-02.md)
 1. What is the syntax for attributes?
 1. How to display an image? 
   - What are the attributes involved?
-1. What is an <input>? 
+1. What is an `<input>`? 
   - What types are there?
 
 <!-- > -->
