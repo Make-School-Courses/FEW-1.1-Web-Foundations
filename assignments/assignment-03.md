@@ -50,9 +50,6 @@ All of these sites use this type of layout or some derivative.
 - https://www.unfold.no
 - http://builtthings.com/#1
 - http://www.twofishillustration.com
-- http://nuevvo.com
-- https://www.freestyle-night.ch
-- https://www.ionos.com/websites/online-starter-kit?ac=OM.US.USo42K356154T7073a&gclsrc=aw.ds&&gclid=EAIaIQobChMI1Mu6sPK75QIVUCCtBh3PKwjcEAAYASAAEgKEMfD_BwE
 - https://raffinaderij.booreiland.amsterdam/minimalwim/
 - https://wickret.cuberto.com
 - https://www.meandem.com/us
