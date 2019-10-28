@@ -256,7 +256,7 @@ Changing the font size on the body will change the size of the fonts relatively 
 
 ## Wrap Up (5 min)
 
-- Work on the [Single Page Project](../assignments/assignment-01.md)
+- Work on the [Single Page Project](../assignments/assignment-03.md)
 
 <!-- > -->
 
