@@ -31,6 +31,13 @@ This site has a few features:
   - Contact form
 - Nav bar at the top - These links should navigate to each of the 5 sections within this page.
 
+Here are some wireframes images showing the general layout you are shooting for. 
+
+- [Wireframe](images/Wireframe.png)
+- [Wireframe with flex notes](images/Wireframe with flex notes.png)
+- [Wireframe card flex](images/Wireframe with card notes.png)
+- [Wireframe Alternating layout](images/Wireframe with alternating layout.png)
+
 ### Content should your site contain? 
 
 The subject and context of this site should be purely informational. Think of the site as mini lightning talk on a subject of your choice. 
