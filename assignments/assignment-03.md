@@ -34,9 +34,9 @@ This site has a few features:
 Here are some wireframes images showing the general layout you are shooting for. 
 
 - [Wireframe](images/Wireframe.png)
-- [Wireframe with flex notes](images/Wireframe with flex notes.png)
-- [Wireframe card flex](images/Wireframe with card notes.png)
-- [Wireframe Alternating layout](images/Wireframe with alternating layout.png)
+- [Wireframe with flex notes](images/Wireframe-with-flex-notes.png)
+- [Wireframe card flex](images/Wireframe-with-card-notes.png)
+- [Wireframe Alternating layout](images/Wireframe-with-alternating-layout.png)
 
 ### Content should your site contain? 
 
