@@ -9,17 +9,38 @@
 
 <!-- > -->
 
+Font styles 
+Box Model 
+Flex Box
+
+in class 
+  Android Phones and Tablets
+  Styling Forms 
+  Wire frame your personal site
+    Draw the axis and cross axis for flex items
+    You should have a page that rates your skills in different areas
+
+  Form layout
+    Style input with box model
+
+Homework 
+  Build your personal site
+  Create the Conquer template with Flex Box
+
+
+<!-- > --> 
+
 ## Learning Objectives
 
 1. Describe CSS it's use and syntax
-1. use CSS styles to define the appearance of text on the screen
+1. Use CSS styles to define the appearance of text on the screen
 1. Use basic selectors to target styles to elements
 
 <!-- > -->
 
 ## Why you should know this
 
-CSS is powerful and is ful control of the appearacne of everything you see on the screen. To be a front end engineer you need to be a master of CSS. 
+CSS is powerful gives you full control of the appearance of everything you see on the screen. To be a front end engineer you need to be a master of CSS. 
 
 <!-- > -->
 
@@ -27,7 +48,7 @@ CSS is powerful and is ful control of the appearacne of everything you see on th
 
 <!-- > -->
 
-CSS is part of the sepration of concerns that make up web development. 
+CSS is part of the sepration of concerns that make up web development.
 
 - **HTML** - Defines the structure
 - **CSS** - Applies presentation 
@@ -47,21 +68,25 @@ Here is an analogy.
 
 <!-- > -->
 
-### Applying Styles
+# CSS
 
 <!-- > -->
 
 Styles are written in the CSS language. 
 
-You can write CSS styles in 
+You can write CSS styles in
 
-- files with the `.css` file extendtion. 
-- in the `<style></style>` tag in an HTML document.
-- style attribute of a tag.
+- files with the `.css` file extention
+- in the `<style></style>` tag in an HTML document
+- inline styles using the `style=""` attribute
 
 <!-- > -->
 
-CSS is written as style rules that look like this: 
+## Style Rules
+
+<!-- > -->
+
+CSS is written as style rules that might look like this: 
 
 ```CSS 
 body {
@@ -78,12 +103,12 @@ body {
 Style rules can be taken apart. 
 
 ```CSS 
-body {
+p { /* <-- Selector */
   ...
 }
 ```
 
-This is a selector. This rule applies to all body tags in a document. 
+This is a selector. This rule applies to all `<p>` tags in a document. 
 
 <!-- > -->
 
@@ -99,19 +124,21 @@ color: #444;
 
 Properties and values are always separated by a colon. 
 
+Property names in CSS are always kabob-case
+
 **And end with a semicolon!**
 
 <!-- > -->
 
-Values are often followed by a unit. 
-
+There are variety of possible values some require a unit.  
 
 - 0 - doesn't need a unit
 - Helevtica - Font Name
+  - "Times New Roman" - When a value contains spaces use the quotes
 - 14px - px = Pixels
 - #eee - hex color
 - 1fr - fr = fraction
-- 2em - em (based on font size)
+- 2em - em (same as the font size)
 - 4rem - root em (based on root font size)
 - 50% - fifty percent
 
@@ -161,11 +188,12 @@ HTML/DOM defines the structure of a page.
 
 <!-- > -->
 
-All other tags would get a font size of 16px
+All other tags would get a font size of 16px and a font family of Helvetica. 
 
 ```CSS
 body {
   font-size: 16px;
+  font-family: Helvetica;
 }
 ```
 
@@ -173,21 +201,65 @@ Sort of...
 
 <!-- > -->
 
-All tags get a default style from the browser. When it comes to font size this is usually a size in ems. 
+When we set font-size we often set the size in `em`s. This is a relative unit. It represents multiple of the current font size. 
 
-Think of an em as a multipler of the inherited font size. 
+```CSS
+body {
+  font-size: 16px;
+  font-family: Helvetica;
+}
 
-If the size on the body is 16px. 
-
-Then a p with a font-size 1em would be 16px. 
-
-An h1 with a font-size of 2em would 32px. 
+h1 { 
+  font-size: 2em; /* 32px = 2 * 16px */
+}
+```
 
 <!-- > -->
 
-### Activity 
+**Best practice**
 
-Font Sizes and ems
+Set your base font-size on the body tag and use ems to size all other elements. 
+
+Doing this will allow you to change the size of your page by changing the size set in the body. Changes to the body will cause all other elements to keep their relative sizes. 
+
+<!-- > -->
+
+### Activity
+
+Style the Android phones & Tablets page.
+
+<!-- > -->
+
+Take a look at the Android Phones & Tablets page. 
+
+https://www.android.com/phones-tablets/
+
+Look at the source code from our example here: 
+
+https://github.com/soggybag/learn-markup-level-2/blob/master/challenge-01-solution.html
+
+<!-- > -->
+
+The page is divided into sections. Each section begins with header and the header contains an  h2 followed by an h3. 
+
+On the Android site h2 is smaller than the h3. 
+
+<!-- > -->
+
+Add some styles to this page. 
+
+```css
+body {
+  font-family: Helvetica;
+  font-size: 16px;
+}
+
+h1 { 1em }
+h2 { 1em }
+h3 { 4.5em }
+```
+
+Changing the font size on the body will change the size of the fonts relatively on the other elements. 
 
 <!-- > -->
 

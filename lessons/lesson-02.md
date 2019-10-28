@@ -120,11 +120,11 @@ The input tag is used to create a form input. It can appear in many different wa
 
 `<input>` has a lot of possible types: 
 
-- email - email input
+- **email** - email input
 
-<form>
-<input type="email" style="font-size:1.5em">
-<button type="submit">Submit</button>
+<form style="display:flex; margin: auto">
+  <input type="email" style="font-size:1.5em">
+  <button type="submit" style="font-size: 1em">Submit</button>
 </form>
 
 `<input type="email">`
@@ -133,14 +133,24 @@ The input tag is used to create a form input. It can appear in many different wa
 
 `<input>` has a lot of possible types: 
 
-- password - password input
+- **password** - password input
 
-<form>
+<form style="display: flex; margin: auto">
   <input type="password" style="font-size:1.5em">
-  <input type="submit">
+  <button type="submit" style="font-size:1em">Submit</button>
 </form>
 
 `<input type="password">`
+
+<!-- > -->
+
+`<input>` can also use placeholder
+
+- text - a text input
+
+<input type="text" style="font-size:1.5em" placeholder="Enter your name">
+
+`<input type="text" placeholder="Enter your name">`
 
 <!-- > -->
 
@@ -148,9 +158,9 @@ The input tag is used to create a form input. It can appear in many different wa
 
 - number - numeric input
 
-<form>
+<form style="display: flex; margin: auto">
   <input type="number" style="font-size:1.5em">
-  <input type="submit">
+  <button type="submit" style="font-size:1em">Submit</button>
 </form>
 
 `<input type="number">`
@@ -312,6 +322,46 @@ Labels make your checkboxes and radio buttons make more sense. They also help cl
 </form>
 ```
 
+</div>
+
+<!-- > -->
+
+<div style="display:flex">
+<form style="width:250px; border:2px solid; padding:0.5em">
+  <p>
+      <input id="small" type="radio" name="size" style="font-size:1em">
+      <label for="small">Small</label>
+  </p>
+  
+  <p>
+      <input id="medium" type="radio" name="size" style="font-size:1em">
+      <label for="medium">Small</label>
+  </p>
+
+  <p>
+      <input id="large" type="radio" name="size" style="font-size:1em">
+      <label for="large">Small</label>
+  </p>
+</form>
+
+```html
+<form style="width:250px; border:2px solid; padding:0.5em">
+  <p>
+    <input id="small" type="radio" name="size">
+    <label for="small">Small</label>
+  </p>
+  
+  <p>
+    <input id="medium" type="radio" name="size">
+    <label for="medium">Medium</label>
+  </p>
+
+  <p>
+    <input id="large" type="radio" name="size">
+    <label for="large">Large</label>
+  </p>
+</form>
+```
 </div>
 
 <!-- > -->

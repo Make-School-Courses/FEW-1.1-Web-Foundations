@@ -1,6 +1,30 @@
 <!-- .slide: data-background="./Images/header.svg" data-background-repeat="none" data-background-size="40% 40%" data-background-position="center 10%" class="header" -->
 # FEW 1.1 - Lesson 5 - CSS Flex Box
 
+
+
+Calculator 
+  Use grid
+  class and id
+  style buttons
+    style interactions 
+
+
+    
+
+CSS Assessment
+  Flex box 
+  Grid
+
+JS intro 
+
+
+
+
+CSS Grid
+
+
+
 5. CSS - Layout with Flex Box
   - A one dimensional layout
     - main axis 

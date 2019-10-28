@@ -1,0 +1,80 @@
+# FEW 1.1 - Responsive Single Page Site
+
+## Description 
+
+Make your own single page web site. You won't use Bootstrap or other framework. Instead you will write all of the HTML and CSS yourself! 
+
+### Why this assignment?
+
+The best way to learn about CSS is to start applying it on your own projects. Writing CSS on your own is an important step in the process of learning the language. 
+
+This project will use common layout and arrangement that could be used in a lots of projects. 
+
+You can add this to your portfolio to show you are capable of making web sites with more than basic layout. 
+
+## Project requirements
+
+You goal is to make a site that has the general layout of the [Conquer Template](https://www.free-css.com/free-css-templates/page196/conquer). Click the link and take a look at the demo of the tewmplate. 
+
+**This template uses Bootstrap you are going to make your own version of it without Bootstrap.**
+
+This site has a few features: 
+
+- The site is a single HTML page with 5 sections
+  - Home - With a full width image and message or title in the center
+  - Info - has three cards, each card has
+    - Image
+    - Text info
+    - CTA button
+  - Full width image and text
+  - Some content and image split 3/2 and 1/3
+  - Contact form
+- Nav bar at the top - These links should navigate to each of the 5 sections within this page.
+
+### Content should your site contain? 
+
+The subject and context of this site should be purely informational. Think of the site as mini lightning talk on a subject of your choice. 
+
+Use a topic/subject from your S&L class. For example Geology, Psychology, or Ethics. You can optionaly chose another topic if you like.
+
+(Try and get credit from your S&L class for this)
+
+### Example Sites 
+
+All of these sites use this type of layout or some derivative. 
+
+- https://thespitfire.webflow.io
+- https://makeui.design
+- https://www.beaverlab.com
+- https://www.theartoftexture.com
+- https://www.unfold.no
+- http://builtthings.com/#1
+- http://www.twofishillustration.com
+- http://nuevvo.com
+- https://www.freestyle-night.ch
+- https://www.ionos.com/websites/online-starter-kit?ac=OM.US.USo42K356154T7073a&gclsrc=aw.ds&&gclid=EAIaIQobChMI1Mu6sPK75QIVUCCtBh3PKwjcEAAYASAAEgKEMfD_BwE
+- https://raffinaderij.booreiland.amsterdam/minimalwim/
+- https://wickret.cuberto.com
+- https://www.meandem.com/us
+
+### Deliverable
+
+Push your work to a GitHub repo and publish as a GitHubb Page on GitHub.
+
+#### Stretch Goals
+
+- Add one or more sections to your page. These can contain any information you like. 
+- Add an alternating layout (see the wire frame example)
+- Use your own photos
+- Use a [parallax effect](https://www.w3schools.com/howto/howto_css_parallax.asp) in a section 
+- 
+
+### Due date
+
+Class 6
+
+## Assessing the assignment
+
+[Assignment Name Rubric](./assignment-03-rubric.md)
+
+

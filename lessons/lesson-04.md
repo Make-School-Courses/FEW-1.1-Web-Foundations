@@ -5,6 +5,21 @@
 
 ➡️ [**Slides**](/Syllabus-Template/Slides/Lesson1.html ':ignore')
 
+<!-- > --> 
+
+Styling forms
+  box model 
+    margin
+    border
+    padding
+Background images 
+  background-image
+    relative to your stylessheet
+  background-size
+    cover
+    contain
+
+
 <!-- > -->
 
 ## Learning Objectives
