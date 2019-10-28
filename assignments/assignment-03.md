@@ -67,7 +67,6 @@ Push your work to a GitHub repo and publish as a GitHubb Page on GitHub.
 - Add an alternating layout (see the wire frame example)
 - Use your own photos
 - Use a [parallax effect](https://www.w3schools.com/howto/howto_css_parallax.asp) in a section 
-- 
 
 ### Due date
 
