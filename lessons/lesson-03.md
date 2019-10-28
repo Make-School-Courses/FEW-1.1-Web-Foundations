@@ -5,36 +5,17 @@
 
 <!-- Put a link to the slides so that students can find them -->
 
-➡️ [**Slides**](/Syllabus-Template/Slides/Lesson1.html ':ignore')
+➡️ [**Slides**](/Syllabus-Template/Slides/lesson1.html ':ignore')
 
 <!-- > -->
-
-Font styles 
-Box Model 
-Flex Box
-
-in class 
-  Android Phones and Tablets
-  Styling Forms 
-  Wire frame your personal site
-    Draw the axis and cross axis for flex items
-    You should have a page that rates your skills in different areas
-
-  Form layout
-    Style input with box model
-
-Homework 
-  Build your personal site
-  Create the Conquer template with Flex Box
-
-
-<!-- > --> 
 
 ## Learning Objectives
 
 1. Describe CSS it's use and syntax
 1. Use CSS styles to define the appearance of text on the screen
 1. Use basic selectors to target styles to elements
+1. Define a base font style for a document
+1. Use flex box to arrange things in a page
 
 <!-- > -->
 
@@ -68,7 +49,7 @@ Here is an analogy.
 
 <!-- > -->
 
-# CSS
+# CSS - The Language
 
 <!-- > -->
 
@@ -100,7 +81,7 @@ body {
 
 <!-- > -->
 
-Style rules can be taken apart. 
+A rule begins with a selector
 
 ```CSS 
 p { /* <-- Selector */
@@ -132,15 +113,15 @@ Property names in CSS are always kabob-case
 
 There are variety of possible values some require a unit.  
 
-- 0 - doesn't need a unit
-- Helevtica - Font Name
+- `0` - doesn't need a unit
+- `Helevtica` - Font Name
   - "Times New Roman" - When a value contains spaces use the quotes
-- 14px - px = Pixels
-- #eee - hex color
-- 1fr - fr = fraction
-- 2em - em (same as the font size)
-- 4rem - root em (based on root font size)
-- 50% - fifty percent
+- `14px` - px = Pixels
+- `#eee` - hex color
+- `1fr` - fr = fraction
+- `2em` - em (same as the font size)
+- `4rem` - root em (based on root font size)
+- `50%` - fifty percent
 
 <!-- > -->
 
@@ -199,9 +180,13 @@ body {
 
 Sort of...
 
+Other elements may have styles that **override** the style they inherit. 
+
+Other rules my effect how the inherited value is calculated.
+
 <!-- > -->
 
-When we set font-size we often set the size in `em`s. This is a relative unit. It represents multiple of the current font size. 
+When we set font-size we often set the size in `em`s. This is a relative unit. It represents a multiple of the current font size. 
 
 ```CSS
 body {
@@ -220,13 +205,19 @@ h1 {
 
 Set your base font-size on the body tag and use ems to size all other elements. 
 
-Doing this will allow you to change the size of your page by changing the size set in the body. Changes to the body will cause all other elements to keep their relative sizes. 
+```CSS
+body {
+  font-size: 18px;
+}
+```
+
+Changes to the body will cause all other elements to keep their relative sizes. 
 
 <!-- > -->
 
 ### Activity
 
-Style the Android phones & Tablets page.
+<div>Style the Android phones & Tablets page.</div>
 
 <!-- > -->
 
@@ -259,59 +250,21 @@ h2 { 1em }
 h3 { 4.5em }
 ```
 
-Changing the font size on the body will change the size of the fonts relatively on the other elements. 
+Changing the font size on the body will change the size of the fonts relatively on the other elements.
 
 <!-- > -->
 
+## Wrap Up (5 min)
 
+- Work on the [Single Page Project](../assignments/assignment-01.md)
 
-3. CSS - Intro 
-  - Assessment: Semantic HTML assessment
-    - Mark up the provided text to the best of your ability
-    - Choose the right tag for each element
-    - Use tags to provide as much context as possible
-    - Validate your work
-    - Use correct syntax 
-    - Write boiler plate HTML5
-  - Adding CSS Files to a page
-    - Add a style tag
-    - Link to an external stylesheet
-      - Link rel stylesheet href
-  - CSS syntax and selectors
-    - Rules properties and values
-    - Selectors 
-      - element/type, class, id, pseudo classes 
-  - Strategies - Fonts 
-    - base font style 
-    - heading styles 
-    - inline element styles 
-      - mark
-      - strong 
-      - em
-    - link styles 
-    - .lead style 
-    - .muted style 
-    - Style Properties 
-      - color
-      - font-family
-        - Font stacks and available fonts 
-      - font-size 
-      - font-weight
-      - text-decoration
-      - background color
-      - line-height
-      - character-spacing
-  - Activity:
-    - Style previous markup examples
-    - Style some block quotes 
-    - Style a page with headings and various content something liek a Medium article
-  - HW: Style documents
-    - Style apps from lesson 2
-      - Include examples that require a range of selectors
-        - element/type, class, id, pseudo classes 
-    - Style your web page
+<!-- > -->
 
+## Additional Resources
 
+1. Links to additional readings and videos
+
+<!-- > -->
 
 ## Minute-by-Minute [OPTIONAL]
 
@@ -324,79 +277,3 @@ Changing the font size on the body will change the size of the fonts relatively 
 | 1:00        | 0:45      | In Class Activity II      |
 | 1:45        | 0:05      | Wrap up review objectives |
 | TOTAL       | 1:50      | -                         |
-
-<!-- > -->
-
-
-
-## Initial Exercise (15 min)
-
-- Funny comic
-- Prime the Pump (e.g. think and jot, think pair share, etc)
-- Productivity Tip/Tool
-- Review of current event (e.g. tech news relevant to your track/topic)
-- Quiz on homework or topic(s) of past class
-- Concept Test
-
-<!-- > -->
-
-# Topic 1
-
-<!-- v -->
-
-## Overview/TT I (20 min)
-
-- Why learn this?
-- Industry examples of usage
-- Best practices
-- Personal anecdote
-
-<aside class="notes">
-Place more detailed information or speaker notes in "aside" elements - it will appear in GitHub Pages but not in the slides.
-</aside>
-
-<!-- v -->
-
-## In Class Activity I (30 min)
-
-- I do, We do, You do
-- Reading & Discussion Questions in small groups
-- Draw a picture/diagram
-- Complete Challenges solo or in pair
-- Q&A about tutorials
-- Pair up and code review
-- Pair program
-- Formative assessment
-- Form into groups
-- etc (get creative :D)
-
-<!-- > -->
-
-<!-- .slide: data-background="#087CB8" -->
-## [**10m**] BREAK
-
-<!-- > -->
-
-# Topic 2
-
-<!-- v -->
-
-## Overview/TT II (optional) (20 min)
-
-<!-- v -->
-
-## In Class Activity II (optional) (30 min)
-
-<!-- > -->
-
-## Wrap Up (5 min)
-
-- Continue working on your current tutorial
-- Complete reading
-- Complete challenges
-
-<!-- > -->
-
-## Additional Resources
-
-1. Links to additional readings and videos

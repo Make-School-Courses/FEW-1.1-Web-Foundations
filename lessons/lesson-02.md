@@ -5,7 +5,7 @@
 
 <!-- Put a link to the slides so that students can find them -->
 
-➡️ [**Slides**](/Syllabus-Template/Slides/Lesson1.html ':ignore')
+➡️ [**Slides**](/Syllabus-Template/Slides/lesson1.html ':ignore')
 
 <aside class="notes">
   
