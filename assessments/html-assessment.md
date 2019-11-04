@@ -58,6 +58,8 @@ Add an `<input>` with type `checkbox` and a label `"Long Sleeves"`.
 
 Use the HTML validator to validate your work. 
 
+Add `id` attribute with value of "form" to the form tag. 
+
 ## Add a script
 
 Add the following script below your form. 

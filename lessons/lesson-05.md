@@ -1,53 +1,125 @@
 <!-- .slide: data-background="./Images/header.svg" data-background-repeat="none" data-background-size="40% 40%" data-background-position="center 10%" class="header" -->
 # FEW 1.1 - Lesson 5 - CSS Flex Box
 
+Pseudo Classes 
+:hover
+:valid
+:invalid
 
+CSS Grid is a two dimensional layout system with many option. 
 
-Calculator 
-  Use grid
-  class and id
-  style buttons
-    style interactions 
+Here are a couple strategies you can use to create a grid. 
 
-
-    
-
-CSS Assessment
-  Flex box 
-  Grid
-
-JS intro 
-
-
-
-
-CSS Grid
-
-
-
-5. CSS - Layout with Flex Box
-  - A one dimensional layout
-    - main axis 
-    - cross axis
-  - Flex box and Flex items 
-    - display flex
-    - justify-content
-    - align-items
-    - flex-direction
-  - Activity: 
-    - CSS Diner
-    - Arranging items in a box
-    - Nav bar 
-    - Put something in the center 
-    - Layout page with alternating text and image
-  - HW: 
-    - Make some cards
-    - Make a Nav bar 
-    - Layout tip calculator
 
 <!-- Put a link to the slides so that students can find them -->
 
 ➡️ [**Slides**](/Syllabus-Template/Slides/Lesson1.html ':ignore')
+
+<!-- > -->
+
+## CSS Grid
+
+<!-- > -->
+
+CSS Grid is used for 2 dimensional layouts.
+
+Use grid when you want to arrange elements in rows and columns. 
+
+<!-- > -->
+
+CSS Grid has many properties. You get started with just a few. 
+
+```CSS
+.container {  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+```
+
+Creates a three column grid. 
+
+<!-- > -->
+
+**`fr`** is a unit that represents a fraction. 
+
+Something sized in `fr` will take up a fraction of the available space. 
+
+- 1fr - 25%
+- 1fr - 25%
+- 2fr - 50%
+
+<!-- > -->
+
+Grid columns can also be defined with other units: 
+
+```CSS
+.container {  
+  display: grid;
+  grid-template-columns: 200px 1fr 200px;
+}
+```
+
+Creates three columns where the outer columns are 200px and the inner column takes up the rest of the available space. 
+
+<!-- > -->
+
+If you're making many columns it can tedious to list them all e.g. `1fr 1fr 1fr 1fr 1fr...`
+
+In this case use `repeat()`
+
+```CSS
+.container {  
+  display: grid;
+  grid-template-columns: repeat(1fr, 6);
+}
+```
+
+<!-- > -->
+
+You can mix repeat a patern. 
+
+```CSS
+.container {  
+  display: grid;
+  grid-template-columns: repeat(100px 1fr, 3);
+}
+```
+
+Creates: `100px 1fr 100px 1fr 100px 1fr`
+
+<!-- > -->
+
+What about row height? Most often you'll want to set this automatically to match the size of the content. To do this don't declare it. 
+
+If you wan to set the height of a row use: 
+
+```CSS
+.container {  
+  display: grid;
+  grid-template-columns: repeat(1fr, 3);
+  grid-template-rows: repeat(300px, 6);
+}
+```
+
+Creates 6 300px tall rows. 
+
+<!-- > -->
+
+
+
+<!-- > -->
+
+## Wrap Up (5 min)
+
+- Continue working on the current assignment.
+- Review the videos on CSS Grid.
+- Note any questions you have and bring them to class. 
+
+<!-- > -->
+
+## Additional Resources
+
+1. [CSS Grid video playlist](https://www.youtube.com/watch?v=Cxegg6ysdwc&list=PLoN_ejT35AEhwu7PJLHhKKzY7C4tMVHtp) 
 
 <!-- > -->
 
@@ -63,92 +135,3 @@ CSS Grid
 | 1:45        | 0:05      | Wrap up review objectives |
 | TOTAL       | 1:50      | -                         |
 
-
-<!-- > -->
-
-## Why you should know this or industry application (optional) (5 min)
-
-Explain why students should care to learn the material presented in this class.
-
-<!-- > -->
-
-## Learning Objectives (5 min)
-
-1. Identify and describe
-1. Define
-1. Design
-1. Implement
-
-<!-- > -->
-
-## Initial Exercise (15 min)
-
-- Funny comic
-- Prime the Pump (e.g. think and jot, think pair share, etc)
-- Productivity Tip/Tool
-- Review of current event (e.g. tech news relevant to your track/topic)
-- Quiz on homework or topic(s) of past class
-- Concept Test
-
-<!-- > -->
-
-# Topic 1
-
-<!-- v -->
-
-## Overview/TT I (20 min)
-
-- Why learn this?
-- Industry examples of usage
-- Best practices
-- Personal anecdote
-
-<aside class="notes">
-Place more detailed information or speaker notes in "aside" elements - it will appear in GitHub Pages but not in the slides.
-</aside>
-
-<!-- v -->
-
-## In Class Activity I (30 min)
-
-- I do, We do, You do
-- Reading & Discussion Questions in small groups
-- Draw a picture/diagram
-- Complete Challenges solo or in pair
-- Q&A about tutorials
-- Pair up and code review
-- Pair program
-- Formative assessment
-- Form into groups
-- etc (get creative :D)
-
-<!-- > -->
-
-<!-- .slide: data-background="#087CB8" -->
-## [**10m**] BREAK
-
-<!-- > -->
-
-# Topic 2
-
-<!-- v -->
-
-## Overview/TT II (optional) (20 min)
-
-<!-- v -->
-
-## In Class Activity II (optional) (30 min)
-
-<!-- > -->
-
-## Wrap Up (5 min)
-
-- Continue working on your current tutorial
-- Complete reading
-- Complete challenges
-
-<!-- > -->
-
-## Additional Resources
-
-1. Links to additional readings and videos
