@@ -1,15 +1,9 @@
 <!-- .slide: data-background="./Images/header.svg" data-background-repeat="none" data-background-size="40% 40%" data-background-position="center 10%" class="header" -->
 # FEW 1.1 - Lesson 5 - CSS Flex Box
 
-Pseudo Classes 
-:hover
-:valid
-:invalid
-
 CSS Grid is a two dimensional layout system with many option. 
 
 Here are a couple strategies you can use to create a grid. 
-
 
 <!-- Put a link to the slides so that students can find them -->
 

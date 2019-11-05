@@ -1,4 +1,4 @@
-# FEW 1.1 - Responsive Single Page Site
+# FEW 1.1 - Single Page Site
 
 ## Description 
 
