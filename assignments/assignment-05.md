@@ -1,10 +1,8 @@
-# FEW 1.1 - JS Shopping Cart tutorial
+# FEW 1.1 - JS Slide Show Tutorial
 
 ## Description 
 
-Learn basic JS by building a shopping cart system. The goal is to follow the tutorial video linked below. 
-
-The tutorial project combines many of the basic elements of programming in JS. 
+Practice your JS skills by creating a slide show. This project uses vanilla JS to create slide similar to the Bootstrap carousel. 
 
 ### Why this assignment?
 
