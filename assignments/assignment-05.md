@@ -10,47 +10,53 @@ This tutorial has many of the elements that you would use everyday as a JS devel
 
 - Variables 
   - constants
+  - let
 - Functions 
-  - parameters 
-  - return 
+  - IIFE
+  - callbacks
 - Strings 
   - template strings
 - Arrays
   - accessors
   - push
   - splice
-- Objects 
-  - properties
-  - deconstruction
-- Scope 
-- Events 
-  - addEventListener
-  - Delagation 
-  - Bubbling 
-  - on click
-  - on submit
+- JS 
+  - scope and closure
+  - setInterval
 - Flow control 
   - if else 
   - for loops
 - JS and the DOM
-  - innerHTML
   - getElementById
-  - element.classList
+  - querySelector
+  - querySelectorAll
+- CSS 
+  - transform: translate3d
+  - position: relative/absolute
+
+Beyond the list above this project looks at how to create JS code that can deployed anywhere in an project that plays well with other developer code. This an important subject since JS code by default defines 
 
 ## Project requirements
 
-- You should complete watching the all of the tutorials in the playlist here: https://www.youtube.com/watch?v=oMTO0LbBGLA&list=PLoN_ejT35AEgHTABdFDPCA6MBHz2v5rOQ
-- Do your best to create the example for yourself in code. 
-- Write down any questions you have about the concepts covered in the tutorials. We will discuss these ideas in class. 
-- Be prepared for a short low stakes quiz in the following class on some of the concepts from the videos. 
+Follow the tutorial: https://www.youtube.com/watch?v=TV1WbQdusdU&list=PLoN_ejT35AEgjsI-YEuiif2BfpToamnGz
+
+You can view a live version of the tutorial here: 
+
+https://github.com/soggybag/js-tutorial-slide-show
+
+- You should watch all of the videos in the playlist. 
+- Follow the tutorials and create the slide show
+- Note any questions you have about the concepts covered. 
+- Be prepared for a short low stakes quiz on the concepts covered in the following class. 
 
 ### Deliverable
 
-You shouldhave your completed shopping cart project created from following the tutorials. 
+- You should have completed the videos and have a functioning slideshow project from the tutorials. 
+- A list of questions on the concepts covered
 
 #### Stretch Goals
 
-- 
+- See the GitHub repo for this tutorial for Stretch challenges: https://github.com/soggybag/js-tutorial-slide-show
 
 ### Due date
 

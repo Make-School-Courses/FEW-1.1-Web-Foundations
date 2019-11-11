@@ -1,17 +1,69 @@
 <!-- .slide: data-background="./Images/header.svg" data-background-repeat="none" data-background-size="40% 40%" data-background-position="center 10%" class="header" -->
 # FEW 1.1 - Lesson 7 - HTML + CSS Assessment
 
-7. HTML + CSS Assessment
-  - Assessment challenge in class
-    - Using all things from class
-  - Put color swatches in grid 
-  - Use sections 
-  - Use articles 
-  - Make a form
-
 <!-- Put a link to the slides so that students can find them -->
 
 ➡️ [**Slides**](/Syllabus-Template/Slides/Lesson1.html ':ignore')
+
+<!-- > -->
+
+## Tutorial review 
+
+You should have completed the first tutorial. It's time to review. 
+
+<!-- > --> 
+
+## Take this short quiz
+
+Take this quick quiz on the tutorial from last class: 
+
+https://repl.it/classroom/invite/hmltVRK
+
+<!-- > -->
+
+Home many much of the tutorial did you complete? 
+
+<!-- > -->
+
+## What was covered in the tutorial?
+
+- Vanilla JS
+- Functions
+- Objects
+- Variables
+  - const
+  - let 
+  - var
+- Events 
+  - Bubbling
+  - Delegation
+
+## Why should know all of this? 
+
+- You will get asked questions about this stuff in interviews!
+- You will need this to build applications!
+
+<!-- > --> 
+
+## Let's review 
+
+- What was interesting in the tutorial? 
+- What was difficult? 
+- Were there any problems you couldn't solve? 
+
+<!-- > -->
+
+## After Class
+
+This week your goal is to follow the tutorial: 
+
+https://github.com/soggybag/js-tutorial-slide-show
+
+Be sure to watch all of the tutorial videos and complete the example project presented. 
+
+You can also try the stretch goals listed in the read me. 
+
+As you work take note of any problems you encounter bring these to class with you 
 
 <!-- > -->
 
@@ -26,93 +78,3 @@
 | 1:00        | 0:45      | In Class Activity II      |
 | 1:45        | 0:05      | Wrap up review objectives |
 | TOTAL       | 1:50      | -                         |
-
-
-<!-- > -->
-
-## Why you should know this or industry application (optional) (5 min)
-
-Explain why students should care to learn the material presented in this class.
-
-<!-- > -->
-
-## Learning Objectives (5 min)
-
-1. Identify and describe
-1. Define
-1. Design
-1. Implement
-
-<!-- > -->
-
-## Initial Exercise (15 min)
-
-- Funny comic
-- Prime the Pump (e.g. think and jot, think pair share, etc)
-- Productivity Tip/Tool
-- Review of current event (e.g. tech news relevant to your track/topic)
-- Quiz on homework or topic(s) of past class
-- Concept Test
-
-<!-- > -->
-
-# Topic 1
-
-<!-- v -->
-
-## Overview/TT I (20 min)
-
-- Why learn this?
-- Industry examples of usage
-- Best practices
-- Personal anecdote
-
-<aside class="notes">
-Place more detailed information or speaker notes in "aside" elements - it will appear in GitHub Pages but not in the slides.
-</aside>
-
-<!-- v -->
-
-## In Class Activity I (30 min)
-
-- I do, We do, You do
-- Reading & Discussion Questions in small groups
-- Draw a picture/diagram
-- Complete Challenges solo or in pair
-- Q&A about tutorials
-- Pair up and code review
-- Pair program
-- Formative assessment
-- Form into groups
-- etc (get creative :D)
-
-<!-- > -->
-
-<!-- .slide: data-background="#087CB8" -->
-## [**10m**] BREAK
-
-<!-- > -->
-
-# Topic 2
-
-<!-- v -->
-
-## Overview/TT II (optional) (20 min)
-
-<!-- v -->
-
-## In Class Activity II (optional) (30 min)
-
-<!-- > -->
-
-## Wrap Up (5 min)
-
-- Continue working on your current tutorial
-- Complete reading
-- Complete challenges
-
-<!-- > -->
-
-## Additional Resources
-
-1. Links to additional readings and videos

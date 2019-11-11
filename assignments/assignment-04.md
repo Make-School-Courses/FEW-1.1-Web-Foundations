@@ -11,7 +11,8 @@ The tutorial project combines many of the basic elements of programming in JS.
 This tutorial has many of the elements that you would use everyday as a JS developer. This includes: 
 
 - Variables 
-  - constants
+  - const
+  - let
 - Functions 
   - parameters 
   - return 
