@@ -59,22 +59,10 @@ This week your goal is to follow the tutorial:
 
 https://github.com/soggybag/js-tutorial-slide-show
 
+[Assignment 5](../assignments/assignment-05.md)
+
 Be sure to watch all of the tutorial videos and complete the example project presented. 
 
 You can also try the stretch goals listed in the read me. 
 
 As you work take note of any problems you encounter bring these to class with you 
-
-<!-- > -->
-
-## Minute-by-Minute [OPTIONAL]
-
-| **Elapsed** | **Time**  | **Activity**              |
-| ----------- | --------- | ------------------------- |
-| 0:00        | 0:05      | Objectives                |
-| 0:05        | 0:15      | Overview                  |
-| 0:20        | 0:30      | In Class Activity I       |
-| 0:50        | 0:10      | BREAK                     |
-| 1:00        | 0:45      | In Class Activity II      |
-| 1:45        | 0:05      | Wrap up review objectives |
-| TOTAL       | 1:50      | -                         |
