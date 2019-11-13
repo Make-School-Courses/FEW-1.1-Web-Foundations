@@ -23,11 +23,11 @@ Here is some information about functions
   - Child Selector
   - Descendant Selector
 - Selecting elements with JS 
-  - document.getElementById()
-  - document.querySelector()
-  - document.querySelectorAll()
-  - document.getElementsByClassName()
-  - document.getElementsByTagName()
+  - document.getElementById('a') // <p id="a" class="a">
+  - document.querySelector('h1')
+  - document.querySelectorAll('p.a') -> []
+  - document.getElementsByClassName('') -> []
+  - document.getElementsByTagName() -> []
 - 
 
 <!-- > -->
@@ -35,7 +35,7 @@ Here is some information about functions
 
 ## Debugging: Console.log()
 
-Use `console.log()` test everything. 
+Use `console.log(value)` test everything. 
 
 When something doesn't work it's often due to value that is wrong, or is not what you think it. A first to debugging is to identify suspect values and look at them. 
 
