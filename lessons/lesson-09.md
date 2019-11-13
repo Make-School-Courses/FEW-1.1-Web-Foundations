@@ -1,14 +1,39 @@
 <!-- .slide: data-background="./Images/header.svg" data-background-repeat="none" data-background-size="40% 40%" data-background-position="center 10%" class="header" -->
 # FEW 1.1 - Lesson 9 - JS Flow Control Loops and conditionals
 
-9. JS - Flow control
-  - What is flow control?
-    - Loops 
-    - If statements 
-  - JS and the DOM
-    - document.querySelectorAll()
-  - Activity:
-  - HW:
+<!-- > -->
+
+## Quiz 
+
+Quick take this quiz on JS and the DOM
+
+## Review Tutorial Questions 
+
+- Where are you at in the current tutorial? 
+- What questions if any did you have about the tutorial? 
+- Did you have any problems with the tutorial? 
+
+<!-- > -->
+
+## Dicussion: Functions and Scope
+
+### Functions 
+
+Here is some information about functions
+
+- Functions are objects
+- Functions are first class values
+- Functions expression vs declarations 
+- Parameters
+  - default values
+- Return values
+
+### Scope 
+
+Scope determines where a variable can be accessed
+
+- Block vs function scope
+- const, let, and var
 
 <!-- Put a link to the slides so that students can find them -->
 

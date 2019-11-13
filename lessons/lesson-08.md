@@ -1,41 +1,99 @@
 <!-- .slide: data-background="./Images/header.svg" data-background-repeat="none" data-background-size="40% 40%" data-background-position="center 10%" class="header" -->
 # FEW 1.1 - Lesson 8 - JS Intro Variables, Functions, and Scope
 
-8. JS - Intro Variables, Functions, and scope
-  - The script tag
-    - scripts in tags vs files
-    - Where to put script tags 
-      - End of body 
-      - Head tag
-      - defer attribute 
-    - JS Intro 
-      - defining a variables
-        - const
-        - let
-        - var
-      - Defining a function
-        - fucntion syntax
-        - parameters
-        - return
-    - JS and the DOM
-      - Selecting elements
-        - document.getElemenById()
-        - document.querySelector()
-    - Listening for events
-      - Event driven language
-      - Listening for events
-  - Activity
-    - Some simple programs
-      - Displays stuff in the console
-      - 
-  - HW:
-    - Making a calculator
-
 <!-- Put a link to the slides so that students can find them -->
 
 ➡️ [**Slides**](/Syllabus-Template/Slides/Lesson1.html ':ignore')
 
 <!-- > -->
+
+## Review Tutorial Questions 
+
+- Where are you at in the current tutorial? 
+- What questions if any did you have about the tutorial? 
+- Did you have any problems with the tutorial? 
+
+## Dicussion: JS and the DOM
+
+Here is some information about functions
+
+- The DOM is a tree structure
+  - Elements are nested with elements
+- CSS selectors reflect how the DOM is arranged
+  - Child Selector
+  - Descendant Selector
+- Selecting elements with JS 
+  - document.getElementById()
+  - document.querySelector()
+  - document.querySelectorAll()
+  - document.getElementsByClassName()
+  - document.getElementsByTagName()
+- 
+
+<!-- > -->
+
+
+## Debugging: Console.log()
+
+Use `console.log()` test everything. 
+
+When something doesn't work it's often due to value that is wrong, or is not what you think it. A first to debugging is to identify suspect values and look at them. 
+
+<!-- > -->
+
+## Make a Tip calculator
+
+**Pair** up and make a tip calculator. 
+
+Copy the template below into a text file and save it with the .html extension. 
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <style>
+      /* Put your styles here */
+
+    </style>
+  </head>
+  <body>
+
+    <div class="container">
+      <form id="tip-calculator">
+        <label>
+          Bill
+          <input id="bill-total" type="number" step="0.1">
+        </label>
+        
+        <label>
+          Tip %
+          <input id="tip-percent" type="number" step="0.1">
+        </label>
+        
+        <div id="tip">0.00</div>
+      </form>
+    </div>
+
+    <script>
+      // Your scripts here
+
+      // Get references to elements 
+
+
+      // Event handlers 
+
+
+      // Functions 
+
+    </script>
+  </body>
+</html>
+```
+
+Stretch goal: publish your tip calculator as a GitHub Page.  
+
+<!-- > --> 
 
 ## Minute-by-Minute [OPTIONAL]
 

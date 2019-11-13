@@ -53,6 +53,14 @@ Home many much of the tutorial did you complete?
 
 <!-- > -->
 
+## Discussion
+
+- Events
+- Event Bubbling 
+- Event Delegation
+
+<!-- > -->
+
 ## After Class
 
 This week your goal is to follow the tutorial: 

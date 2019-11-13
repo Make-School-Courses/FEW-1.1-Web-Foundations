@@ -1,11 +1,25 @@
 <!-- .slide: data-background="./Images/header.svg" data-background-repeat="none" data-background-size="40% 40%" data-background-position="center 10%" class="header" -->
 # FEW 1.1 - Lesson 11 - 
 
-
-
 <!-- Put a link to the slides so that students can find them -->
 
 ➡️ [**Slides**](/Syllabus-Template/Slides/Lesson1.html ':ignore')
+
+<!-- > --> 
+
+## Quiz 
+
+Quick take this quiz 
+
+## Review Tutorial Questions 
+
+- Where are you at in the current tutorial? 
+- What questions if any did you have about the tutorial? 
+- Did you have any problems with the tutorial? 
+
+<!-- > -->
+
+
 
 <!-- > -->
 

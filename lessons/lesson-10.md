@@ -1,20 +1,34 @@
 <!-- .slide: data-background="./Images/header.svg" data-background-repeat="none" data-background-size="40% 40%" data-background-position="center 10%" class="header" -->
 # FEW 1.1 - Lesson 10 - JS Objects, Arrays, and This
 
-10. JS - Objects, Arrays and this
-  - What is an Object?
-    - Keys/Properties
-    - values
-  - What is an Array?
-    - defining an array
-    - indexes
-  - Activity:
-  - HW:
-    - Shopping cart functions
-
 <!-- Put a link to the slides so that students can find them -->
 
 ➡️ [**Slides**](/Syllabus-Template/Slides/Lesson1.html ':ignore')
+
+<!-- > -->
+
+## Review Tutorial Questions 
+
+- Where are you at in the current tutorial? 
+- What questions if any did you have about the tutorial? 
+- Did you have any problems with the tutorial? 
+
+<!-- > -->
+
+## Dicussion: Arrays and Objects
+
+- Arrays 
+  - Defining an Array
+  - Get the length of an array
+  - Accessing items at an index
+  - Adding item to an array: array.push()
+  - Removing items from an Array: array.splice()
+  - Looping through an array
+- Objects 
+  - Defining an Object 
+  - Get an element by it's property/key
+  - Defining methods
+- The spread operator
 
 <!-- > -->
 
