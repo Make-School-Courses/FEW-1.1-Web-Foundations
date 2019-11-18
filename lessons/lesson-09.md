@@ -7,6 +7,8 @@
 
 Quick take this quiz on JS and the DOM
 
+<!-- > -->
+
 ## Review Tutorial Questions 
 
 - Where are you at in the current tutorial? 
@@ -17,9 +19,11 @@ Quick take this quiz on JS and the DOM
 
 ## Dicussion: Functions and Scope
 
+<!-- > -->
+
 ### Functions 
 
-Here is some information about functions
+Here is some information about functions:
 
 - Functions are objects
 - Functions are first class values
@@ -28,16 +32,48 @@ Here is some information about functions
   - default values
 - Return values
 
+<!-- > -->
+
 ### Scope 
 
 Scope determines where a variable can be accessed
 
 - Block vs function scope
+- const, let, var
+
+<!-- > -->
+
+## Looking for Scope
+
+Examine the Slide Show code and find the following: 
+
 - const, let, and var
+  - Name the scope for each variable and function
+- functions
+  - Identify all functions 
+  - Identify closure
 
-<!-- Put a link to the slides so that students can find them -->
+<!-- > -->
 
-➡️ [**Slides**](/Syllabus-Template/Slides/Lesson1.html ':ignore')
+## In Class Challenges
+
+Take a look at your slide show. It could be improved. Try these challenges. 
+
+- Currently the slide uses images as "slides". It would be more useful if the slide show could use any content for a "slide".
+- It would be good to have a next and previous button to advance or retreat to a slide. Consider these issues: 
+  - Should buttons be added in markup or should they be added dynamically?
+    - If they are added dynamically could you use a data attribute to determine if buttons should be shown? 
+    - When advancing to a slide should the time reset?
+- Visual indicators would be. Add some idicators one for each slide. 
+  - Highlight the indicator for the current slide. 
+  - Use a data attribute to show the indicators.
+  - Clicking an indicator advances to that slide. 
+
+<!-- > -->
+
+## After Class 
+
+[Assignment 6](../assignments/assignment-06.md)
 
 <!-- > -->
 
@@ -53,92 +89,3 @@ Scope determines where a variable can be accessed
 | 1:45        | 0:05      | Wrap up review objectives |
 | TOTAL       | 1:50      | -                         |
 
-
-<!-- > -->
-
-## Why you should know this or industry application (optional) (5 min)
-
-Explain why students should care to learn the material presented in this class.
-
-<!-- > -->
-
-## Learning Objectives (5 min)
-
-1. Identify and describe
-1. Define
-1. Design
-1. Implement
-
-<!-- > -->
-
-## Initial Exercise (15 min)
-
-- Funny comic
-- Prime the Pump (e.g. think and jot, think pair share, etc)
-- Productivity Tip/Tool
-- Review of current event (e.g. tech news relevant to your track/topic)
-- Quiz on homework or topic(s) of past class
-- Concept Test
-
-<!-- > -->
-
-# Topic 1
-
-<!-- v -->
-
-## Overview/TT I (20 min)
-
-- Why learn this?
-- Industry examples of usage
-- Best practices
-- Personal anecdote
-
-<aside class="notes">
-Place more detailed information or speaker notes in "aside" elements - it will appear in GitHub Pages but not in the slides.
-</aside>
-
-<!-- v -->
-
-## In Class Activity I (30 min)
-
-- I do, We do, You do
-- Reading & Discussion Questions in small groups
-- Draw a picture/diagram
-- Complete Challenges solo or in pair
-- Q&A about tutorials
-- Pair up and code review
-- Pair program
-- Formative assessment
-- Form into groups
-- etc (get creative :D)
-
-<!-- > -->
-
-<!-- .slide: data-background="#087CB8" -->
-## [**10m**] BREAK
-
-<!-- > -->
-
-# Topic 2
-
-<!-- v -->
-
-## Overview/TT II (optional) (20 min)
-
-<!-- v -->
-
-## In Class Activity II (optional) (30 min)
-
-<!-- > -->
-
-## Wrap Up (5 min)
-
-- Continue working on your current tutorial
-- Complete reading
-- Complete challenges
-
-<!-- > -->
-
-## Additional Resources
-
-1. Links to additional readings and videos

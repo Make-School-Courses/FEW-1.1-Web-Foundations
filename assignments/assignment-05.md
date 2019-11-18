@@ -62,8 +62,3 @@ https://github.com/soggybag/js-tutorial-slide-show
 
 Class 7
 
-## Assessing the assignment
-
-[Assignment Name Rubric](./assignment-04-rubric.md)
-
-
