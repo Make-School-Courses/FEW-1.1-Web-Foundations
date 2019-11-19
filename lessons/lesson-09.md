@@ -59,7 +59,7 @@ Examine the Slide Show code and find the following:
 
 Take a look at your slide show. It could be improved. Try these challenges. 
 
-- Currently the slide uses images as "slides". It would be more useful if the slide show could use any content for a "slide".
+- Currently the slide uses images `<img>` as "slides". It would be more useful if the slide show could use any content for a "slide".
 - It would be good to have a next and previous button to advance or retreat to a slide. Consider these issues: 
   - Should buttons be added in markup or should they be added dynamically?
     - If they are added dynamically could you use a data attribute to determine if buttons should be shown? 
