@@ -9,9 +9,9 @@
 
 ## Review Tutorial Questions 
 
-- Where are you at in the current tutorial? 
-- What questions if any did you have about the tutorial? 
-- Did you have any problems with the tutorial? 
+- Where are you at in the current tutorial?
+- What questions if any did you have about the tutorial?
+- Did you have any problems with the tutorial?
 
 <!-- > -->
 
@@ -23,6 +23,48 @@
   - Fetch 
 - JSON
   - Objects vs JSON
+
+<!-- > -->
+
+## What is synchronous?
+
+> adjective: synchronous
+> 1. existing or occurring at the same time. "glaciations were approximately synchronous in both hemispheres"
+> 2. ASTRONOMY (of a satellite or its orbit) making or denoting an orbit around the earth or another celestial body in which one revolution is completed in the period taken for the body to rotate about its axis.
+
+<!-- > --> 
+
+## What is asynchronous? 
+
+> adjective: asynchronous
+> 1. (of two or more objects or events) not existing or happening at the same time.
+> 2. COMPUTING•TELECOMMUNICATIONS of or requiring a form of computer control timing protocol in which a specific operation begins upon receipt of an indication (signal) that the preceding operation has been completed.
+
+<!-- > --> 
+
+Word Origins:
+
+Greek: Sun - together, Greek Khronos - time
+
+Greek: Sunkhronus
+
+"not coinciding in time," 1735, from **a-** (3) "not, without" + **synchronous** "existing or happening at the same time."
+
+<!-- > -->
+
+## How does JavaScript code run? 
+
+Quick read this: 
+
+https://blog.sessionstack.com/how-does-javascript-actually-work-part-1-b0bacc073cf
+
+## Discussion 
+
+Discuss the article with your pair. Be sure to include the three topics below. Try and explain each of these to each other. 
+
+- Runtime
+- Call stack
+- Concurrency and Event Loop
 
 <!-- > -->
 
