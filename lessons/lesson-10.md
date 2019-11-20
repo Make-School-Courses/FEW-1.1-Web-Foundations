@@ -20,7 +20,8 @@
 - Working with async code
   - Callbacks
   - Promise
-  - Fetch 
+  - Fetch
+- Objects 
 - JSON
   - Objects vs JSON
 
@@ -67,6 +68,12 @@ Discuss the article with your pair. Be sure to include the three topics below. T
 - Concurrency and Event Loop
 
 <!-- > -->
+
+## Objects 
+
+https://repl.it/@MitchellHudson/OffbeatNumbPrinter
+
+<iframe height="400px" width="100%" src="https://repl.it/@MitchellHudson/OffbeatNumbPrinter?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ## After Class
 
