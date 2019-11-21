@@ -11,6 +11,16 @@
 
 Quick take this quiz 
 
+<!-- > -->
+
+- Quick review 
+  - synchronous
+  - asynchronous
+  - Runtime
+  - call stack 
+  - event loop
+  
+
 ## Review Tutorial Questions 
 
 - Where are you at in the current tutorial? 

@@ -15,7 +15,7 @@
 
 <!-- > -->
 
-## Dicussion: Arrays and Objects
+## Dicussion: Async vs Synchromous and Objects
 
 - Working with async code
   - Callbacks
@@ -33,7 +33,7 @@
 > 1. existing or occurring at the same time. "glaciations were approximately synchronous in both hemispheres"
 > 2. ASTRONOMY (of a satellite or its orbit) making or denoting an orbit around the earth or another celestial body in which one revolution is completed in the period taken for the body to rotate about its axis.
 
-<!-- > --> 
+<!-- > -->
 
 ## What is asynchronous? 
 
@@ -41,7 +41,7 @@
 > 1. (of two or more objects or events) not existing or happening at the same time.
 > 2. COMPUTING•TELECOMMUNICATIONS of or requiring a form of computer control timing protocol in which a specific operation begins upon receipt of an indication (signal) that the preceding operation has been completed.
 
-<!-- > --> 
+<!-- > -->
 
 Word Origins:
 
@@ -72,8 +72,6 @@ Discuss the article with your pair. Be sure to include the three topics below. T
 ## Objects 
 
 https://repl.it/@MitchellHudson/OffbeatNumbPrinter
-
-<iframe height="400px" width="100%" src="https://repl.it/@MitchellHudson/OffbeatNumbPrinter?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ## After Class
 
