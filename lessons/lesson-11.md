@@ -11,7 +11,7 @@
 
 Quick take this quiz
 
-https://repl.it/classroom/invite/ZLKqpSw
+https://repl.it/classroom/invite/i6Z79Ho
 
 <!-- > -->
 
@@ -42,6 +42,8 @@ setTimeout(function () {
 }, 2000)
 ```
 
+https://repl.it/@MitchellHudson/callbacks
+
 <!-- > -->
 
 ## Callback example: addEventListener() 
@@ -53,6 +55,14 @@ el.addEventListener('click', function(e) {
   // Do something when clicked
 }) 
 ```
+
+<!-- > -->
+
+## Review Tutorial Questions 
+
+- Where are you at in the current tutorial? 
+- What questions if any did you have about the tutorial? 
+- Did you have any problems with the tutorial? 
 
 <!-- > -->
 
@@ -75,14 +85,6 @@ p.then(function(response) {
   // Do soemthing with response
 })
 ```
-
-<!-- > -->
-
-## Review Tutorial Questions 
-
-- Where are you at in the current tutorial? 
-- What questions if any did you have about the tutorial? 
-- Did you have any problems with the tutorial? 
 
 <!-- > -->
 
