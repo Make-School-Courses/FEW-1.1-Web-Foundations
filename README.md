@@ -62,10 +62,10 @@ By the end of the course, students should be able to...
 |  8 | Wed, Nov 13 | [JavaScript Intro](./lessons/lesson-08.md) | [JS Intro](./assignments/assignment-08.md) - Variables, Functions, and Scope |
 |  9 | Mon, Nov 18 | [JS Flow Control](./lessons/lesson-09.md) | [JS Flow Control](./assignments/assignment-09.md) - Loops and Conditionals |
 | 10 | Wed, Nov 20 | [JS OBjects](./lessons/lesson-10.md) | [JS Objects](./assignments/assignment-10.md) - Objects, Arrays, and This |
-| 11 | Mon, Nov 25 | [Lesson 11](./lessons/lesson-11.md) | [???](./assignments/assignment-11.md) - ??? |
+| 11 | Mon, Nov 25 | [Lesson 11](./lessons/lesson-11.md) | [Callbacks](./assignments/assignment-11.md) - Callbacks |
 |  - | Wed, Nov 27 | **NO CLASS** | Thanksgiving |
-| 12 | Mon, Dec 2  | [Lesson 12](./lessons/lesson-12.md) | [???](./assignments/assignment-12.md) |
-| 13 | Wed, Dec 4  | [Lesson 13](./lessons/lesson-13.md) | [???](./assignments/assignment-13.md) - ??? |
+| 12 | Mon, Dec 2  | [Lesson 12](./lessons/lesson-12.md) | [Writing JS Lab](./assignments/assignment-12.md) |
+| 13 | Wed, Dec 4  | [Lesson 13](./lessons/lesson-13.md) | [Final Project Lab](./assignments/assignment-13.md) |
 | 14 | Mon, Dec 9  | [Lesson 14](./lessons/lesson-14.md) | [Present](./assignments/assignment-14.md) - Present your work |
 | 15 | Wed, Dec 11 | [Lesson 15](./lessons/lesson-15.md) | [Assessment](./assignments/assignment-15.md) - Final Assessment |
 

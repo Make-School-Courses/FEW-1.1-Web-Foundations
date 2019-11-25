@@ -9,17 +9,74 @@
 
 ## Quiz 
 
-Quick take this quiz 
+Quick take this quiz
+
+https://repl.it/classroom/invite/ZLKqpSw
 
 <!-- > -->
 
-- Quick review 
+## Quick review 
   - synchronous
   - asynchronous
   - Runtime
   - call stack 
   - event loop
+
+<!-- > -->
+
+## Call Backs
+
+What's a callback? It's a function that you pass to another function that will be executed in the later. Most often callbacks are used for asynchronous processes.
   
+<!-- > -->
+
+## Callback examples: setTimeout()
+
+The `setTimeout()` function takes two parameters: a callback and a number that represents time in milliseconds. The callback function is executed after a delay. 
+
+`setTimeout(callback, time)`js
+
+```JS
+setTimeout(function () {
+  // Do something 2 secs later
+}, 2000)
+```
+
+<!-- > -->
+
+## Callback example: addEventListener() 
+
+`el.addEventListener(eventStr, callbackHandler)`JS
+
+```JS
+el.addEventListener('click', function(e) {
+  // Do something when clicked
+}) 
+```
+
+<!-- > -->
+
+## Callback Example: fetch()
+
+This is a more complex example since fetch takes a apth and returns a Promise. A Promise is an object that has a method `then()` which takes a callback. 
+
+`fetch(path).then(callback)`JS
+
+or 
+
+```JS
+const p = fetch(path)
+p.then(callback)
+```
+
+```JS
+const p = fetch('https://openweathermap.com...')
+p.then(function(response) {
+  // Do soemthing with response
+})
+```
+
+<!-- > -->
 
 ## Review Tutorial Questions 
 

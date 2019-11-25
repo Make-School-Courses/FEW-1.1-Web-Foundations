@@ -119,16 +119,4 @@ div {
 
 </aside>
 
-<!-- > -->
 
-## Wrap Up (5 min)
-
-- Continue working on your current tutorial
-- Complete reading
-- Complete challenges
-
-<!-- > -->
-
-## Additional Resources
-
-1. Links to additional readings and videos
