@@ -6,7 +6,7 @@ Your final project will be a platform for you to combine and practice all of the
 
 ### Why this assignment?
 
-This assignment will give you a chance to revisit and solidify your understanding of what was covered this term. It will also give you the opportunity to create a portfolio worthy project. 
+This assignment will give you a chance to revisit and solidify your understanding of what has covered this term. It will also allow you to create a portfolio worthy project. 
 
 ## Project requirements
 
@@ -16,15 +16,15 @@ Your final project should incorporate everything listed below.
 
 - HTML - Use semantic HTML
 - CSS - 
-  - Typographic styles 
-  - Flex Box 
-  - CSS Grid
+ - Typographic styles 
+ - Flex Box 
+ - CSS Grid
 - JavaScript 
-  - Variables and Functions 
-  - JS and DOM
-  - Event Listeners
+ - Variables and Functions 
+ - JS and DOM
+ - Event Listeners
 
-This may sound like a lot at first. Looking back on the tutorials realize any one of the tutorials contain a majority of items on the list. 
+This may sound like a lot at first. Looking back on the tutorials realize any one of the tutorials contains a majority of items on the list. 
 
 Here are a few suggestions to get started: 
 
@@ -38,8 +38,9 @@ Remember the goal is to make something interesting that you would be proud to sh
 
 ### Deliverable
 
-Ypour completed final.
+Your completed final.
 
 ### Due date
 
 Your completed final project is due Mon, Dec 9. Class 14.
+
