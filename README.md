@@ -62,10 +62,10 @@ By the end of the course, students should be able to...
 |  8 | Wed, Nov 13 | [JavaScript Intro](./lessons/lesson-08.md) | - |
 |  9 | Mon, Nov 18 | [JS Flow Control](./lessons/lesson-09.md) | - |
 | 10 | Wed, Nov 20 | [JS OBjects](./lessons/lesson-10.md) | - |
-| 11 | Mon, Nov 25 | [Lesson 11](./lessons/lesson-11.md) | [Final Assignment](./assignments/assignment-08.md) - Fianl Project |
+| 11 | Mon, Nov 25 | [Lesson 11](./lessons/lesson-11.md) | [Final Assignment](./assignments/assignment-08.md) - Final Project |
 |  - | Wed, Nov 27 | **NO CLASS** | Thanksgiving |
-| 12 | Mon, Dec 2  | [Lesson 12](./lessons/lesson-12.md) | [Final Assignment](./assignments/assignment-08.md) - Fianl Project |
-| 13 | Wed, Dec 4  | [Lesson 13](./lessons/lesson-13.md) | [Final Assignment](./assignments/assignment-08.md) - Fianl Project |
+| 12 | Mon, Dec 2  | [Lesson 12](./lessons/lesson-12.md) | [Final Assignment](./assignments/assignment-08.md) - Final Project |
+| 13 | Wed, Dec 4  | [Lesson 13](./lessons/lesson-13.md) | [Final Assignment](./assignments/assignment-08.md) - Final Project |
 | 14 | Mon, Dec 9  | [Lesson 14](./lessons/lesson-14.md) | Present your work |
 | 15 | Wed, Dec 11 | [Lesson 15](./lessons/lesson-15.md) | Final Assessment |
 
