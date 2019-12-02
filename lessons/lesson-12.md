@@ -9,6 +9,40 @@
 
 <!-- > -->
 
+## Fetch revisted
+
+Where did all of that data come from? 
+
+What if you wanted to send your own data? 
+
+### Serving JSON
+
+Take a look at this example. This is a flash server that responds with JSON. 
+
+https://github.com/soggybag/flask-serve-json
+
+Follow the instructions in README.md.
+
+### GET: Data flow one way
+
+In some sitations you'll only need to send data from a route/endpoint/server. 
+
+Take a look at the `/data` route. 
+
+### GET/POST: Data flow two ways
+
+
+
+<!-- > -->
+
+## Your final project
+
+What should it include? 
+
+When should it be completed?
+
+<!-- > -->
+
 ## Minute-by-Minute [OPTIONAL]
 
 | **Elapsed** | **Time**  | **Activity**              |
