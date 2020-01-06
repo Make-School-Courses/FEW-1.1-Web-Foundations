@@ -1,19 +1,10 @@
-<!-- .slide: data-background="./Images/header.svg" data-background-repeat="none" data-background-size="40% 40%" data-background-position="center 10%" class="header" -->
-# FEW 1.1 - Lesson 2
+# Forms, Links, and Images
 
-<div>Forms, Links, and Images</div>
-
-<!-- Put a link to the slides so that students can find them -->
-
-➡️ [**Slides**](/Syllabus-Template/Slides/lesson1.html ':ignore')
-
-<aside class="notes">
-  
-</aside>
+➡️ [**Slides**](https://make-school-courses.github.io/FEW-1.1-Web-Foundations/Slides/02-Forms-Links-Images/README.html ':ignore')
 
 <!-- > -->
 
-## Learning Objectives
+### Learning Objectives
 
 1. Describe Attributes 
 1. Use HTML tags and their attributes
@@ -21,7 +12,7 @@
 
 <!-- > -->
 
-## Why you should know this
+### Why you should know this
 
 The ability to generate well written and valid HTML is a requirement for any front end developer. You want to be solving bigger problems rather than tripping over HTML syntax. 
 
@@ -29,70 +20,67 @@ The ability to generate well written and valid HTML is a requirement for any fro
 
 ## Attributes
 
-<!-- > -->
+<!-- v -->
 
-Tags can be modified/enhanced using attributes. 
+### What are attributes?
+
+Tags can be modified/enhanced using **attributes**. 
 
 An attribute goes in the opening tag and is always in the form `name="value"`. Values are always quoted.
 
 ```html
-
 <div class="warning">Help!</div>
-
-
 ```
 
-<!-- > -->
+<!-- v -->
+
+### Multiple Attributes
 
 Tags can have as many attributes as you care to include. 
 
 ```html
-
 <img src="alien.png" width="64" height="64">
 <input type="text" name="first-name" id="input-name">
-
-
 ```
 
 Values are quoted even if they are numbers.
 
 The order doesn't matter.
 
-
-<!-- > -->
-
 Many tags have attributes specific to them. 
 
 <!-- > -->
 
-### img
+## Images
 
-<!-- > -->
+<!-- v -->
 
-The img tag displays an image. 
+### The img tag
+
+The `img` tag displays an image. 
 
 Semantically by using the `<img>` tag you saying there is a picture of something. This is different from images that are part of the design. 
 
-<!-- > -->
+<!-- v -->
 
 The `<img>` has a few attributes: 
+
+<div class="compact">
 
 - src
 - alt
 - width & height
+</div>
 
 ```html
-
 <img src="apples.png" width="400" height="200" alt="Apple Tree">
-
-
 ```
 
 <!-- > -->
 
-### input
+## input
 
-<!-- > -->
+<!-- v -->
 
 The input tag is used to create a form input. It can appear in many different ways. It's important attributes are: 
 
@@ -100,23 +88,22 @@ The input tag is used to create a form input. It can appear in many different wa
 - name
 
 ```html
-
 <input type="text" name="query">
-
-
 ```
 
-<!-- > -->
+<!-- v -->
 
 `<input>` has a lot of possible types: 
 
 - text - a text input
 
+```html
+<input type="text">
+```
+
 <input type="text" style="font-size:1.5em">
 
-`<input type="text">`
-
-<!-- > -->
+<!-- v -->
 
 `<input>` has a lot of possible types: 
 
@@ -129,7 +116,7 @@ The input tag is used to create a form input. It can appear in many different wa
 
 `<input type="email">`
 
-<!-- > -->
+<!-- v -->
 
 `<input>` has a lot of possible types: 
 
@@ -142,7 +129,7 @@ The input tag is used to create a form input. It can appear in many different wa
 
 `<input type="password">`
 
-<!-- > -->
+<!-- v -->
 
 `<input>` can also use placeholder
 
@@ -152,7 +139,7 @@ The input tag is used to create a form input. It can appear in many different wa
 
 `<input type="text" placeholder="Enter your name">`
 
-<!-- > -->
+<!-- v -->
 
 `<input>` has a lot of possible types: 
 
@@ -165,7 +152,7 @@ The input tag is used to create a form input. It can appear in many different wa
 
 `<input type="number">`
 
-<!-- > -->
+<!-- v -->
 
 `<input>` has a lot of possible types: 
 
@@ -179,7 +166,7 @@ The input tag is used to create a form input. It can appear in many different wa
 
 `<input type="number" min="1" max="6">`
 
-<!-- > -->
+<!-- v -->
 
 `<input>` has a lot of possible types: 
 
@@ -191,7 +178,7 @@ The input tag is used to create a form input. It can appear in many different wa
 
 `<input type="color">`
 
-<!-- > -->
+<!-- v -->
 
 Radio buttons are groups of buttons where only one of the group can be selected at any time. 
 
@@ -211,7 +198,7 @@ Radio buttons are groups of buttons where only one of the group can be selected 
 <input type="radio" name="size">
 ```
 
-<!-- > -->
+<!-- v -->
 
 Form elements should have a label. The label needs to be associated with the element. 
 
@@ -219,7 +206,7 @@ Form elements should have a label. The label needs to be associated with the ele
 
 Labels make your checkboxes and radio buttons make more sense. They also help clarify your text inputs. 
 
-<!-- > -->
+<!-- v -->
 
 <div style="display:flex">
 <form style="width:250px; border:2px solid; padding:0.5em">
@@ -271,7 +258,7 @@ Labels make your checkboxes and radio buttons make more sense. They also help cl
 ```
 </div>
 
-<!-- > -->
+<!-- v -->
 
 <div style="display:flex">
 <form style="width:250px;border: 2px solid;padding: 0.5em">
@@ -324,7 +311,7 @@ Labels make your checkboxes and radio buttons make more sense. They also help cl
 
 </div>
 
-<!-- > -->
+<!-- v -->
 
 <div style="display:flex">
 <form style="width:250px; border:2px solid; padding:0.5em">
@@ -366,9 +353,9 @@ Labels make your checkboxes and radio buttons make more sense. They also help cl
 
 <!-- > -->
 
-### Anchors
+## Anchors
 
-<!-- > -->
+<!-- v -->
 
 Anchors are text links that load new documents. These are the proverbial **hyperlinks**.
 
@@ -376,7 +363,7 @@ Anchors are text links that load new documents. These are the proverbial **hyper
 
 The `href` attribute sets the URL the link loads. 
 
-<!-- > -->
+<!-- v -->
 
 Anchors/hyperlinks can link to elements in the same document. 
 
@@ -393,17 +380,17 @@ The `href="#weather-report"` moves the element with the `id="weather-report"` to
 <!-- > -->
 
 <!-- .slide: data-background="#087CB8" -->
-## **10min** BREAK 
+### BREAK [10 min]
 
 <!-- > -->
 
-## Homework
+### Homework
 
 Complete [assignment 2](../assignment-02.md)
 
 <!-- > -->
 
-## Wrap Up
+### Wrap Up
 
 1. What is an attribute?
 1. What is the syntax for attributes?
@@ -414,25 +401,7 @@ Complete [assignment 2](../assignment-02.md)
 
 <!-- > -->
 
-## Additional Resources
+### Additional Resources
 
 1. 
-
-<!-- > -->
-
-<aside class="notes">
-
-## Minute-by-Minute
-
-| **Elapsed** | **Time**  | **Activity**              |
-| ----------- | --------- | ------------------------- |
-| 0:00        | 0:05      | Objectives                |
-| 0:05        | 0:15      | Overview                  |
-| 0:20        | 0:30      | In Class Activity I       |
-| 0:50        | 0:10      | BREAK                     |
-| 1:00        | 0:45      | In Class Activity II      |
-| 1:45        | 0:05      | Wrap up review objectives |
-| TOTAL       | 1:50      | -                         |
-
-</aside>
 

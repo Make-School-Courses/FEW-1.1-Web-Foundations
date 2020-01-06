@@ -13,8 +13,7 @@ Semantic is deeper and more careful look at how you choose the tags you use and 
 ## Project requirements
 
 - Fork the repo here: https://github.com/soggybag/learn-semantic-markup
-- Open each of the "challenge" html files and add HTML markup to 
-the content.
+- Open each of the "challenge" html files and add HTML markup to the content.
 - Read the content and ask yourself what is trying to be said by the text content?
   - Add HTML tags to markup of the content with the goal of describing the content best.  
 - When you're done compare your solution to the provided solution. Don't worry if they don't match exactly. 

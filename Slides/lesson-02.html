@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-    <title>Syllabus Template Slides</title>
+    <title>FEW 1.1</title>
     <link rel="stylesheet" href="./css/reveal.css" />
     <link rel="stylesheet" href="./css/theme/black.css" id="theme" />
     <link rel="stylesheet" href="./css/highlight/zenburn.css" />
@@ -24,7 +24,7 @@
 
 <!-- Put a link to the slides so that students can find them -->
 
-➡️ [**Slides**](/Syllabus-Template/Slides/Lesson1.html ':ignore')
+➡️ [**Slides**](/Syllabus-Template/Slides/lesson1.html ':ignore')
 
 <aside class="notes">
   
@@ -113,33 +113,41 @@ The input tag is used to create a form input. It can appear in many different wa
 </script></section><section  data-markdown><script type="text/template">
 `<input>` has a lot of possible types: 
 
-- email - email input
+- **email** - email input
 
-<form>
-<input type="email" style="font-size:1.5em">
-<button type="submit">Submit</button>
+<form style="display:flex; margin: auto">
+  <input type="email" style="font-size:1.5em">
+  <button type="submit" style="font-size: 1em">Submit</button>
 </form>
 
 `<input type="email">`
 </script></section><section  data-markdown><script type="text/template">
 `<input>` has a lot of possible types: 
 
-- password - password input
+- **password** - password input
 
-<form>
+<form style="display: flex; margin: auto">
   <input type="password" style="font-size:1.5em">
-  <input type="submit">
+  <button type="submit" style="font-size:1em">Submit</button>
 </form>
 
 `<input type="password">`
+</script></section><section  data-markdown><script type="text/template">
+`<input>` can also use placeholder
+
+- text - a text input
+
+<input type="text" style="font-size:1.5em" placeholder="Enter your name">
+
+`<input type="text" placeholder="Enter your name">`
 </script></section><section  data-markdown><script type="text/template">
 `<input>` has a lot of possible types: 
 
 - number - numeric input
 
-<form>
+<form style="display: flex; margin: auto">
   <input type="number" style="font-size:1.5em">
-  <input type="submit">
+  <button type="submit" style="font-size:1em">Submit</button>
 </form>
 
 `<input type="number">`
@@ -289,6 +297,44 @@ Labels make your checkboxes and radio buttons make more sense. They also help cl
 </form>
 ```
 
+</div>
+</script></section><section  data-markdown><script type="text/template">
+<div style="display:flex">
+<form style="width:250px; border:2px solid; padding:0.5em">
+  <p>
+      <input id="small" type="radio" name="size" style="font-size:1em">
+      <label for="small">Small</label>
+  </p>
+  
+  <p>
+      <input id="medium" type="radio" name="size" style="font-size:1em">
+      <label for="medium">Small</label>
+  </p>
+
+  <p>
+      <input id="large" type="radio" name="size" style="font-size:1em">
+      <label for="large">Small</label>
+  </p>
+</form>
+
+```html
+<form style="width:250px; border:2px solid; padding:0.5em">
+  <p>
+    <input id="small" type="radio" name="size">
+    <label for="small">Small</label>
+  </p>
+  
+  <p>
+    <input id="medium" type="radio" name="size">
+    <label for="medium">Medium</label>
+  </p>
+
+  <p>
+    <input id="large" type="radio" name="size">
+    <label for="large">Large</label>
+  </p>
+</form>
+```
 </div>
 </script></section><section  data-markdown><script type="text/template">
 ### Anchors

@@ -7,7 +7,7 @@
 
 <!-- > -->
 
-## Learning Objectives
+### Learning Objectives
 
 1. Describe the Box Model
 1. Use the box model to create a box of any size
@@ -15,7 +15,7 @@
 
 <!-- > -->
 
-## Why you should know this?
+### Why you should know this
 
 The box model is at the foundation of understanding layout with CSS. It also shows up on front end interviews. 
 
@@ -23,26 +23,31 @@ The box model is at the foundation of understanding layout with CSS. It also sho
 
 ## What is the Box Model? 
 
-<!-- > -->
+<!-- v -->
 
 <div>It's the formula used to determine the size of a box in the browser.</div>
 
-<!-- > -->
+<!-- v -->
 
-<div>How is the box model calculated?</div> 
-
-<!-- > -->
+### How is the box model calculated?
 
 margin + border + padding + width + padding + border + margin
 
-<div style="background-color:yellow; padding: 10px">
-  <div style="width:auto;padding:10px;border:4px solid;margin:10px;background-color: red">Content</div>
-</div>
+```css
+div {
+    border: 4px solid black;
+    margin: 20px;
+    padding: 10px;
+}
+```
 
+<div style="background-color:#ccc; padding: 10px">
+  <div style="width:auto;padding:10px;border:4px solid;margin:10px;background-color: lightblue; text-align: left">Content</div>
+</div>
 
 <small style="color: red">268px = 20px + 4px + 10px + 200px + 10px + 4px + 20px</small>
 
-<!-- > -->
+<!-- v -->
 
 Inline vs block
 
@@ -56,7 +61,7 @@ Inline tags line up left to right like you would write text on a page. They wrap
 
 Blocks contain inline elements. 
 
-<!-- > -->
+<!-- v -->
 
 Inline vs block
 
@@ -67,11 +72,11 @@ Inline vs block
 
 Blocks are boxes that normally stack each below the previous. 
 
-<!-- > -->
+<!-- v -->
 
 The background color fills a box to the border.
 
-Margin push the box away from it's neighbors.
+Margin push the box away from its neighbors.
 
 ```CSS
 div {
@@ -90,7 +95,7 @@ div {
 
 ## Borders
 
-<!-- > -->
+<!-- v -->
 
 A border only shows after you set both the width and the style: 
 
@@ -100,23 +105,3 @@ div {
   border-style: solid;
 }
 ```
-
-<!-- > --> 
-
-<aside class="notes">
-
-## Minute-by-Minute [OPTIONAL]
-
-| **Elapsed** | **Time**  | **Activity**              |
-| ----------- | --------- | ------------------------- |
-| 0:00        | 0:05      | Objectives                |
-| 0:05        | 0:15      | Overview                  |
-| 0:20        | 0:30      | In Class Activity I       |
-| 0:50        | 0:10      | BREAK                     |
-| 1:00        | 0:45      | In Class Activity II      |
-| 1:45        | 0:05      | Wrap up review objectives |
-| TOTAL       | 1:50      | -                         |
-
-</aside>
-
-

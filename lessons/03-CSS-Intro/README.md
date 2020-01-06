@@ -9,7 +9,7 @@
 
 <!-- > -->
 
-## Learning Objectives
+### Learning Objectives
 
 1. Describe CSS it's use and syntax
 1. Use CSS styles to define the appearance of text on the screen
@@ -19,7 +19,7 @@
 
 <!-- > -->
 
-## Why you should know this
+### Why you should know this
 
 CSS is powerful gives you full control of the appearance of everything you see on the screen. To be a front end engineer you need to be a master of CSS. 
 
@@ -27,7 +27,9 @@ CSS is powerful gives you full control of the appearance of everything you see o
 
 ## CSS Intro
 
-<!-- > -->
+<!-- v -->
+
+### In Context
 
 CSS is part of the sepration of concerns that make up web development.
 
@@ -35,11 +37,11 @@ CSS is part of the sepration of concerns that make up web development.
 - **CSS** - Applies presentation 
 - **JavaScript** - Handles the business logic
 
-<!-- > -->
-
 We have a separate language that is specialized for each purpose. 
 
-<!-- > --> 
+<!-- v -->
+
+### An Analogy
 
 Here is an analogy. 
 
@@ -47,11 +49,9 @@ Here is an analogy.
 - **CSS** - The Skin 
 - **JavaScript** - The Muscles
 
-<!-- > -->
+<!-- v -->
 
-# CSS - The Language
-
-<!-- > -->
+### CSS - The Language
 
 Styles are written in the CSS language. 
 
@@ -65,7 +65,9 @@ You can write CSS styles in
 
 ## Style Rules
 
-<!-- > -->
+<!-- v -->
+
+### Example
 
 CSS is written as style rules that might look like this: 
 
@@ -79,7 +81,9 @@ body {
 }
 ```
 
-<!-- > -->
+<!-- v -->
+
+### Selector
 
 A rule begins with a selector
 
@@ -91,7 +95,9 @@ p { /* <-- Selector */
 
 This is a selector. This rule applies to all `<p>` tags in a document. 
 
-<!-- > -->
+<!-- v -->
+
+### Properties and Values
 
 These are properties and values. 
 
@@ -109,21 +115,32 @@ Property names in CSS are always kabob-case
 
 **And end with a semicolon!**
 
-<!-- > -->
+<!-- v -->
+
+### Types of Values
 
 There are variety of possible values some require a unit.  
+
+
+<table><tr><td width="50%">
 
 - `0` - doesn't need a unit
 - `Helevtica` - Font Name
   - "Times New Roman" - When a value contains spaces use the quotes
 - `14px` - px = Pixels
 - `#eee` - hex color
+
+</td><td width="50%">
+
 - `1fr` - fr = fraction
 - `2em` - em (same as the font size)
 - `4rem` - root em (based on root font size)
 - `50%` - fifty percent
+</td></tr></table>
 
-<!-- > -->
+<!-- v -->
+
+### Example
 
 A style rule starts with a selector. And contains a list of property value pairs. 
 
@@ -141,7 +158,7 @@ p {
 
 ## Putting CSS into Practice
 
-<!-- > -->
+<!-- v -->
 
 CSS will take a long time to master. 
 
@@ -149,9 +166,9 @@ We will start with basic concepts which you can expand upon to build your skills
 
 The web is mostly text. Controlling typography will be an important skill. 
 
-<!-- > -->
+<!-- v -->
 
-**Inheritance** 
+### Inheritance
 
 Most properties are inherited by descendants. 
 
@@ -167,7 +184,7 @@ HTML/DOM defines the structure of a page.
 
 `<body>` is the ancestor and `<p>` is a descendant. 
 
-<!-- > -->
+<!-- v -->
 
 All other tags would get a font size of 16px and a font family of Helvetica. 
 
@@ -184,7 +201,7 @@ Other elements may have styles that **override** the style they inherit.
 
 Other rules my effect how the inherited value is calculated.
 
-<!-- > -->
+<!-- v -->
 
 When we set font-size we often set the size in `em`s. This is a relative unit. It represents a multiple of the current font size. 
 
@@ -199,7 +216,7 @@ h1 {
 }
 ```
 
-<!-- > -->
+<!-- v -->
 
 **Best practice**
 
@@ -213,13 +230,13 @@ body {
 
 Changes to the body will cause all other elements to keep their relative sizes. 
 
-<!-- > -->
+<!-- v -->
 
 ### Activity
 
 <div>Style the Android phones & Tablets page.</div>
 
-<!-- > -->
+<!-- v -->
 
 Take a look at the Android Phones & Tablets page. 
 
@@ -229,13 +246,13 @@ Look at the source code from our example here:
 
 https://github.com/soggybag/learn-markup-level-2/blob/master/challenge-01-solution.html
 
-<!-- > -->
+<!-- v -->
 
 The page is divided into sections. Each section begins with header and the header contains an  h2 followed by an h3. 
 
 On the Android site h2 is smaller than the h3. 
 
-<!-- > -->
+<!-- v -->
 
 Add some styles to this page. 
 
@@ -254,26 +271,12 @@ Changing the font size on the body will change the size of the fonts relatively 
 
 <!-- > -->
 
-## Wrap Up (5 min)
+### Wrap Up (5 min)
 
 - Work on the [Single Page Project](../assignments/assignment-03.md)
 
 <!-- > -->
 
-## Additional Resources
+### Additional Resources
 
 1. Links to additional readings and videos
-
-<!-- > -->
-
-## Minute-by-Minute [OPTIONAL]
-
-| **Elapsed** | **Time**  | **Activity**              |
-| ----------- | --------- | ------------------------- |
-| 0:00        | 0:05      | Objectives                |
-| 0:05        | 0:15      | Overview                  |
-| 0:20        | 0:30      | In Class Activity I       |
-| 0:50        | 0:10      | BREAK                     |
-| 1:00        | 0:45      | In Class Activity II      |
-| 1:45        | 0:05      | Wrap up review objectives |
-| TOTAL       | 1:50      | -                         |
