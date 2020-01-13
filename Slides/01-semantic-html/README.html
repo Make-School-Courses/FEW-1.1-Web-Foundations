@@ -4,12 +4,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-    <title>Syllabus Template Slides</title>
-    <link rel="stylesheet" href="./css/reveal.css" />
-    <link rel="stylesheet" href="./css/theme/black.css" id="theme" />
-    <link rel="stylesheet" href="./css/highlight/zenburn.css" />
-    <link rel="stylesheet" href="./css/print/paper.css" type="text/css" media="print" />
-    <link rel="stylesheet" href="./assets/Reveal/makeschool.css" />
+    <title>FEW 1.1</title>
+    <link rel="stylesheet" href="./../css/reveal.css" />
+    <link rel="stylesheet" href="./../css/theme/black.css" id="theme" />
+    <link rel="stylesheet" href="./../css/highlight/zenburn.css" />
+    <link rel="stylesheet" href="./../css/print/paper.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="./../assets/Reveal/makeschool.css" />
 
     <script>
       document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>');
@@ -17,21 +17,16 @@
   </head>
   <body>
     <div class="reveal">
-      <div class="slides"><section  data-markdown><script type="text/template"><!-- .slide: data-background="./Images/header.svg" data-background-repeat="none" data-background-size="40% 40%" data-background-position="center 10%" class="header" -->
-# FEW 1.1 - Lesson 1 
+      <div class="slides"><section  data-markdown><script type="text/template"># Semantic HTML
 
-<div style="text-align:center">Semantic HTML</div>
-
-<!-- Put a link to the slides so that students can find them -->
-
-➡️ [**Slides**](/Syllabus-Template/Slides/Lesson1.html ':ignore')
-</script></section><section  data-markdown><script type="text/template">
+➡️ [**Slides**](https://make-school-courses.github.io/FEW-1.1-Web-Foundations/slides/01-semantic-html/README.html ':ignore')
+</script></section><section ><section data-markdown><script type="text/template">
 ## HTML
 
-<div style="text-align:center">The language of the web.</div>
-</script></section><section  data-markdown><script type="text/template">
+#### The language of the web.
+</script></section><section data-markdown><script type="text/template">
 In 1989 Tim Berners-Lee, a physicist at <a href="/wiki/CERN" title=""><abbr title="European Organization for Nuclear Research">CERN</abbr></a>, proposed system for researchers to share documents. 
-</script></section><section  data-markdown><script type="text/template">
+</script></section></section><section  data-markdown><script type="text/template">
 The system was an internet-based hypertext system. Hypertext is text displayed on a computer screen that uses hyperlinks to connect other documents. 
 </script></section><section  data-markdown><script type="text/template">
 HTML uses tags to "markup" a document. Tags describe and provide context to content. 
@@ -120,7 +115,9 @@ Complete [assignment 1](../assignments/assignment-01.md)
 </script></section><section  data-markdown><script type="text/template">
 ## Additional Resources
 
-1. 
+1. http://html5doctor.com
+1. https://en.wikipedia.org/wiki/HTML
+1. https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 </script></section><section  data-markdown><script type="text/template">
 ## Minute-by-Minute [OPTIONAL]
 
@@ -137,7 +134,7 @@ Complete [assignment 1](../assignments/assignment-01.md)
 </script></section></div>
     </div>
 
-    <script src="./js/reveal.js"></script>
+    <script src="./../js/reveal.js"></script>
 
     <script>
       function extend() {
@@ -155,12 +152,12 @@ Complete [assignment 1](../assignments/assignment-01.md)
 
       // Optional libraries used to extend on reveal.js
       var deps = [
-        { src: './plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
-        { src: './plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
-        { src: './plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-        { src: './plugin/zoom-js/zoom.js', async: true },
-        { src: './plugin/notes/notes.js', async: true },
-        { src: './plugin/math/math.js', async: true }
+        { src: './../plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+        { src: './../plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+        { src: './../plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+        { src: './../plugin/zoom-js/zoom.js', async: true },
+        { src: './../plugin/notes/notes.js', async: true },
+        { src: './../plugin/math/math.js', async: true }
       ];
 
       // default options to init reveal.js

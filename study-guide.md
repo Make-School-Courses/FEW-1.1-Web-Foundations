@@ -1,6 +1,6 @@
 # Study Guide 
 
-This guide outlines the things you should study yo pass the final assessment. 
+This guide outlines the things you should study to pass the final assessment. 
 
 ## Resources 
 

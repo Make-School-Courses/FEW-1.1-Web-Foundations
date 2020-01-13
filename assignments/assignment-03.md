@@ -14,7 +14,7 @@ You can add this to your portfolio to show you are capable of making web sites w
 
 ## Project requirements
 
-You goal is to make a site that has the general layout of the [Conquer Template](https://www.free-css.com/free-css-templates/page196/conquer). Click the link and take a look at the demo of the tewmplate. 
+You goal is to make a site that has the general layout of the [Conquer Template](https://www.free-css.com/free-css-templates/page196/conquer). Click the link and take a look at the demo of the template. 
 
 **This template uses Bootstrap you are going to make your own version of it without Bootstrap.**
 
