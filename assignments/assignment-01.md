@@ -2,7 +2,7 @@
 
 ## Description 
 
-Use semantic markup. Develop your skill and understanding of HTML. 
+Use Semantic markup to create a portfolio for yourself. Eventually you will style and publish your portfolio. In this assignment you will create the general content of the poartfolio and mark it up semantically. 
 
 ### Why this assignment?
 
@@ -12,21 +12,27 @@ Semantic is deeper and more careful look at how you choose the tags you use and 
 
 ## Project requirements
 
-- Fork the repo here: https://github.com/soggybag/learn-semantic-markup
-- Open each of the "challenge" html files and add HTML markup to the content.
-- Read the content and ask yourself what is trying to be said by the text content?
-  - Add HTML tags to markup of the content with the goal of describing the content best.  
-- When you're done compare your solution to the provided solution. Don't worry if they don't match exactly. 
-  - Ask yourself what the differences are and why you chose the tags that you chose? 
-  - Ask yourself why there are tags in the solution that are not in your solution and why these were chosen?
+This assignmen must be hosted in it's own GitHub repo. Eventuially it will be hosted in that same repo. 
+
+- Create a new repo
+- Create an index.html file in your repo
+- Write the content of your portfolio include the following: 
+    - Name and Tag Line
+    - List of your skills
+    - About you section 
+        - Short but not too short. Tells us what you want us to know about you. 
+        - Can include your education and other experience
+        - Include a picture (mark this up with the figure tag)
+    - Online presence, include links to: 
+        - LinkedIn
+        - GitHub
+        - Other social media Instagram, FB, etc. 
+
+https://learntocodewith.me/posts/portfolio-tips/
 
 ### Deliverable
 
-Add a link to your repo of completed challenges. 
-
-#### Stretch Goal 
-
-Make up a new challenge and solution document and submit a pull request to the repo. Follow the [contributing guide](https://github.com/soggybag/learn-semantic-markup/contributing.md). 
+A link to your repo on GitHub. 
 
 ### Due date
 

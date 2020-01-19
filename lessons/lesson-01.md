@@ -6,21 +6,23 @@
 
 ## What is HTML?
 
-**The Language of the Web**
+The Language of the Web
 
 HTML stands for "HyperText Markup Language", which refers to "hypertext" (i.e. links) in digital documents. The Web is, essentially, made up of lots of digital documents which link to each other.
+
 
 <!-- > -->
 
 ### A Short History
 
 In 1989 Tim Berners-Lee, a physicist at <a href="/wiki/CERN" title=""><abbr title="European Organization for Nuclear Research">CERN</abbr></a>, proposed a system for researchers to share documents. 
+
 <!-- .element: class="fragment" -->
 
 The system was an internet-based hypertext system. Hypertext is text displayed on a computer screen that uses hyperlinks to connect other documents.
 <!-- .element: class="fragment" -->
 
-![asdf](assets/hyperlinks.gif)
+![asdf](images/hyperlinks.gif)
 <!-- .element: class="fragment" -->
 
 <!-- > -->
@@ -115,7 +117,7 @@ The `article` tag defines an article, an `h1` defines a heading, and a `p` tag d
 
 ***Important!*** Notice the article contains a heading and a content paragraph.
 
-A heading would never contain an article.
+_A heading would never contain an article._
 
 <!-- > -->
 
@@ -126,6 +128,44 @@ Pair up and research tags.
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 
 Choose **one tag from each category** to present to your classmates.
+
+<!-- > -->
+
+## BREAK 
+
+Take a ten minute break and wrap a tag around everything you see. 
+
+<!-- > -->
+
+## Lab 
+
+Write a description for intensive project. Include the following information: 
+
+- When you made it and a date
+- Title or name of the project
+- Why you made it, what is the rationale for creating this project. What problems does it solve? 
+- Short description of the process and tools used. 
+- Meta info, where is it hosted, where is the code, how to get started etc. 
+
+<!-- > -->
+
+- Markup your project description 
+- Use semantic markup, use tags:
+    - article
+    - headings
+    - Parargraphs
+    - List
+    - etc. 
+
+<!-- > -->
+
+## After Lab
+
+Questions?
+
+Pair up and markup the example text.
+
+https://github.com/soggybag/learn-semantic-markup
 
 <!-- > -->
 
