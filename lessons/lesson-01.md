@@ -4,12 +4,20 @@
 
 <!-- > -->
 
-## What is HTML?
+### Learning Objectives
+
+- Describe semantic HTML
+- Use Semantic HTML
+- Write HTML with correct syntax
+- Markup content and preserve context and meaning
+
+<!-- > -->
+
+### What is HTML?
 
 The Language of the Web
 
 HTML stands for "HyperText Markup Language", which refers to "hypertext" (i.e. links) in digital documents. The Web is, essentially, made up of lots of digital documents which link to each other.
-
 
 <!-- > -->
 
@@ -20,6 +28,7 @@ In 1989 Tim Berners-Lee, a physicist at <a href="/wiki/CERN" title=""><abbr titl
 <!-- .element: class="fragment" -->
 
 The system was an internet-based hypertext system. Hypertext is text displayed on a computer screen that uses hyperlinks to connect other documents.
+
 <!-- .element: class="fragment" -->
 
 ![asdf](images/hyperlinks.gif)
@@ -90,17 +99,93 @@ To use a *word* semantically is to use a word in a way that properly aligns with
 
 ### Some Examples
 
+<!-- > -->
+
+#### "Valentines day! ♥️"
+
+How would you mark this up?
+<!-- .element: class="fragment" -->
+
 A time or date uses the `time` tag.
+<!-- .element: class="fragment" -->
 
 ```html
-<time>Valentines day</time>
+<time>Valentines day! ♥️</time>
 ```
+<!-- .element: class="fragment" -->
+
+Or better
+<!-- .element: class="fragment" -->
+```html
+<time datetime="2020-02-14">Valentines day! </time>
+```
+<!-- .element: class="fragment" -->
+
+<!-- > -->
+
+#### "HTML"
+
+How would you mark this up? (seriously)
+<!-- .element: class="fragment" -->
 
 Abbreviations and acronyms use the `abbr` tag.
+<!-- .element: class="fragment" -->
 
 ```html
 <abbr>HTML</abbr>
 ```
+<!-- .element: class="fragment" -->
+
+Or, better
+<!-- .element: class="fragment" -->
+
+```html
+<abbr title="Hyper Text Markup Language">HTML</abbr>
+```
+<!-- .element: class="fragment" -->
+
+<!-- > -->
+
+<abbr title="Hyper Text Markup Language">HTML</abbr> was invented by Tim Berners Lee.
+
+<!-- > -->
+
+#### "How would you mark this up? (seriously)"
+
+```HTML
+<p>How would <em>you</em> mark this up? <strong>(seriously)</strong></p>
+```
+<!-- .element: class="fragment" -->
+
+`em` and `strong` are inline tags that control the voice of what you are saying.
+<!-- .element: class="fragment" -->
+
+<em>Always</em> use inline tags <strong>inside a block!</strong>
+<!-- .element: class="fragment" -->
+
+<!-- > -->
+
+### Sarcasm
+
+What about a sarcasm tag?  
+<!-- .element: class="fragment" -->
+
+Would this be useful? Discuss... 
+<!-- .element: class="fragment" -->
+
+What tasgs would find useful for communication? Discuss... 
+<!-- .element: class="fragment" -->
+
+<!-- > -->
+
+### Some Rules
+
+<!-- > -->
+
+- Pairs end with / - `<p>...</p>`
+- Some tags don't have a pair - `<hr>`
+- Tags can't overlap! - `<p><time>Valentines day!</time></p>`
+- Attributes are name value pairs the value is always in quotes - `<img src="./picture.png">`
 
 <!-- > -->
 
@@ -131,13 +216,15 @@ Choose **one tag from each category** to present to your classmates.
 
 <!-- > -->
 
-## BREAK 
+### BREAK 
 
 Take a ten minute break and wrap a tag around everything you see. 
 
 <!-- > -->
 
-## Lab 
+### Lab 
+
+Mark up challenges 1-4 here: https://github.com/soggybag/learn-semantic-markup. Choose the bext tags to describe the content of the text in each of these documents. 
 
 Write a description for intensive project. Include the following information: 
 
@@ -177,12 +264,23 @@ https://github.com/soggybag/learn-semantic-markup
 
 ### Wrap-Up 
 
-- What was covered today? 
-- What does semantic mean? 
-- What is semantic HTML?
-- What is a tag? 
-- What is an element?
-- When do tags overlap? 
+- What were the learning objectives? 
+- What is a learning Objective? 
+- How would you check your understanding of the learning objectives? 
+
+<!-- > -->
+
+### What are learning Objectives? 
+
+learning Objectives are the concepts and ideas that you need to know to claim mastery of a subject. When you have mastered a learning objective you will be able to explain it and put into practice. 
+
+<!-- > -->
+
+Test your knowledge by explaining the concept to someone else. 
+
+Some learning objects you will implement in code. 
+
+Others learnign objects are ideas that exist in the world at larger or are overaching ideas. 
 
 <!-- > -->
 
