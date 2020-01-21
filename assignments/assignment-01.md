@@ -19,7 +19,7 @@ This assignmen must be hosted in it's own GitHub repo. Eventuially it will be ho
 - Write the content of your portfolio include the following: 
     - Name and Tag Line
     - List of your skills
-    - About you section 
+    - About you section
         - Short but not too short. Tells us what you want us to know about you. 
         - Can include your education and other experience
         - Include a picture (mark this up with the figure tag)
@@ -29,6 +29,14 @@ This assignmen must be hosted in it's own GitHub repo. Eventuially it will be ho
         - Other social media Instagram, FB, etc. 
 
 https://learntocodewith.me/posts/portfolio-tips/
+
+Mark up your content. Use the following tags. 
+
+- article, section
+- nav, main
+- footer, header
+- h1-6, hgroup
+- ul, li
 
 ### Deliverable
 

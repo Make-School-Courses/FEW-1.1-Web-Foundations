@@ -173,7 +173,7 @@ What about a sarcasm tag?
 Would this be useful? Discuss... 
 <!-- .element: class="fragment" -->
 
-What tasgs would find useful for communication? Discuss... 
+What tags would find useful for communication? Discuss... 
 <!-- .element: class="fragment" -->
 
 <!-- > -->
@@ -189,30 +189,43 @@ What tasgs would find useful for communication? Discuss...
 
 <!-- > -->
 
-### Nested Example
-
-The `article` tag defines an article, an `h1` defines a heading, and a `p` tag defines a paragraph.
-
-```HTML
-<article>
-  <h1>HTML</h1>
-  <p>HTML define the structure of your HTML documents.</p>
-</article>
-```
-
-***Important!*** Notice the article contains a heading and a content paragraph.
-
-_A heading would never contain an article._
-
-<!-- > -->
-
 ### Activity
 
 Pair up and research tags. 
 
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 
+Take a look at what the HTML5 Dr hsa to say about your tags: http://html5doctor.com
+
 Choose **one tag from each category** to present to your classmates.
+
+<!-- > -->
+
+- address
+- article, section, aside
+- nav, main
+- footer, header
+- h1-6, hgroup
+
+- blockquote
+- dd, dl, dt
+- figure, figcaption
+- pre, code
+- ul, ool, li
+
+- a
+- abbr, time, 
+- dfn
+- i, b, u, strong, em, sup, sub
+- mark, del, ins, q
+
+- area
+- audio, video, img, track
+
+- embed, iframe, object
+
+- canvas
+- details, dialog, menu, menuitem, summary
 
 <!-- > -->
 
@@ -222,7 +235,7 @@ Take a ten minute break and wrap a tag around everything you see.
 
 <!-- > -->
 
-### Lab 
+### Lab
 
 Mark up challenges 1-4 here: https://github.com/soggybag/learn-semantic-markup. Choose the bext tags to describe the content of the text in each of these documents. 
 
