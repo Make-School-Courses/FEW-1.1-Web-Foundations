@@ -195,32 +195,35 @@ Pair up and research tags.
 
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 
-Take a look at what the HTML5 Dr hsa to say about your tags: http://html5doctor.com
+Take a look at what the HTML5 Dr has to say about your tags: http://html5doctor.com
 
-Choose **one tag from each category** to present to your classmates.
+Choose **one tag from each category** to present to your classmates. Include an example of the tags in use to show context.
 
 <!-- > -->
 
+1.
 - address
 - article, section, aside
 - nav, main
 - footer, header
 - h1-6, hgroup
 
+2.
 - blockquote
-- dd, dl, dt
+- dd, dl, dt, ul, ol, li
 - figure, figcaption
 - pre, code
-- ul, ool, li
 
+3.
 - a
 - abbr, time, 
 - dfn
 - i, b, u, strong, em, sup, sub
 - mark, del, ins, q
 
+4.
 - area
-- audio, video, img, track
+- audio, video, source, img, track
 
 - embed, iframe, object
 
