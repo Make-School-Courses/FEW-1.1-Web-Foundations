@@ -9,6 +9,7 @@
 1. Describe Attributes 
 1. Use HTML tags and their attributes
 1. Use HTML forms and form elements
+1. Use the validator to write better HTML
 
 <!-- > -->
 
@@ -18,13 +19,53 @@ The ability to generate well written and valid HTML is a requirement for any fro
 
 <!-- > -->
 
+## Code Review 
+
+Code review is a process of reviewing code before it is released. This is an important step used on the job. 
+
+https://smartbear.com/learn/code-review/what-is-code-review/
+https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/
+
+### Pair up and review
+
+As review you should look closely for semantic use of HTML elements. Especially these tages: 
+
+- base html
+    - html, head, title, and body
+- semantic structure
+    - section, article, header, footer
+- semantic organization, and communication
+    - h1-6, p, strong, em, etc.
+
+Add your review comments to GitHub with issues. 
+
+### Address issues
+
+Take a look at the issues and adress them. Make the changes needed and close the issues. 
+
+Save and commit. 
+
+<!-- > -->
+
+## Validation
+
+Besides using humans to review your work software systems cna also be used. The HTML Validator will look at your files and check your work against the expected syntax. 
+
+Use the https://validator.w3.org to validate your work. 
+
+Solve any problems with validation. 
+
+Save and commit. 
+
+<!-- > -->
+
 ## Attributes
 
-<!-- v -->
+<!-- > -->
 
 ### What are attributes?
 
-Tags can be modified/enhanced using **attributes**. 
+Tags can be modified/enhanced using **attributes**.
 
 An attribute goes in the opening tag and is always in the form `name="value"`. Values are always quoted.
 
@@ -32,7 +73,7 @@ An attribute goes in the opening tag and is always in the form `name="value"`. V
 <div class="warning">Help!</div>
 ```
 
-<!-- v -->
+<!-- > -->
 
 ### Multiple Attributes
 
@@ -53,7 +94,7 @@ Many tags have attributes specific to them.
 
 ## Images
 
-<!-- v -->
+<!-- > -->
 
 ### The img tag
 
@@ -61,12 +102,11 @@ The `img` tag displays an image.
 
 Semantically by using the `<img>` tag you saying there is a picture of something. This is different from images that are part of the design. 
 
-<!-- v -->
+<!-- > -->
 
 The `<img>` has a few attributes: 
 
 <div class="compact">
-
 - src
 - alt
 - width & height
@@ -78,9 +118,9 @@ The `<img>` has a few attributes:
 
 <!-- > -->
 
-## input
+## the input tag
 
-<!-- v -->
+<!-- > -->
 
 The input tag is used to create a form input. It can appear in many different ways. It's important attributes are: 
 
@@ -91,7 +131,7 @@ The input tag is used to create a form input. It can appear in many different wa
 <input type="text" name="query">
 ```
 
-<!-- v -->
+<!-- > -->
 
 `<input>` has a lot of possible types: 
 
@@ -103,7 +143,7 @@ The input tag is used to create a form input. It can appear in many different wa
 
 <input type="text" style="font-size:1.5em">
 
-<!-- v -->
+<!-- > -->
 
 `<input>` has a lot of possible types: 
 
@@ -116,7 +156,7 @@ The input tag is used to create a form input. It can appear in many different wa
 
 `<input type="email">`
 
-<!-- v -->
+<!-- > -->
 
 `<input>` has a lot of possible types: 
 
@@ -129,7 +169,7 @@ The input tag is used to create a form input. It can appear in many different wa
 
 `<input type="password">`
 
-<!-- v -->
+<!-- > -->
 
 `<input>` can also use placeholder
 
@@ -139,7 +179,7 @@ The input tag is used to create a form input. It can appear in many different wa
 
 `<input type="text" placeholder="Enter your name">`
 
-<!-- v -->
+<!-- > -->
 
 `<input>` has a lot of possible types: 
 
@@ -152,7 +192,7 @@ The input tag is used to create a form input. It can appear in many different wa
 
 `<input type="number">`
 
-<!-- v -->
+<!-- > -->
 
 `<input>` has a lot of possible types: 
 
@@ -166,7 +206,7 @@ The input tag is used to create a form input. It can appear in many different wa
 
 `<input type="number" min="1" max="6">`
 
-<!-- v -->
+<!-- > -->
 
 `<input>` has a lot of possible types: 
 
@@ -178,7 +218,7 @@ The input tag is used to create a form input. It can appear in many different wa
 
 `<input type="color">`
 
-<!-- v -->
+<!-- > -->
 
 Radio buttons are groups of buttons where only one of the group can be selected at any time. 
 
@@ -198,7 +238,7 @@ Radio buttons are groups of buttons where only one of the group can be selected 
 <input type="radio" name="size">
 ```
 
-<!-- v -->
+<!-- > -->
 
 Form elements should have a label. The label needs to be associated with the element. 
 
@@ -206,7 +246,7 @@ Form elements should have a label. The label needs to be associated with the ele
 
 Labels make your checkboxes and radio buttons make more sense. They also help clarify your text inputs. 
 
-<!-- v -->
+<!-- > -->
 
 <div style="display:flex">
 <form style="width:250px; border:2px solid; padding:0.5em">
@@ -258,7 +298,7 @@ Labels make your checkboxes and radio buttons make more sense. They also help cl
 ```
 </div>
 
-<!-- v -->
+<!-- > -->
 
 <div style="display:flex">
 <form style="width:250px;border: 2px solid;padding: 0.5em">
@@ -311,7 +351,7 @@ Labels make your checkboxes and radio buttons make more sense. They also help cl
 
 </div>
 
-<!-- v -->
+<!-- > -->
 
 <div style="display:flex">
 <form style="width:250px; border:2px solid; padding:0.5em">
@@ -355,7 +395,7 @@ Labels make your checkboxes and radio buttons make more sense. They also help cl
 
 ## Anchors
 
-<!-- v -->
+<!-- > -->
 
 Anchors are text links that load new documents. These are the proverbial **hyperlinks**.
 
@@ -363,7 +403,7 @@ Anchors are text links that load new documents. These are the proverbial **hyper
 
 The `href` attribute sets the URL the link loads. 
 
-<!-- v -->
+<!-- > -->
 
 Anchors/hyperlinks can link to elements in the same document. 
 
@@ -403,5 +443,7 @@ Complete [assignment 2](../assignment-02.md)
 
 ### Additional Resources
 
-1. 
+1. https://smartbear.com/learn/code-review/what-is-code-review/
+1. https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/
+1. https://validator.w3.org
 
