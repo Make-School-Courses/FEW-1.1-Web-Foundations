@@ -25,9 +25,25 @@ CSS is powerful gives you full control of the appearance of everything you see o
 
 <!-- > -->
 
-## CSS Intro
+### Download the sample Files
 
-<!-- v -->
+Take a look at the Android Phones & Tablets page. 
+
+https://www.android.com/phones-tablets/
+
+Download the source code from our example here: 
+
+https://github.com/soggybag/learn-markup-level-2/blob/master/challenge-01-solution.html
+
+<!-- > -->
+
+Open the example file: challenge-01-solution.html in your browser and your code editor. We will make changes to the source code and view the changes in the browser. 
+
+<!-- > -->
+
+# CSS Intro
+
+<!-- > -->
 
 ### In Context
 
@@ -39,7 +55,7 @@ CSS is part of the sepration of concerns that make up web development.
 
 We have a separate language that is specialized for each purpose. 
 
-<!-- v -->
+<!-- > -->
 
 ### An Analogy
 
@@ -49,27 +65,61 @@ Here is an analogy.
 - **CSS** - The Skin 
 - **JavaScript** - The Muscles
 
-<!-- v -->
+<!-- > -->
 
 ### CSS - The Language
 
 Styles are written in the CSS language. 
 
-You can write CSS styles in
+CSS code can be used in a few places.
 
-- files with the `.css` file extention
+- files with the `.css` file extention 
 - in the `<style></style>` tag in an HTML document
 - inline styles using the `style=""` attribute
 
 <!-- > -->
 
-## Style Rules
+**style.css**
 
-<!-- v -->
+Written in this file: 
+
+```CSS
+body {
+  margin: 0;
+  background-color: #eee;
+}
+```
+
+<!-- > -->
+
+use the style tag anywhere in your HTML document. 
+
+```HTML
+<style>
+  body {
+    margin: 0;
+    background-color: #eee;
+  }
+</style>
+```
+
+<!-- > -->
+
+Inline styles are written in the style attribute of the tag. This applies to any tag. 
+
+```HTML
+<h1 style="color:red; font-size:2.5em">Hello World</h1>
+```
+
+<!-- > -->
+
+### Style Rules
+
+<!-- > -->
 
 ### Example
 
-CSS is written as style rules that might look like this: 
+CSS is written as style rules that might look like this:
 
 ```CSS 
 body {
@@ -81,7 +131,7 @@ body {
 }
 ```
 
-<!-- v -->
+<!-- > -->
 
 ### Selector
 
@@ -95,7 +145,47 @@ p { /* <-- Selector */
 
 This is a selector. This rule applies to all `<p>` tags in a document. 
 
-<!-- v -->
+<!-- > -->
+
+Selectors come in many different types. Selectors are almost a language to themselves!
+
+```CSS
+blockquote { ... } /* tag selector    <blockquote>  */
+.passenger { ... } /* class selector  <p class="passenger">  */
+#container { ... } /* id selector     <div id="container">  */
+
+.content a { ... } /* descendant selector */
+ul > li { ... } /* child selector */
+.data li:nth-child(2n) { ... } /* complex selector */
+```
+
+<!-- > -->
+
+#### DOM Tree
+
+The DOM is a tree structure. It's important to understand this when talking about CSS selectors. Many of them work based on the tree. 
+
+```HTML
+<body>
+    <header>
+        <h3>
+        <p>
+    <ul>
+        <li>
+            <a>
+        <li>
+            <a>
+        <li>
+            <a>
+```
+
+<!-- > -->
+
+### Selector Practice
+
+CSS Diner - https://flukeout.github.io
+
+<!-- > -->
 
 ### Properties and Values
 
@@ -115,7 +205,7 @@ Property names in CSS are always kabob-case
 
 **And end with a semicolon!**
 
-<!-- v -->
+<!-- > -->
 
 ### Types of Values
 
@@ -127,18 +217,18 @@ There are variety of possible values some require a unit.
 - `0` - doesn't need a unit
 - `Helevtica` - Font Name
   - "Times New Roman" - When a value contains spaces use the quotes
-- `14px` - px = Pixels
+- `14px` - Pixels
 - `#eee` - hex color
 
 </td><td width="50%">
 
-- `1fr` - fr = fraction
+- `1fr` - fraction
 - `2em` - em (same as the font size)
 - `4rem` - root em (based on root font size)
 - `50%` - fifty percent
 </td></tr></table>
 
-<!-- v -->
+<!-- > -->
 
 ### Example
 
@@ -156,9 +246,9 @@ p {
 
 <!-- > -->
 
-## Putting CSS into Practice
+# Putting CSS into Practice
 
-<!-- v -->
+<!-- > -->
 
 CSS will take a long time to master. 
 
@@ -166,42 +256,29 @@ We will start with basic concepts which you can expand upon to build your skills
 
 The web is mostly text. Controlling typography will be an important skill. 
 
-<!-- v -->
+<!-- > -->
 
-### Inheritance
+Follow these steps: 
 
-Most properties are inherited by descendants. 
+1. Set a base font style on the body
+1. Style the big things
+1. Work your way to the details
 
-HTML/DOM defines the structure of a page.
+<!-- > -->
 
-```HTML
-<body>
-  ...
-  <p>...</p>
-  ...
-</body>
-```
-
-`<body>` is the ancestor and `<p>` is a descendant. 
-
-<!-- v -->
-
-All other tags would get a font size of 16px and a font family of Helvetica. 
+Setting a base font style. All other elements will inherit these styles.
 
 ```CSS
 body {
   font-size: 16px;
   font-family: Helvetica;
+  color: #333;
 }
 ```
 
-Sort of...
-
-Other elements may have styles that **override** the style they inherit. 
-
 Other rules my effect how the inherited value is calculated.
 
-<!-- v -->
+<!-- > -->
 
 When we set font-size we often set the size in `em`s. This is a relative unit. It represents a multiple of the current font size. 
 
@@ -212,47 +289,27 @@ body {
 }
 
 h1 { 
-  font-size: 2em; /* 32px = 2 * 16px */
+  font-size: 2em; /* 2 * 16px = 32px */
 }
 ```
 
-<!-- v -->
+<!-- > -->
 
-**Best practice**
+`em` as a unit is also good because it allows you to size elemnts in the same units used for type. This makes for pleasing design. 
 
-Set your base font-size on the body tag and use ems to size all other elements. 
-
-```CSS
-body {
-  font-size: 18px;
-}
-```
-
-Changes to the body will cause all other elements to keep their relative sizes. 
-
-<!-- v -->
+<!-- > -->
 
 ### Activity
 
-<div>Style the Android phones & Tablets page.</div>
+- 
 
-<!-- v -->
+<!-- > -->
 
-Take a look at the Android Phones & Tablets page. 
-
-https://www.android.com/phones-tablets/
-
-Look at the source code from our example here: 
-
-https://github.com/soggybag/learn-markup-level-2/blob/master/challenge-01-solution.html
-
-<!-- v -->
-
-The page is divided into sections. Each section begins with header and the header contains an  h2 followed by an h3. 
+The page is divided into sections. Each section begins with header and the header contains an h2 followed by an h3. 
 
 On the Android site h2 is smaller than the h3. 
 
-<!-- v -->
+<!-- > -->
 
 Add some styles to this page. 
 
@@ -262,12 +319,23 @@ body {
   font-size: 16px;
 }
 
-h1 { 1em }
-h2 { 1em }
-h3 { 4.5em }
+h1 { font-size: 1em; }
+h2 { font-size: 1em; }
+h3 { font-size: 4.5em; }
 ```
 
 Changing the font size on the body will change the size of the fonts relatively on the other elements.
+
+<!-- > -->
+
+
+
+
+<!-- > -->
+
+### Break
+
+Take a 10 minute break
 
 <!-- > -->
 
@@ -279,4 +347,7 @@ Changing the font size on the body will change the size of the fonts relatively 
 
 ### Additional Resources
 
-1. Links to additional readings and videos
+1. https://www.android.com/phones-tablets/
+1. https://github.com/soggybag/learn-markup-level-2/blob/master/challenge-01-solution.html
+1. https://flukeout.github.io
+

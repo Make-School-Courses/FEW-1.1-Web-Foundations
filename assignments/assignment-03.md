@@ -1,83 +1,64 @@
-# FEW 1.1 - Single Page Site
+# FEW 1.1 - Styles Part 1
 
 ## Description 
 
-Make your own single page web site. You won't use Bootstrap or other framework. Instead you will write all of the HTML and CSS yourself! 
+The goal of this assignment is to get started working with styles.
 
 ### Why this assignment?
 
-The best way to learn about CSS is to start applying it on your own projects. Writing CSS on your own is an important step in the process of learning the language. 
+CSS is how the web is styled! Everything you see on the web and much of what you see on mobile is styled with CSS. Better looking projects are adopted by more users and it's more satisfying as a deverloper to make something beautiful. 
 
-This project will use common layout and arrangement that could be used in a lots of projects. 
+## Goals
 
-You can add this to your portfolio to show you are capable of making web sites with more than basic layout. 
+### Practice Selectors
 
-## Project requirements
+Finish https://flukeout.github.io
 
-You goal is to make a site that has the general layout of the [Conquer Template](https://www.free-css.com/free-css-templates/page196/conquer). Click the link and take a look at the demo of the template. 
+These selectors are really important. You can always return this game and practice selectors if you forget them. 
 
-**This template uses Bootstrap you are going to make your own version of it without Bootstrap.**
+This game is fun and comprehensive. 
 
-This site has a few features: 
+### Personal portfolio site
 
-- The site is a single HTML page with 5 sections
-  - Home - With a full width image and message or title in the center
-  - Info - has three cards, each card has
-    - Image
-    - Text info
-    - CTA button
-  - Full width image and text
-  - Some content and image split 3/2 and 1/3
-  - Contact form
-- Nav bar at the top - These links should navigate to each of the 5 sections within this page.
+Use the CSS covered in class to style your portfolio page. For now you only need to worrry about things covered in class you can try other ideas and do more if you like!
 
-Here are some wireframes images showing the general layout you are shooting for. 
-
-- [Wireframe](images/Wireframe.png)
-- [Wireframe with flex notes](images/Wireframe-with-flex-notes.png)
-- [Wireframe card flex](images/Wireframe-with-card-notes.png)
-- [Wireframe Alternating layout](images/Wireframe-with-alternating-layout.png)
-
-### Content should your site contain? 
-
-The subject and context of this site should be purely informational. Think of the site as mini lightning talk on a subject of your choice. 
-
-Use a topic/subject from your S&L class. For example Geology, Psychology, or Ethics. You can optionaly chose another topic if you like.
-
-(Try and get credit from your S&L class for this)
-
-### Example Sites 
-
-All of these sites use this type of layout or some derivative. 
-
-- https://thespitfire.webflow.io
-- https://makeui.design
-- https://www.beaverlab.com
-- https://www.theartoftexture.com
-- https://www.unfold.no
-- http://builtthings.com/#1
-- http://www.twofishillustration.com
-- https://raffinaderij.booreiland.amsterdam/minimalwim/
-- https://wickret.cuberto.com
-- https://www.meandem.com/us
+- Type
+    - font-size
+    - font-weight
+    - color
+- layout
+    - margin
+    - padding
+- background
+    - background-color
+    - border-color
+    - border-width
+    - border-style
 
 ### Deliverable
 
-Push your work to a GitHub repo and publish as a GitHubb Page on GitHub.
+Post a link to your portfolio to the progress tracker. 
 
-#### Stretch Goals
-
-- Add one or more sections to your page. These can contain any information you like. 
-- Add an alternating layout (see the wire frame example)
-- Use your own photos
-- Use a [parallax effect](https://www.w3schools.com/howto/howto_css_parallax.asp) in a section 
+Show me the completed CSS Diner. 
 
 ### Due date
 
-Class 6
+Class 4
 
 ## Assessing the assignment
 
-[Assignment Name Rubric](./assignment-03-rubric.md)
+**Portfolio**
 
+| Aspect | Does not meet | Meets | Exceeds |
+|:-------|:--------------|:------|:--------|
+| **Completion** | Your web site doesn't look complete | Your web site looks complete | Your web site explores ideas and concepts outside of the project description |
+| **Styles** | Your site is not styled | Everything appears to be styled | Your design inspires others. People comment on how great it looks! | 
+| **Code Quality** | Your code is sloppy and lacks organization | Your code uses consistent indentation, spacing, and consistent coding style | Your code passes validation |
+| **Work Ethic**  | < 3 comits.   | Commits show consistent work | commits show full 3 hours of work |
 
+**CSS Diner** 
+
+| Aspect | Does not meet | Meets | Exceeds |
+|:-------|:--------------|:------|:--------|
+| **Completion** | Did not complete | Completed all 32 problems | - |
+| **Selectors** | Can't use basic selectors (problems 1-9) from memory | Can use selectors 1-9 from memory | Can remember and use selectors 10 and beyond |
