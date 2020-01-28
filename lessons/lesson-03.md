@@ -31,13 +31,11 @@ Take a look at the Android Phones & Tablets page.
 
 https://www.android.com/phones-tablets/
 
-Download the source code from our example here: 
-
-https://github.com/soggybag/learn-markup-level-2/blob/master/challenge-01-solution.html
+Download the source code from our example here: https://github.com/soggybag/learn-markup-level-2
 
 <!-- > -->
 
-Open the example file: challenge-01-solution.html in your browser and your code editor. We will make changes to the source code and view the changes in the browser. 
+Open the example file: **challenge-01-solution.html** in your browser and your code editor. We will make changes to the source code and view the changes in the browser. 
 
 <!-- > -->
 
@@ -100,6 +98,7 @@ use the style tag anywhere in your HTML document.
     margin: 0;
     background-color: #eee;
   }
+  ...
 </style>
 ```
 
@@ -150,13 +149,13 @@ This is a selector. This rule applies to all `<p>` tags in a document.
 Selectors come in many different types. Selectors are almost a language to themselves!
 
 ```CSS
-blockquote { ... } /* tag selector    <blockquote>  */
-.passenger { ... } /* class selector  <p class="passenger">  */
-#container { ... } /* id selector     <div id="container">  */
+header { ... }   /* tag selector    <header>  */
+.title { ... }   /* class selector  <h3 class="title">  */
+#content { ... } /* id selector     <ul id="content">  */
 
-.content a { ... } /* descendant selector */
-ul > li { ... } /* child selector */
-.data li:nth-child(2n) { ... } /* complex selector */
+#content a { ... }          /* descendant selector */
+header > p { ... }          /* child selector */
+ul li:nth-child(2n) { ... } /* complex selector */
 ```
 
 <!-- > -->
@@ -168,9 +167,10 @@ The DOM is a tree structure. It's important to understand this when talking abou
 ```HTML
 <body>
     <header>
-        <h3>
+        <h3 class="title">
         <p>
-    <ul>
+    <p>
+    <ul id="content">
         <li>
             <a>
         <li>
@@ -184,6 +184,12 @@ The DOM is a tree structure. It's important to understand this when talking abou
 ### Selector Practice
 
 CSS Diner - https://flukeout.github.io
+
+<!-- > -->
+
+### Break
+
+Take a 10 minute break
 
 <!-- > -->
 
@@ -207,7 +213,7 @@ Property names in CSS are always kabob-case
 
 <!-- > -->
 
-### Types of Values
+### Units
 
 There are variety of possible values some require a unit.  
 
@@ -237,10 +243,13 @@ A style rule starts with a selector. And contains a list of property value pairs
 ```CSS
 selector {
   property: value;
+  property: value;
+  ...
 }
 
 p {
   font-size: 1em;
+  color: #333;
 }
 ```
 
@@ -260,13 +269,15 @@ The web is mostly text. Controlling typography will be an important skill.
 
 Follow these steps: 
 
-1. Set a base font style on the body
-1. Style the big things
-1. Work your way to the details
+1. _Set a base font style_ on the body
+1. Style the big things first
+1. **Work your way to the details**
 
 <!-- > -->
 
-Setting a base font style. All other elements will inherit these styles.
+### Setting a base font style.
+
+All other elements will inherit these styles.
 
 ```CSS
 body {
@@ -280,7 +291,9 @@ Other rules my effect how the inherited value is calculated.
 
 <!-- > -->
 
-When we set font-size we often set the size in `em`s. This is a relative unit. It represents a multiple of the current font size. 
+### em
+
+When we set `font-size` we often set the size in `em`s. This is a relative unit. It represents a multiple of the current font size. 
 
 ```CSS
 body {
@@ -289,7 +302,7 @@ body {
 }
 
 h1 { 
-  font-size: 2em; /* 2 * 16px = 32px */
+  font-size: 2em; /* 2 x 16px = 32px */
 }
 ```
 
@@ -301,7 +314,18 @@ h1 {
 
 ### Activity
 
-- 
+Take a look at this:  https://www.android.com/phones-tablets/
+
+Open the sample code: https://github.com/soggybag/learn-markup-level-2
+
+<!-- > -->
+
+### Structure
+
+- The entire page is in a section
+- The page is divided into sections
+- Each section begins with header
+- Most sections ends with a footer
 
 <!-- > -->
 
@@ -329,13 +353,6 @@ Changing the font size on the body will change the size of the fonts relatively 
 <!-- > -->
 
 
-
-
-<!-- > -->
-
-### Break
-
-Take a 10 minute break
 
 <!-- > -->
 
