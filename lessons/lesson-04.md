@@ -20,6 +20,8 @@
 
 The box model is at the foundation of understanding layout with CSS. It also shows up on front end interviews. 
 
+Flexbox is the most amazing tool ever invented, it would be reckless not to know it. 
+
 <!-- > -->
 
 ### What is the Box Model? 
@@ -60,6 +62,13 @@ Using the Android HTML mock up try these challenges:
         - `justify-content: space-around`
         - `justify-content: space-between`
         - `justify-content: space-evenly`
+- Use the box model (margin, and padding) to add space around the links. 
+    - Strategy: The links are too close and would be easier to click if their clickable area was larger. Target the `a` inside the `li` in a `nav`, select these with: `nav > li > a`. That's pretty specific! Use these styles: 
+        - `display: block`
+        - `text-decoration: none`
+        - `padding: 1em`
+- Add a hover to the links. This really important for interactions. 
+    - Strategy: 
 
 **Challenges 2**
 
