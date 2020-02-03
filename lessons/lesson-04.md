@@ -18,9 +18,9 @@
 
 ### Why you should know this
 
-The box model is at the foundation of understanding layout with CSS. It also shows up on front end interviews. 
+The box model is at the **foundation of understanding layout with CSS**. It also shows up on front end interviews.
 
-Flexbox is the most amazing tool ever invented, it would be reckless not to know it. 
+**Flexbox is the most amazing tool ever invented**, it would be reckless not to know it.
 
 <!-- > -->
 
