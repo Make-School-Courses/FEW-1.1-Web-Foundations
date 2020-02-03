@@ -1,66 +1,56 @@
-# FEW 1.1 - JS Shopping Cart tutorial
+# FEW 1.1 - CSS Grid - Redesign
 
 ## Description 
 
-Learn basic JS by building a shopping cart system. The goal is to follow the tutorial video linked below. 
-
-The tutorial project combines many of the basic elements of programming in JS. 
+Use CSS Grid to redesign your personal homespage.  
 
 ### Why this assignment?
 
-This tutorial has many of the elements that you would use everyday as a JS developer. This includes: 
-
-- Variables 
-  - const
-  - let
-- Functions 
-  - parameters 
-  - return 
-- Strings 
-  - template strings
-- Arrays
-  - accessors
-  - push
-  - splice
-- Objects 
-  - properties
-  - deconstruction
-- Scope 
-- Events 
-  - addEventListener
-  - Delagation 
-  - Bubbling 
-  - on click
-  - on submit
-- Flow control 
-  - if else 
-  - for loops
-- JS and the DOM
-  - innerHTML
-  - getElementById
-  - element.classList
+Designing on a grid will improve the appearance of your work by 100%. CSS Grid is a great tool useful with lots of uses. 
 
 ## Project requirements
 
-- You should complete watching the all of the tutorials in the playlist here: https://www.youtube.com/watch?v=oMTO0LbBGLA&list=PLoN_ejT35AEgHTABdFDPCA6MBHz2v5rOQ
-- Do your best to create the example for yourself in code. 
-- Write down any questions you have about the concepts covered in the tutorials. We will discuss these ideas in class. 
-- Be prepared for a short low stakes quiz in the following class on some of the concepts from the videos. 
+Redesign your personal page focusing on using a grid based layout. 
+
+Use CSS Grid for your layout. 
+
+Use `grid-areas` and `grid area` to arrange elements on a grid. 
 
 ### Deliverable
 
-You shouldhave your completed shopping cart project created from following the tutorials. 
+Your personal homepage version 2. This version should use a grid based design and implement the grid with CSS Grid. 
 
-#### Stretch Goals
+### Stretch Goals
 
-- 
+Improve more your design in more than just the grid. 
 
 ### Due date
 
-Class 7
+Due Class 6 - Thurs, Feb 6
 
 ## Assessing the assignment
 
 [Assignment Name Rubric](./assignment-04-rubric.md)
+
+# Review your personal Home Page
+
+| Aspect | Does not meet (0) | Meets (1) | Exceeds (2) |
+|:-------|:------------------|:----------|:------------|
+| **Completion** | Your portfolio site is non-existent or is incomplete | Your portfolio is live on GitHub Pages and complete | - |
+| **Quality** | Your page doesn't look significantly better than the first version | Your page looks improved over the first version | Your page looks significantly improved over the first version | 
+| **Code Quality** | Your HTML and CSS are sloppy and inconsistently | Your code is consistently formatted |  |
+
+## Assessing the learning Objectives 
+
+# FEW 1.1 - Semantic Markup - Rubric 
+
+| Aspect | Does not meet (0) | Meets (1) | Exceeds (2) |
+|:-------|:------------------|:----------|:------------|
+| **Grid** | Can't explain the concept of grid based design | Can explain the concept of grid based design | Can spot grid based design in web sites your visit |
+| **CSS Grid** | Can't implement CSS Grid | Can implement CSS Grid | Can implement CSS Grid from memory without the documentation |
+
+
+
+
 
 

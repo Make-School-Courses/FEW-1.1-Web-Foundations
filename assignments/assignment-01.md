@@ -44,7 +44,7 @@ A link to your repo on GitHub.
 
 ### Due date
 
-Class 2
+Class 2 - Thurs, Jan 23
 
 ## Assessing the assignment
 

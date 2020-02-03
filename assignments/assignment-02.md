@@ -26,7 +26,7 @@ Make up a new challenge and solution document and submit a pull request to the r
 
 ### Due date
 
-Class 3
+Class 3 - Tues, Jan 28
 
 ## Assessing the assignment
 

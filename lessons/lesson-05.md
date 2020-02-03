@@ -3,7 +3,7 @@
 
 CSS Grid is a two dimensional layout system with many option. 
 
-Here are a couple strategies you can use to create a grid. 
+Here are a couple strategies you can use to create a grid.
 
 <!-- Put a link to the slides so that students can find them -->
 
@@ -11,7 +11,62 @@ Here are a couple strategies you can use to create a grid.
 
 <!-- > -->
 
+## Designing on a Grid
+
+Grids are used to arrange content. Originally used with print publications like books, newspapers and magazines. Grids are even more important on the web. 
+
+A grid is a design tool. Use grids create well designed good looking pages that present infromation well. 
+
+**Grids used for design are not the same as CSS Grid or Flexbox. Grid used for design is how you choose to arrange elements on a page.**
+
+CSS tools are used to arrange elements on a page. Your goal is to use these tools to arrange your content ont he grid you imagine. 
+
+<!-- > -->
+
+### Study Grids
+
+Why use a grid for design: https://vanseodesign.com/web-design/why-grids/
+
+What is a grid: 
+
+- https://webdesign.tutsplus.com/articles/a-comprehensive-introduction-to-grids-in-web-design--cms-26521
+- https://www.smashingmagazine.com/2017/12/building-better-ui-designs-layout-grids/
+
+<!-- > -->
+
+### Mock up with Grid
+
+Use Sketch, Adobbe XD, or other tool to Mock up your personal page. This time use a grid. 
+
+Show the grid overlay in your design tool. 
+
+- Sketch: View > Canvas > Show Layout
+- Adobe XD: View > Show Layout Grid
+
+<!-- > -->
+
+### Lab 
+
+Using your design tool (Sketch, XD etc.) redesign your personal site with grid. 
+
+- Msake a new artboard. Size it to match your desktop ~1420
+- Turn on the layout grid.
+- Draw boxes on grid for each content item in your personal site.
+  - Draw a box for each content item
+  - Boxes should take up grid columns and not end inside a gutter
+
+
+<!-- > -->
+
+## Break
+
+Take a 10 minute break.
+
+<!-- > -->
+
 ## CSS Grid
+
+CSS Grid is a tool set of CSS properties that arrange content on a grid. Similar to Flexbox. The two differ with Flex being a one dimensional layout where Grid is a two dimensional layout. 
 
 <!-- > -->
 
@@ -38,13 +93,13 @@ Creates a three column grid.
 
 Something sized in `fr` will take up a fraction of the available space. 
 
-- 1fr - 25%
-- 1fr - 25%
-- 2fr - 50%
+- `1fr` - 25%
+- `1fr` - 25%
+- `2fr` - 50%
 
 <!-- > -->
 
-Grid columns can also be defined with other units: 
+Grid columns can also be defined with other units:
 
 ```CSS
 .container {  
