@@ -52,16 +52,16 @@ By the end of the course, students should be able to...
 
 | Class | Date | Lessons | Assignment |
 |------:|:-----|-------:|:-----------|
-| 1 | Tues, Jan 21 | [Semantic HTML](./lessons/01-Semantic-HTML/) | [Semantic HTML](./assignments/assignment-01.md) - Markup practice |
-| 2 | Thurs, Jan 23 | [HTML Attributes](./lessons/02-HTML-Attributes) | [HTML Attributes](./assignments/assignment-02.md) - Forms, Links, and Images |
-| 3 | Tues, Jan 28 | [CSS Intro](./lessons/03-CSS-Intro/) | [CSS Intro](./assignments/assignment-03.md) - Font Styles |
-| 4 | Thurs, Jan 30 | [CSS Box Model](./lessons/04-CSS-Box-Model/) | [CSS Box Model](./assignments/assignment-04.md) - Padding, Border, and Margin |
-| 5 | Tues, Feb 4 | [CSS Flex Box](./lessons/05-CSS-Flex-Box/) | [CSS Flex Box](./assignments/assignment-05.md) - Layout on one axis |
-| 6 | Thurs, Feb 6 | [CSS Grid](./lessons/06-CSS-Grid/) | [CSS Grid](./assignments/assignment-06.md) - Layout in two dimensions |
-| 7 | Tues, Feb 11 | [Midterm Assessment](./lessons/07-Review/) | [Midterm Assessment](./assignments/assignment-07.md) - Assessment HTML and CSS knowledge |
-| 8 | Thurs, Feb 13 | [JavaScript Intro](./lessons/08-JS-Intro/) | - |
-| 9 | Tues, Feb 18 | [JS Flow Control](./lessons/09-JS-Control-Flow/) | - |
-| 10 | Thurs, Feb 20 | [JS Objects](./lessons/10-JS-Objects) | - |
+| 1 | Tues, Jan 21 | [Semantic HTML](./lessons/lesson-01.md) | [Semantic HTML](./assignments/assignment-01.md) - Markup practice |
+| 2 | Thurs, Jan 23 | [HTML Attributes](./lessons/lesson-02.md) | [HTML Attributes](./assignments/assignment-02.md) - Forms, Links, and Images |
+| 3 | Tues, Jan 28 | [CSS Intro](./lessons/lesson-03.md/) | [CSS Intro](./assignments/assignment-03.md) - Font Styles |
+| 4 | Thurs, Jan 30 | [CSS Box Model](./lessons/lesson-04.md/) | [CSS Box Model](./assignments/assignment-04.md) - Padding, Border, and Margin |
+| 5 | Tues, Feb 4 | [CSS Flex Box](./lessons/lesson-05.md) | [CSS Flex Box](./assignments/assignment-05.md) - Layout on one axis |
+| 6 | Thurs, Feb 6 | [CSS Grid](./lessons/lesson-06.md) | [CSS Grid](./assignments/assignment-06.md) - Layout in two dimensions |
+| 7 | Tues, Feb 11 | [Midterm Assessment](./lessons/lesson-07.md) | [Midterm Assessment](./assignments/assignment-07.md) - Assessment HTML and CSS knowledge |
+| 8 | Thurs, Feb 13 | [JavaScript Intro](./lessons/lesson-08.md) | - |
+| 9 | Tues, Feb 18 | [JS Flow Control](./lessons/lesson-09.md) | - |
+| 10 | Thurs, Feb 20 | [JS Objects](./lessons/lesson-10.md) | - |
 | 11 | Tues, Feb 25 | [Lesson 11](./lessons/lesson-11.md) | [Final Assignment](./assignments/assignment-08.md) - Final Project |
 | 12 | Thurs, Feb 27 | [Lesson 12](./lessons/lesson-12.md) | [Final Assignment](./assignments/assignment-08.md) - Final Project |
 | 13 | Tues, Mar 3 | [Lesson 13](./lessons/lesson-13.md) | [Final Assignment](./assignments/assignment-08.md) - Final Project |
