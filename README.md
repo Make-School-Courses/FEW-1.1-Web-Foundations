@@ -55,7 +55,7 @@ By the end of the course, students should be able to...
 | 1 | Tues, Jan 21 | [Semantic HTML](./lessons/lesson-01.md) | [Semantic HTML](./assignments/assignment-01.md) - Markup practice |
 | 2 | Thurs, Jan 23 | [HTML Attributes](./lessons/lesson-02.md) | [HTML Attributes](./assignments/assignment-02.md) - Forms, Links, and Images |
 | 3 | Tues, Jan 28 | [CSS Intro](./lessons/lesson-03.md/) | [CSS Intro](./assignments/assignment-03.md) - Font Styles |
-| 4 | Thurs, Jan 30 | [CSS Box Model](./lessons/lesson-04.md/) | [CSS Box Model](./assignments/assignment-04.md) - Padding, Border, and Margin |
+| 4 | Thurs, Jan 30 | [CSS Box Model](./lessons/lesson-04.md/) | - |
 | 5 | Tues, Feb 4 | [CSS Grid](./lessons/lesson-05.md) | [CSS Grid](./assignments/assignment-05.md) |
 | 6 | Thurs, Feb 6 | [CSS Grid](./lessons/lesson-06.md) | [CSS Grid](./assignments/assignment-06.md) - Layout in two dimensions |
 | 7 | Tues, Feb 11 | [Midterm Assessment](./lessons/lesson-07.md) | [Midterm Assessment](./assignments/assignment-07.md) - Assessment HTML and CSS knowledge |
