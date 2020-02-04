@@ -1,4 +1,4 @@
-# Forms, Links, and Images
+# FEW 1.1 - HTML Attributes
 
 ➡️ [**Slides**](https://make-school-courses.github.io/FEW-1.1-Web-Foundations/Slides/02-Forms-Links-Images/README.html ':ignore')
 

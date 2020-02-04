@@ -1,16 +1,13 @@
 <!-- .slide: data-background="./Images/header.svg" data-background-repeat="none" data-background-size="40% 40%" data-background-position="center 10%" class="header" -->
-# FEW 1.1 - Lesson 6 - CSS Grid
+# FEW 1.1 - JavaScript Intro
 
-6. CSS - Grid
-  - Two dimensioal layout
-    - rows and columns 
-  - Properties
-    - display grid, grid-template-columns, grid-gap
-  - Activity:
-    - Arrange things in a grid
-    - Flex box within a grid item
-  - HW:
-    - Layout a calculator 
+##  Why JavaScript?
+
+## Objectives 
+
+## Writing JavaScript
+
+
 
 <!-- Put a link to the slides so that students can find them -->
 

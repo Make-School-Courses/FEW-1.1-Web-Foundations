@@ -1,5 +1,5 @@
 <!-- .slide: data-background="./Images/header.svg" data-background-repeat="none" data-background-size="40% 40%" data-background-position="center 10%" class="header" -->
-# FEW 1.1 - Lesson 5 - CSS Flex Box
+# FEW 1.1 - Designing with a Grid
 
 CSS Grid is a two dimensional layout system with many option. 
 
@@ -23,14 +23,27 @@ CSS tools are used to arrange elements on a page. Your goal is to use these tool
 
 <!-- > -->
 
+## Learning Objectives/Competencies
+
+1. Identify columns and rows
+1. Identify Grids in the wild
+1. Define a visual grid
+1. Define a Grid Parent
+1. Identify chid grid items
+1. Create grid columns
+
+<!-- > -->
+
 ### Study Grids
 
-Why use a grid for design: https://vanseodesign.com/web-design/why-grids/
-
-What is a grid: 
-
-- https://webdesign.tutsplus.com/articles/a-comprehensive-introduction-to-grids-in-web-design--cms-26521
-- https://www.smashingmagazine.com/2017/12/building-better-ui-designs-layout-grids/
+- Read this article and discuss it with a partner
+  - https://webdesign.tutsplus.com/articles/a-comprehensive-introduction-to-grids-in-web-design--cms-26521
+  - Answer the questions below: 
+    - What is a grid?
+    - Why use a grid?
+    - What is a unit?, what is a gutter?, what is a column?, what is a field?
+    - Why use 12 columns? 
+    - What is the rule of thirds? Do you think this works? 
 
 <!-- > -->
 
@@ -45,6 +58,41 @@ Show the grid overlay in your design tool.
 
 <!-- > -->
 
+## Identify Grids in the wild
+
+- Work with a group and identify grids in the sites below
+  - Your job is to identify
+    - Units
+    - columns 
+    - proportions 1/2, 1/3, 1/4, 2/3 + 1/3...
+    - Fields
+
+1. https://www.nike.com/us/en_us/
+2. https://www.facebook.com
+3. https://www.apple.com/mac/
+4. https://dribbble.com
+5. https://slack.com
+6. https://www.nintendo.com/switch/
+7. https://www.reddit.com
+8. https://www.ea.com
+9. https://www.codecademy.com/catalog/subject/all
+10. https://terraria.org
+11. https://store.steampowered.com
+12. https://www.youtube.com
+13. http://www.ycombinator.com
+14. https://atom.io
+15. https://www.yelp.com
+16. https://www.sushirrito.com
+17. http://www.bobaguys.com
+18. http://www.makenoisemusic.com
+19. http://www.gibson.com
+20. https://www.fender.com
+
+- Stretch challenge: 
+  - Study each of the sites above and understand their grid system. Take a screen shot and draw the grid over the image. 
+
+<!-- > -->
+
 ### Lab 
 
 Using your design tool (Sketch, XD etc.) redesign your personal site with grid. 
@@ -54,7 +102,6 @@ Using your design tool (Sketch, XD etc.) redesign your personal site with grid.
 - Draw boxes on grid for each content item in your personal site.
   - Draw a box for each content item
   - Boxes should take up grid columns and not end inside a gutter
-
 
 <!-- > -->
 
@@ -85,7 +132,7 @@ CSS Grid has many properties. You get started with just a few.
 }
 ```
 
-Creates a three column grid. 
+Creates three equal columns. 
 
 <!-- > -->
 
@@ -93,9 +140,8 @@ Creates a three column grid.
 
 Something sized in `fr` will take up a fraction of the available space. 
 
-- `1fr` - 25%
-- `1fr` - 25%
-- `2fr` - 50%
+- `1fr 1fr 2fr` - 25% 25% 50%
+- `1fr 1fr 2fr` - 1/4 1/4 2/4
 
 <!-- > -->
 
@@ -123,6 +169,8 @@ In this case use `repeat()`
 }
 ```
 
+Creates 6 equal columns.
+
 <!-- > -->
 
 You can mix repeat a patern. 
@@ -134,13 +182,13 @@ You can mix repeat a patern.
 }
 ```
 
-Creates: `100px 1fr 100px 1fr 100px 1fr`
+Creates the pattern: `100px 1fr 100px 1fr 100px 1fr`
 
 <!-- > -->
 
 What about row height? Most often you'll want to set this automatically to match the size of the content. To do this don't declare it. 
 
-If you wan to set the height of a row use: 
+If you want to set the height of a row use: 
 
 ```CSS
 .container {  
@@ -154,15 +202,9 @@ Creates 6 300px tall rows.
 
 <!-- > -->
 
-
-
-<!-- > -->
-
 ## Wrap Up (5 min)
 
-- Continue working on the current assignment.
-- Review the videos on CSS Grid.
-- Note any questions you have and bring them to class. 
+- 
 
 <!-- > -->
 

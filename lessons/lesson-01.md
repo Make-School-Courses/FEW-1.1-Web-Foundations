@@ -1,4 +1,4 @@
-# Semantic HTML
+# FEW 1.1 - Semantic HTML
 
 ➡️ [**Slides**](https://make-school-courses.github.io/FEW-1.1-Web-Foundations/Slides/01-Semantic-Html/README.html ':ignore')
 

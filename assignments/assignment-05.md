@@ -1,64 +1,58 @@
-# FEW 1.1 - JS Slide Show Tutorial
+# FEW 1.1 - CSS Grid - Redesign
 
 ## Description 
 
-Practice your JS skills by creating a slide show. This project uses vanilla JS to create slide similar to the Bootstrap carousel. 
+Use CSS Grid to redesign your personal homespage.  
 
 ### Why this assignment?
 
-This tutorial has many of the elements that you would use everyday as a JS developer. This includes: 
-
-- Variables 
-  - constants
-  - let
-- Functions 
-  - IIFE
-  - callbacks
-- Strings 
-  - template strings
-- Arrays
-  - accessors
-  - push
-  - splice
-- JS 
-  - scope and closure
-  - setInterval
-- Flow control 
-  - if else 
-  - for loops
-- JS and the DOM
-  - getElementById
-  - querySelector
-  - querySelectorAll
-- CSS 
-  - transform: translate3d
-  - position: relative/absolute
-
-Beyond the list above this project looks at how to create JS code that can deployed anywhere in an project that plays well with other developer code. This an important subject since JS code by default defines 
+Designing on a grid will improve the appearance of your work by 100%. CSS Grid is a great tool useful with lots of uses. 
 
 ## Project requirements
 
-Follow the tutorial: https://www.youtube.com/watch?v=TV1WbQdusdU&list=PLoN_ejT35AEgjsI-YEuiif2BfpToamnGz
+Redesign your personal page focusing on using a grid based layout. Use the grid to organize your content and make your page look, read, and communicate your ideas better. 
 
-You can view a live version of the tutorial here: 
+Use CSS Grid for your layout. Arrange the elements and sections on a grid. 
 
-https://github.com/soggybag/js-tutorial-slide-show
-
-- You should watch all of the videos in the playlist. 
-- Follow the tutorials and create the slide show
-- Note any questions you have about the concepts covered. 
-- Be prepared for a short low stakes quiz on the concepts covered in the following class. 
+Use `grid-areas` and `grid area` to arrange elements on a grid. Map your elements to grid fields using these two properties.
 
 ### Deliverable
 
-- You should have completed the videos and have a functioning slideshow project from the tutorials. 
-- A list of questions on the concepts covered
+Your personal homepage version 2. This version should use a grid based design and implement the grid with CSS Grid. 
 
-#### Stretch Goals
+### Stretch Goals
 
-- See the GitHub repo for this tutorial for Stretch challenges: https://github.com/soggybag/js-tutorial-slide-show
+Improve more your design in more than just the grid. 
+
+Get feedback from your peers and 
 
 ### Due date
 
-Class 7
+Due Class 6 - Thurs, Feb 6
+
+## Assessing the assignment
+
+[Assignment Name Rubric](./assignment-04-rubric.md)
+
+# Review your personal Home Page
+
+| Aspect | Does not meet (0) | Meets (1) | Exceeds (2) |
+|:-------|:------------------|:----------|:------------|
+| **Completion** | Your portfolio site is non-existent or is incomplete | Your portfolio is live on GitHub Pages and complete | - |
+| **Quality** | Your page doesn't look significantly better than the first version | Your page looks improved over the first version | Your page looks significantly improved over the first version | 
+| **Code Quality** | Your HTML and CSS are sloppy and inconsistently | Your code is consistently formatted |  |
+
+## Assessing the learning Objectives 
+
+# FEW 1.1 - Semantic Markup - Rubric 
+
+| Aspect | Does not meet (0) | Meets (1) | Exceeds (2) |
+|:-------|:------------------|:----------|:------------|
+| **Grid** | Can't explain the concept of grid based design | Can explain the concept of grid based design | Can spot grid based design in web sites your visit |
+| **CSS Grid** | Can't implement CSS Grid | Can implement CSS Grid | Can implement CSS Grid from memory without the documentation |
+
+
+
+
+
 
