@@ -1,39 +1,27 @@
-# FEW 1.1 - JS Quiz Tutorial
+# FEW 1.1 - Responsive Design
 
 ## Description 
 
-The goal of this assignment is to study Objects and practice functions, event listeners, and JavaScript and the DOM. The subject for this assignment is building a JavaScript Quiz. 
+Finish up your personal pages by making it responsive. 
 
 ### Why this assignment?
 
-This assignment looks at Arrays and Objects. The Objects used in this tutorial fairly complex with nest elements that are themselves Objects and Arrays. This typical of how data is stored and shared with JavaScript. As a JS developer you you will find yourself handling this type of data often.  
+Responsive design is important. People are browsing the web on mobile phones. The more compatible your site is the more people will use it. 
+
+Expect to see repsonsive design on any job you might apply for. 
 
 ## Project requirements
 
-Your goal is to complete this tutorial before class: 
+Your site should be responsive implement the following: 
 
-- https://www.youtube.com/watch?v=5gMeokwPtYM&list=PLoN_ejT35AEi46ndNXT9TpSxLnVNy4Pqn
-
-After completing the tutorial try these stretch challenges: 
-
-- Add more questions
-- Color the alert message
-  - Green - correct answer
-  - Red - Wrong answer
-  - Orange - Please choose an answer
-- Color the answer - After submitted a question color the chosen answer
-  - Red - incorrect
-  - Green - corrent
-- Score the quiz - show the following information at teh top or bottom of the page
-  - Number of correct answers
-  - Number of incorrect answers
+- Configure the viewport
+- Add break points to your style sheet
+- Add styles to make your site a great experience on both the desktop and mobile
 
 ### Deliverable
 
-Post a link to your completed tutorial to the progress tracker. 
-
-make note of any questions your have about the tutorial and bring these to class. 
+Wrap up your project by making it responsive. Publish to GitHub Pages and add a link to the progress tracker. 
 
 ### Due date
 
-Class 10
+Class 7
