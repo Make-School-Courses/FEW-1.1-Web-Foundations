@@ -4,10 +4,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-    <title>FEW 1.1</title>
+    <title>FEW 1.1 Slides</title>
     <link rel="stylesheet" href="./../css/reveal.css" />
     <link rel="stylesheet" href="./../css/theme/black.css" id="theme" />
-    <link rel="stylesheet" href="./../css/highlight/zenburn.css" />
+    <link rel="stylesheet" href="./../css/highlight/atom-one-light.css" />
     <link rel="stylesheet" href="./../css/print/paper.css" type="text/css" media="print" />
     <link rel="stylesheet" href="./../assets/Reveal/makeschool.css" />
 
@@ -19,69 +19,93 @@
     <div class="reveal">
       <div class="slides"><section  data-markdown><script type="text/template"># Semantic HTML
 
-➡️ [**Slides**](https://make-school-courses.github.io/FEW-1.1-Web-Foundations/slides/01-semantic-html/README.html ':ignore')
-</script></section><section ><section data-markdown><script type="text/template">
-## HTML
-
-#### The language of the web.
-</script></section><section data-markdown><script type="text/template">
-In 1989 Tim Berners-Lee, a physicist at <a href="/wiki/CERN" title=""><abbr title="European Organization for Nuclear Research">CERN</abbr></a>, proposed system for researchers to share documents. 
-</script></section></section><section  data-markdown><script type="text/template">
-The system was an internet-based hypertext system. Hypertext is text displayed on a computer screen that uses hyperlinks to connect other documents. 
+➡️ [**Slides**](https://make-school-courses.github.io/FEW-1.1-Web-Foundations/Slides/01-Semantic-Html/README.html ':ignore')
 </script></section><section  data-markdown><script type="text/template">
+## What is HTML?
+
+**The Language of the Web**
+
+HTML stands for "HyperText Markup Language", which refers to "hypertext" (i.e. links) in digital documents. The Web is, essentially, made up of lots of digital documents which link to each other.
+</script></section><section  data-markdown><script type="text/template">
+### A Short History
+
+In 1989 Tim Berners-Lee, a physicist at <a href="/wiki/CERN" title=""><abbr title="European Organization for Nuclear Research">CERN</abbr></a>, proposed a system for researchers to share documents. 
+<!-- .element: class="fragment" -->
+
+The system was an internet-based hypertext system. Hypertext is text displayed on a computer screen that uses hyperlinks to connect other documents.
+<!-- .element: class="fragment" -->
+
+![asdf](assets/hyperlinks.gif)
+<!-- .element: class="fragment" -->
+</script></section><section  data-markdown><script type="text/template">
+### How do we use it?
+
 HTML uses tags to "markup" a document. Tags describe and provide context to content. 
 
-Below the p or paragraph, tag describes the text Hello World as a paragraph. 
+Below the `p`, or paragraph, tag describes the text Hello World as a paragraph. 
 
-`<p>Hello World.</p>`
+```html
+<p>Hello World.</p>
+```
+
+The opening tag `<p>` is followed by a closing tag `</p>` which has a slash `/`.
 </script></section><section  data-markdown><script type="text/template">
-The opening tag `<p>` is followed by a closing tag `</p>` which has a slash "/".
-</script></section><section  data-markdown><script type="text/template">
+### Combining Tags
+
 Many different tags can be combined and nested one within another. 
 
-```HTML
+```html
 <article>
   <h1>HTML</html>
   <p><abbr>HTML</abbr> is the best!</p>
 </article>
 ```
 </script></section><section  data-markdown><script type="text/template">
-Tags can not overlap!
+### Tags cannot overlap!
 
-Good!
+Good:
 
 ```HTML
 <p><abbr>HTML</abbr> is the best!</p>
 ```
 
-Bad! (the `</p>` closes before the inner `</abbr>`)
+Bad: 
 ```HTML
 <p><abbr>HTML</p></abbr> is the best!
 ```
-</script></section><section  data-markdown><script type="text/template">
-### Semantic HTML
-</script></section><section  data-markdown><script type="text/template">
-**Semantic** (adj.):
 
-of or relating to meaning in language
+(the `</p>` closes before the inner `</abbr>`)
+<!-- .element: class="fragment" -->
 </script></section><section  data-markdown><script type="text/template">
-From French sémantique, applied to the psychology of language, from Greek semantikos "significant," from semainein "to show by sign, signify, point out, indicate by a sign."
+## Semantic HTML
 </script></section><section  data-markdown><script type="text/template">
-To use a word semantically is to use a word in a way that properly aligns with its meaning. 
-</script></section><section  data-markdown><script type="text/template">
-Semantic markup is to use tags that properly align with the content the tags mark up.
-</script></section><section  data-markdown><script type="text/template">
-**Some Examples**
+### What is semantic HTML?
 
-A time or date uses the time tag.
+**Semantic** (adj.): of or relating to meaning in language
 
-`<time>Valentines day</time>`
+To use a *word* semantically is to use a word in a way that properly aligns with its meaning.
+<!-- .element: class="fragment" -->
 
-Abbreviations and acronyms use the abbr tag.
-
-`<abbr>HTML</abbr>`
+**Semantic markup** is to use tags that properly align with the **content** the tags mark up.
+<!-- .element: class="fragment" -->
 </script></section><section  data-markdown><script type="text/template">
-The article tag defines an article, an h1 defines a heading, and a p tag defines a paragraph.
+### Some Examples
+
+A time or date uses the `time` tag.
+
+```html
+<time>Valentines day</time>
+```
+
+Abbreviations and acronyms use the `abbr` tag.
+
+```html
+<abbr>HTML</abbr>
+```
+</script></section><section  data-markdown><script type="text/template">
+### Nested Example
+
+The `article` tag defines an article, an `h1` defines a heading, and a `p` tag defines a paragraph.
 
 ```HTML
 <article>
@@ -90,21 +114,23 @@ The article tag defines an article, an h1 defines a heading, and a p tag defines
 </article>
 ```
 
-Important! Notice the article contains a heading and a content paragraph.
+***Important!*** Notice the article contains a heading and a content paragraph.
 
 A heading would never contain an article.
 </script></section><section  data-markdown><script type="text/template">
-**Activity** Pair up and research tags. 
+### Activity
+
+Pair up and research tags. 
 
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 
-The tags here are group into categories. pay close attention to the categories. This help define their semantic usage. 
+Choose **one tag from each category** to present to your classmates.
 </script></section><section  data-markdown><script type="text/template">
-## Homework 
+### Homework 
 
-Complete [assignment 1](../assignments/assignment-01.md)
+[Assignment 1](../assignments/assignment-01.md) will be due at the beginning of next class. We'll submit it together during class.
 </script></section><section  data-markdown><script type="text/template">
-## Wrap Up 
+### Wrap-Up 
 
 - What was covered today? 
 - What does semantic mean? 
@@ -113,24 +139,11 @@ Complete [assignment 1](../assignments/assignment-01.md)
 - What is an element?
 - When do tags overlap? 
 </script></section><section  data-markdown><script type="text/template">
-## Additional Resources
+### Additional Resources
 
 1. http://html5doctor.com
 1. https://en.wikipedia.org/wiki/HTML
 1. https://developer.mozilla.org/en-US/docs/Web/HTML/Element
-</script></section><section  data-markdown><script type="text/template">
-## Minute-by-Minute [OPTIONAL]
-
-| **Elapsed** | **Time**  | **Activity**              |
-| ----------- | --------- | ------------------------- |
-| 0:00        | 0:05      | Objectives                |
-| 0:05        | 0:15      | Overview                  |
-| 0:20        | 0:30      | In Class Activity I       |
-| 0:50        | 0:10      | BREAK                     |
-| 1:00        | 0:45      | In Class Activity II      |
-| 1:45        | 0:05      | Wrap up review objectives |
-| TOTAL       | 1:50      | -                         |
-
 </script></section></div>
     </div>
 

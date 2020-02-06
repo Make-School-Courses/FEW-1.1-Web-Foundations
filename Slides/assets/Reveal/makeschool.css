@@ -174,7 +174,7 @@ body {
 .reveal ul li,
 .reveal ol li,
 .reveal ol li {
-  margin-bottom: 18px;
+  margin-bottom: 20px;
 }
 
 .reveal .compact p {
@@ -474,4 +474,31 @@ body {
 .reveal .slides section,
 .reveal .slides section>section {
   line-height: 1.2;
+}
+
+.reveal .compact ul li,
+.reveal .compact ol li {
+    margin-bottom: 0;
+}
+
+.reveal blockquote {
+    color: #4A4A4A;
+    font-style: italic;
+    font-weight: bold;
+    background: none;
+    box-shadow: none;
+}
+
+.reveal blockquote p {
+    margin: 20px 0;
+}
+
+.reveal input {
+    margin: 40px 20px;
+}
+
+.reveal button {
+    padding: 0 10px;
+    font-size: 1em;
+    line-height: 1em;
 }
