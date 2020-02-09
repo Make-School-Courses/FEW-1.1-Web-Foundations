@@ -24,4 +24,4 @@ Wrap up your project by making it responsive. Publish to GitHub Pages and add a 
 
 ### Due date
 
-Class 7
+Class 7 - Tues, Feb 11
