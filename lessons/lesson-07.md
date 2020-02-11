@@ -332,7 +332,7 @@ Here we would way the function is anonymous since it doesn't have a name.
 
 ## Lab - Tip calculator
 
-Start working on Assignment [Assignment 7](../assignment/assignment-07.md)
+Start working on Assignment [Assignment 7](../assignments/assignment-07.md)
 
 Be sure to use the resources below. 
 
