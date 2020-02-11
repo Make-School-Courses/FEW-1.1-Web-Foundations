@@ -1,5 +1,5 @@
 <!-- .slide: data-background="./Images/header.svg" data-background-repeat="none" data-background-size="40% 40%" data-background-position="center 10%" class="header" -->
-# FEW 1.1 - Lesson 8 - JS Intro Variables, Functions, and Scope
+# FEW 1.1 - Lesson 8 - JS Intro Arrays
 
 <!-- Put a link to the slides so that students can find them -->
 
@@ -7,28 +7,15 @@
 
 <!-- > -->
 
-## Review Tutorial Questions 
+## Learning Objectives
 
-- Where are you at in the current tutorial? 
-- What questions if any did you have about the tutorial? 
-- Did you have any problems with the tutorial? 
+- Define arrays 
+- Use Arrays in JS Application
+- Create arrays from DOM elements
 
-## Dicussion: JS and the DOM
+## Why learn this? 
 
-Here is some information about functions
-
-- The DOM is a tree structure
-  - Elements are nested with elements
-- CSS selectors reflect how the DOM is arranged
-  - Child Selector
-  - Descendant Selector
-- Selecting elements with JS 
-  - document.getElementById('a') // <p id="a" class="a">
-  - document.querySelector('h1')
-  - document.querySelectorAll('p.a') -> []
-  - document.getElementsByClassName('') -> []
-  - document.getElementsByTagName() -> []
-- 
+Arrays are a core feature of all languages. Arrays are used to manage lists of things. Programs would be very limited without arrays. Expect every app to use arrays in some form. 
 
 <!-- > -->
 
