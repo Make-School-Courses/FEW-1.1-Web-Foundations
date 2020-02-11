@@ -58,8 +58,8 @@ By the end of the course, students should be able to...
 | 4 | Thurs, Jan 30 | [CSS Box Model](./lessons/lesson-04.md/) | - |
 | 5 | Tues, Feb 4 | [CSS Grid](./lessons/lesson-05.md) | [CSS Grid](./assignments/assignment-05.md) |
 | 6 | Thurs, Feb 6 | [Responsive Design](./lessons/lesson-06.md) | [Responsive Project](./assignments/assignment-06.md) - Layout in two dimensions |
-| 7 | Tues, Feb 11 | [Midterm Assessment](./lessons/lesson-07.md) | [Midterm Assessment](./assignments/assignment-07.md) - Assessment HTML and CSS knowledge |
-| 8 | Thurs, Feb 13 | [JavaScript Intro](./lessons/lesson-08.md) | - |
+| 7 | Tues, Feb 11 | [JS Intro](./lessons/lesson-07.md) | [Tip Calculator](./assignments/assignment-07.md) - Assessment HTML and CSS knowledge |
+| 8 | Thurs, Feb 13 | [JS Intro pt. 2](./lessons/lesson-08.md) | - |
 | 9 | Tues, Feb 18 | [JS Flow Control](./lessons/lesson-09.md) | - |
 | 10 | Thurs, Feb 20 | [JS Objects](./lessons/lesson-10.md) | - |
 | 11 | Tues, Feb 25 | [Lesson 11](./lessons/lesson-11.md) | [Final Assignment](./assignments/assignment-08.md) - Final Project |
