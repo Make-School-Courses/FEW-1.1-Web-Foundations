@@ -4,9 +4,9 @@ You need to make a calculator. When Completed it should look like this:
 
 <img src="calculator.png" width="312" height="auto">
 
-Your calculator should have a "display" this can be a `<div>`, and 19 buttons. Use the `<button>` tag. 
+Your calculator should have a "display". The display would show the number/answer at the top. This can be a `<div>`, and 19 buttons. Use the `<button>` tag. 
 
-You have 1 hour to make your calculator. Follow the challenges below in order. You get credit for each of the challenges you complete. 
+Follow the challenges below in order. You get credit for each of the challenges you complete. 
 
 ## Calculator Markup
 
@@ -14,8 +14,8 @@ Write the HTML for the calculator.
 
 1. Create an HTML page with the base HTML markup. 
 2. Create a `<div>` with the class name calculator. 
-3. In div.calculator add a `<div>` with the class name 'display'
-4. In div.calculator add 19 `<button>` tags. These will be the calculator buttons.
+3. In `div.calculator` add a `<div>` with the class name 'display'
+4. In `div.calculator` add 19 `<button>` tags. These will be the calculator buttons.
 
 Button text: 
 
@@ -57,21 +57,23 @@ The font family should be:
 
 - Helvetica
 
-Use Flex box to on the body to center the div.calculator. Give the body tag these styles: 
+Use Flex box on the body to center the `div.calculator`. Give the body tag these styles: 
 
 - display flex
 - justify content center
 - align items center 
 
+The body and html tag should have the height set to 100%. 
+
 ## Calculator div.calculator styles
 
-Set the width and height of div.calculator to
+Set the width and height of `div.calculator` to
 
 - 300px 500px
 
 ## Calculator Display style
 
-Give div.display the following styles: 
+Give `div.display` the following styles: 
 
 - font size 4em
 - font weight 100
@@ -100,7 +102,7 @@ The /, X, -, +, and = buttons should have a background color of: #f90.
 
 ## Calculator layout 
 
-The calculator needs to arrange the buttons as shown in the image. Notice div.display takes up the entire width of the grid, and the 0 button takes up two columns. 
+The calculator needs to arrange the buttons as shown in the image. Notice `div.display` takes up the entire width of the grid, and the 0 button takes up two columns. 
 
 Use CSS Grid. You'll need 4 equal (1fr) columns, and 4 rows, the first row should be 1em and the other rows equal (1fr).
 
