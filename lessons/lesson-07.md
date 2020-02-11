@@ -334,6 +334,8 @@ Here we would way the function is anonymous since it doesn't have a name.
 
 Start working on Assignment [Assignment 7](../assignment/assignment-07.md)
 
+Be sure to use the resources below. 
+
 <!-- > -->
 
 ## After Class
@@ -343,5 +345,9 @@ Start working on Assignment [Assignment 7](../assignment/assignment-07.md)
 ## Resources 
 
 - https://javascript.info
-- 
+- https://javascript.info/variables
+- https://javascript.info/function-basics
+- https://javascript.info/closure
+- https://javascript.info/searching-elements-dom
+- https://javascript.info/introduction-browser-events
 
