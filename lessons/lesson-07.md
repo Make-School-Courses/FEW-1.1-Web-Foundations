@@ -15,11 +15,11 @@ You need to learn some JavaScript! This class will be an introduction to the Jav
 
 ### Why JavaScript?
 
-JavaScript is probably the most important language in use today. It's for a wide range of uses from web pages, to mobile applications, embeded in hardware devices, and web servers. You could build entire application ecosystems with only JavaScript. 
+JavaScript is probably the most important language in use today. JavaScript has a wide range of uses from web pages, to mobile applications, is embeded in hardware devices, and web servers. **You could build entire application ecosystems with only JavaScript.** 
 
 It's a good time to learn JavaScript.
 
-<!-- > --> 
+<!-- > -->
 
 ## Objectives 
 
@@ -32,15 +32,43 @@ It's a good time to learn JavaScript.
 
 <!-- > -->
 
-## JavaScript 
+## JavaScript
 
 <!-- > -->
 
-## Writing JS 
+## Where do you write JavaScript?
 
 Written in a tag
 
 Written in JS files
+
+<!-- > -->
+
+```HTML
+<script>
+  // This tage could be embedded in a Web Page
+  function countToFive() {
+    for (let i = 1; i < 6; i += i) {
+      console.log(i)
+    }
+  }
+</script>
+```
+
+<!-- > -->
+
+```HTML
+<script src="main.js"></script>
+```
+
+```JS
+// This written in main.js
+function countToFive() {
+  for (let i = 1; i < 6; i += i) {
+    console.log(i)
+  }
+}
+```
 
 <!-- > -->
 
@@ -55,7 +83,7 @@ Written in JS files
 
 ### Variables
 
-Define a variable with
+Define a variable with:
 
 - var 
 - const 
@@ -64,22 +92,60 @@ Define a variable with
 <!-- > -->
 
 ```js 
-var x = 11
-let y = 'Hello'
-const z = 3.14
+var x = 199
+let name = 'Hello'
+const pi = 3.14
 ```
+
+<!-- > -->
 
 What's the difference? 
 
-- var is function scope
-- let is block scope
-- const is block scope and immutable
+- `var` is function scope
+- `let` is block scope
+- `const` is block scope and immutable
+
+<!-- > -->
+
+**Block Scope**
+
+```JS
+function calculate() {
+  let t = 0
+  for (let i = 1; i < 10; i += 1>) {
+    t += i * i
+  }
+  console.log(t) // some number 285
+  console.log(i) // ReferenceError: i is not defined
+}
+```
+
+<!-- > -->
+
+**Function Scope**
+
+```JS
+function calculate() {
+  var t = 0
+  for (var i = 1; i < 10; i += 1>) {
+    t += i * i
+  }
+  console.log(t) // 285
+  console.log(i) // 10
+}
+```
+
+<!-- > -->
 
 Best practice: 
 
 Use `const` when a value won't change and `let` when it will. Don't use `var`. 
 
+<!-- > -->
+
 ### functions 
+
+<!-- > -->
 
 define a function
 
@@ -93,12 +159,16 @@ function calculateArea(length, width) {
 Execute a function:
 
 ```js 
-calculateArea(10, 3) // 30
+const area = calculateArea(10, 3) // 30
 ```
+
+<!-- > -->
 
 ### Flow control 
 
 Flow control is how your program makes decisions. This includes things like if else statements and loops. 
+
+<!-- > -->
 
 #### if else 
 
@@ -110,6 +180,8 @@ if (area > 50) {
 }
 ```
 
+<!-- > -->
+
 #### for loop 
 
 ```JS 
@@ -118,6 +190,8 @@ for (let i = 0; i < 10; i += 1) {
 }
 ```
 
+<!-- > -->
+
 ### types 
 
 Any value in JavaScript will be one of these types: 
@@ -125,6 +199,8 @@ Any value in JavaScript will be one of these types:
 - Number
 - String 
 - Object
+
+<!-- > -->
 
 ### Numbers
 
@@ -135,6 +211,8 @@ Numbers are what you expect numbers.
 - 3.1456
 - -0.988
 
+<!-- > -->
+
 ### Strings
 
 A String is any number of characters between quotation marks. 
@@ -142,6 +220,8 @@ A String is any number of characters between quotation marks.
 - 'Hello World'
 - "Foo Bar"
 - ''
+
+<!-- > -->
 
 ### Concatenate String 
 
@@ -154,6 +234,8 @@ const nameAndPrice = `${name} $${price}`
 console.log(nameAndPrice) // Burger $2.99
 ```
 
+<!-- > -->
+
 ### Getting a Reference
 
 Elements created in the DOM are objects. They have methods and properties. You'll need a reference to an element if you need to:
@@ -161,6 +243,8 @@ Elements created in the DOM are objects. They have methods and properties. You'l
 - change the text it displays
 - get the value currently displayed
 - change it's style 
+
+<!-- > -->
 
 To get a reference to an element you'll need to find it in the DOM. An easy method is using an id. ids are unique there should only be one element with a given id!
 
@@ -172,6 +256,8 @@ Use:
 const displayHello = document.getElementById('display-hello')
 ```
 
+<!-- > -->
+
 ### Display text with innerHTML
 
 Setting the innerHTML of an element replaces everything between the tags with something new. 
@@ -179,6 +265,8 @@ Setting the innerHTML of an element replaces everything between the tags with so
 ```JS 
 displayHello.innerHTML = 'Hello World'
 ```
+
+<!-- > -->
 
 ### Working with Inputs
 
@@ -190,6 +278,8 @@ const inputName = document.getElementById('input-name')
 console.log( inputName.value ) // shows the value if input
 ```
 
+<!-- > -->
+
 ## Events and Listeners 
 
 Events are things that happen in the program. They are things like: 
@@ -198,6 +288,8 @@ Events are things that happen in the program. They are things like:
 - clicking the mouse
 - interacting with the keyboard
 - and more...
+
+<!-- > -->
 
 Add a listener to "listen" for an event type and define a handler to handle the event when it occurs.
 
@@ -211,6 +303,8 @@ function buttonHandler(event) {
 }
 ```
 
+<!-- > -->
+
 element.addEventListener() takes two parameters: an event type and an event handler. 
 
 An event type is a string. Some event types are: 
@@ -218,6 +312,8 @@ An event type is a string. Some event types are:
 - 'click'
 - 'change'
 - 'keydown'
+
+<!-- > -->
 
 A handler is a function that takes an event as a parameter. 
 
@@ -232,6 +328,8 @@ button.addEventListener('click', function(e) { ... })
 
 Here we would way the function is anonymous since it doesn't have a name. 
 
+<!-- > -->
+
 ## Lab - Tip calculator
 
 Start working on Assignment [Assignment 7](../assignment/assignment-07.md)
@@ -241,4 +339,9 @@ Start working on Assignment [Assignment 7](../assignment/assignment-07.md)
 ## After Class
 
 [Assignment 7](../assignment/assignment-07.md)
+
+## Resources 
+
+- https://javascript.info
+- 
 
