@@ -2,7 +2,7 @@
 
 You need to make a calculator. When Completed it should look like this: 
 
-![calculator](calculator.png)
+<img src="calculator.pn" width="312" height="auto">
 
 Your calculator should have a "display" this can be a `<div>`, and 19 buttons. Use the `<button>` tag. 
 
