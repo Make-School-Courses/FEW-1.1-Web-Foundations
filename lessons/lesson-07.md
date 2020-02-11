@@ -340,7 +340,7 @@ Be sure to use the resources below.
 
 ## After Class
 
-[Assignment 7](../assignment/assignment-07.md)
+[Assignment 7](../assignments/assignment-07.md)
 
 ## Resources 
 
