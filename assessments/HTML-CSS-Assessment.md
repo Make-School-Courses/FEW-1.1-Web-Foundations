@@ -63,7 +63,7 @@ Use Flex box on the body to center the `div.calculator`. Give the body tag these
 - justify content center
 - align items center 
 
-The body and html tag should have the height set to 100%. 
+The body and html tags should have the height set to 100%. 
 
 ## Calculator div.calculator styles
 
