@@ -179,6 +179,56 @@ Each input can be grouped in a parent with it's two button elements. The parent 
 
 ![Tip Calc 8](images/tip-calc-8.png)
 
+In markup it might look like this: 
+
+```HTML
+<main class="main">
+  <div class="output left-side">
+    <div class="display">Tip:<span id="display-tip"></span></div>
+    <div class="display">Total:<span id="display-total"></span></div>
+    <div class="display"">Each:<span id="display-each"></span></div>
+  </div>
+
+  <div class="input right-side">
+    <div class="input-container">
+      <span class="label">Bill Amount</span>
+      <div class="input-with-buttons">
+        <button>-</button>
+        <input 
+          id="input-bill" 
+          value="10"
+          type="number">
+        <button>+</button>
+    </div>
+
+    <div class="input-container">
+      <span class="label">Tip %</span>
+      <div class="input-with-buttons">
+        <button>-</button>
+        <input 
+          id="input-tip" 
+          type="number" 
+          name="tip-percent" 
+          value="15">
+        <button>+</button>
+      </div>
+    </div>
+
+    <div class="input-container">
+      <span class="label">Number of People</span>
+      <div class="input-with-buttons">
+        <button>-</button>
+        <input 
+          id="input-people" 
+          type="number" 
+          value="1">
+        <button>+</button>
+      </div>
+    </div>
+  </div>
+</main>
+```
+
 <!-- > --> 
 
 ## Minute-by-Minute [OPTIONAL]
