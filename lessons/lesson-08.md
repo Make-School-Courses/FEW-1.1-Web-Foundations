@@ -148,13 +148,23 @@ Using nested flex parent's allows different levels to be aligned in columns and 
 
 Take a look at this image: 
 
+Here is the starting tip calculator.
+
 ![Tip Calc 1](images/tip-calc-1.png)
+
+Here is a wireframe of the tip calculator. Think of each box in the wire frame as one element in the DOM. 
 
 ![Tip Calc 2](images/tip-calc-2.png)
 
+There is an outer container.
+
 ![Tip Calc 3](images/tip-calc-3.png)
 
+Use two innner elements to group the left and right side of the tip calculator. The blue line shows the main axis of of the flex container. Here flex direction is row. 
+
 ![Tip Calc 4](images/tip-calc-4.png)
+
+The right side of the 
 
 ![Tip Calc 5](images/tip-calc-5.png)
 
