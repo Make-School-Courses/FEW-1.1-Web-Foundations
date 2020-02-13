@@ -164,13 +164,19 @@ Use two innner elements to group the left and right side of the tip calculator. 
 
 ![Tip Calc 4](images/tip-calc-4.png)
 
-The right side of the 
+The right side section has two children. This right side container can be display flex and have a direction of column.
 
 ![Tip Calc 5](images/tip-calc-5.png)
 
+Inside these two child sections their parent can be display flex with a direction of row and space between. 
+
 ![Tip Calc 6](images/tip-calc-6.png)
 
+In the left side the container here can be display flex with a direction of column. This arranges the labels and the inputs. 
+
 ![Tip Calc 7](images/tip-calc-7.png)
+
+Each input can be grouped in a parent with it's two button elements. The parent can be flex with direction row. 
 
 ![Tip Calc 8](images/tip-calc-8.png)
 
