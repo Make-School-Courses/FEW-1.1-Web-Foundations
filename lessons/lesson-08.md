@@ -1,5 +1,5 @@
 <!-- .slide: data-background="./Images/header.svg" data-background-repeat="none" data-background-size="40% 40%" data-background-position="center 10%" class="header" -->
-# FEW 1.1 - Lesson 8 - JS Intro Arrays
+# FEW 1.1 - Lesson 8 - JS Tip Calculator Part 2
 
 <!-- Put a link to the slides so that students can find them -->
 
@@ -9,76 +9,160 @@
 
 ## Learning Objectives
 
-- Define arrays 
-- Use Arrays in JS Application
-- Create arrays from DOM elements
+- Create a strategy for solving problems
+- Using functions to convert strings and numbers
+- Handling input with events
+- Using event objects
+
+<!-- > -->
 
 ## Why learn this? 
 
-Arrays are a core feature of all languages. Arrays are used to manage lists of things. Programs would be very limited without arrays. Expect every app to use arrays in some form. 
+JavaScript is important events are an important part of programming front ent applications. 
 
 <!-- > -->
 
+## Solving problesm and the tip calculator
 
-## Debugging: Console.log()
-
-Use `console.log(value)` test everything. 
-
-When something doesn't work it's often due to value that is wrong, or is not what you think it. A first to debugging is to identify suspect values and look at them. 
+The tip calculator presents some programming problems. Think of this as a interview question. 
 
 <!-- > -->
 
-## Make a Tip calculator
+Assumptions: name and list the assumptions? 
 
-**Pair** up and make a tip calculator. 
+<!-- > -->
 
-Copy the template below into a text file and save it with the .html extension. 
+1. bill: float/number
+1. tip: float/int/number
+1. people: int/number
 
-```html
-<!DOCTYPE html>
-<html>
-  <head>
-    <title></title>
-    <style>
-      /* Put your styles here */
+<!-- > -->
 
-    </style>
-  </head>
-  <body>
+## Numbers, Strings, and NaN
 
-    <div class="container">
-      <form id="tip-calculator">
-        <label>
-          Bill
-          <input id="bill-total" type="number" step="0.1">
-        </label>
-        
-        <label>
-          Tip %
-          <input id="tip-percent" type="number" step="0.1">
-        </label>
-        
-        <div id="tip">0.00</div>
-      </form>
-    </div>
+Any value from an `<input>` will be a string even if the value is a number, even if the type  of the input is number.
 
-    <script>
-      // Your scripts here
+Use `parseInt(value)` or `parseFloat(value)` to convert a value to a number. 
 
-      // Get references to elements 
+If the value can not be converted to a number these functions return `NaN`. This a special type that represents something that is "Not a Number". 
 
-
-      // Event handlers 
-
-
-      // Functions 
-
-    </script>
-  </body>
-</html>
+```JS 
+const bill = parsFloat(inputBill.value)
+const people = parseInt(inputPeople.value)
 ```
 
-Stretch goal: publish your tip calculator as a GitHub Page.  
+To test if a value is `NaN` use `isNaN(value)`.
+
+```JS
+const badNumber
+isNaN('123') // true - Not a number!
+isNaN(123)   // false - a Number!
+```
+
+<!-- > -->
+
+Let's put that all together into something useful: 
+
+```HTML
+<input id="input-bill">
+```
+
+```JS 
+const inputBill = document.getElementById('input-bill')
+
+let bill = 0
+
+inputBill.addEventListener('input', handleBill)
+
+function handleBill(e) {
+  const newBill = parseFloat(e.target.value)
+
+  if (!isNaN(newBill)) {
+    bill = newBill
+  } else {
+    e.target.value = bill
+  }
+}
+```
+
+<!-- > -->
+
+### Scope 
+
+It's important to understand that these variables have different scope. To be the best developer you can be you should always ask the question yourself what the scope is for any variable you happen to be looking at. 
+
+Read this article and 
+
+- https://javascript.info/closure
+
+The sample code above uses the following variables: 
+
+- inputBill
+- bill 
+- newBill
+
+- Question: What is the scope of each variable in the list above? Discuss this with your group.
+
+### Calculating the total and tip
+
+```JS
+function calculateTip() {
+  const tip = bill * tipPercent / 100
+  const total = bill + tip
+  const perPerson = total / people
+
+  displayTip.innerHTML = tip.toFixed(2)
+  displayTotal.innerHTML = total.toFixed(2)
+  displayEach.innerHTML = perPerson.toFixed(2)
+}
+```
+
+- Question: what is happening here? discuss this with your group? 
+  - What variables are used and what is their scope? 
+
+<!-- > -->
+
+### Event Object
+
+What is `e`? This is an object that describes the event. Handler functions always receive an event objects. 
+
+Event Objects have many properties that are useful. 
+
+<!-- > -->
+
+### event.target
+
+`event.target` is the object where the event originated. In this example it's `<input>`.
+
+Why is the target useful? Allows for DRY code. 
+
+<!-- > -->
+
+## Styling the Tip Calculator
+
+Flex box is probably the best choice for making the tip calculator. 
+
+Using nested flex parent's allows different levels to be aligned in columns and rows creating a complex layout. 
+
+**Remember: when an element has `display: flex` it's children are arranged using the flex rules.**
+
+Take a look at this image: 
+
+![Tip Calc 1](images/tip-calc-1.png)
+
+![Tip Calc 2](images/tip-calc-2.png)
+
+![Tip Calc 3](images/tip-calc-3.png)
+
+![Tip Calc 4](images/tip-calc-4.png)
+
+![Tip Calc 5](images/tip-calc-5.png)
+
+![Tip Calc 6](images/tip-calc-6.png)
+
+![Tip Calc 7](images/tip-calc-7.png)
+
+![Tip Calc 8](images/tip-calc-8.png)
 
 <!-- > --> 
 
