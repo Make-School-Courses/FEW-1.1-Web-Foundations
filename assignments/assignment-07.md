@@ -144,7 +144,8 @@ If you've got everything else working here are some stretch challenges you can t
 1. Style your calculator. Add some CSS to improve the font styles and the layout.
 1. Add +/- buttons beside the tip and number of people fields. Notice how these work in the Google Tip Calculator. 
 1. We should prevent people from entering non numeric values since this will break the calculator. 
-1. Make the tip display an input that calculates the tip % from the dollar amount input here. 
+1. Make the tip display an input that calculates the tip % from the dollar amount input here.
+1. 
 
 ### Deliverable
 
