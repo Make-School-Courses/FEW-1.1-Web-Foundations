@@ -9,10 +9,9 @@
 
 ## Learning Objectives
 
-- Create a strategy for solving problems
-- Using functions to convert strings and numbers
-- Handling input with events
-- Using event objects
+- Creating design layout with flex box
+- Using `parseInt()`, `parseFloat()`, and `isNaN()`
+- Describe NaN
 
 <!-- > -->
 
