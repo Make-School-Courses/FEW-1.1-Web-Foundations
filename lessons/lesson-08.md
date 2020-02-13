@@ -155,27 +155,27 @@ Here is a wireframe of the tip calculator. Think of each box in the wire frame a
 
 ![Tip Calc 2](images/tip-calc-2.png)
 
-There is an outer container.
+There is an outer container. `main.main`
 
 ![Tip Calc 3](images/tip-calc-3.png)
 
-Use two innner elements to group the left and right side of the tip calculator. The blue line shows the main axis of of the flex container. Here flex direction is row. 
+Use two innner elements to group the left and right side of the tip calculator. The blue line shows the main axis of of the flex container. Here flex direction is row. `div.left-side` and `div.output-container`
 
 ![Tip Calc 4](images/tip-calc-4.png)
 
-The right side section has two children. This right side container can be display flex and have a direction of column.
+The right side section has two children. This right side container can be display flex and have a direction of column. `div.display` `div.display > span`
 
 ![Tip Calc 5](images/tip-calc-5.png)
 
-Inside these two child sections their parent can be display flex with a direction of row and space between. 
+Inside these two child sections their parent can be display flex with a direction of row and space between. (The code below has three elements here). 
 
 ![Tip Calc 6](images/tip-calc-6.png)
 
-In the left side the container here can be display flex with a direction of column. This arranges the labels and the inputs. 
+In the left side the container here can be display flex with a direction of column. This arranges the labels and the inputs. `div.right-side`
 
 ![Tip Calc 7](images/tip-calc-7.png)
 
-Each input can be grouped in a parent with it's two button elements. The parent can be flex with direction row. 
+Each input can be grouped in a parent with it's two button elements. The parent can be flex with direction row. `div.input-container` 
 
 ![Tip Calc 8](images/tip-calc-8.png)
 
