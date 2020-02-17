@@ -3,25 +3,27 @@
 
 <!-- > -->
 
+Your final project. Network actions with JS. 
+
 ## Learning Objectives 
 
 - Define your final project
 - Use JS Promise to handle async actions
-- load data over the network with JS
+- Load data over the network with JS
 
 <!-- > -->
 
-## Why learn this? 
+## Why learn this?
 
 Network and asynchronous operations are a big part of front end development. It's really important that you understand how this works. 
 
-**Questions about asynchronous actions are some of the most common questions at interviews**
+**Questions about asynchronous actions are some of the most common questions at interviews.**
 
 <!-- > -->
 
 ## What is synchronous?
 
-> adjective: synchronous
+> adjective: **synchronous**
 > 1. existing or occurring at the same time. "glaciations were approximately synchronous in both hemispheres"
 > 2. ASTRONOMY (of a satellite or its orbit) making or denoting an orbit around the earth or another celestial body in which one revolution is completed in the period taken for the body to rotate about its axis.
 
@@ -45,21 +47,17 @@ Synchronous together in time.
 
 "not coinciding in time," 1735, from **a-** (3) "not, without" + **synchronous** "existing or happening at the same time."
 
-Asynchronous Not together in time. 
+Asynchronous Not together in time.
 
 <!-- > -->
 
-## How does JavaScript code run? 
+## How does JavaScript code run?
 
-Quick read this: 
-
-<!-- https://blog.sessionstack.com/how-does-javascript-actually-work-part-1-b0bacc073cf -->
-
-<!-- https://medium.com/better-programming/how-javascript-works-1706b9b66c4d -->
+Quick read this:
 
 https://itnext.io/how-javascript-works-in-browser-and-node-ab7d0d09ac2f
 
-Look for these topics in the article: 
+Look for these topics in the article:
 
 - JavaScript Engine
 - Stack 
