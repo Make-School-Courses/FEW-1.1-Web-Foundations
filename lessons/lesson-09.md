@@ -82,7 +82,7 @@ The `fetch()` method returns a Promise which is an object used to handle asynchr
 
 https://medium.com/@kevinyckim33/what-are-promises-in-javascript-f1a5fc5b34bf
 
-In short when a function returns a Promise you can call the promise's `then()` method and provide a callback which the promise will execute if it completes successfully, you call the `catch()` method and provide a callback the promise will execute if it fails. 
+In short when a function returns a Promise you can call the promise's `then()` method and provide a callback function which the promise will execute if it completes successfully, you call the `catch()` method and provide a callback the promise will execute if it fails.
 
 **Read the paragraph above again**
 
@@ -143,6 +143,18 @@ fetch()
   .then() 
   .then()
 ```
+
+Or 
+
+```JS 
+const p1 = fetch()
+const p2 = p1.then()
+p2.then()
+```
+
+**Pair up and write the callstack**
+
+Think back to the discussion of "How JavaScript works". 
 
 ## Challenge - Giphy
 
