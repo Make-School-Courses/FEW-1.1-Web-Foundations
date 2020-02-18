@@ -42,5 +42,5 @@ Your completed final.
 
 ### Due date
 
-Your completed final project is due Mon, Dec 9. Class 14.
+Class 14 - Thurs, Mar 5
 

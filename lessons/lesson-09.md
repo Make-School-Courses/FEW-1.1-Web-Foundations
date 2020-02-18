@@ -17,15 +17,7 @@ Your final project. Network actions with JS.
 
 Network and asynchronous operations are a big part of front end development. It's really important that you understand how this works. 
 
-**Questions about asynchronous actions are some of the most common questions at interviews.**
-
-<!-- > -->
-
-## What is synchronous?
-
-> adjective: **synchronous**
-> 1. existing or occurring at the same time. "glaciations were approximately synchronous in both hemispheres"
-> 2. ASTRONOMY (of a satellite or its orbit) making or denoting an orbit around the earth or another celestial body in which one revolution is completed in the period taken for the body to rotate about its axis.
+**Questions about asynchronous actions are some of the most common questions at interviews.*
 
 <!-- > -->
 
@@ -47,6 +39,26 @@ Pair and dicuss
 
 <!-- > -->
 
+## Loading data over the internet
+
+In JS the tool used to load data over the internet is `fetch()`. 
+
+This is a browser API.
+
+The process of loading data is handled asynchronously.
+
+A `Promise` is an object used to asynchronous actions.
+
+<!-- > -->
+
+## What is synchronous?
+
+> adjective: **synchronous**
+> 1. existing or occurring at the same time. "glaciations were approximately synchronous in both hemispheres"
+> 2. ASTRONOMY (of a satellite or its orbit) making or denoting an orbit around the earth or another celestial body in which one revolution is completed in the period taken for the body to rotate about its axis.
+
+<!-- > -->
+
 ## What is asynchronous? 
 
 > adjective: asynchronous
@@ -57,21 +69,30 @@ Pair and dicuss
 
 Word Origins:
 
-Greek: Sun - together, Greek Khronos - time
+Greek: **Sun** - together, **Khronos** - time
 
-Greek: Sunkhronus
+Greek: **Sunkhronus**
 
 Synchronous together in time.
 
-"not coinciding in time," 1735, from **a-** (3) "not, without" + **synchronous** "existing or happening at the same time."
+**Asynchronous**
+
+"not coinciding in time," from **a-** (3) "not, without" + **synchronous** "existing or happening at the same time."
 
 Asynchronous Not together in time.
 
 <!-- > -->
 
+**Promise**
+
+- a declaration or assurance that one will do a particular thing or that a particular thing will happen.
+- an indication that something specified is expected or likely to occur.
+
+<!-- > -->
+
 ## Fetch and Promise
 
-`fetch()` is a global method used to make network requests.
+`fetch()`
 
 https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
 
