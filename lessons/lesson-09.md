@@ -15,7 +15,7 @@ Your final project. Network actions with JS.
 
 ## Why learn this?
 
-Network and asynchronous operations are a big part of front end development. It's really important that you understand how this works. 
+Network and asynchronous operations are a big part of front end development. You must understand how this works. 
 
 **Questions about asynchronous actions are some of the most common questions at interviews.*
 
@@ -29,13 +29,13 @@ https://itnext.io/how-javascript-works-in-browser-and-node-ab7d0d09ac2f
 
 Look for these topics in the article:
 
-- Single threaded
+- Single-threaded
 - Runtime
 - Web API
 - Heap and Stack
 - Callback queue and event loop
 
-Pair and dicuss
+Pair and discuss
 
 <!-- > -->
 
@@ -96,7 +96,7 @@ Asynchronous Not together in time.
 
 https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
 
-The `fetch()` method returns a Promise which is an object used to handle asynchronous operations.
+The `fetch()` method returns a Promise, which is an object used to handle asynchronous operations.
 
 https://medium.com/@kevinyckim33/what-are-promises-in-javascript-f1a5fc5b34bf
 
@@ -140,7 +140,7 @@ fetch('path/to/resource')
 
 <!-- > -->
 
-When using fetch there are two stages. The first stage returns a response from the serevr which is **just a connection**. The second stage is where you stream your data. In this step you are loading the data you have asked for. 
+When using fetch there are two stages. The first stage returns a response from the server this is **just a connection**. The second stage is where you stream your data. In this step, you are loading the data you have asked for. 
 
 **Read the paragraph above again**
 
@@ -210,7 +210,7 @@ p2.then()
 
 <!-- > -->
 
-**Pair up and draw the callstack**
+**Pair up and draw the call stack**
 
 Think back to the discussion of "How JavaScript works".
 
@@ -223,7 +223,7 @@ Draw a picture of how this works in JavaScript. Include:
 
 ## Challenge - Giphy
 
-This challenge will be to remake the giphy web site with JavaScript. Following the steps below will create a web page that loads images from the Giphy service. 
+This challenge will be to remake the Giphy web site with JavaScript. Following the steps below will create a web page that loads images from the Giphy service. 
 
 Create a new index.html file. You'll need a script tag at the bottom of the body. 
 
@@ -231,7 +231,7 @@ Create a new index.html file. You'll need a script tag at the bottom of the body
 
 ## Handle a submit event
 
-Create form at the top of the body to hold a search form. It will have an input and submit button.
+Create a form at the top of the body to hold a search form. It will have an input and submit button.
 
 ```HTML
 <form id="search-form">
@@ -262,7 +262,7 @@ Get the value input into the search form. In the `submitSearch` hanlder:
 function submitSearch(e) {
   // Get the value input in the search input
   const query = inputSearch.value
-  
+ 
 }
 ```
 
@@ -296,12 +296,12 @@ function fetchData(search = 'cats') {
   const api = 'yourApiKeyHere'
   const path = `https://api.giphy.com/v1/gifs/search?api_key=${api}&q=${search}`
 
-}  
+} 
 ```
 
 <!-- > -->
 
-The code above creates a path string that points to the giphy end point and contains the api key and search term. 
+The code above creates a path string that points to the Giphy endpoint and contains the API key and search term. 
 
 Write an outline of the nextworking code: 
 
@@ -311,7 +311,7 @@ function fetchData(search = 'cats') {
   const path = `https://api.giphy.com/v1/gifs/search?api_key=${api}&q=${search}`
 
   fetch(path).then().then().catch()
-}  
+} 
 ```
 
 <!-- > -->
@@ -329,7 +329,7 @@ fetch(path)
 
 <!-- > -->
 
-Now add a callback to the second `then()`. You're calling this on the second promise returned from `res.json()`. This callback will call the `handleData()` function which you'll implement below. This callback receives `json` data from giphy. You'll pass the json data as an argument to the callback
+Now add a callback to the second `then()`. You're calling this on the second promise returned from `res.json()`. This callback will call the `handleData()` function which you'll implement below. This callback receives JSON data from Giphy. You'll pass the JSON data as an argument to the callback
 
 ```JS
 fetch(path)
@@ -340,7 +340,7 @@ fetch(path)
 
 <!-- > -->
 
-Now handle any errors with with a callback in the catch callback. This callback receives an error object as a parameter and logs the `err.message` to the console.
+Now handle any errors with a callback in the catch callback. This callback receives an error object as a parameter and logs the `err.message` to the console.
 
 ```JS
 fetch(path)
@@ -353,11 +353,11 @@ fetch(path)
 
 ## Handling the JSON response
 
-In this step you'll use the data returned from Giphy to display images in the browser. 
+In this step, you'll use the data returned from Giphy to display images in the browser. 
 
 <!-- > -->
 
-Write the `handleData()` function. This fucntion takes a parameter that is json data loaded from the giphy server. As a first step log it to the console and test your work.
+Write the `handleData()` function. This function takes a parameter that is JSON data loaded from the Giphy server. As a first step log it to the console and test your work.
 
 ```JS 
 function handleData(json) {
@@ -377,23 +377,23 @@ Test your work, type something in the form and click Submit. Check the console. 
 
 ## Displaying Gifs
 
-The Giphy service provides a JSON object with an array of Objects. Each of these objects describes a gif image at several different sizes and proportions. To display the imags you'll need to complete these steps: 
+The Giphy service provides a JSON object with an array of Objects. Each of these objects describes a gif image at several different sizes and proportions. To display the images you'll need to complete these steps: 
 
 - find the data array
-- define an empty html str
+- define an empty Html str
 - loop over the data array 
   - get the image data
-  - get the src url for the image 
+  - get the src URL for the image 
   - get the width of the image 
   - get the height of the image
-  - append an `<img>` tag to the html str
-- Append the htmt str to the DOM
+  - append an `<img>` tag to the HTML str
+- Append the HTML str to the DOM
 
 <!-- > -->
 
 **Find the Data Array**
 
-Get the data array from json. This an array of object that each have a lot of properties.
+Get the data array from JSON. This an array of objects that each have a lot of properties.
 
 ```JS
 function handleData(json) {
@@ -405,7 +405,7 @@ function handleData(json) {
 
 <!-- > -->
 
-**Define an html str**
+**Define an HTML str**
 
 You'll use this to build some HTML that will be appended to the DOM and display the images. 
 
@@ -430,7 +430,7 @@ function handleData(json) {
   let htmlStr = ''
   // Loop over the array
   for (let i = 0; i < data.length; i += 1) {
-
+    // ...
   }
 }
 ```
@@ -439,7 +439,7 @@ function handleData(json) {
 
 **Get Image data**
 
-The data array holds data images at many sizes and formats. You will get the object for: 'fixed_height_small'. 
+The data array holds data images in many sizes and formats. You will get the object for: 'fixed_height_small'. 
 
 ```JS
 function handleData(json) {
@@ -448,7 +448,7 @@ function handleData(json) {
   for (let i = 0; i < data.length; i += 1) {
     // get the url to an image - we'll use the fixed_width_small
     const image = data[i].images.fixed_height_small
-    
+
   }
 
 }
@@ -458,7 +458,7 @@ function handleData(json) {
 
 **Get the src, width, and height**
 
-The image object holds the lots of information about the image. You need the url, width and height to make an `<img>` tag to display the image. 
+The image object holds lots of information about the image. You need the url, width and height to make an `<img>` tag to display the image. 
 
 ```JS
 function handleData(json) {
@@ -470,7 +470,7 @@ function handleData(json) {
     const src = image.url
     const width = image.width
     const height = image.height
-    
+
   }
 
 }
@@ -478,9 +478,9 @@ function handleData(json) {
 
 <!-- > -->
 
-**Append and imgv tag to the htmlStr**
+**Append and img tag to the htmlStr**
 
-Append an img tag to the htmlStr. This needs to be valid hTML to display the image. 
+Append an img tag to the htmlStr. This needs to be valid HTML to display the image. 
 
 ```JS
 function handleData(json) {
@@ -493,7 +493,7 @@ function handleData(json) {
     const height = image.height
     // add img tags to the htmlStr
     htmlStr += `<img src="${src}" width="${width}" height="${height}">`
-    
+
   }
 
 }
@@ -503,7 +503,7 @@ function handleData(json) {
 
 **Set the innerHTML of a DOM element to display the images**
 
-Looking through the images you've built a string of html. You can now display these images by appending this data to the DOM. 
+Looking through the images you've built a string of HTML. You can now display these images by appending this data to the DOM. 
 
 ```JS
 function handleData(json) {
@@ -515,7 +515,7 @@ function handleData(json) {
     const width = image.width
     const height = image.height
     htmlStr += `<img src="${src}" width="${width}" height="${height}">`
-    
+
   }
 
 }
@@ -576,7 +576,7 @@ Displaying Data:
 
 - Display more data along with the images. 
   - Every image has a title property you can display this below the image. Be sure to look at the JSON object and figure out where this is on the object to get this property. 
-- There are several different images sizes and aspects for each image. Try out some of the different sizes. There are 23 different images you could display! 
+- There are several different image sizes and aspects of each image. Try out some of the different sizes. There are 23 different images you could display! 
 
 
 CSS Styles 
@@ -586,11 +586,11 @@ CSS Styles
   - Style the input element
   - Style the button
 - Style the images. Here are two ideas to try:
-  - Style the images using Flex box
-    - Flex direction row 
-    - Flex wrap wrap
+  - Style the images using Flexbox
+  - Flex direction row 
+  - Flex wrap wrap
   - Style the images using CSS Grid
-    - Set the grid Tempalte Columns to a number of columns 6 might be a good place to start
+  - Set the grid Template Columns to a number of columns, 6 might be a good place to start
 
 ## After Class 
 
@@ -600,13 +600,13 @@ CSS Styles
 
 ## Minute-by-Minute [OPTIONAL]
 
-| **Elapsed** | **Time**  | **Activity**              |
+| **Elapsed** | **Time** | **Activity** |
 | ----------- | --------- | ------------------------- |
-| 0:00        | 0:05      | Objectives                |
-| 0:05        | 0:15      | Overview                  |
-| 0:20        | 0:30      | In Class Activity I       |
-| 0:50        | 0:10      | BREAK                     |
-| 1:00        | 0:45      | In Class Activity II      |
-| 1:45        | 0:05      | Wrap up review objectives |
-| TOTAL       | 1:50      | -                         |
+| 0:00 | 0:05 | Objectives |
+| 0:05 | 0:15 | Overview |
+| 0:20 | 0:30 | In Class Activity I |
+| 0:50 | 0:10 | BREAK |
+| 1:00 | 0:45 | In Class Activity II |
+| 1:45 | 0:05 | Wrap up review objectives |
+| TOTAL | 1:50 | - |
 
