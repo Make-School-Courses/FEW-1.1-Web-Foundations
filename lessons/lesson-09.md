@@ -7,9 +7,9 @@ Your final project. Network actions with JS.
 
 ## Learning Objectives 
 
-- Define your final project
 - Use JS Promise to handle async actions
 - Load data over the network with JS
+- Describe how JavaScript works
 
 <!-- > -->
 
@@ -26,6 +26,24 @@ Network and asynchronous operations are a big part of front end development. It'
 > adjective: **synchronous**
 > 1. existing or occurring at the same time. "glaciations were approximately synchronous in both hemispheres"
 > 2. ASTRONOMY (of a satellite or its orbit) making or denoting an orbit around the earth or another celestial body in which one revolution is completed in the period taken for the body to rotate about its axis.
+
+<!-- > -->
+
+## How does JavaScript work?
+
+Read this:
+
+https://itnext.io/how-javascript-works-in-browser-and-node-ab7d0d09ac2f
+
+Look for these topics in the article:
+
+- Single threaded
+- Runtime
+- Web API
+- Heap and Stack
+- Callback queue and event loop
+
+Pair and dicuss
 
 <!-- > -->
 
@@ -51,34 +69,13 @@ Asynchronous Not together in time.
 
 <!-- > -->
 
-## How does JavaScript code run?
-
-Quick read this:
-
-https://itnext.io/how-javascript-works-in-browser-and-node-ab7d0d09ac2f
-
-Look for these topics in the article:
-
-- JavaScript Engine
-- Stack 
-- Heap
-- Execution Context
-- Execution Stack
-- Event Queue
-- Call back function
-- Browser API
-
-Pair and dicuss
-
-<!-- > -->
-
 ## Fetch and Promise
 
-`fetch()` is a global method used to make network requests. 
+`fetch()` is a global method used to make network requests.
 
 https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
 
-The `fetch()` method returns a Promise which is an object used to handle asynchronous operations. 
+The `fetch()` method returns a Promise which is an object used to handle asynchronous operations.
 
 https://medium.com/@kevinyckim33/what-are-promises-in-javascript-f1a5fc5b34bf
 
@@ -90,25 +87,28 @@ Example:
 
 ```JS
 const p = fetch('path/to/resource')
-
 p.then(myCallback)
-
 function myCallback(response) { ... }
 ```
+
+<!-- > -->
 
 We can shorten this by chaining the function calls. 
 
 ```JS
 fetch('path/to/resource').then(myCallback)
-
 function myCallback(repsonse) { ... }
 ```
+
+<!-- > -->
 
 It could be shorter: 
 
 ```JS
 fetch('path/to/resource').then(function (repsonse) { ... })
 ```
+
+<!-- > -->
 
 Make it look nice:
 
@@ -117,26 +117,59 @@ fetch('path/to/resource')
   .then(function (repsonse) { ... })
 ```
 
+<!-- > -->
+
 When using fetch there are two stages. The first stage returns a response from the serevr which is **just a connection**. The second stage is where you stream your data. In this step you are loading the data you have asked for. 
+
+**Read the paragraph above again**
+
+<!-- > -->
+
+```JS 
+fetch('someurl')
+  // first promise
+  .then(function(res) {
+    // This response says "thanks for calling what do you need?
+    return res.json() // You reply "I need some JSON"
+  })
+  // second promise
+  .then(function(json) {
+    // You receive the JSON here
+  })
+```
+
+<!-- > -->
 
 ```JS
 fetch('path/to/resource')
   .then(function (repsonse) {
     // tell the response object how to stream
+    // I'd like to stream as JSON
     return response.json() // returns a promise!
   })
   .then(function(json) {
+    // When this resolves your JSON data has loaded
     // do stuff with json here
   })
+  .catch(function(err) {
+    // If either of the two promises above fail
+    // Handle the error here
+  }) 
 ```
 
-Let's look at that without the callbacks: 
+<!-- > -->
+
+Let's look at that **without** the callbacks: 
+
+Since fetch returns a Promise you can chain a call a method call at the end.
 
 ```JS
 fetch().then().then()
 ```
 
-Or 
+<!-- > -->
+
+Or like this. Adding a line return before the dot moving each method call to the next line makes it easier to read. 
 
 ```JS
 fetch()
@@ -144,7 +177,9 @@ fetch()
   .then()
 ```
 
-Or 
+<!-- > -->
+
+Or, this is more verbose. Here I've assigned each Promise to a variable. 
 
 ```JS 
 const p1 = fetch()
@@ -152,19 +187,30 @@ const p2 = p1.then()
 p2.then()
 ```
 
-**Pair up and write the callstack**
+<!-- > -->
 
-Think back to the discussion of "How JavaScript works". 
+**Pair up and draw the callstack**
+
+Think back to the discussion of "How JavaScript works".
+
+Draw a picture of how this works in JavaScript. Include: 
+
+- CallStack 
+- Web API
+
+<!-- > -->
 
 ## Challenge - Giphy
 
-This challenge will be to remake the giphy web site with JavaScript. 
+This challenge will be to remake the giphy web site with JavaScript. Following the steps below will create a web page that loads images from the Giphy service. 
 
-Follow the steps below. 
+Create a new index.html file. You'll need a script tag at the bottom of the body. 
+
+<!-- > -->
 
 ## Handle a submit event
 
-Handle a submit event by listening to a **form**. 
+Create form at the top of the body to hold a search form. It will have an input and submit button.
 
 ```HTML
 <form id="search-form">
@@ -172,6 +218,10 @@ Handle a submit event by listening to a **form**.
   <button type="submit">Submit</button>
 </form>
 ```
+
+<!-- > -->
+
+Handle a submit event by listening to a **form**. 
 
 ```JS
 const searchForm = document.getElementById('search-form')
@@ -183,6 +233,8 @@ function submitSearch(e) {
 }
 ```
 
+<!-- > -->
+
 Get the value input into the search form. In the `submitSearch` hanlder: 
 
 ```js 
@@ -193,6 +245,10 @@ function submitSearch(e) {
 }
 ```
 
+**Stretch challenge:** Use the event target here...
+
+<!-- > -->
+
 Call a function to fetch your data. You'll define this function in the next step.
 
 ```js 
@@ -202,14 +258,17 @@ function submitSearch(e) {
 }
 ```
 
+<!-- > -->
 
 ## Fetching data from Giphy
 
-The Giphy service provides gif images. Make a developer account and get an API key. 
+The Giphy service provides gif images. Make a developer account and get an API key.
 
 https://developers.giphy.com/dashboard/
 
-Make a function that will perform the search. pass it the search term.
+<!-- > -->
+
+Make a function that will perform the search, add your API key and search term to the Giphy URL. 
 
 ```js
 function fetchData(search = 'cats') {
@@ -219,9 +278,11 @@ function fetchData(search = 'cats') {
 }  
 ```
 
+<!-- > -->
+
 The code above creates a path string that points to the giphy end point and contains the api key and search term. 
 
-Write the network code in steps: 
+Write an outline of the nextworking code: 
 
 ```js
 function fetchData(search = 'cats') {
@@ -231,6 +292,8 @@ function fetchData(search = 'cats') {
   fetch(path).then().then().catch()
 }  
 ```
+
+<!-- > -->
 
 Call `fetch()` with the path to the endpoint. You need two `then()`s and one `catch()`. 
 
@@ -243,6 +306,8 @@ fetch(path)
   .catch()
 ```
 
+<!-- > -->
+
 Now add a callback to the second `then()`. You're calling this on the second promise returned from `res.json()`. This callback will call the `handleData()` function which you'll implement below. This callback receives `json` data from giphy. You'll pass the json data as an argument to the callback
 
 ```JS
@@ -252,7 +317,9 @@ fetch(path)
   .catch()
 ```
 
-Now handle any errors with with a callback in catch. This callback receives an error object as a parameter and logs the `err.message` to the console.
+<!-- > -->
+
+Now handle any errors with with a callback in the catch callback. This callback receives an error object as a parameter and logs the `err.message` to the console.
 
 ```JS
 fetch(path)
@@ -261,7 +328,13 @@ fetch(path)
   .catch(function(err) { console.log(err.message) })
 ```
 
+<!-- > -->
+
 ## Handling the JSON response
+
+In this step you'll use the data returned from Giphy to display images in the browser. 
+
+<!-- > -->
 
 Write the `handleData()` function. This fucntion takes a parameter that is json data loaded from the giphy server. As a first step log it to the console and test your work.
 
@@ -271,15 +344,19 @@ function handleData(json) {
 }
 ```
 
-Test your work, type something in the form and click Submit. CHeck the console. You should see soemthing like: 
+<!-- > -->
+
+Test your work, type something in the form and click Submit. Check the console. You should see something like: 
 
 ```js
 [Log] {data: Array, pagination: {total_count: 92072, count: 25, offset: 0}, meta: {status: 200, msg: "OK", response_id: "e5bd0ef977016da21e99cbeaf28038a2c42dbd84"}} (index.html, line 44)
 ```
 
+<!-- > -->
+
 ## Displaying Gifs
 
-The Giphy data provides URLs to gif images at different sizes and proportions. There is an array of images in the data. You'll need to:
+The Giphy service provides a JSON object with an array of Objects. Each of these objects describes a gif image at several different sizes and proportions. To display the imags you'll need to complete these steps: 
 
 - find the data array
 - define an empty html str
@@ -290,6 +367,8 @@ The Giphy data provides URLs to gif images at different sizes and proportions. T
   - get the height of the image
   - append an `<img>` tag to the html str
 - Append the htmt str to the DOM
+
+<!-- > -->
 
 **Find the Data Array**
 
@@ -302,6 +381,8 @@ function handleData(json) {
 
 }
 ```
+
+<!-- > -->
 
 **Define an html str**
 
@@ -316,7 +397,11 @@ function handleData(json) {
 }
 ```
 
+<!-- > -->
+
 **Loop over the array of data**
+
+Create a for loop that counts to the length of the data.
 
 ```JS
 function handleData(json) {
@@ -326,13 +411,14 @@ function handleData(json) {
   for (let i = 0; i < data.length; i += 1) {
 
   }
-
 }
 ```
 
+<!-- > -->
+
 **Get Image data**
 
-The data array holds data for images in many sizes and formats. You will get the 'fixed_height_small' image. 
+The data array holds data images at many sizes and formats. You will get the object for: 'fixed_height_small'. 
 
 ```JS
 function handleData(json) {
@@ -346,6 +432,8 @@ function handleData(json) {
 
 }
 ```
+
+<!-- > -->
 
 **Get the src, width, and height**
 
@@ -366,6 +454,8 @@ function handleData(json) {
 
 }
 ```
+
+<!-- > -->
 
 **Append and imgv tag to the htmlStr**
 
@@ -388,6 +478,8 @@ function handleData(json) {
 }
 ```
 
+<!-- > -->
+
 **Set the innerHTML of a DOM element to display the images**
 
 Looking through the images you've built a string of html. You can now display these images by appending this data to the DOM. 
@@ -408,6 +500,8 @@ function handleData(json) {
 }
 ```
 
+<!-- > -->
+
 **Make a div to display the images**
 
 Add a div the body of the document. 
@@ -418,6 +512,8 @@ Add a div the body of the document.
 </div>
 ```
 
+<!-- > -->
+
 **Get a reference to div.container**
 
 You'll need a reference to the div to be able to add the images. 
@@ -425,6 +521,8 @@ You'll need a reference to the div to be able to add the images.
 ```JS 
 const container = document.getElementById('container')
 ```
+
+<!-- > -->
 
 **Set the innHTML of div.container**
 
@@ -447,96 +545,31 @@ function handleData(json) {
 }
 ```
 
+<!-- > -->
+
 ## Stretch Challenges 
 
+Try these stretch challenges: 
+
+Displaying Data: 
+
+- Display more data along with the images. 
+  - Every image has a title property you can display this below the image. Be sure to look at the JSON object and figure out where this is on the object to get this property. 
+- There are several different images sizes and aspects for each image. Try out some of the different sizes. There are 23 different images you could display! 
 
 
+CSS Styles 
 
-
-
-
-
-
-
-
-
-## What is a Promise? 
-
-It's an object. It has properties and methods. 
-
-Abstract it can have one of three states. 
-
-
-
-<!-- > -->
-
-## Final Project 
-
-- Must be a web/page/site/app
-- Should use everything from the list below
-- Topic should come from your S&L class
-
-- HTML
-- CSS
-  - Font Styles
-  - Flex Box 
-  - Grid
-- JavaScript 
-  - Functions 
-  - Variables 
-  - Event Listeners
-
-<!-- > -->
-
-### Functions 
-
-Here is some information about functions:
-
-- Functions are objects
-- Functions are first class values
-- Functions expression vs declarations 
-- Parameters
-  - default values
-- Return values
-
-<!-- > -->
-
-### Scope 
-
-Scope determines where a variable can be accessed
-
-- Block vs function scope
-- const, let, var
-
-<!-- > -->
-
-## Looking for Scope
-
-Examine the Slide Show code and find the following: 
-
-- const, let, and var
-  - Name the scope for each variable and function
-- functions
-  - Identify all functions 
-  - Identify closure
-
-<!-- > -->
-
-## In Class Challenges
-
-Take a look at your slide show. It could be improved. Try these challenges. 
-
-- Currently the slide uses images `<img>` as "slides". It would be more useful if the slide show could use any content for a "slide".
-- It would be good to have a next and previous button to advance or retreat to a slide. Consider these issues: 
-  - Should buttons be added in markup or should they be added dynamically?
-    - If they are added dynamically could you use a data attribute to determine if buttons should be shown? 
-    - When advancing to a slide should the time reset?
-- Visual indicators would be. Add some idicators one for each slide. 
-  - Highlight the indicator for the current slide. 
-  - Use a data attribute to show the indicators.
-  - Clicking an indicator advances to that slide. 
-
-<!-- > -->
+- Style the form
+  - Style the form container
+  - Style the input element
+  - Style the button
+- Style the images. Here are two ideas to try:
+  - Style the images using Flex box
+    - Flex direction row 
+    - Flex wrap wrap
+  - Style the images using CSS Grid
+    - Set the grid Tempalte Columns to a number of columns 6 might be a good place to start
 
 ## After Class 
 
