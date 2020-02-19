@@ -246,6 +246,7 @@ Handle a submit event by listening to a **form**.
 
 ```JS
 const searchForm = document.getElementById('search-form')
+const inputSearch = document.getElementById('input-search')
 
 searchForm.addEventListener('submit', submitSearch)
 
