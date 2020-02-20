@@ -11,33 +11,51 @@
 
 [Assignment 8 - Final Project](../assignments/assignment-08.md)
 
-Wire Frame 
-
-Create Repo and Make first commit
-
-- Q: Which do have least experience with>? 
-- Q: What is the subject? 
-- Q: Where's your content? 
-
 <!-- > -->
 
 ## Closure and Scope
 
+Pair up and work through the problems here:
 
+https://repl.it/classroom/invite/mDbLs3P
 
-## Discussion 
+<!-- > -->
 
+## Final Project
 
+Read the description for the [Assignment 8 - Final Project](../assignments/assignment-08.md)
+
+### Wireframe
+
+Before you leave class today create a wireframe for your project. Since it will be only a single page you'll only need a single wireframe image. 
+
+### Create a Repo for your final 
+
+Create Repo and Make first commit
+
+### Assess yourself
+
+Read the requiements for the final project ans ask youself:
+
+- Which do have least experience with? 
+- What is the subject?
+- Where's your content?
+
+### Start your final project
+
+- Make an HTML page with the boilerplate tags
+- Collect content for your final
+  - **If you don't have content now use placeholders**
 
 <!-- > -->
 
 ## Objects 
 
-https://repl.it/@MitchellHudson/OffbeatNumbPrinter
+https://repl.it/classroom/invite/mDbLs3P
 
 ## After Class
 
-[Assignment 7](../assignments/assignment-07.md)
+[Assignment 8 - Final Project](../assignments/assignment-08.md)
 
 <!-- > -->
 
