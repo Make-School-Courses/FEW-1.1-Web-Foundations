@@ -6,7 +6,7 @@ Your final project will be a platform for you to combine and practice all of the
 
 ### Why this assignment?
 
-This assignment will give you a chance to revisit and solidify your understanding of what has covered this term. It will also allow you to create a portfolio worthy project. 
+This assignment will give you a chance to revisit and solidify your understanding of what has covered this term. It will also allow you to **create a portfolio worthy project.**
 
 ## Project requirements
 
@@ -24,21 +24,48 @@ Your final project should incorporate everything listed below.
  - JS and DOM
  - Event Listeners
 
-This may sound like a lot at first. Looking back on the tutorials realize any one of the tutorials contains a majority of items on the list. 
+This may sound like a lot at first but you can borrow ideas and code snippets from the class examples.
 
-Here are a few suggestions to get started: 
+## Content and Subject for Final
 
-- Single Page site + Slide Show + JS Quiz - This combines everything above into one web page. 
-- JS Quiz + Slide Show - Imagine each quiz question on a slide and the questions slide one to the next as you answer them.
-- Expanding on one of the tutorials to include items from the list above. 
+The content and subject for your final should come from one of your S & L classes. Try and get credit for your work with your S & L instructor. You could even coordinate the idea with them.
 
-I encourage your creative solutions. 
+You'll need text and pictures. Text can come from your S & L reading and homework. You may also want to research the subject. 
 
-Remember the goal is to make something interesting that you would be proud to show. The work in your portfolio is what will get you noticed and invited to interviews. 
+Images you can take yourself or find through search. 
+
+## Ideas 
+
+Make a single page site. This should be one web page with content that is revealed as youscroll down the page. 
+
+- https://onepagelove.com
+- https://www.awwwards.com/websites/single-page/
+
+Parallax Scrolling effect. Take a look at the example below. These show how to implement a parallax scrolling effect with a minimum of CSS.  
+
+- https://www.w3schools.com/howto/howto_css_parallax.asp
+
+Animation on Scroll. This is an effect when elements on the page animate when the page scrolls into view. 
+
+- https://css-tricks.com/aos-css-driven-scroll-animation-library/
+
+## Layout
+
+Thikn of a single page site as a stack of boxes. Think of each box in this stack as it's own "page." Each of these sections can have their own layout. One section could be arranged as a grid, while another could use flex box. 
+
+**You should be using Flexbox for more of your layout.**
+
+Take a look at this wire frame for a single page site. 
+
+![Wireframe](images/Wireframe.png)
+
+Here is the same image with some notes. The red and blue lines show the main axis and the cross axis. 
+
+![Wire frame with flex notes ](images/Wireframe-with-flex-notes.png)
 
 ### Deliverable
 
-Your completed final.
+A single web page published to GitHub Pages.
 
 ### Due date
 

@@ -7,9 +7,23 @@
 
 <!-- > -->
 
-## Review Tutorial 
+# Start Your Final Project
 
-- 
+[Assignment 8 - Final Project](../assignments/assignment-08.md)
+
+Wire Frame 
+
+Create Repo and Make first commit
+
+- Q: Which do have least experience with>? 
+- Q: What is the subject? 
+- Q: Where's your content? 
+
+<!-- > -->
+
+## Closure and Scope
+
+
 
 ## Discussion 
 
