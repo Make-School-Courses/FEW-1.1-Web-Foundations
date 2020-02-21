@@ -35,7 +35,7 @@ Before you leave class today create a wireframe for your project. Since it will 
 
 ### Create a Repo for your final 
 
-Create Repo and Make first commit
+Create Repo and Make first commit.
 
 ### Assess yourself
 

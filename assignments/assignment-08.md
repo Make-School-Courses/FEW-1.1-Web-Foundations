@@ -48,6 +48,7 @@ Parallax Scrolling effect. Take a look at the example below. These show how to i
 Animation on Scroll. This is an effect when elements on the page animate when the page scrolls into view. 
 
 - https://css-tricks.com/aos-css-driven-scroll-animation-library/
+- https://michalsnik.github.io/aos/
 
 ## Layout
 
