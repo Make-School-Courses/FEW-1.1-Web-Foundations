@@ -1,5 +1,5 @@
 <!-- .slide: data-background="./Images/header.svg" data-background-repeat="none" data-background-size="40% 40%" data-background-position="center 10%" class="header" -->
-# FEW 1.1 - Lesson 11 - 
+# FEW 1.1 - Lesson 11 - Odds and Ends
 
 <!-- Put a link to the slides so that students can find them -->
 
@@ -7,85 +7,206 @@
 
 <!-- > --> 
 
-## Quiz
+## Learning Objectives 
 
-Quick take this quiz
-
-https://repl.it/classroom/invite/i6Z79Ho
-
-<!-- > -->
-
-## Quick review 
-
-- synchronous
-- asynchronous
-- Runtime
-- call stack 
-- event loop
+- Use JS libraries 
+  - Use SmoothScroll
+  - Use Waypoints
+  - Use SlideShow 
+- Identify compatibility for features 
+- Describe a Polyfill
+- Describe event delegation
+- Describe Content Delivery Network
+- Use a CDN
 
 <!-- > -->
 
-## Call Backs
+## Using JS Libraries 
 
-What's a callback? It's a function that you pass to another function that will be executed in the later. Most often callbacks are used for asynchronous processes.
-  
+- Always import them before your code
+- Always import at the bottom of the body tag
+- Your code goes last at the bottom of the body tag
+
 <!-- > -->
 
-## Callback examples: setTimeout()
+## SmoothScroll
 
-The `setTimeout()` function takes two parameters: a callback and a number that represents time in milliseconds. The callback function is executed after a delay. 
+Scrolling the content of the window is a feature built into the Web API. 
 
-`setTimeout(callback, time)`js
+https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView
 
-```JS
-setTimeout(function () {
-  // Do something 2 secs later
-}, 2000)
+Take a look at the docs and read the parameters. 
+
+<!-- > -->
+
+### Check compatibility with "Can I Use". 
+
+https://caniuse.com
+
+https://caniuse.com/#search=scrollintoview
+
+Note: Sounds like the 'smooth' option doesn't work in Safari! 
+
+<!-- > -->
+
+### Polyfill
+
+https://developer.mozilla.org/en-US/docs/Glossary/Polyfill
+
+A pollyfill is a code that is used to add support for a feature that may not be supported in older browsers or for new features that haven't been implemented in all browsers. 
+
+Google: SmoothScroll Polyfill
+
+### Using SmoothScroll
+
+The code snippet below will hijack all anchor (`<a>` tags) preventing their default behavior. If the `href` in the anchor is an id it will scroll that element into view. 
+
+For example: 
+
+```html
+<a href="#contact">Contact</a>
 ```
 
-https://repl.it/@MitchellHudson/callbacks
+The code above would scroll the element with the id contact into view: `<div id="contact">...</div>`
 
-<!-- > -->
+The function looks for the class `external`. Any anchor that has the class name extrnal will act as normal: 
 
-## Callback example: addEventListener() 
-
-`el.addEventListener(eventStr, callbackHandler)`JS
-
-```JS
-el.addEventListener('click', function(e) {
-  // Do something when clicked
-}) 
-```
-
-<!-- > -->
-
-## Review Tutorial Questions 
-
-- Where are you at in the current tutorial? 
-- What questions if any did you have about the tutorial? 
-- Did you have any problems with the tutorial? 
-
-<!-- > -->
-
-## Callback Example: fetch()
-
-This is a more complex example since fetch takes a apth and returns a Promise. A Promise is an object that has a method `then()` which takes a callback. 
-
-`fetch(path).then(callback)`JS
-
-or 
-
-```JS
-const p = fetch(path)
-p.then(callback)
+```html
+<a href="http://google.com">Search</a>
 ```
 
 ```JS
-const p = fetch('https://openweathermap.com...')
-p.then(function(response) {
-  // Do something with response
+// Get a reference to the body
+const body = document.querySelector('body')
+// Listen for clicks
+body.addEventListener('click', function(e) {
+  // If a link has external class ignore it
+  if (e.target.matches('.external')) {
+    return
+  }
+
+  // Prevent the default behavior
+  e.preventDefault()
+
+  // Prepare to scroll
+  // Get the href from the target
+  const href = e.target.closest('a').href
+  if (href) {
+    // Select the current link
+    selectNav(href)
+    // Scroll to the id that matches the href
+    const id = href.split('#')[1]
+    document.getElementById(id).scrollIntoView({ 
+      behavior: 'smooth' 
+    });
+  } 
 })
 ```
+
+### Event Delegation 
+
+Look at the code snippet above. Notice it adds an event listener to the `<body>` tag. Really it wants to handle clicks on `<a>` tags. 
+
+This is the concept of event delegation. Events are passed to ancestor elements in a process called bubbling. Since the body is the root ancestor we can be sure that any event will bubble up and can be handled by the body. 
+
+Event adds efficiecny to your code because it allows you to use a single event handler for clicks on all elements in this example. 
+
+## Waypoints 
+
+Waypoint.js is a library that creates events when an element is scrolled into view. 
+
+http://imakewebthings.com/waypoints/
+
+Take a look at the guide:
+
+http://imakewebthings.com/waypoints/guides/getting-started/
+
+A basic way point will execute a callback function when an element reaches the top of the page. 
+
+To use Waypoints import the library:
+
+```html
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
+```
+
+The link above loads Waypoints.js from a content delivery network or CDN. 
+
+### CDN
+
+A content Delivery Network is a server that hosts files used by servers. The goal is host common files and make access fast and easy. 
+
+Advantages: Browser cache files based on the domain/url. Multiple websites that make use of the same files from a CDN will show a performance imrpvement since they will share the files from the cache. 
+
+https://www.cloudflare.com/learning/cdn/what-is-a-cdn/
+
+### Using Waypoints 
+
+The code below has an array of ids `['a', 'b', ...]`. Each of these would be the id of a div or section of content within the page. 
+
+When that id scrolls into view the waypoint calls selectNav() and passes the id to this function. This funtion adds the `selected` class to one of the nav links and removes it from the others. 
+
+```JS 
+// --------------------------------------------
+// Waypoints
+
+['a', 'b', 'c', 'd', 'e'].forEach(function(id) {
+  new Waypoint({
+    element: document.getElementById(id),
+    handler: function() {
+      selectNav('#'+id)
+    }
+  })
+})
+
+// -------------------------------------------
+// Show the selected nav link
+
+function selectNav(id) {
+  const navLinks = document.querySelectorAll('.nav-bar > a')
+  navLinks.forEach(function(link) {
+    if (link.getAttribute('href') === id) {
+      link.classList.add('selected')
+    } else {
+      link.classList.remove('selected')
+    }
+  })
+}
+```
+
+The nav bar might look like this: 
+
+```HTML
+<div class="nav-bar">
+  <a href="#a">AAAA</a>
+  <a href="#b">BBBB</a>
+  <a href="#c">CCCC</a>
+  <a href="#d">DDDD</a>
+  <a href="#e">EEEE</a>
+</div>
+```
+
+You might have this in your style sheet. 
+
+```CSS
+.nav-bar > a {
+  display: block;
+  text-decoration: none;
+  padding: 1em;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #000;
+}
+
+a.selected {
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+}
+```
+
+## Slide Show JS 
+
+There are many JS slides, BootStrap includes one. here is one that I made that includes a tutorial on how to write the JS code yourself. 
+
+https://github.com/soggybag/js-tutorial-slide-show
 
 <!-- > -->
 
