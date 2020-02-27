@@ -9,7 +9,7 @@
 
 <!-- > -->
 
-## Completing your Final project 
+## Completing your Final project
 
 You have one week to finish your final project. You may not be able to do everything you want to do in that time. While you can continue to work on your project after the term is complete, and I hope that you will, for now you should decide what work will make the most impact. 
 
@@ -18,6 +18,8 @@ Identify three things that will make your project:
 - Work without error or unexpected results?
 - What will make your project finished and complete?
 - What is the most important feature that needs to be completed?
+
+
 
 <!-- > -->
 
