@@ -208,6 +208,10 @@ There are many JS slides, BootStrap includes one. here is one that I made that i
 
 https://github.com/soggybag/js-tutorial-slide-show
 
+You can follow the tutorial or just use the code. 
+
+
+
 <!-- > -->
 
 ## After Class 
