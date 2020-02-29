@@ -19,7 +19,9 @@ Identify three things that will make your project:
 - What will make your project finished and complete?
 - What is the most important feature that needs to be completed?
 
+Break the tasks above into smaller tasks. Estimate the time they will take. If a task would take more than 2 or 3 hours break it into several subtasks. 
 
+Look at your list and identify three tasks you can do today in class now!
 
 <!-- > -->
 
