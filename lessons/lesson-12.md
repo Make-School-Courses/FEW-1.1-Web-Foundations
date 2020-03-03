@@ -25,6 +25,26 @@ Look at your list and identify three tasks you can do today in class now!
 
 <!-- > -->
 
+## JS Carousel
+
+Bootstrap has this great Carousel. This is good for some projects. It can be used in many different situations. While the content can be pictures it can also be other HTML. 
+
+Have you ever though about what goes into making the carousel? Here is a video tutorial series that covers this: 
+
+https://www.youtube.com/watch?v=TV1WbQdusdU&list=PLoN_ejT35AEgjsI-YEuiif2BfpToamnGz
+
+You can follow the tutorial and build the code yourself from scratch. Take a look at the GitHub repo to see the finished project and notes. 
+
+https://github.com/soggybag/js-tutorial-slide-show
+
+See a demo of the slidehow carousel here:
+
+https://soggybag.github.io/js-tutorial-slide-show/
+
+If you don't want to build the carousel yourself you can just use it or modify the existing code.
+
+<!-- > -->
+
 ## Fetch revisted
 
 Where did all of that data come from? 
