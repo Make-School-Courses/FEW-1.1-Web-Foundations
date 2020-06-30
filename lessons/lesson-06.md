@@ -49,7 +49,7 @@ The number of mobile screens is bewildering.
 
 ## Viewport 
 
-When making a mobile site you the developer can configure the viewport. 
+When making a mobile site, you the developer can configure the viewport. 
 
 Mobile devices by default assume that a web site is configured for desktop assuming the size of the screen 960px wide. In this case you as a viewer would have to pinch, zoom, and scroll around to view the page. 
 
