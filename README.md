@@ -12,6 +12,12 @@ The web is the biggest software platform and growing. The foundation material ta
 
 None
 
+## Course Specifics
+
+**Course Delivery**: online | 7 weeks | 14 sessions
+
+**Course Credits**: 3 units | 37.5 Seat Hours | 75 Total Hours
+
 ## Learning Outcomes
 
 By the end of the course, you will be able to ...
@@ -19,16 +25,6 @@ By the end of the course, you will be able to ...
 1. Write valid and semantic HTML
 1. Apply CSS styles to control the appearance of your web applications
 1. Use JavaScript to create dynamic content and handle user interactions in your web applications
-
-## Course Specifics
-
-Weeks to Completion: 7 <br>
-Total Seat Hours: 37.5 hours <br>
-Total Out-of-Class Hours: 75 hours <br>
-Total Hours: 112.5 hours <br>
-Units: 3 units <br>
-Delivery Method: Residential <br>
-Class Sessions: 14 classes, 7 labs
 
 ### Who should enroll
 
@@ -77,6 +73,12 @@ To pass this course you must meet the following requirements:
  - This will be further explained in the [study guide](ADD_STUDY_GUIDE_LNK)
 - Actively participate in class and abide by the attendance policy
 - Make up all classwork from all absences
+
+##  Information Resources
+
+Any additional resources you may need (online books, etc.) can be found here. You can also find additional resources through the library linked below:
+
+- [make.sc/library](http://make.sc/library)
 
 ## Make School Course Policies
 
